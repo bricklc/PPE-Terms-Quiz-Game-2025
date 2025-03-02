@@ -10,7 +10,7 @@ exports.handler = async (event) => {
     };
   }
   try {
-    const filePath = path.join(__dirname, "../data", quizFile);
+    const filePath = path.join(__dirname, "data", quizFile);
     const data = await fs.readFile(filePath, "utf8");
     return {
       statusCode: 200,
