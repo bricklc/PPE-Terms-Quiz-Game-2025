@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="start-screen">
+            <select id="quizSelect">
+                <option value="">Select a Quiz</option>
+            </select>
+            <div>
+                <label><input type="radio" name="mode" value="practice" checked> Practice Mode</label>
+                <label><input type="radio" name="mode" value="quiz"> Quiz Mode</label>
+            </div>
+            <div>
+                <label><input type="radio" name="order" value="ordered" checked> Ordered</label>
+                <label><input type="radio" name="order" value="random"> Random</label>
+            </div>
+            <button id="startButton">Start Practice</button>
+        </div>
+        <div id="game-screen" class="hidden">
+            <button id="quitButton">X</button>
+            <button id="infoButton">i</button>
+            <div id="question" class="question"></div>
+            <div id="choices" class="choices"></div>
+            <button id="skipButton">Skip</button>
+            <div id="progress"></div>
+            <div id="feedback" class="feedback"></div>
+        </div>
+    </div>
+    <audio id="correctSound" src="sounds/correct.mp3"></audio>
+    <audio id="incorrectSound" src="sounds/incorrect.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>

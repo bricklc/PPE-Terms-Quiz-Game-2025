@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+.quiz-container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.question {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.choices button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ddd;
+    transition: background-color 0.3s;
+}
+.choices button:hover {
+    background-color: #ccc;
+}
+.correct {
+    background-color: green !important;
+    color: white;
+}
+.wrong {
+    background-color: red !important;
+    color: white;
+}
+select, button {
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 16px;
+}
+.hidden {
+    display: none;
+}
+#quitButton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    color: white;
+}
+#infoButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #007bff;
+    color: white;
+}
+#skipButton {
+    margin-top: 10px;
+    background: #ff9800;
+    color: white;
+}
+#progress {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.feedback {
+    margin-top: 10px;
+    font-size: 20px;
+}

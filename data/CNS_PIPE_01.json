@@ -1,0 +1,867 @@
+[
+    {
+        "question": "A vertical turbine pump with the jump and motor closed coupled and design to be installed underground, as in the case of a deepwell pump.",
+        "choices": ["Horizontal split case pump", "Booster pump", "Submersible pump", "Vertical shaft turbines pump"],
+        "answer": "Submersible pump"
+    },
+    {
+        "question": "An underground formation that contains sufficient saturated permeable material to yield significant quantities of water.",
+        "choices": ["Aquifer", "Wet pit", "Ground water", "Well water"],
+        "answer": "Aquifer"
+    },
+    {
+        "question": "A timber, concrete or masonry enclosure having a screened inlet kept partially filled with water by an open body of water such as pond, lake, or steams.",
+        "choices": ["Aquifer", "Wet pit", "Ground water", "Well water"],
+        "answer": "Wet pit"
+    },
+    {
+        "question": "Water which is available from well, driven into water bearing subsurface strata (aquifer)",
+        "choices": ["Aquifer", "Wet pit", "Ground water", "Well water"],
+        "answer": "Ground water"
+    },
+    {
+        "question": "Imparts velocity to the liquid, resulting from centrifugal force as the impeller is rotated.",
+        "choices": ["Impeller", "Casing", "Stuffing box", "Shaft sleeve"],
+        "answer": "Impeller"
+    },
+    {
+        "question": "A means of throttling the leakage which would otherwise occur at the point of entry of the shaft into the casing.",
+        "choices": ["Impeller", "Casing", "Stuffing box", "Shaft sleeve"],
+        "answer": "Stuffing box"
+    },
+    {
+        "question": "Protect the shaft where it passes through the stuffing box.",
+        "choices": ["Impeller", "Casing", "Stuffing box", "Shaft sleeve"],
+        "answer": "Shaft sleeve"
+    },
+    {
+        "question": "The ratio of the actual vapor density to the vapor density at saturation",
+        "choices": ["Relative humidity", "Humidity ratio", "Absolute humidity", "Saturation ratio"],
+        "answer": "Relative humidity"
+    },
+    {
+        "question": "An expression of the mass of water vapor per unit mass of dry air",
+        "choices": ["Relative humidity", "Humidity ratio", "Absolute humidity", "Saturation ratio"],
+        "answer": "Humidity ratio"
+    },
+    {
+        "question": "Which of the following is equivalent to 1 lb?",
+        "choices": ["5000 grains", "7000 grains", "6000 grains", "8000 grains"],
+        "answer": "7000 grains"
+    },
+    {
+        "question": "The bypass factor for large commercial units",
+        "choices": ["Around 20%", "Around 10%", "Around 30%", "Around 50%"],
+        "answer": "Around 10%"
+    },
+    {
+        "question": "Sometimes called specific humidity",
+        "choices": ["Relative humidity", "Humidity ratio", "Absolute humidity", "Saturation ratio"],
+        "answer": "Humidity ratio"
+    },
+    {
+        "question": "For any given barometric pressure, the humidity ratio is a function of the",
+        "choices": ["Critical temperature", "Dry bulb temperature", "Dew point temperature", "Wet bulb temperature"],
+        "answer": "Dew point temperature"
+    },
+    {
+        "question": "The humidity ratio corresponding to any given dew point temperature varies with the total barometric pressure, increasing as the barometric pressure",
+        "choices": ["Increases", "Decreases", "Varies", "Constant"],
+        "answer": "Decreases"
+    },
+    {
+        "question": "The ratio of the mass of water vapor in the air per unit mass of dry to the mass of water vapor requires for saturation of the same air sample",
+        "choices": ["Relative humidity", "Humidity ratio", "Absolute humidity", "Saturation ratio"],
+        "answer": "Saturation ratio"
+    },
+    {
+        "question": "A closed channel excavated through an obstruction such as a ridge of higher land between the dam and the powerhouse is called",
+        "choices": ["Canal", "Penstock", "Headrace", "Tunnel"],
+        "answer": "Tunnel"
+    },
+    {
+        "question": "The small reservoir in which the water level rises or falls to reduce the pressure swings so that they are not transmitted to the closed conduit is called",
+        "choices": ["Penstock", "Pressure tank", "Power reservoir", "Tunnel"],
+        "answer": "Tunnel"
+    },
+    {
+        "question": "The regulation of the water in the form of a relatively small pond of reservoir provided at the plant is called",
+        "choices": ["Pondage", "Reservoir", "Water storage", "Lake"],
+        "answer": "Pondage"
+    },
+    {
+        "question": "A structure used to relieve the reservoir of excess water",
+        "choices": ["Spillway", "Butress dam", "Diversion channel", "Arch dam"],
+        "answer": "Spillway"
+    },
+    {
+        "question": "The fluid pressure difference created by column of heated gas, as by7 chimney is called",
+        "choices": ["Natural draft", "Induce draft", "Forced draft", "Required draft"],
+        "answer": "Natural draft"
+    },
+    {
+        "question": "The pressure rise from greater to a lesser vacuum, created in a gas loop between stream generator outlet and chimney by means of a fan is called",
+        "choices": ["Forced draft", "Induced draft", "Required draft", "Balanced draft"],
+        "answer": "Induced draft"
+    },
+    {
+        "question": "Also known as Francis turbines or radial flow turbines",
+        "choices": ["Impulse turbines", "Reaction turbines", "Tangential turbines", "Axial flow turbines"],
+        "answer": "Reaction turbines"
+    },
+    {
+        "question": "The turbine, draft tube and all related parts comprise what is known as",
+        "choices": ["Powerhouse", "Forbay", "Setting", "Surge chamber"],
+        "answer": "Setting"
+    },
+    {
+        "question": "When a forbay is not part of the generating plant's design, it will be desirable to provide a in order to relieve the effects of rapid changes in flowrate.",
+        "choices": ["Forbay", "Surge chamber", "Draft tube", "Penstock"],
+        "answer": "Surge chamber"
+    },
+    {
+        "question": "To keep the deflected jet out of the way of the incoming jet, the actual angle is limited to approximately",
+        "choices": ["90 deg.", "165 %", "135 deg.", "175 deg."],
+        "answer": "165 %"
+    },
+    {
+        "question": "The minimum fluid energy required at the pump inlet for satisfactory operation is known as",
+        "choices": ["NPSHR", "Velocity head", "NPSHA", "Friction head"],
+        "answer": "NPSHR"
+    },
+    {
+        "question": "Throttling the input line to a pump and venting or evacuating the receiving tank",
+        "choices": ["Both increase cavitation", "Both decrease cavitation", "Both eliminate cavitation", "Both drive cavitation"],
+        "answer": "Both increase cavitation"
+    },
+    {
+        "question": "Traditional reciprocating pumps with pistons and rods can be either single-acting or double acting and are suitable up to approximately",
+        "choices": ["2000 psi", "8000 psi", "4000 psi", "10,000 psi"],
+        "answer": "2000 psi"
+    },
+    {
+        "question": "In a sensible heating process the final humidity ratio is:",
+        "choices": ["Increased", "The same", "Decreased", "Cannot be determined"],
+        "answer": "The same"
+    },
+    {
+        "question": "In an adiabatic saturation process the final relative humidity is:",
+        "choices": ["Increased", "The same", "Decreased", "Cannot be determined"],
+        "answer": "Increased"
+    },
+    {
+        "question": "Cooling and dehumidifying process is commonly used for:",
+        "choices": ["Summer air conditioning", "Winter cooling", "Ice making", "Heat pumping"],
+        "answer": "Summer air conditioning"
+    },
+    {
+        "question": "An adiabatic saturation process is also known as:",
+        "choices": ["Constant WB temperature process", "Constant DB temperature process", "Constant DP temperature process", "Constant vapor temperature process"],
+        "answer": "Constant WB temperature process"
+    },
+    {
+        "question": "For efficient operation, the condensing temperature should not be lower than",
+        "choices": ["$5 \\mathrm{C}$", "$10 \\mathrm{C}$", "$17 \\mathrm{C}$", "$20 \\mathrm{C}$"],
+        "answer": "$5 \\mathrm{C}$"
+    },
+    {
+        "question": "For efficient operation, the condensing temperature should not be more than",
+        "choices": ["$5 \\mathrm{C}$", "$10 \\mathrm{C}$", "$17 \\mathrm{C}$", "$20 \\mathrm{C}$"],
+        "answer": "$17 \\mathrm{C}$"
+    },
+    {
+        "question": "The process of simultaneous heating and dehumidifying is known as:",
+        "choices": ["Sensible heating", "Cooling and dehumidifying", "Sensible cooling", "Chemical dehumidifying"],
+        "answer": "Chemical dehumidifying"
+    },
+    {
+        "question": "The process in increasing the dry-bulb temperature without changing the humidity ratio is known as:",
+        "choices": ["Sensible heating", "Cooling and dehumidifying", "Sensible cooling", "Heating and dehumidifying"],
+        "answer": "Sensible heating"
+    },
+    {
+        "question": "The process of simultaneous cooling and decreasing of humidity ratio is known as:",
+        "choices": ["Sensible cooling", "Cooling and humidifying", "Cooling and dehumidifying", "Heating and dehumidifying"],
+        "answer": "Cooling and dehumidifying"
+    },
+    {
+        "question": "The process of cooling without changing the humidity ratio is known as:",
+        "choices": ["Sensible heating", "Cooling and dehumidifying", "Sensible cooling", "Heating and humidifying"],
+        "answer": "Sensible cooling"
+    },
+    {
+        "question": "The process of simultaneous heating and humidifying ratio is known as:",
+        "choices": ["Sensible cooling", "Cooling and humidifying", "Heating and humidifying", "Heating and dehumidifying"],
+        "answer": "Heating and humidifying"
+    },
+    {
+        "question": "Which of the following cycle is bulky and involves toxic fluids hence it is unsuitable for home and autocooling",
+        "choices": ["Carnot refrigeration cycle", "Absorption cycle", "Vapor and compression cycle", "Air refrigeration cycle"],
+        "answer": "Absorption cycle"
+    },
+    {
+        "question": "Which of the following refrigeration cycle is practical when large quantities of waste or inexpensive heat energy are available?",
+        "choices": ["Reciprocating compressors", "Centrifugal compressors", "Rotary compressors", "Scroll compressors"],
+        "answer": "Scroll compressors"
+    },
+    {
+        "question": "Condensers used in small and medium sized up to approximately 100 tons refrigerators.",
+        "choices": ["Air-cooled condensers", "High side condensers", "Water cooled condensers", "Low side condensers"],
+        "answer": "Air-cooled condensers"
+    },
+    {
+        "question": "An evaporator in a refrigeration unit makes use of which heat transfer modes?",
+        "choices": ["Conduction", "Radiation", "Convection", "All of the above"],
+        "answer": "All of the above"
+    },
+    {
+        "question": "Energy added to a vapor is known as a latent heat of vaporization",
+        "choices": ["Latent heat of vaporization", "Sensible heat of vapor", "Superheat", "B and C"],
+        "answer": "Superheat"
+    },
+    {
+        "question": "The vaporization process that occurs at temperature below the triple point of a substance is called.",
+        "choices": ["Evaporation", "Sublimation", "Boiling", "Condensation"],
+        "answer": "Sublimation"
+    },
+    {
+        "question": "As the pressure increases, the amount of work it can do increases and its enthalpy",
+        "choices": ["Increases", "Remained the same", "Decreases", "Pressure and enthalpy has no relation at all"],
+        "answer": "Increases"
+    },
+    {
+        "question": "During the compression process, the internal energy of the refrigerant vapor",
+        "choices": ["Increases", "Decreases", "Remain the same", "Internal energy has no relation to the compression process"],
+        "answer": "Increases"
+    },
+    {
+        "question": "The measure of the amount of thermal energy transfer occurring within the evaporator per unit mass under stated conditions.",
+        "choices": ["Refrigeration capacity", "Refrigeration effect", "Heat capacity", "Heat absorptivity"],
+        "answer": "Refrigeration effect"
+    },
+    {
+        "question": "The peak power that can be produced on an occasional basis",
+        "choices": ["Brakepower", "Intermittent rating", "Continous duty rating", "Power rating"],
+        "answer": "Intermittent rating"
+    },
+    {
+        "question": "A value of a property that includes the effect of friction is known as:",
+        "choices": ["Brake value", "Friction value", "Indicated value", "Actual value"],
+        "answer": "Brake value"
+    },
+    {
+        "question": "Forced draft fans are run at relatively high speeds in the range of",
+        "choices": ["1200 to $1800 \\mathrm{rpm}$", "1000 to $1600 \\mathrm{rpm}$", "1500 to $2000 \\mathrm{rpm}$", "900 to $1500 \\mathrm{rpm}$"],
+        "answer": "1200 to $1800 \\mathrm{rpm}$"
+    },
+    {
+        "question": "Chimneys that rely on natural draft are sometimes referred to as",
+        "choices": ["Natural chimney", "Gravity chimney", "Normal chimney", "Stack"],
+        "answer": "Gravity chimney"
+    },
+    {
+        "question": "For realistic problems, the achievable stack effect probably should be considered to be",
+        "choices": ["$75 \\%$ of the ideal", "$80 \\%$ of the ideal", "Equal to the ideal", "Half the ideal"],
+        "answer": "$80 \\%$ of the ideal"
+    },
+    {
+        "question": "In a balanced system, the available draft is",
+        "choices": ["Unity", "Zero", "100", "Infinite"],
+        "answer": "Zero"
+    },
+    {
+        "question": "It is a device used for atomizing or cracking fuel oil and through which the fuel oil is injected into the working cylinders of Diesel engines",
+        "choices": ["Atomizer", "Fuel spray nozzle", "Injector", "Cracker"],
+        "answer": "Atomizer"
+    },
+    {
+        "question": "The device that transfer thermal energy from one fluid to another",
+        "choices": ["Condenser", "Evaporator", "Feedwater", "Heat exchanger"],
+        "answer": "Heat exchanger"
+    },
+    {
+        "question": "Undergrounds system of hot water and / or steam",
+        "choices": ["Hydrothermal resource", "Geothermal resource", "Hot water resource", "High pressure water system"],
+        "answer": "Hydrothermal resource"
+    },
+    {
+        "question": "The process of returning spent geothermal fluids to the subsurface Is called",
+        "choices": ["Injection", "Rejection", "Returning", "Exhaustion"],
+        "answer": "Injection"
+    },
+    {
+        "question": "The simultaneous demand of all customers required at any specified point in an electric power system is called",
+        "choices": ["Demand", "Power demand", "Electrical demand", "Load"],
+        "answer": "Load"
+    },
+    {
+        "question": "The electricity generating plants that are operated to meet the peak or maximum load on the system are called",
+        "choices": ["Peaking plants", "High demanding plants", "High-load plants", "Add-on plants"],
+        "answer": "Peaking plants"
+    },
+    {
+        "question": "The capacity of a substance to transmit a fluid is called",
+        "choices": ["Fluidity", "Porosity", "Permeability", "Smoothness"],
+        "answer": "Permeability"
+    },
+    {
+        "question": "The ratio of the aggregate volume pore spaces in rock or soil to its total volume is called",
+        "choices": ["Porosity", "Permeability", "Sphericity", "Salinity"],
+        "answer": "Porosity"
+    },
+    {
+        "question": "Cooling efficiency is typically",
+        "choices": ["75 to $80 \\%$", "$80 to 85 \\%$", "50 to $70 \\%$", "90 to $95 \\%$"],
+        "answer": "50 to $70 \\%$"
+    },
+    {
+        "question": "Forced draft towers can cool the water to within",
+        "choices": ["10 to $12 \\mathrm{~F}$", "$20 to 24 \\mathrm{~F}$", "5 to $6 \\mathrm{~F}$", "2.5 to $3 \\mathrm{~F}$"],
+        "answer": "5 to $6 \\mathrm{~F}$"
+    },
+    {
+        "question": "The higher the wet bulb temperatures",
+        "choices": ["The higher the efficiency", "The lower the efficiency", "The efficiency is limited", "The efficiency is maximum"],
+        "answer": "The lower the efficiency"
+    },
+    {
+        "question": "Define the relative difficulty in cooling, essentially the relative amount of contact area or fill volume required",
+        "choices": ["Heat load", "Cooling duty", "Tower load", "Rating factor"],
+        "answer": "Rating factor"
+    },
+    {
+        "question": "Evaporation loss can be calculated from the humidity ratio increase and is approximately decrease in water temperature",
+        "choices": ["$0.18 \\%$ per C", "$0.10 \\%$ per C", "$0.25 \\%$ per C", "$0.30 \\%$ per C"],
+        "answer": "$0.18 \\%$ per C"
+    },
+    {
+        "question": "Water lost in small droplet and carried away by the air flow",
+        "choices": ["Range", "Drift", "Approach", "Bleed-off"],
+        "answer": "Drift"
+    },
+    {
+        "question": "The ratio of total dissolved solids in the recirculating water to the total dissolved solids in the make-up water.",
+        "choices": ["Ratio of concentration", "Cooling efficiency", "Coil efficiency", "Bypass factor"],
+        "answer": "Ratio of concentration"
+    },
+    {
+        "question": "A dry-cooling tower where steam travels through large diameter \"trunks\" to a cross-flow heat exchanger where it is condensed and cooled by the cooler air",
+        "choices": ["Direct condensing tower", "Indirect condensing dry cooling tower", "Evaporative cooling tower", "Atmospheric cooling tower"],
+        "answer": "Direct condensing tower"
+    },
+    {
+        "question": "The minimum fluid energy required at the pump inlet for satisfactory operation is known as",
+        "choices": ["NPSHR", "Velocity head", "NPSHA", "Friction head"],
+        "answer": "NPSHR"
+    },
+    {
+        "question": "The actual fluid energy at the inlet",
+        "choices": ["NPSHR", "Velocity head", "NPSHA", "Friction head"],
+        "answer": "NPSHA"
+    },
+    {
+        "question": "Throttling the input line to a pump and venting or evacuating the receiver tank",
+        "choices": ["Both increase cavitation", "Both decrease cavitation", "Both eliminate cavitation", "Both drive cavitation"],
+        "answer": "Both increase cavitation"
+    },
+    {
+        "question": "Traditional reciprocating pumps with pistons and rods can be either single-acting or double acting and are suitable up to approximately",
+        "choices": ["$2000 \\mathrm{psi}$", "$8000 \\mathrm{psi}$", "$4000 \\mathrm{psi}$", "$10,000 \\mathrm{psi}$"],
+        "answer": "$2000 \\mathrm{psi}$"
+    },
+    {
+        "question": "Plunger pumps are only single-acting and are suitable up to approximately",
+        "choices": ["$2000 \\mathrm{psi}$", "$8000 \\mathrm{psi}$", "$4000 \\mathrm{psi}$", "$10,000 \\mathrm{psi}$"],
+        "answer": "$10,000 \\mathrm{psi}$"
+    },
+    {
+        "question": "The ratio of the actual to the ideal heat transfer coefficient.",
+        "choices": ["Fouling factor", "Sensible heat ratio", "Cleanliness factor", "Biot number"],
+        "answer": "Cleanliness factor"
+    },
+    {
+        "question": "The ratio of the maximum to minimum mass steam flow rates at which the temperature can be accurately contained by the desuperheater.",
+        "choices": ["Cleanliness factor", "Capacity factor", "Turndown ratio", "Fouling factor"],
+        "answer": "Turndown ratio"
+    },
+    {
+        "question": "With a reversible regenerator, the thermal efficiency of the Ericsson cycle is to that of the Carnot cyle",
+        "choices": ["Less than", "Greater than", "Proportional", "Equal"],
+        "answer": "Equal"
+    },
+    {
+        "question": "The electron magnetic radiation emitted from the daughter nucleus when an alpha particles leaves the patent atom",
+        "choices": ["Neutron", "Gamma ray", "Position", "K-capture"],
+        "answer": "Gamma ray"
+    },
+    {
+        "question": "Which of the following statement is a scheme for energy storage?",
+        "choices": ["Pumped hydro", "Thermal energy storage", "Magnetic energy storage", "All of the above"],
+        "answer": "All of the above"
+    },
+    {
+        "question": "A reactor that employs fast or high energy neutrons and contains no moderator is called",
+        "choices": ["High energy reactor", "High speed reactor", "Fast reactor", "Turbo reactor"],
+        "answer": "Fast reactor"
+    },
+    {
+        "question": "A reactor that utilizes slow moving neutrons",
+        "choices": ["Slow reactor", "Thermal reactor", "Intermediate reactor", "Slow speed reactor"],
+        "answer": "Thermal reactor"
+    },
+    {
+        "question": "The water bearing stratum of permeable san, rock, or gravel is called",
+        "choices": ["Reservoir", "Aquifer", "Water source", "Well"],
+        "answer": "Aquifer"
+    },
+    {
+        "question": "The electricity generating units that are operated to meet the constant or minimum load on the system is called",
+        "choices": ["Constant load plants", "Invariable load plants", "Baseload plants", "Steady load plants"],
+        "answer": "Baseload plants"
+    },
+    {
+        "question": "The effectiveness of a body as a thermal radiator at a given temperature,",
+        "choices": ["Absorptivity", "Emissivity", "Conductivity", "Reflectivity"],
+        "answer": "Emissivity"
+    },
+    {
+        "question": "What are the main components in a combined cycle power plant?",
+        "choices": ["Diesel engine and air compressor", "Steam boiler and turbine", "Gas engine and waste heat boiler", "Nuclear reactor and steam boiler"],
+        "answer": "Gas engine and waste heat boiler"
+    },
+    {
+        "question": "The size of a steam reciprocating pumps is generally designed by a three-digits number size as 646 . The first digit designates",
+        "choices": ["Stroke of the pump in inches", "Inside diameter of the steam cylinder measured in inches", "Percent clearance", "Number of cylinder"],
+        "answer": "Inside diameter of the steam cylinder measured in inches"
+    },
+    {
+        "question": "The power required to deliver a given quantity of fluid against a given head with no losses in the pump is called",
+        "choices": ["Wheel power", "Hydraulic power", "Brake power", "Indicated power"],
+        "answer": "Hydraulic power"
+    },
+    {
+        "question": "Fluid that are pumped in processing work are frequently more viscous than water. Which of the following statement is correct?",
+        "choices": ["Reynolds number varies directly as the viscosity", "Efficiency of a pump increases as the viscosity increases", "Increased fluid friction between the pump parts and the passing fluid increases useful work", "Working head increases as the viscosity"],
+        "answer": "Increased fluid friction between the pump parts and the passing fluid increases useful work"
+    },
+    {
+        "question": "The law that states \"Entropy of all perfect crystalline solids is zero at absolute zero temperature\"",
+        "choices": ["Zeroth law of thermodynamic", "First law of thermodynamics", "Second law of thermodynamics", "Third law of thermodynamics"],
+        "answer": "Third law of thermodynamics"
+    },
+    {
+        "question": "An expression of the mass of water vapor per unit mass of dry air",
+        "choices": ["Relative humidity", "Absolute humidity", "Humidity ratio", "Saturation ratio"],
+        "answer": "Humidity ratio"
+    },
+    {
+        "question": "Which of the following is equivalent to $1 \\mathrm{lb}$ ?",
+        "choices": ["5000 grains", "7000 grains", "6000 grains", "8000 grains"],
+        "answer": "7000 grains"
+    },
+    {
+        "question": "The locus of states that the same value of stagnation enthalpy and mass flux is called.",
+        "choices": ["Fanno line", "Willian's line", "Reyleigh line", "Mollier's line"],
+        "answer": "Fanno line"
+    },
+    {
+        "question": "Combining the conservation of mass and momentum equations into a single equation and plotting it on the h-s diagram yield a curve called",
+        "choices": ["Fanno line", "Willian's line", "Reyleigh line", "Mollier's line"],
+        "answer": "Reyleigh line"
+    },
+    {
+        "question": "Across the shock, the stagnation temperature of an ideal gas",
+        "choices": ["Increases", "Remains constant", "Decreases", "Proportional"],
+        "answer": "Remains constant"
+    },
+    {
+        "question": "Which of the following types of air dryers works by absorbing moisture on a solid dessicant or drying material such as activated alumina, silicon gel or molecular sieve?",
+        "choices": ["Regenerative dryer", "Deliquescent dryer", "Spray dryer", "Refrigerated dryer"],
+        "answer": "Deliquescent dryer"
+    },
+    {
+        "question": "When two bodies, isolated from other environment, are in thermal equilibrium with a third body, the two are in thermal equilibrium with each other.",
+        "choices": ["Zeroth law of thermodynamic", "First law of thermodynamics", "Second law of thermodynamics", "Third law of thermodynamics"],
+        "answer": "Zeroth law of thermodynamic"
+    },
+    {
+        "question": "The sum of the energies of all the molecules in a system where energies appear in several complex forms is the",
+        "choices": ["Kinetic energy", "Internal energy", "Potential energy", "Friction energy"],
+        "answer": "Internal energy"
+    },
+    {
+        "question": "The Carnot refrigeration cycle includes all of the following process except",
+        "choices": ["Isentropic expansion", "Isothermal expansion", "Isenthalpic expansion", "Isentropic compression"],
+        "answer": "Isenthalpic expansion"
+    },
+    {
+        "question": "The maximum possible work that can be obtained a cycle operating between two reservoirs is found from",
+        "choices": ["Process irreversibility", "Carnot efficiency", "Availability", "Reversible work"],
+        "answer": "Carnot efficiency"
+    },
+    {
+        "question": "The following factors are necessary to define a thermodynamic cycle expect",
+        "choices": ["The working substance", "High and low temperature reservoirs", "The time it takes to complete the cycle", "The means of doing work on the system"],
+        "answer": "The time it takes to complete the cycle"
+    },
+    {
+        "question": "A temperature above which a given gas cannot be liquefied",
+        "choices": ["Cryogenic temperature", "Absolute temperature", "Vaporization temperature", "Critical temperature"],
+        "answer": "Critical temperature"
+    },
+    {
+        "question": "The geometrical electricity generating plants that employs a closed-loop heat exchange system in which the heat of the primary fluid is transferred to a secondary fluid, which is thereby vaporized and used to drive a turbine generator set",
+        "choices": ["Binary cycle plant", "Double cycle plant", "Dual cycle plant", "Cascade cycle"],
+        "answer": "Binary cycle plant"
+    },
+    {
+        "question": "The geothermal solution which contains appreciable amounts of sodium chloride or other salts is called",
+        "choices": ["Sulfur dioxide", "Sea water", "Potassium silicate", "Brine"],
+        "answer": "Brine"
+    },
+    {
+        "question": "The quantity of heat required to raise the temperature of one pound of water one degree Fahrenheit at standard conditions.",
+        "choices": ["Btu", "Joule", "Calorie", "Centigrade"],
+        "answer": "Btu"
+    },
+    {
+        "question": "The process that uses a stream of geothermal of hot water or stream to perform successive task requiring temp is called",
+        "choices": ["Diminishing heat", "Decreasing heat", "Cascading heat", "Negative gradient process"],
+        "answer": "Cascading heat"
+    },
+    {
+        "question": "The water formed by condensation of steam is called",
+        "choices": ["Distilled water", "Dew", "Condensate", "Condenser"],
+        "answer": "Condensate"
+    },
+    {
+        "question": "A structure that removes heat from condensate is called",
+        "choices": ["Desuperheater", "Evaporator", "Cooling tower", "Condenser"],
+        "answer": "Cooling tower"
+    },
+    {
+        "question": "In a typical hydroelectric generating plant using reaction turbines, the turbine is generally housed in a",
+        "choices": ["Powerhouse", "Forbay", "Penstock", "Setting"],
+        "answer": "Powerhouse"
+    },
+    {
+        "question": "After the water passes through the turbine, it is discharges through the draft tube to the receiving reservoir known as the",
+        "choices": ["Tail race", "Draft tube", "Tailwater", "Setting"],
+        "answer": "Tail race"
+    },
+    {
+        "question": "The turbine, draft tube and all related parts comprise what is known as",
+        "choices": ["Powerhouse", "Setting", "Forbay", "Surge chamber"],
+        "answer": "Setting"
+    },
+    {
+        "question": "When a forbay is not part of the generating plant's design, it will be desirable to provide a in order to relieve the effects of rapid changes in flowrate.",
+        "choices": ["Forbay", "Surge chamber", "Draft tube", "Penstock"],
+        "answer": "Surge chamber"
+    },
+    {
+        "question": "To keep the deflected jet out of the way of the incoming jet, the actual angle is limited to approximately",
+        "choices": ["90 deg.", "1658", "135 deg.", "175 deg."],
+        "answer": "1658"
+    },
+    {
+        "question": "The spontaneous vaporization of the fluid, resulting in a degradation of pump performance.",
+        "choices": ["Cavitation", "Available head", "Vapor lock", "Net head"],
+        "answer": "Cavitation"
+    },
+    {
+        "question": "A dry cooling tower where steam is condensed by cold water jets (surface or jet condenser)",
+        "choices": ["Direct condensing tower", "Indirect condensing dry cooling tower", "Evaporative cooling tower", "Atmospheric cooling tower"],
+        "answer": "Indirect condensing dry cooling tower"
+    },
+    {
+        "question": "If the heat is being removed from water, the device is known as",
+        "choices": ["Chiller", "Air conditioner", "Cooler", "Air cooler"],
+        "answer": "Chiller"
+    },
+    {
+        "question": "Which of the following is the refrigerant \"of choice\" in uniting air conditioners?",
+        "choices": ["$\\mathrm{R}-22$", "$\\mathrm{R}-11$", "$\\mathrm{R}-123$", "$\\mathrm{R}-502$"],
+        "answer": "$\\mathrm{R}-22$"
+    },
+    {
+        "question": "In new equipment, which of the following replace R-11?",
+        "choices": ["$\\mathrm{R}-12$", "$\\mathrm{R}-502$", "$\\mathrm{R}-123$", "$\\mathrm{R}-22$"],
+        "answer": "$\\mathrm{R}-123$"
+    },
+    {
+        "question": "The mass flow rate produces by the compressor is",
+        "choices": ["Proportional to the mass of the suction vapor that the compressor takes in at the suction inlet per unit time", "Equal to the mass of the suction vapor that the compressor takes in at the suction inlet per unit time", "Less than the mass of the suction vapor that the compressor takes in at the suction inlet per unit time", "Greater that the mass of the suction vapor that the compressor takes in at the suction inlet per unit time"],
+        "answer": "Equal to the mass of the suction vapor that the compressor takes in at the suction inlet per unit time"
+    },
+    {
+        "question": "A boiler operated at pressure not exceeding $1.055 \\mathrm{~kg} / \\mathrm{cm} 2$ gage steam, or water temperature no exceeding $121^{\\circ} \\mathrm{C}$.",
+        "choices": ["Low pressure heating boiler", "Hot water supply boiler", "Miniature", "Power boiler"],
+        "answer": "Low pressure heating boiler"
+    },
+    {
+        "question": "The very hot steam that doesn't occur with a liquid",
+        "choices": ["Pure steam", "Saturated vapor", "Critical steam", "Dry steam"],
+        "answer": "Dry steam"
+    },
+    {
+        "question": "The steam produced when the pressure on a geothermal liquid is reduced",
+        "choices": ["Low pressure steam", "Sub pressure steam", "High quality steam", "Flashed steam"],
+        "answer": "Flashed steam"
+    },
+    {
+        "question": "The vent or hole in the Earth surface, usually in a volcanic region, from which, gaseous vapors, or hot gasses issue",
+        "choices": ["Fumaroles", "Hot spot", "Crater", "Hot spring"],
+        "answer": "Fumaroles"
+    },
+    {
+        "question": "The earth interior heat made available to man by extracting it from hot water or rocks.",
+        "choices": ["Geological heat", "Volcanic heat", "Geothermal heat", "None of these"],
+        "answer": "Geothermal heat"
+    },
+    {
+        "question": "Device that takes advantage of the relatively constant temperature of the Earth's interior, using it as a source and sink of heat for both heating and cooling.",
+        "choices": ["Geothermal devices", "Geothermal heat pumps", "Geothermal generator", "Geothermal turbines"],
+        "answer": "Geothermal heat pumps"
+    },
+    {
+        "question": "The spring that shoots jets of hot water and steam into the air is called",
+        "choices": ["Geyser", "Thermal jet", "Hot jet", "Guyshen"],
+        "answer": "Geyser"
+    },
+    {
+        "question": "What is the power seat width of a spray valve?",
+        "choices": ["$1 / 16$ in.", "$1 / 8$ in.", "$1 / 32$ in.", "$1 / 4$ in."],
+        "answer": "$1 / 16$ in."
+    },
+    {
+        "question": "A device which automatically governs or controls the speed of an engine.",
+        "choices": ["Servomotor", "Governors", "Indicator", "Speedometer"],
+        "answer": "Governors"
+    },
+    {
+        "question": "The useful energy transfer in Btu/hr divided by input power in watts. This is just the coefficient of performance expressed in mixed units.",
+        "choices": ["Energy efficient ratio", "Bypass factor", "Coil efficient", "Sensible heat ratio"],
+        "answer": "Energy efficient ratio"
+    },
+    {
+        "question": "If EER is the energy efficiency ratio, and COP is the coefficient of performance then",
+        "choices": ["$\\mathrm{EER}=3.41 \\mathrm{COP}$", "$\\mathrm{COP}=3.41 \\mathrm{EER}$", "$\\mathrm{EER} \\times \\mathrm{COP}=3.41$", "$3.41 \\mathrm{EER} \\times \\mathrm{COP}=1$"],
+        "answer": "$\\mathrm{EER}=3.41 \\mathrm{COP}$"
+    },
+    {
+        "question": "Which of the following is a reversed Rankine vapor cycle?",
+        "choices": ["Carnot refrigeration cycle", "Vapor refrigeration cycle", "Air refrigeration cycle", "Absoption cycle"],
+        "answer": "Vapor refrigeration cycle"
+    },
+    {
+        "question": "The most common type of refrigeration cycle, finding application in household refrigerators, air conditioners for cars and houses, chillers and so on.",
+        "choices": ["Carnot refrigeration cycle", "Vapor refrigeration cycle", "Air refrigeration cycle", "Absoption cycle"],
+        "answer": "Vapor refrigeration cycle"
+    },
+    {
+        "question": "Which of the following is a reserved Brayton cycle?",
+        "choices": ["Carnot refrigeration cycle", "Vapor refrigeration cycle", "Air refrigeration cycle", "Absoption cycle"],
+        "answer": "Air refrigeration cycle"
+    },
+    {
+        "question": "A $100 \\mathrm{~kg}$ is at $0^{\\circ} \\mathrm{C}$ is heated by supplying $2000 \\mathrm{KJ}$ of heat to it. If the heat of fusion is $335 \\mathrm{~kJ} / \\mathrm{kg}$ how many kilograms of ice will melt into water?",
+        "choices": ["$8 \\mathrm{~kg}$", "$6 \\mathrm{~kg}$", "$10 \\mathrm{~kg}$", "$3 \\mathrm{~kg}$"],
+        "answer": "$6 \\mathrm{~kg}$"
+    },
+    {
+        "question": "Determine the quantity of latent heat transferred to an evaporator when $5 \\mathrm{~kg}$ of water undergoes those changes from a liquid at $0^{\\circ} \\mathrm{C}$ to ice at $0^{\\circ} \\mathrm{C}$.",
+        "choices": ["$1,300 \\mathrm{~kJ}$", "$1,450 \\mathrm{~kJ}$", "$1,675 \\mathrm{~kJ}$", "$1,800 \\mathrm{~kJ}$"],
+        "answer": "$1,675 \\mathrm{~kJ}$"
+    },
+    {
+        "question": "Compute the rate of water transfer by melting an ice at a rate of $50 \\mathrm{~kg} / \\mathrm{hr}$.",
+        "choices": ["$8 \\mathrm{~kJ} / \\mathrm{sec}$", "$5 \\mathrm{~kJ} / \\mathrm{sec}$", "$10 \\mathrm{~kJ} / \\mathrm{sec}$", "$12 \\mathrm{~kJ} / \\mathrm{sec}$"],
+        "answer": "$5 \\mathrm{~kJ} / \\mathrm{sec}$"
+    },
+    {
+        "question": "$10 \\mathrm{~kg}$ of water at $60^{\\circ} \\mathrm{C}$ receives $42,000 \\mathrm{~kJ}$ of heat coming from the surrounding. Assuming it is open to the atmosphere, how many kilograms of water will be vaporized?",
+        "choices": ["$18 \\mathrm{~kg}$", "$10 \\mathrm{~kg}$", "$15 \\mathrm{~kg}$", "$20 \\mathrm{~kg}$"],
+        "answer": "$18 \\mathrm{~kg}$"
+    },
+    {
+        "question": "As the liquid changes phase to vapor, its enthalpy",
+        "choices": ["Increases", "Decreases", "Remains constant", "Enthalpy has no relation to phase change"],
+        "answer": "Increases"
+    },
+    {
+        "question": "Which of the following processes does not alter the kinetic energy level of a substance?",
+        "choices": ["Fusion", "Adding sensible heat to a solid", "Adding sensible heat to a liquid", "Superheating a vapor"],
+        "answer": "Fusion"
+    },
+    {
+        "question": "Condensers used for larger capacities refrigerators.",
+        "choices": ["Air-cooled condersers", "High side condensers", "Water-cooled condensers", "Low side condenser"],
+        "answer": "Water-cooled condensers"
+    },
+    {
+        "question": "Coolers and chillers for water generally operate with an average temperature difference of",
+        "choices": ["3 to $11 \\mathrm{C}$", "6 to $22 \\mathrm{C}$", "5 to $8 \\mathrm{C}$", "10 to $16 \\mathrm{C}$"],
+        "answer": "3 to $11 \\mathrm{C}$"
+    },
+    {
+        "question": "To avoid freezing problems, entering refrigerant should be",
+        "choices": ["Below-2 C", "Above-2 C", "Equal to-2 C", "$0 \\mathrm{C}$"],
+        "answer": "Above-2 C"
+    },
+    {
+        "question": "Suction lines should not be sized too large, as reasonable velocity is needed to carry oil from the evaporator back to the compressor. For horizontal suction lines, the recommended minimum velocity is",
+        "choices": ["$3.8 \\mathrm{~m} / \\mathrm{s}$", "$7.1 \\mathrm{~m} / \\mathrm{s}$", "$6.1 \\mathrm{~m} / \\mathrm{s}$", "$4.8 \\mathrm{~m} / \\mathrm{s}$"],
+        "answer": "$3.8 \\mathrm{~m} / \\mathrm{s}$"
+    },
+    {
+        "question": "Type of turbine used for low heads, high rotational speeds and larger flow rates",
+        "choices": ["Axial flow turbines", "Radial flow turbines", "Reaction turbines", "Impulse turbines"],
+        "answer": "Axial flow turbines"
+    },
+    {
+        "question": "To keep the deflected jet out of the way of the incoming jet, the actual angle is limited to approximately",
+        "choices": ["135 deg.", "165 deg.", "150 deg.", "175 deg."],
+        "answer": "165 deg."
+    },
+    {
+        "question": "Which of the following turbines are centrifugal pumps operating in reverse?",
+        "choices": ["Reaction turbines", "Impulse turbines", "Tangential turbines", "Axial flow turbines"],
+        "answer": "Reaction turbines"
+    },
+    {
+        "question": "Weight per unit volume is termed as:",
+        "choices": ["Specific gravity", "Weight density", "Specific density", "Pressure"],
+        "answer": "Weight density"
+    },
+    {
+        "question": "Measure of hotness or coldness of the body",
+        "choices": ["Pressure", "Temperature", "Energy", "Entropy"],
+        "answer": "Temperature"
+    },
+    {
+        "question": "The temperature at which the water vapor in the air begins to condensed, or the temperature at which the relative humidity of air becomes $100 \\%$.",
+        "choices": ["Flash point", "Dew point", "Boiling point", "Freezing point"],
+        "answer": "Dew point"
+    },
+    {
+        "question": "It consists of a wet and dry bulb thermometers mounted on a strip of metal",
+        "choices": ["Manometer", "Pyrometer", "Gyrometer", "Sling psychrometer"],
+        "answer": "Sling psychrometer"
+    },
+    {
+        "question": "A manometer is an instrument that is used to measure:",
+        "choices": ["Air pressure", "Heat radiation", "Condensate water level", "Air volume"],
+        "answer": "Air pressure"
+    },
+    {
+        "question": "The relationship of water vapor in the air at the dew point temperature to the amount that should be in the air if the air were saturated at the dry-bulb temperature is:",
+        "choices": ["Partial pressure actual dew point", "Percentage humidity", "Relative humidity", "Run faster"],
+        "answer": "Partial pressure actual dew point"
+    },
+    {
+        "question": "All of the following statements about wet bulb temperature are true, EXCEPT",
+        "choices": ["Wet bulb temperature aequals adiabatic saturation temperature", "Wet bulb temperature is the only temperature necessary to determine grains water per lb of dry air", "Wet bulb temperature lies numerically between dew point and dry bulb temperature for unsaturated systems", "Wet bulb temperature equals both dry-bulb and dew point temperature at $100 \\%$ relative humidity"],
+        "answer": "Wet bulb temperature lies numerically between dew point and dry bulb temperature for unsaturated systems"
+    },
+    {
+        "question": "Heat added to or removed from a substance that cause a change of temperature:",
+        "choices": ["Absolute heat", "Specific heat", "Latent heat", "Sensible heat"],
+        "answer": "Sensible heat"
+    },
+    {
+        "question": "The ratio of the actual to the ideal heat transfer coefficient.",
+        "choices": ["Fouling factor", "Sensible heat ratio", "Cleanliness factor", "Biot number"],
+        "answer": "Cleanliness factor"
+    },
+    {
+        "question": "The ratio of the maximum to minimum mass steam flow rates at which the temperature can be accurately contained by the desuperheater.",
+        "choices": ["Cleanliness factor", "Turndown ratio", "Capacity factor", "Fouling factor"],
+        "answer": "Turndown ratio"
+    },
+    {
+        "question": "Used to described the act of blowing the exhaust product out with the air-fuel mixture",
+        "choices": ["Supercharging", "Scavenging", "Honing", "Choking"],
+        "answer": "Scavenging"
+    },
+    {
+        "question": "A form of supercharging in which the exhaust gases drive the supercharger",
+        "choices": ["Lugging", "Turbocharging", "Honing", "Blower charging"],
+        "answer": "Turbocharging"
+    },
+    {
+        "question": "The maximum speed of the turbine under no and no governing action is called",
+        "choices": ["Runaway speed", "Pre governing speed", "Governing speed", "No load governing"],
+        "answer": "Runaway speed"
+    },
+    {
+        "question": "Which of the following statements is false when gasoline is used as diesel fuel.",
+        "choices": ["Gasoline does not ignite", "Gasoline wears the fuel-injection pumps because of its low viscosity", "Addition of lubrication oil to gasoline will just severe the situation", "All of the above"],
+        "answer": "Addition of lubrication oil to gasoline will just severe the situation"
+    },
+    {
+        "question": "Which of the following is an advantage of hydro-plants?",
+        "choices": ["Hydro plants provide ancillary benefits like irrigation, flood control, aquaculture navigation etc.", "Modern hydro generators give high efficiency over considerable range of load. This helps in improving the system", "Due to its great ease of taking up and throwing off the load, the hydro power can be used as the ideal spinning reserve in a system mix of the thermal, hydro and power station", "All of the above"],
+        "answer": "Modern hydro generators give high efficiency over considerable range of load. This helps in improving the system"
+    },
+    {
+        "question": "The hole area behind the dam draining into a stream or river across which dam has been constructed is called",
+        "choices": ["Lake", "Catchment area", "Forebay", "Reserve potential"],
+        "answer": "Catchment area"
+    },
+    {
+        "question": "Dams constructed primarily to store flood waters called",
+        "choices": ["Storage dams", "Detention dam", "Diversion dams", "None of the above"],
+        "answer": "Detention dam"
+    },
+    {
+        "question": "A channel which leads water to a turbine is called",
+        "choices": ["Canal", "Penstock", "Tailrace", "Headrace"],
+        "answer": "Headrace"
+    },
+    {
+        "question": "Sometimes called percentage humidity",
+        "choices": ["Relative humidity", "Humidity ratio", "Absolute humidity", "Saturation ratio"],
+        "answer": "Saturation ratio"
+    },
+    {
+        "question": "When measuring of air, the bulb of the thermometer should be shaded to reduce the effect of direct radiation",
+        "choices": ["Dry bulb temperature", "Wet bulb temperature", "Critical temperature", "Saturation temperature"],
+        "answer": "Dry bulb temperature"
+    },
+    {
+        "question": "An ordinary thermometer whose bulb is enclosed in a wetted cloth sac or wick",
+        "choices": ["Dry bulb thermometer", "Wet bulb thermometer", "Ordinary thermometer", "Mercury thermometer"],
+        "answer": "Wet bulb thermometer"
+    },
+    {
+        "question": "To obtain an accurate reading with a wet bulb thermometer, the wick should be saturated with",
+        "choices": ["Clean air", "Moist", "Vapor", "Clean water"],
+        "answer": "Clean air"
+    },
+    {
+        "question": "The amount by which the wet bulb temperature is reduced below the dry bulb temperature depends on the relative humidity of the air and is collective",
+        "choices": ["Range", "Drify", "Approach", "Wet bulb depression"],
+        "answer": "Wet bulb depression"
+    },
+    {
+        "question": "The measure of the relationship between the dry bulb and dewpoint temperature of the air and as such, it provides a convenient means of Dewpoint temperature of the air when the dry bulb temperature is known",
+        "choices": ["Wet bulb temperature", "Humidity ratio", "Saturation temperature", "Relative humidity"],
+        "answer": "Wet bulb temperature"
+    },
+    {
+        "question": "An index of the total heat (enthalpy) of the air",
+        "choices": ["Wet bulb temperature", "Saturation temperature", "Dry bulb temperature", "Dewpoint temperature"],
+        "answer": "Wet bulb temperature"
+    },
+    {
+        "question": "The sensible heat of the air is a function of the",
+        "choices": ["Wet bulb temperature", "Dry bulb temperature", "Dewpoint temperature", "Saturation temperature"],
+        "answer": "Dry bulb temperature"
+    },
+    {
+        "question": "The latent heat of the air is a function of the",
+        "choices": ["Wet bulb temperature", "Dry bulb temperature", "Dewpoint temperature", "Saturation temperature"],
+        "answer": "Wet bulb temperature"
+    }
+]
