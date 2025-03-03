@@ -1,77 +1,146 @@
+/* General body styling - Adjust margin or background-color in Inspect */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 20px;
-    background-color: #f4f4f4;
+    margin: 20px; /* Drag to adjust spacing around container */
+    background-color: #f4f4f4; /* Click to change background color */
+    /* Try: margin: 10px 50px; or background-color: #e0e0e0; */
 }
+
+/* Main container - Use flex or grid in Inspect to reposition children */
 .quiz-container {
-    max-width: 600px;
-    margin: auto;
+    max-width: 600px; /* Drag to resize width */
+    margin: 0 auto; /* Center horizontally, adjust margin-top/bottom in Inspect */
     background: white;
-    padding: 20px;
+    padding: 20px; /* Drag to adjust padding */
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust shadow in Inspect */
+    position: relative; /* Keep for absolute positioning of buttons */
+    display: flex; /* Enable flexbox for easy child alignment */
+    flex-direction: column; /* Stack children vertically, change to row in Inspect */
+    align-items: center; /* Center items, adjust in Inspect */
+    /* Try: flex-direction: row; or align-items: flex-start; */
 }
+
+/* Question text - Adjust font-size or margin in Inspect */
 .question {
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 18px; /* Drag to resize text */
+    margin-bottom: 15px; /* Drag to adjust spacing below */
+    /* Try: font-size: 22px; or margin-bottom: 10px; */
+}
+
+/* Choice buttons - Use flex or grid in Inspect for layout */
+.choices {
+    width: 100%; /* Full width, adjust in Inspect */
 }
 .choices button {
-    display: block;
-    width: 100%;
-    margin: 5px 0;
-    padding: 10px;
-    font-size: 16px;
+    display: block; /* Change to inline-block or flex in Inspect for side-by-side */
+    width: 100%; /* Drag to adjust width */
+    margin: 5px 0; /* Drag to adjust vertical spacing */
+    padding: 10px; /* Drag to adjust padding */
+    font-size: 16px; /* Drag to resize text */
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #ddd;
-    transition: background-color 0.3s;
+    background-color: #ddd; /* Click to change color */
+    transition: background-color 0.3s; /* Adjust transition speed in Inspect */
+    /* Try: display: inline-block; width: 45%; or background-color: #bbb; */
 }
 .choices button:hover {
-    background-color: #ccc;
+    background-color: #ccc; /* Click to change hover color */
+    /* Try: background-color: #aaa; */
 }
+
+/* Correct and wrong answer styles - Adjust colors in Inspect */
 .correct {
-    background-color: green !important;
+    background-color: green !important; /* Click to change color */
     color: white;
+    /* Try: background-color: #28a745; */
 }
 .wrong {
-    background-color: red !important;
+    background-color: red !important; /* Click to change color */
     color: white;
+    /* Try: background-color: #dc3545; */
 }
+
+/* Select and button styling - Adjust margins or padding in Inspect */
 select, button {
-    margin: 10px 0;
-    padding: 5px;
-    font-size: 16px;
+    margin: 10px 0; /* Drag to adjust vertical spacing */
+    padding: 5px; /* Drag to adjust padding */
+    font-size: 16px; /* Drag to resize text */
+    /* Try: margin: 5px 0; or padding: 8px; */
 }
+
+/* Hidden class - Toggle display in Inspect */
 .hidden {
-    display: none;
+    display: none; /* Change to block or flex in Inspect to show */
+    /* Try: display: block; */
 }
+
+/* Quit button - Use relative positioning for drag in Inspect */
 #quitButton {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: red;
+    position: relative; /* Change to absolute and drag in Inspect */
+    top: 10px; /* Drag to adjust vertical position */
+    left: 10px; /* Drag to adjust horizontal position */
+    background: red; /* Click to change color */
     color: white;
+    padding: 5px 10px; /* Drag to resize */
+    /* Try: position: absolute; top: 20px; left: 20px; */
 }
+
+/* Info button - Use relative positioning for drag in Inspect */
 #infoButton {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: #007bff;
+    position: relative; /* Change to absolute and drag in Inspect */
+    top: 10px; /* Drag to adjust vertical position */
+    right: -10px; /* Drag to adjust horizontal position (negative for right) */
+    background: #007bff; /* Click to change color */
     color: white;
+    padding: 5px 10px; /* Drag to resize */
+    /* Try: position: absolute; top: 20px; right: -20px; */
 }
+
+/* Skip button - Use flex or margin for repositioning in Inspect */
 #skipButton {
-    margin-top: 10px;
-    background: #ff9800;
+    margin-top: 10px; /* Drag to adjust vertical spacing */
+    background: #ff9800; /* Click to change color */
     color: white;
+    padding: 10px; /* Drag to resize */
+    /* Try: margin-top: 20px; or background: #ff5722; */
 }
+
+/* Progress display - Adjust margin or font-weight in Inspect */
 #progress {
-    margin-top: 20px;
-    font-weight: bold;
+    margin-top: 20px; /* Drag to adjust spacing */
+    font-weight: bold; /* Click to toggle weight */
+    /* Try: margin-top: 10px; or font-weight: normal; */
 }
+
+/* Feedback display - Adjust margin or font-size in Inspect */
 .feedback {
-    margin-top: 10px;
-    font-size: 20px;
+    margin-top: 10px; /* Drag to adjust spacing */
+    font-size: 20px; /* Drag to resize text */
+    /* Try: margin-top: 15px; or font-size: 18px; */
+}
+
+/* Credits button - Hidden by default, drag to reposition in Inspect */
+#creditsButton {
+    position: relative; /* Change to absolute and drag in Inspect */
+    top: 0; /* Drag to adjust vertical position */
+    left: 0; /* Drag to adjust horizontal position */
+    background: #6c757d; /* Click to change color (gray) */
+    color: white;
+    padding: 5px 10px; /* Drag to resize */
+    cursor: pointer;
+    /* Try: position: absolute; top: 50px; left: 50px; or background: #5a6268; */
+}
+
+/* Credits message - Hidden by default, adjust size and position in Inspect */
+#creditsMessage {
+    display: none; /* Toggle to block in Inspect to show */
+    margin-top: 10px; /* Drag to adjust spacing */
+    padding: 10px;
+    background: #f8f9fa; /* Click to change background color */
+    border: 1px solid #ddd; /* Click to change border */
+    font-size: 14px; /* Drag to resize text */
+    /* Try: display: block; margin-top: 20px; or background: #e9ecef; */
 }
