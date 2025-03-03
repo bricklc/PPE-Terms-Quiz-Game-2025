@@ -9,6 +9,20 @@
 <body>
     <div class="quiz-container">
         <div id="start-screen">
+            <!-- New title section -->
+            <h1 id="game-title">Power Plant Terms Quiz</h1>
+            <!-- New quick start guide -->
+            <div id="quick-start-guide">
+                <p><strong>Quick Start Guide:</strong></p>
+                <ul>
+                    <li>Select a quiz from the dropdown.</li>
+                    <li>Choose Practice Mode for unlimited attempts or Quiz Mode for one try per question.</li>
+                    <li>Pick Ordered or Random question order.</li>
+                    <li>Click "Start" to begin!</li>
+                    <li>Double-click anywhere to reveal credits (hidden feature).</li>
+                </ul>
+            </div>
+            <!-- Existing selection elements -->
             <select id="quizSelect">
                 <option value="">Select a Quiz</option>
             </select>
@@ -30,8 +44,7 @@
             <button id="skipButton">Skip</button>
             <div id="progress"></div>
             <div id="feedback" class="feedback"></div>
-            <!-- Hidden credits button and message -->
-            <button id="creditsButton" class="hidden">Credits</button>
+            <button id="creditsButton">Credits</button>
             <div id="creditsMessage" class="hidden">
                 Created by JMLC using ChatGPT and Grok 3 for Power Plant Engineering Review of terms.<br>
                 Review questions are from Engr. Alfred Olasiman.<br>
@@ -39,8 +52,8 @@
             </div>
         </div>
     </div>
-    <audio id="correctSound" src="./sounds/correct.mp3"></audio>
-    <audio id="incorrectSound" src="./sounds/incorrect.mp3"></audio>
+    <audio id="correctSound" src="/sounds/correct.mp3"></audio>
+    <audio id="incorrectSound" src="/sounds/incorrect.mp3"></audio>
     <script src="script.js"></script>
 </body>
 </html>

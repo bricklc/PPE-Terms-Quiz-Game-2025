@@ -6,6 +6,8 @@ let selectedQuiz = "";
 let answeredCount = 0;
 let queue = [];
 let wrongAttempt = false;
+let repeatCount = 0; // Track number of repeats
+const maxRepeats = 3; // Set maximum repeats (default to 3, adjustable)
 
 const correctSound = document.getElementById("correctSound");
 const incorrectSound = document.getElementById("incorrectSound");
@@ -25,7 +27,7 @@ document.getElementById("startButton").addEventListener("click", startGame);
 document.getElementById("quitButton").addEventListener("click", resetGame);
 document.getElementById("infoButton").addEventListener("click", showQuote);
 document.getElementById("skipButton").addEventListener("click", skipQuestion);
-document.getElementById("creditsButton").addEventListener("click", toggleCredits); // New event listener
+document.getElementById("creditsButton").addEventListener("click", toggleCredits);
 
 async function loadQuizFiles() {
   try {
@@ -54,6 +56,7 @@ async function startGame() {
     questions = await response.json();
     queue = [...questions];
     if (order === "random") queue.sort(() => Math.random() - 0.5);
+    repeatCount = 0; // Reset repeat count at start
     document.getElementById("start-screen").classList.add("hidden");
     document.getElementById("game-screen").classList.remove("hidden");
     loadQuestion();
@@ -77,7 +80,7 @@ function loadQuestion() {
   });
   document.getElementById("progress").textContent = `${answeredCount}/${questions.length}`;
   document.getElementById("feedback").textContent = "";
-  wrongAttempt = false;
+  wrongAttempt = false; // Reset for new question
 }
 
 function checkAnswer(button, choice, correctAnswer) {
@@ -91,10 +94,20 @@ function checkAnswer(button, choice, correctAnswer) {
       setTimeout(nextQuestion, 1000);
     } else if (mode === "practice") {
       if (!wrongAttempt) {
-        answeredCount++;
-        setTimeout(nextQuestion, 500);
+        answeredCount++; // First correct attempt
+        if (repeatCount < maxRepeats) {
+          repeatCount++; // Increment repeat count
+          setTimeout(resetQuestion, 500); // Repeat for practice
+        } else {
+          setTimeout(nextQuestion, 500); // Move on after max repeats
+        }
       } else {
-        setTimeout(resetQuestion, 500);
+        repeatCount++; // Increment after wrong attempt correction
+        if (repeatCount < maxRepeats) {
+          setTimeout(resetQuestion, 500); // Loop again
+        } else {
+          setTimeout(nextQuestion, 500); // Move on after max repeats
+        }
       }
     }
   } else {
@@ -106,6 +119,7 @@ function checkAnswer(button, choice, correctAnswer) {
       answeredCount++;
       setTimeout(nextQuestion, 1000);
     }
+    // Practice mode persists until correct
   }
 }
 
@@ -113,6 +127,7 @@ function skipQuestion() {
   const skipped = queue.splice(currentQuestionIndex, 1)[0];
   queue.push(skipped);
   wrongAttempt = false;
+  repeatCount = 0; // Reset repeat count on skip
   loadQuestion();
 }
 
@@ -120,6 +135,7 @@ function nextQuestion() {
   queue.splice(currentQuestionIndex, 1);
   currentQuestionIndex = 0;
   wrongAttempt = false;
+  repeatCount = 0; // Reset repeat count
   loadQuestion();
 }
 
@@ -141,6 +157,7 @@ function resetGame() {
   answeredCount = 0;
   currentQuestionIndex = 0;
   wrongAttempt = false;
+  repeatCount = 0;
 }
 
 async function showQuote() {
@@ -160,8 +177,6 @@ function toggleCredits() {
   const creditsMessage = document.getElementById("creditsMessage");
   const isHidden = creditsMessage.style.display === "none" || creditsMessage.classList.contains("hidden");
   creditsMessage.style.display = isHidden ? "block" : "none";
-  // Optional: Hide button after revealing (uncomment if desired)
-  // document.getElementById("creditsButton").classList.add("hidden");
 }
 
 window.onload = loadQuizFiles;

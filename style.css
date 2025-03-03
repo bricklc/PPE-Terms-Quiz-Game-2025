@@ -22,6 +22,35 @@ body {
     /* Try: flex-direction: row; or align-items: flex-start; */
 }
 
+/* Game title - Adjust font-size, margin, or color in Inspect */
+#game-title {
+    font-size: 24px; /* Drag to resize text */
+    margin-bottom: 15px; /* Drag to adjust spacing below */
+    color: #ffffff; /* Click to change color, contrasts with #1c2536 */
+    /* Try: font-size: 28px; margin-bottom: 10px; or color: #00ccff; */
+}
+
+/* Quick start guide - Adjust margin, padding, or font-size in Inspect */
+#quick-start-guide {
+    margin-bottom: 20px; /* Drag to adjust spacing below */
+    padding: 10px; /* Drag to adjust padding */
+    background: #2c3e50; /* Click to change background color, dark theme match */
+    border-radius: 5px; /* Drag to adjust rounding */
+    text-align: left; /* Change to center in Inspect if preferred */
+    color: #ffffff; /* Match text color to title */
+    /* Try: margin-bottom: 15px; padding: 15px; or background: #34495e; */
+}
+#quick-start-guide p {
+    margin: 0 0 5px; /* Drag to adjust spacing */
+    font-weight: bold; /* Click to toggle weight */
+    /* Try: margin: 0 0 10px; */
+}
+#quick-start-guide ul {
+    padding-left: 20px; /* Drag to adjust indent */
+    margin: 0; /* Drag to adjust list spacing */
+    /* Try: padding-left: 30px; */
+}
+
 /* Question text - Adjust font-size or margin in Inspect */
 .question {
     font-size: 18px; /* Drag to resize text */
@@ -77,31 +106,31 @@ select, button {
     /* Try: display: block; */
 }
 
-/* Quit button - Use relative positioning for drag in Inspect */
+/* Quit button - Retain current position, drag in Inspect */
 #quitButton {
     position: relative; /* Change to absolute and drag in Inspect */
-    top: -10px; /* Drag to adjust vertical position */
-    left: -240px; /* Drag to adjust horizontal position */
+    top: -10px; /* Retained value, drag to adjust */
+    left: -240px; /* Retained value, drag to adjust */
     background: red; /* Click to change color */
     color: white;
     padding: 5px 10px; /* Drag to resize */
     /* Try: position: absolute; top: 20px; left: 20px; */
 }
 
-/* Info button - Use relative positioning for drag in Inspect */
+/* Info button - Retain current position, drag in Inspect */
 #infoButton {
     position: relative; /* Change to absolute and drag in Inspect */
-    top: -10px; /* Drag to adjust vertical position */
-    right: -240px; /* Drag to adjust horizontal position (negative for right) */
+    top: -10px; /* Retained value, drag to adjust */
+    right: -240px; /* Retained value, drag to adjust */
     background: #007bff; /* Click to change color */
     color: white;
     padding: 5px 10px; /* Drag to resize */
     /* Try: position: absolute; top: 20px; right: -20px; */
 }
 
-/* Skip button - Use flex or margin for repositioning in Inspect */
+/* Skip button - Retain current position, drag in Inspect */
 #skipButton {
-    margin-top: 10px; /* Drag to adjust vertical spacing */
+    margin-top: 10px; /* Retained value, drag to adjust */
     background: #ff9800; /* Click to change color */
     color: white;
     padding: 10px; /* Drag to resize */
@@ -124,13 +153,13 @@ select, button {
 
 /* Credits button - Invisible but clickable, drag to reposition in Inspect */
 #creditsButton {
-    position: absolute; /* Change to absolute and drag in Inspect */
-    top: 405; /* Drag to adjust vertical position */
-    left: 6; /* Drag to adjust horizontal position */
+    position: absolute; /* Retained value, drag in Inspect */
+    top: 405; /* Retained value, drag to adjust */
+    left: 6; /* Retained value, drag to adjust */
     background: transparent; /* Invisible background */
     color: transparent; /* Invisible text */
     border: none; /* Remove border for invisibility */
-    padding: 10px; /* Adjust clickable area, drag in Inspect */
+    padding: 10px; /* Retained value, drag to adjust clickable area */
     cursor: pointer; /* Indicates clickable */
     opacity: 0; /* Fully invisible but retains layout */
     /* Try: position: absolute; top: 50px; left: 50px; opacity: 0.1; or padding: 15px; */
