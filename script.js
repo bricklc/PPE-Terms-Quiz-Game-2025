@@ -6,8 +6,8 @@ let selectedQuiz = "";
 let answeredCount = 0;
 let queue = [];
 let wrongAttempt = false;
-let repeatCount = 0; // Track number of repeats
-const maxRepeats = 3; // Set maximum repeats (default to 3, adjustable)
+let repeatCount = 0; // Track number of repeat cycles
+const maxRepeats = 1; // Set maximum repeats (adjustable)
 
 const correctSound = document.getElementById("correctSound");
 const incorrectSound = document.getElementById("incorrectSound");
@@ -56,7 +56,7 @@ async function startGame() {
     questions = await response.json();
     queue = [...questions];
     if (order === "random") queue.sort(() => Math.random() - 0.5);
-    repeatCount = 0; // Reset repeat count at start
+    repeatCount = 0; // Reset repeat count
     document.getElementById("start-screen").classList.add("hidden");
     document.getElementById("game-screen").classList.remove("hidden");
     loadQuestion();
@@ -96,18 +96,16 @@ function checkAnswer(button, choice, correctAnswer) {
       if (!wrongAttempt) {
         answeredCount++; // First correct attempt
         if (repeatCount < maxRepeats) {
-          repeatCount++; // Increment repeat count
+          repeatCount++; // Start repeat cycle
           setTimeout(resetQuestion, 500); // Repeat for practice
         } else {
           setTimeout(nextQuestion, 500); // Move on after max repeats
         }
       } else {
-        repeatCount++; // Increment after wrong attempt correction
-        if (repeatCount < maxRepeats) {
-          setTimeout(resetQuestion, 500); // Loop again
-        } else {
-          setTimeout(nextQuestion, 500); // Move on after max repeats
-        }
+        // Correct after wrong attempt, reset if wrong occurred
+        repeatCount = 0; // Back to square one
+        wrongAttempt = false; // Reset for new cycle
+        setTimeout(resetQuestion, 500); // Repeat to start fresh
       }
     }
   } else {
@@ -119,7 +117,7 @@ function checkAnswer(button, choice, correctAnswer) {
       answeredCount++;
       setTimeout(nextQuestion, 1000);
     }
-    // Practice mode persists until correct
+    // Practice mode persists, resets cycle on wrong
   }
 }
 
@@ -127,7 +125,7 @@ function skipQuestion() {
   const skipped = queue.splice(currentQuestionIndex, 1)[0];
   queue.push(skipped);
   wrongAttempt = false;
-  repeatCount = 0; // Reset repeat count on skip
+  repeatCount = 0; // Reset on skip
   loadQuestion();
 }
 
@@ -135,7 +133,7 @@ function nextQuestion() {
   queue.splice(currentQuestionIndex, 1);
   currentQuestionIndex = 0;
   wrongAttempt = false;
-  repeatCount = 0; // Reset repeat count
+  repeatCount = 0; // Reset on next
   loadQuestion();
 }
 
@@ -175,8 +173,7 @@ async function showQuote() {
 
 function toggleCredits() {
   const creditsMessage = document.getElementById("creditsMessage");
-  const isHidden = creditsMessage.style.display === "none" || creditsMessage.classList.contains("hidden");
-  creditsMessage.style.display = isHidden ? "block" : "none";
+  creditsMessage.style.display = creditsMessage.style.display === "none" || !creditsMessage.style.display ? "block" : "none";
 }
 
 window.onload = loadQuizFiles;

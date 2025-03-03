@@ -1,177 +1,210 @@
-/* General body styling - Adjust margin or background-color in Inspect */
+/* General body styling - Dark theme, adjust margin in Inspect */
 body {
-    font-family: Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; /* Modern font stack */
     text-align: center;
-    margin: 20px; /* Drag to adjust spacing around container */
-    background-color: #1c2536; /* Click to change background color */
-    /* Try: margin: 10px 50px; or background-color: #e0e0e0; */
+    margin: 10px; /* Reduced for mobile, drag to adjust */
+    background-color: #000000; /* Dark theme like YouTube/TikTok, click to change */
+    color: #ffffff; /* White text for contrast */
+    /* Try: margin: 5px; or background-color: #0f0f0f; */
+    overflow-y: auto; /* Ensure vertical scroll for mobile */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on mobile */
 }
 
-/* Main container - Use flex or grid in Inspect to reposition children */
+/* Main container - Full-width mobile layout, use flex for vertical stack */
 .quiz-container {
-    max-width: 600px; /* Drag to resize width */
-    margin: 0 auto; /* Center horizontally, adjust margin-top/bottom in Inspect */
-    background: #1c2536; /* Click to change background color */
-    padding: 20px; /* Drag to adjust padding */
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust shadow in Inspect */
-    position: relative; /* Keep for absolute positioning of buttons */
-    display: flex; /* Enable flexbox for easy child alignment */
-    flex-direction: column; /* Stack children vertically, change to row in Inspect */
-    align-items: center; /* Center items, adjust in Inspect */
-    /* Try: flex-direction: row; or align-items: flex-start; */
+    width: 90%; /* Dynamic width for mobile, drag to adjust */
+    max-width: 620px; /* Limit on larger screens, drag */
+    min-width: 300px; /* Minimum width for small screens */
+    margin: 0 auto; /* Center horizontally */
+    background: rgba(0, 0, 0, 0.9); /* Semi-transparent dark */
+    padding: 18px; /* Touch-friendly, drag */
+    border-radius: 12px; /* Larger rounding */
+    box-shadow: 0 2px 15px rgba(241, 241, 241, 0.719), inset 0 0 10px rgba(0, 170, 255, 0.1); /* Glassmorphism */
+    position: relative; /* Keep for buttons */
+    display: flex; /* Vertical stack */
+    flex-direction: column; /* Stack, change to row in Inspect */
+    align-items: stretch; /* Full width children */
+    /* Try: flex-direction: row; or align-items: center; */
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+        width: 95%; /* Fuller width on small screens */
+        padding: 10px; /* Adjust padding for smaller devices */
+        border-radius: 8px; /* Smaller rounding */
+    }
+    @media (max-width: 400px) {
+        padding: 8px; /* Further reduce on tiny screens */
+    }
+    /* Try: @media (max-width: 500px) { width: 100%; } */
 }
-
-/* Game title - Adjust font-size, margin, or color in Inspect */
+/* Game title - Bold and large like YouTube headers */
 #game-title {
-    font-size: 24px; /* Drag to resize text */
-    margin-bottom: 15px; /* Drag to adjust spacing below */
-    color: #ffffff; /* Click to change color, contrasts with #1c2536 */
-    /* Try: font-size: 28px; margin-bottom: 10px; or color: #00ccff; */
+    font-size: 28px; /* Reduced from 48px for mobile balance, drag to adjust */
+    text-shadow: 0 1px 5px #8f8f8f;
+    font-weight: 700; /* Bold like TikTok titles */
+    margin-bottom: 15px; /* Retained, drag to adjust */
+    color: #ffffff; /* White for contrast */
+    text-transform: uppercase; /* Modern feel */
+    /* Try: font-size: 32px; margin-bottom: 10px; or color: #ff0000; */
 }
 
-/* Quick start guide - Adjust margin, padding, or font-size in Inspect */
+/* Quick start guide - Styled like a TikTok info card */
 #quick-start-guide {
-    margin-bottom: 20px; /* Drag to adjust spacing below */
-    padding: 10px; /* Drag to adjust padding */
-    background: #2c3e50; /* Click to change background color, dark theme match */
-    border-radius: 5px; /* Drag to adjust rounding */
-    text-align: left; /* Change to center in Inspect if preferred */
-    color: #ffffff; /* Match text color to title */
-    /* Try: margin-bottom: 15px; padding: 15px; or background: #34495e; */
+    margin-bottom: 20px; /* Retained, drag to adjust */
+    padding: 12px; /* Touch-friendly, drag to adjust */
+    background: #2c2c2c; /* Darker card background */
+    border-radius: 8px; /* Rounded like mobile apps */
+    text-align: left; /* List readability */
+    color: #e0e0e0; /* Light gray for readability */
+    font-size: 14px; /* Mobile-friendly, drag to adjust */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    /* Try: margin-bottom: 15px; padding: 15px; or background: #333333; */
 }
 #quick-start-guide p {
-    margin: 0 0 5px; /* Drag to adjust spacing */
-    font-weight: bold; /* Click to toggle weight */
+    margin: 0 0 5px; /* Retained, drag to adjust */
+    font-weight: 600; /* Semi-bold */
     /* Try: margin: 0 0 10px; */
 }
 #quick-start-guide ul {
-    padding-left: 20px; /* Drag to adjust indent */
-    margin: 0; /* Drag to adjust list spacing */
-    /* Try: padding-left: 30px; */
+    padding-left: 20px; /* Retained, drag to adjust */
+    margin: 0; /* Retained, drag to adjust */
+    list-style-type: disc; /* Visible bullets */
+    /* Try: padding-left: 25px; */
 }
 
-/* Question text - Adjust font-size or margin in Inspect */
+/* Question text - Bold for mobile emphasis */
 .question {
-    font-size: 18px; /* Drag to resize text */
-    margin-bottom: 15px; /* Drag to adjust spacing below */
-    /* Try: font-size: 22px; or margin-bottom: 10px; */
+    font-size: 20px; /* Larger for mobile, drag to adjust */
+    font-weight: 500; /* Medium bold */
+    margin-bottom: 15px; /* Retained, drag to adjust */
+    color: #ffffff; /* White for contrast */
+    /* Try: font-size: 22px; margin-bottom: 10px; */
 }
 
-/* Choice buttons - Use flex or grid in Inspect for layout */
+/* Choice buttons - Full-width mobile buttons */
 .choices {
-    width: 100%; /* Full width, adjust in Inspect */
+    width: 100%; /* Full width */
 }
 .choices button {
-    display: block; /* Change to inline-block or flex in Inspect for side-by-side */
-    width: 100%; /* Drag to adjust width */
-    margin: 5px 0; /* Drag to adjust vertical spacing */
-    padding: 10px; /* Drag to adjust padding */
-    font-size: 16px; /* Drag to resize text */
+    display: block; /* Full-width blocks */
+    width: 100%; /* Retained, drag to adjust */
+    margin: 8px 0; /* Increased for touch, drag to adjust */
+    padding: 12px; /* Touch-friendly, drag to adjust */
+    font-size: 16px; /* Retained, drag to resize */
     border: none;
-    border-radius: 5px;
+    border-radius: 8px; /* Rounded like TikTok */
     cursor: pointer;
-    background-color: #ddd; /* Click to change color */
-    transition: background-color 0.3s; /* Adjust transition speed in Inspect */
-    /* Try: display: inline-block; width: 45%; or background-color: #bbb; */
+    background-color: #333333; /* Dark button background */
+    color: #ffffff; /* White text */
+    transition: background-color 0.2s ease; /* Smooth transition */
+    /* Try: width: 90%; margin: 5px 0; or background-color: #444444; */
 }
 .choices button:hover {
-    background-color: #ccc; /* Click to change hover color */
-    /* Try: background-color: #aaa; */
+    background-color: #444444; /* Lighter hover */
+    /* Try: background-color: #555555; */
 }
 
-/* Correct and wrong answer styles - Adjust colors in Inspect */
+/* Correct and wrong answer styles - Bright colors for mobile pop */
 .correct {
-    background-color: green !important; /* Click to change color */
+    background-color: #00cc00 !important; /* Bright green */
     color: white;
     /* Try: background-color: #28a745; */
 }
 .wrong {
-    background-color: red !important; /* Click to change color */
+    background-color: #ff3333 !important; /* Bright red */
     color: white;
     /* Try: background-color: #dc3545; */
 }
 
-/* Select and button styling - Adjust margins or padding in Inspect */
+/* Select and button styling - Touch-optimized */
 select, button {
-    margin: 10px 0; /* Drag to adjust vertical spacing */
-    padding: 5px; /* Drag to adjust padding */
-    font-size: 16px; /* Drag to resize text */
-    /* Try: margin: 5px 0; or padding: 8px; */
+    margin: 10px 0; /* Retained, drag to adjust */
+    padding: 8px; /* Increased for touch, drag to adjust */
+    font-size: 16px; /* Retained, drag to resize */
+    border-radius: 8px; /* Rounded edges */
+    /* Try: margin: 5px 0; or padding: 10px; */
 }
 
 /* Hidden class - Toggle display in Inspect */
 .hidden {
-    display: none; /* Change to block or flex in Inspect to show */
+    display: none; /* Change to block or flex in Inspect */
     /* Try: display: block; */
 }
 
-/* Quit button - Retain current position, drag in Inspect */
+/* Quit button - Retain position, mobile-optimized */
 #quitButton {
-    position: relative; /* Change to absolute and drag in Inspect */
-    top: -10px; /* Retained value, drag to adjust */
-    left: -240px; /* Retained value, drag to adjust */
-    background: red; /* Click to change color */
+    position: relative; /* Change to absolute and drag */
+    top: -10px; /* Retained, drag to adjust */
+    left: -240px; /* Retained, drag to adjust */
+    background: #ff3333; /* Bright red */
     color: white;
-    padding: 5px 10px; /* Drag to resize */
-    /* Try: position: absolute; top: 20px; left: 20px; */
+    padding: 8px 12px; /* Touch-friendly, drag to resize */
+    border-radius: 8px;
+    /* Try: position: absolute; top: 10px; left: 10px; */
 }
 
-/* Info button - Retain current position, drag in Inspect */
+/* Info button - Retain position, mobile-optimized */
 #infoButton {
-    position: relative; /* Change to absolute and drag in Inspect */
-    top: -10px; /* Retained value, drag to adjust */
-    right: -240px; /* Retained value, drag to adjust */
-    background: #007bff; /* Click to change color */
+    position: relative; /* Change to absolute and drag */
+    top: -10px; /* Retained, drag to adjust */
+    right: -240px; /* Retained, drag to adjust */
+    background: #007bff; /* Bright blue */
     color: white;
-    padding: 5px 10px; /* Drag to resize */
-    /* Try: position: absolute; top: 20px; right: -20px; */
+    padding: 8px 12px; /* Touch-friendly, drag to resize */
+    border-radius: 8px;
+    /* Try: position: absolute; top: 10px; right: -10px; */
 }
 
-/* Skip button - Retain current position, drag in Inspect */
+/* Skip button - Retain position, mobile-optimized */
 #skipButton {
-    margin-top: 10px; /* Retained value, drag to adjust */
-    background: #ff9800; /* Click to change color */
+    margin-top: 10px; /* Retained, drag to adjust */
+    background: #ff9800; /* Bright orange */
     color: white;
-    padding: 10px; /* Drag to resize */
-    /* Try: margin-top: 20px; or background: #ff5722; */
+    padding: 12px; /* Touch-friendly, drag to resize */
+    border-radius: 8px;
+    /* Try: margin-top: 15px; or background: #ff5722; */
 }
 
-/* Progress display - Adjust margin or font-weight in Inspect */
+/* Progress display - Mobile-friendly, bold */
 #progress {
-    margin-top: 20px; /* Drag to adjust spacing */
-    font-weight: bold; /* Click to toggle weight */
-    /* Try: margin-top: 10px; or font-weight: normal; */
+    margin-top: 15px; /* Adjusted for mobile, drag */
+    font-weight: bold;
+    color: #e0e0e0; /* Light gray */
+    /* Try: margin-top: 10px; or color: #ffffff; */
 }
 
-/* Feedback display - Adjust margin or font-size in Inspect */
+/* Feedback display - Large and bold for mobile pop */
 .feedback {
-    margin-top: 10px; /* Drag to adjust spacing */
-    font-size: 20px; /* Drag to resize text */
-    /* Try: margin-top: 15px; or font-size: 18px; */
+    margin-top: 10px; /* Drag to adjust */
+    font-size: 22px; /* Larger, drag */
+    font-weight: 500;
+    color: #ffffff; /* White */
+    /* Try: margin-top: 15px; or font-size: 24px; */
 }
 
-/* Credits button - Invisible but clickable, drag to reposition in Inspect */
+/* Credits button - Invisible but clickable, mobile-optimized */
 #creditsButton {
-    position: absolute; /* Retained value, drag in Inspect */
-    top: 405; /* Retained value, drag to adjust */
-    left: 6; /* Retained value, drag to adjust */
-    background: transparent; /* Invisible background */
-    color: transparent; /* Invisible text */
-    border: none; /* Remove border for invisibility */
-    padding: 10px; /* Retained value, drag to adjust clickable area */
-    cursor: pointer; /* Indicates clickable */
-    opacity: 0; /* Fully invisible but retains layout */
-    /* Try: position: absolute; top: 50px; left: 50px; opacity: 0.1; or padding: 15px; */
+    position: absolute; /* Retained */
+    top: 405px; /* Retained, drag */
+    left: 6px; /* Retained, drag */
+    background: transparent;
+    color: transparent;
+    border: none;
+    
+    padding: 15px; /* Increased, drag */
+    cursor: pointer;
+    opacity: 0;
+    /* Try: top: 90%; left: 90%; padding: 20px; */
 }
 
-/* Credits message - Hidden by default, adjust size and position in Inspect */
+/* Credits message - Mobile-friendly card */
 #creditsMessage {
-    display: none; /* Toggle to block in Inspect to show */
-    margin-top: 10px; /* Drag to adjust spacing */
-    padding: 10px;
-    background: #f8f9fa; /* Click to change background color */
-    border: 1px solid #ddd; /* Click to change border */
-    font-size: 14px; /* Drag to resize text */
-    /* Try: display: block; margin-top: 20px; or background: #e9ecef; */
+    display: toggle; /* Toggle in Inspect */
+    margin-top: 10px; /* Drag */
+    padding: 12px; /* Touch-friendly, drag */
+    background: #2c2c2c; /* Dark card */
+    border-radius: 8px;
+    color: #e0e0e0; /* Light gray */
+    font-size: 14px; /* Drag */
+    text-align: center; /* Centered */
+    /* Try: display: block; margin-top: 15px; or background: #333333; */
 }
