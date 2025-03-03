@@ -80,8 +80,8 @@ select, button {
 /* Quit button - Use relative positioning for drag in Inspect */
 #quitButton {
     position: relative; /* Change to absolute and drag in Inspect */
-    top: 10px; /* Drag to adjust vertical position */
-    left: 10px; /* Drag to adjust horizontal position */
+    top: -10px; /* Drag to adjust vertical position */
+    left: -240px; /* Drag to adjust horizontal position */
     background: red; /* Click to change color */
     color: white;
     padding: 5px 10px; /* Drag to resize */
@@ -91,8 +91,8 @@ select, button {
 /* Info button - Use relative positioning for drag in Inspect */
 #infoButton {
     position: relative; /* Change to absolute and drag in Inspect */
-    top: 10px; /* Drag to adjust vertical position */
-    right: -10px; /* Drag to adjust horizontal position (negative for right) */
+    top: -10px; /* Drag to adjust vertical position */
+    right: -240px; /* Drag to adjust horizontal position (negative for right) */
     background: #007bff; /* Click to change color */
     color: white;
     padding: 5px 10px; /* Drag to resize */
@@ -122,16 +122,18 @@ select, button {
     /* Try: margin-top: 15px; or font-size: 18px; */
 }
 
-/* Credits button - Hidden by default, drag to reposition in Inspect */
+/* Credits button - Invisible but clickable, drag to reposition in Inspect */
 #creditsButton {
-    position: relative; /* Change to absolute and drag in Inspect */
-    top: 0; /* Drag to adjust vertical position */
-    left: 0; /* Drag to adjust horizontal position */
-    background: #6c757d; /* Click to change color (gray) */
-    color: white;
-    padding: 5px 10px; /* Drag to resize */
-    cursor: pointer;
-    /* Try: position: absolute; top: 50px; left: 50px; or background: #5a6268; */
+    position: absolute; /* Change to absolute and drag in Inspect */
+    top: 405; /* Drag to adjust vertical position */
+    left: 6; /* Drag to adjust horizontal position */
+    background: transparent; /* Invisible background */
+    color: transparent; /* Invisible text */
+    border: none; /* Remove border for invisibility */
+    padding: 10px; /* Adjust clickable area, drag in Inspect */
+    cursor: pointer; /* Indicates clickable */
+    opacity: 0; /* Fully invisible but retains layout */
+    /* Try: position: absolute; top: 50px; left: 50px; opacity: 0.1; or padding: 15px; */
 }
 
 /* Credits message - Hidden by default, adjust size and position in Inspect */
