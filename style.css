@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 20px; /* Drag to adjust spacing around container */
-    background-color: #f4f4f4; /* Click to change background color */
+    background-color: #1c2536; /* Click to change background color */
     /* Try: margin: 10px 50px; or background-color: #e0e0e0; */
 }
 
@@ -11,7 +11,7 @@ body {
 .quiz-container {
     max-width: 600px; /* Drag to resize width */
     margin: 0 auto; /* Center horizontally, adjust margin-top/bottom in Inspect */
-    background: white;
+    background: #1c2536; /* Click to change background color */
     padding: 20px; /* Drag to adjust padding */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust shadow in Inspect */
