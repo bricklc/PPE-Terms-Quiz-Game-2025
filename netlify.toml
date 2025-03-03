@@ -1,3 +1,5 @@
 [build]
-  publish = "./"  # Root folder with index.html
-  functions = "functions"  # Points to the functions folder
+  functions = "functions"
+
+[functions]
+  included_files = ["functions/data/**/*"]

@@ -3,9 +3,7 @@ const path = require("path");
 
 exports.handler = async () => {
   try {
-    const basePath = path.join(process.env.LAMBDA_TASK_ROOT || __dirname, "functions");
-    console.log("Base path resolved to:", basePath);
-    const dataDir = path.join(basePath, "data");
+    const dataDir = path.join(__dirname, "data"); // Correct path: /var/task/data
     console.log("Attempting to read directory:", dataDir);
 
     const files = await fs.readdir(dataDir);
