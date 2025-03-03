@@ -7,10 +7,19 @@ let answeredCount = 0;
 let queue = [];
 let wrongAttempt = false;
 let repeatCount = 0; // Track number of repeat cycles
-const maxRepeats = 1; // Set maximum repeats (adjustable)
+const maxRepeats = 2; // Set maximum repeats
 
 const correctSound = document.getElementById("correctSound");
 const incorrectSound = document.getElementById("incorrectSound");
+
+// Utility function to shuffle array
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+  }
+  return array;
+}
 
 document.querySelectorAll('input[name="mode"]').forEach((input) =>
   input.addEventListener("change", (e) => {
@@ -72,7 +81,10 @@ function loadQuestion() {
   document.getElementById("question").textContent = q.question;
   const choicesContainer = document.getElementById("choices");
   choicesContainer.innerHTML = "";
-  q.choices.forEach((choice) => {
+  // Create a copy of choices and shuffle it
+  const shuffledChoices = [...q.choices]; // Copy to avoid modifying original
+  shuffle(shuffledChoices);
+  shuffledChoices.forEach((choice) => {
     const button = document.createElement("button");
     button.textContent = choice;
     button.onclick = () => checkAnswer(button, choice, q.answer);
