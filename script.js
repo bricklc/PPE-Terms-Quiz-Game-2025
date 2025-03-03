@@ -1,15 +1,17 @@
 let questions = [];
 let currentQuestionIndex = 0;
-let mode = "practice";
-let order = "ordered";
+let mode = "practice"; // Default mode
+let order = "ordered"; // Default order
 let selectedQuiz = "";
 let answeredCount = 0;
 let queue = [];
-let firstAttempt = true;
+let wrongAttempt = false; // Tracks wrong attempts for the current question
 
+// Audio elements
 const correctSound = document.getElementById("correctSound");
 const incorrectSound = document.getElementById("incorrectSound");
 
+// Mode and order selection
 document.querySelectorAll('input[name="mode"]').forEach((input) =>
   input.addEventListener("change", (e) => {
     mode = e.target.value;
@@ -26,6 +28,7 @@ document.getElementById("quitButton").addEventListener("click", resetGame);
 document.getElementById("infoButton").addEventListener("click", showQuote);
 document.getElementById("skipButton").addEventListener("click", skipQuestion);
 
+// Load available quiz files
 async function loadQuizFiles() {
   try {
     const response = await fetch("/.netlify/functions/getQuizFiles");
@@ -35,16 +38,17 @@ async function loadQuizFiles() {
     quizFiles.forEach((file) => {
       const option = document.createElement("option");
       option.value = file;
-      option.textContent = file;
+      option.textContent = file.replace(".json", "");
       select.appendChild(option);
     });
     select.addEventListener("change", (e) => (selectedQuiz = e.target.value));
   } catch (error) {
     console.error("Error loading quiz files:", error);
-    alert("Could not load quiz files.");
+    alert("Could not load quiz files. Please check your connection or server setup.");
   }
 }
 
+// Start the game
 async function startGame() {
   if (!selectedQuiz) return alert("Please select a quiz!");
   try {
@@ -58,10 +62,11 @@ async function startGame() {
     loadQuestion();
   } catch (error) {
     console.error("Error loading questions:", error);
-    alert("Could not load questions.");
+    alert("Could not load questions. Ensure the quiz file exists.");
   }
 }
 
+// Load the current question
 function loadQuestion() {
   if (queue.length === 0) return endGame();
   const q = queue[currentQuestionIndex];
@@ -76,55 +81,69 @@ function loadQuestion() {
   });
   document.getElementById("progress").textContent = `${answeredCount}/${questions.length}`;
   document.getElementById("feedback").textContent = "";
+  wrongAttempt = false; // Reset for each new question
 }
 
+// Check user’s answer
 function checkAnswer(button, choice, correctAnswer) {
   const feedback = document.getElementById("feedback");
   if (choice === correctAnswer) {
     button.classList.add("correct");
+    correctSound.play(); // Play sound for correct answer
+    feedback.textContent = "Correct! 🥳🎉";
     if (mode === "quiz") {
-      correctSound.play();
-      feedback.textContent = "Correct! 🥳🎉";
       answeredCount++;
       setTimeout(nextQuestion, 1000);
     } else if (mode === "practice") {
-      if (firstAttempt || !button.classList.contains("wrong")) {
-        answeredCount++;
+      if (!wrongAttempt) {
+        answeredCount++; // Increment only on first correct attempt
         setTimeout(nextQuestion, 500);
+      } else {
+        setTimeout(resetQuestion, 500); // Loop for another first attempt
       }
-      firstAttempt = false;
     }
   } else {
     button.classList.add("wrong");
+    incorrectSound.play(); // Play sound for incorrect answer
+    feedback.textContent = "Wrong! 😣💥";
+    wrongAttempt = true; // Mark wrong attempt
     if (mode === "quiz") {
-      incorrectSound.play();
-      feedback.textContent = "Wrong! 😣💥";
       answeredCount++;
       setTimeout(nextQuestion, 1000);
     }
-    firstAttempt = false;
+    // In practice mode, question persists until correct
   }
 }
 
+// Skip current question
 function skipQuestion() {
   const skipped = queue.splice(currentQuestionIndex, 1)[0];
   queue.push(skipped);
+  wrongAttempt = false; // Reset tracking
   loadQuestion();
 }
 
+// Move to next question
 function nextQuestion() {
   queue.splice(currentQuestionIndex, 1);
   currentQuestionIndex = 0;
-  firstAttempt = true;
+  wrongAttempt = false;
   loadQuestion();
 }
 
+// Reset current question for another attempt
+function resetQuestion() {
+  loadQuestion();
+}
+
+// End the game
 function endGame() {
   document.getElementById("question").textContent = "Game Over!";
   document.getElementById("choices").innerHTML = "";
   document.getElementById("skipButton").classList.add("hidden");
 }
 
+// Reset to start screen
 function resetGame() {
   document.getElementById("game-screen").classList.add("hidden");
   document.getElementById("start-screen").classList.remove("hidden");
@@ -132,9 +151,10 @@ function resetGame() {
   queue = [];
   answeredCount = 0;
   currentQuestionIndex = 0;
-  firstAttempt = true;
+  wrongAttempt = false;
 }
 
+// Show a random quote
 async function showQuote() {
   try {
     const response = await fetch("/.netlify/functions/getQuestions?quiz_file=quotes.json");
