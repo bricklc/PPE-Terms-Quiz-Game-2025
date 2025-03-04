@@ -50,8 +50,8 @@
         "answer": "7000 grains"
     },
     {
-        "question": "The bypass factor for large commercial units Sometimes called specific humidity",
-        "choices": ["Around 20%", "Around 30%", "Around 10%", "Around 50%", "Humidity ratio", "Saturation ratio"],
+        "question": "The bypass factor for large commercial units is typically ",
+        "choices": ["Around 20%", "Around 30%", "Around 10%", "Around 50%"],
         "answer": "Around 10%"
     },
     {
