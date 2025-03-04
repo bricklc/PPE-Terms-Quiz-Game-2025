@@ -810,9 +810,14 @@
         "answer": "Detention dam"
     },
     {
-        "question": "A channel which leads water to a turbine is called Sometimes called percentage humidity",
+        "question": "A channel which leads water to a turbine is called",
         "choices": ["Canal", "Tailrace", "Penstock", "Headrace"],
         "answer": "Headrace"
+    },
+    {
+        "question": "Sometimes called percentage humidity",
+        "choices": ["Humidity ratio", "Saturation ratio", "Absolute humidity", "Relative humidity"],
+        "answer": "Saturation Ratio"
     },
     {
         "question": "When measuring ____________ of air, the bulb of the thermometer should be shaded to reduce the effect of direct radiation",
