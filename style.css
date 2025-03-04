@@ -280,4 +280,18 @@ select, button {
     /* Try: transform: scale(1.1); */
 }
 
+
+/* New container for last updated text */
+.last-updated-container {
+    margin-top: 5px; /* Small space below the title, adjust as needed (e.g., drag to 10px in DevTools) */
+    margin-bottom: 21px; /* Space before quick-start-guide, adjust as needed */
+    color: #e0e0e0; /* Light gray to match your theme, tweak if desired */
+    font-size: 14px; /* Matches quick-start-guide, adjust if needed */
+}
+
+/* Ensure the last-updated div inherits container styles */
+#last-updated {
+    display: inline; /* Keeps text inline if needed, adjust to block if preferred */
+}
+
 /* ... (remaining styles remain unchanged) ... */

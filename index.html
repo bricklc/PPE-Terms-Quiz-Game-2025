@@ -10,7 +10,9 @@
     <div class="quiz-container">
         <div id="start-screen">
             <h1 id="game-title">Power Plant Engineering Terms Reviewer</h1>
-            <div id="last-updated"></div> <!-- New element for last updated date -->
+            <div class="last-updated-container">
+                <div id="last-updated"></div>
+            </div>
             <div id="quick-start-guide">
                 <p><strong>Quick Start Guide:</strong></p>
                 <ul>
@@ -35,7 +37,6 @@
             <div id="settings">
                 <label><input type="checkbox" id="repeatsEnabled" name="repeatsEnabled"> Enable Repeats</label>
                 <label>Max Repeats: <input type="number" id="maxRepeatsInput" name="maxRepeats" min="0" max="5" value="1"></label>
-                <!-- <label><input type="checkbox" id="activeRecallEnabled" name="activeRecallEnabled"> Enable Active Recall</label> -->
             </div>
             <button id="startButton">Start Practice</button>
         </div>
@@ -66,11 +67,9 @@
     </div>
     <audio id="correctSound" src="/sounds/correct.mp3"></audio>
     <audio id="incorrectSound" src="/sounds/incorrect.mp3"></audio>
-    
-    <script>const __BUILD_DATE__ = "Tuesday, March 4, 2025 at 05:13:35 PM GMT+8";</script>
+    <script>const __BUILD_DATE__ = "Tuesday, March 4, 2025 at 05:31:07 PM GMT+8";</script>
     <script src="script.js"></script>
     <script>
-        // Toggle settings visibility based on mode
         document.querySelectorAll('input[name="mode"]').forEach((input) => {
             input.addEventListener("change", (e) => {
                 const settings = document.getElementById("settings");
