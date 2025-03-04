@@ -225,7 +225,7 @@ select, button {
 /* Navigation buttons - Elegant and mobile-friendly */
 #navigation {
     margin-top: 15px; /* Drag to adjust */
-    display: flex;
+    display: hidden;
     justify-content: space-between; /* Space arrows evenly */
     width: 100%;
     /* Try: margin-top: 10px; */

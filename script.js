@@ -11,6 +11,7 @@ let repeatCount = 0;
 let repeatsEnabled = false;
 let activeRecallEnabled = false;
 let maxRepeats = 1;
+let completedCount = 0; // Track completed questions
 
 const correctSound = document.getElementById("correctSound");
 const incorrectSound = document.getElementById("incorrectSound");
@@ -107,6 +108,7 @@ async function startGame() {
     questions = await response.json();
     queue = [...questions];
     recallQueue = [];
+    completedCount = 0; // Reset completed count
     if (order === "random") shuffle(queue);
     repeatCount = 0;
     currentQuestionIndex = 0; // Start at first question
@@ -135,12 +137,14 @@ function loadQuestion() {
     document.getElementById("choices").innerHTML = ""; // Hide choices
     document.getElementById("answer").innerHTML = q.answer; // Show only answer
     document.getElementById("answer").classList.remove("hidden");
-    document.getElementById("navigation").classList.remove("hidden");
+    document.getElementById("navigation").classList.remove("hidden"); // Show arrows
     document.getElementById("skipButton").classList.add("hidden");
     document.getElementById("feedback").classList.add("hidden"); // Hide feedback
-  } else {
+    // Update progress based on current question position in Learn mode
+    document.getElementById("progress").textContent = `${currentQuestionIndex + 1}/${questions.length}`;
+  } else { // Practice or Quiz
     document.getElementById("answer").classList.add("hidden");
-    document.getElementById("navigation").classList.add("hidden");
+    document.getElementById("navigation").classList.add("hidden"); // Hide arrows
     document.getElementById("skipButton").classList.remove("hidden");
     document.getElementById("feedback").classList.remove("hidden");
     const choicesContainer = document.getElementById("choices");
@@ -153,8 +157,9 @@ function loadQuestion() {
       button.onclick = () => checkAnswer(button, choice, q.answer);
       choicesContainer.appendChild(button);
     });
+    // Update progress based on completed count
+    document.getElementById("progress").textContent = `${completedCount + 1}/${questions.length}`;
   }
-  document.getElementById("progress").textContent = `${currentQuestionIndex + 1}/${questions.length}`;
 }
 
 function checkAnswer(button, choice, correctAnswer) {
@@ -168,7 +173,7 @@ function checkAnswer(button, choice, correctAnswer) {
       answeredCount++;
       setTimeout(nextQuestion, 1000);
     } else if (mode === "practice") {
-      if (!repeatsEnabled && !activeRecallEnabled) {
+      if (!repeatsEnabled) {
         answeredCount++;
         setTimeout(nextQuestion, 500);
       } else if (repeatsEnabled) {
@@ -188,11 +193,6 @@ function checkAnswer(button, choice, correctAnswer) {
             answeredCount++;
             setTimeout(nextQuestion, 500);
           }
-        }
-      }
-      if (activeRecallEnabled && wrongAttempt) {
-        if (!recallQueue.includes(currentQuestion)) {
-          recallQueue.push(currentQuestion);
         }
       }
     }
@@ -219,16 +219,8 @@ function nextQuestion() {
   if (mode === "learn" && currentQuestionIndex < queue.length - 1) {
     currentQuestionIndex++;
     loadQuestion();
-  } else if (activeRecallEnabled && recallQueue.length > 0) {
-    const recallQuestion = recallQueue.shift();
-    if (queue.length > 0) {
-      queue.splice(currentQuestionIndex, 1);
-    }
-    if (!queue.includes(recallQuestion)) {
-      queue.unshift(recallQuestion);
-    }
-    currentQuestionIndex = 0;
   } else if (queue.length > 0) {
+    completedCount++; // Increment for Practice/Quiz
     queue.splice(currentQuestionIndex, 1);
     currentQuestionIndex = 0;
   }
@@ -240,6 +232,7 @@ function nextQuestion() {
 function skipQuestion() {
   const skipped = queue.splice(currentQuestionIndex, 1)[0];
   queue.push(skipped); // Move skipped question to the end
+  completedCount++; // Increment for skip
   wrongAttempt = false;
   repeatCount = 0;
   loadQuestion();
@@ -256,7 +249,7 @@ function endGame() {
   document.getElementById("navigation").classList.add("hidden");
   document.getElementById("skipButton").classList.add("hidden");
   document.getElementById("feedback").classList.add("hidden");
-  document.getElementById("quoteDisplay").classList.add("hidden"); // Hide quote on end
+  document.getElementById("quoteDisplay").classList.add("hidden");
 }
 
 function resetGame() {
@@ -269,7 +262,8 @@ function resetGame() {
   currentQuestionIndex = 0;
   wrongAttempt = false;
   repeatCount = 0;
-  document.getElementById("quoteDisplay").classList.add("hidden"); // Ensure quote is hidden
+  completedCount = 0;
+  document.getElementById("quoteDisplay").classList.add("hidden");
 }
 
 async function showQuote() {
@@ -281,11 +275,11 @@ async function showQuote() {
     const quotes = await response.json();
     const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
     quoteText.textContent = randomQuote;
-    quoteDisplay.classList.remove("hidden"); // Show quote display
+    quoteDisplay.classList.remove("hidden");
   } catch (error) {
     console.error("Error loading quotes:", error);
     quoteText.textContent = "Keep pushing forward!";
-    quoteDisplay.classList.remove("hidden"); // Show fallback message
+    quoteDisplay.classList.remove("hidden");
   }
 }
 

@@ -22,7 +22,7 @@
     {
         "question": "The total heat of the air is a function of",
         "choices": ["WB temperature", "DP temperature", "DB temperature", "WB depression"],
-        "answer": "Wet Bulb Temperature"
+        "answer": "WB Temperature"
     },
     {
         "question": "Boiling point of Freon-12 at atmospheric pressure is:",
