@@ -55,6 +55,7 @@ document.getElementById("skipButton").addEventListener("click", skipQuestion);
 document.getElementById("creditsButton").addEventListener("click", toggleCredits);
 document.getElementById("prevButton").addEventListener("click", prevQuestion);
 document.getElementById("nextButton").addEventListener("click", nextQuestion);
+document.getElementById("closeQuote").addEventListener("click", hideQuote);
 
 async function loadQuizFiles() {
   try {
@@ -241,6 +242,7 @@ function endGame() {
   document.getElementById("navigation").classList.add("hidden");
   document.getElementById("skipButton").classList.add("hidden");
   document.getElementById("feedback").classList.add("hidden");
+  document.getElementById("quoteDisplay").classList.add("hidden"); // Hide quote on end
 }
 
 function resetGame() {
@@ -253,19 +255,29 @@ function resetGame() {
   currentQuestionIndex = 0;
   wrongAttempt = false;
   repeatCount = 0;
+  document.getElementById("quoteDisplay").classList.add("hidden"); // Ensure quote is hidden
 }
 
 async function showQuote() {
+  const quoteDisplay = document.getElementById("quoteDisplay");
+  const quoteText = document.getElementById("quoteText");
   try {
     const response = await fetch("/.netlify/functions/getQuestions?quiz_file=quotes.json");
     if (!response.ok) throw new Error("Failed to load quotes");
     const quotes = await response.json();
     const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-    alert(randomQuote);
+    quoteText.textContent = randomQuote;
+    quoteDisplay.classList.remove("hidden"); // Show quote display
   } catch (error) {
     console.error("Error loading quotes:", error);
-    alert("Keep pushing forward!");
+    quoteText.textContent = "Keep pushing forward!";
+    quoteDisplay.classList.remove("hidden"); // Show fallback message
   }
+}
+
+function hideQuote() {
+  const quoteDisplay = document.getElementById("quoteDisplay");
+  quoteDisplay.classList.add("hidden");
 }
 
 function toggleCredits() {

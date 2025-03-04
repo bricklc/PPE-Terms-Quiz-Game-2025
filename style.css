@@ -76,7 +76,7 @@ body {
     font-size: 20px; /* Larger for mobile, drag to adjust */
     font-weight: 500; /* Medium bold */
     margin-bottom: 15px; /* Retained, drag to adjust */
-    color: #ffffff; /* White for contrast */
+    color: #ff2600; /* White for contrast */
     /* Try: font-size: 22px; margin-bottom: 10px; */
 }
 
@@ -135,7 +135,7 @@ select, button {
     position: relative; /* Change to absolute and drag */
     top: -10px; /* Retained, drag to adjust */
     left: -125px; /* Retained, drag to adjust */
-    background: #1e1a1a; /* dark grey */
+    background: linear-gradient(270deg, #232325, #141414); /* dark grey */
     color: white;
     padding: 8px 12px; /* Touch-friendly, drag to resize */
     border-radius: 8px;
@@ -147,7 +147,7 @@ select, button {
     position: relative; /* Change to absolute and drag */
     top: -10px; /* Retained, drag to adjust */
     right: -125px; /* Retained, drag to adjust */
-    background: #1e1a1a; /* Bright blue */
+    background: linear-gradient(270deg, #232325, #141414); /* Bright blue */
     color: white;
     padding: 8px 12px; /* Touch-friendly, drag to resize */
     border-radius: 8px;
@@ -216,7 +216,7 @@ select, button {
     margin-top: 10px; /* Drag to adjust */
     font-size: 32px; /* Retained */
     font-weight: 500;
-    color: #33ff00; /* White */
+    color: #fffb00; /* Yellow */
     text-shadow: 0 0 5px rgba(67, 117, 255, 0.459); /* Neon glow */
     text-align: center; /* Centered */
     /* Try: margin-top: 15px; or font-size: 24px; */
@@ -243,6 +243,40 @@ select, button {
 #prevButton:hover, #nextButton:hover {
     transform: scale(1.05); /* Zoom */
     background: linear-gradient(90deg,  #232325, #141414); /* Lighter */
+    /* Try: transform: scale(1.1); */
+}
+
+/* ... (previous styles remain unchanged) ... */
+
+/* Quote display - Elegant and mobile-friendly */
+.quote-display {
+    margin-top: 15px; /* Drag to adjust */
+    padding: 15px; /* Touch-friendly */
+    background: rgba(29, 29, 29, 0.95); /* Semi-transparent dark */
+    border-radius: 10px; /* Smooth rounding */
+    color: #d3d8e0; /* Light gray */
+    font-size: 16px; /* Readable */
+    text-align: center; /* Centered */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    position: relative; /* For close button positioning */
+    /* Try: margin-top: 10px; padding: 12px; */
+}
+#quoteText {
+    margin-bottom: 10px; /* Space before close button */
+    /* Try: margin-bottom: 8px; */
+}
+#closeQuote {
+    background: linear-gradient(270deg, #232325, #141414); /*  */
+    color: white;
+    padding: 5px 10px; /* Compact */
+    border: none;
+    border-radius: 5px; /* Rounded */
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    /* Try: padding: 6px 12px; */
+}
+#closeQuote:hover {
+    transform: scale(1.05); /* Zoom */
     /* Try: transform: scale(1.1); */
 }
 

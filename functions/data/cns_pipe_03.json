@@ -1371,8 +1371,8 @@
     },
     {
         "question": "Which of the following is the speed of light?",
-        "choices": ["2.998 x 108 m/s", "2.998 x 1010 m/s", "2.998 x 109", "2.998 x 107 m/s"],
-        "answer": "2.998 x 108 m/s"
+        "choices": ["2.998 x 10^8 m/s", "2.998 x 10^10 m/s", "2.998 x 10^9", "2.998 x 10^7 m/s"],
+        "answer": "2.998 x 10^8 m/s"
     },
     {
         "question": "What can you say about entropy in the universe?",
