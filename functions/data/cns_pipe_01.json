@@ -315,9 +315,14 @@
         "answer": "50 to 70%"
     },
     {
-        "question": "Forced draft towers can cool the water to within The higher the wet bulb temperatures",
+        "question": "Forced draft towers can cool the water to within ",
         "choices": ["10 to12 F", "5 to 6 F", "20 to 24 F", "2.5 to 3 F"],
         "answer": "5 to 6 F"
+    },
+    {   
+        "question": "The higher the wet bulb temperatures",
+        "choices": ["The higher the efficiency", "The lower the efficiency", "The efficiency is limited", "The efficiency is maximum"],
+        "answer": "The lower the efficiency"
     },
     {
         "question": "Define the relative difficulty in cooling, essentially the relative amount of contact area or fill volume required",

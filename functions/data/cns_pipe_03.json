@@ -1,0 +1,2107 @@
+[
+    {
+        "question": "In Refrigeration, how do you call a heat exchanger in which low-pressure refrigerant boils or vaporizes, thus absorbing heat that was removed from the refrigerated area by the cooling medium (water)?",
+        "choices": ["Evaporator", "Cooler", "Chiller", "Flooded Evaporator"],
+        "answer": "Chiller"
+    },
+    {
+        "question": "In an ideal standard Brayton cycle, 1.5 kg/s of air at 101 kPaa and 27 oC is compressed isentropically to a certain pressure and temperature after which the is added until the temperature becomes 1027 oC. Isentropic expansion occurs in the turbine. Determine the net power produced by the cycle.",
+        "choices": ["629.56 kW", "529.76 kW", "592.65 kW", "579.26 kW"],
+        "answer": "529.76 kW"
+    },
+    {
+        "question": "In an air standard Otto cycle, the clearance volume is 12 % of the displacement volume. What is the thermal efficiency?",
+        "choices": ["57 %", "58 %", "59 %", "60 %"],
+        "answer": "59 %"
+    },
+    {
+        "question": "It is a type of refrigeration system where only part of the circulated refrigerant is evaporated, with the remainder being separated from the vapor and then recirculated. How do you call this system?",
+        "choices": ["Absorption refrigeration system", "Vacuum refrigeration system", "Vapor-compression refrigeration system", "Flooded refrigeration system"],
+        "answer": "Flooded refrigeration system"
+    },
+    {
+        "question": "In an air-standard Brayton cycle, air enters compressor at 1 bar and 15 oC. The pressure leaving the compressor is 0.6 MPaa and maximum temperature of the cycle is 1000 oC. What is the maximum net work, in kJ/kg?",
+        "choices": ["319.52", "315.29", "392.51", "352.19"],
+        "answer": "352.19"
+    },
+    {
+        "question": "How do you call the ice formation on a refrigeration system at the expansion device, making the device inoperative?",
+        "choices": ["Ice formation", "Freezing", "Freeze-up", "Pump-down"],
+        "answer": "Freeze-up"
+    },
+    {
+        "question": "What is the clearance volumetric efficiency of an ammonia compressor designed with 4 % clearance and operating between condenser temperature of 30 oC (psat = 1.1672 MPaa) and evaporator temperature of 4 oC (psat = 497.48 kPaa)?",
+        "choices": ["93.61 %", "96.31 %", "93.68 %", "96.83 %"],
+        "answer": "96.31 %"
+    },
+    {
+        "question": "In a lithium bromide solution absorption refrigeration system, which of the following is the function of water?",
+        "choices": ["Refrigerant", "Coolant", "Absorbent", "Analyzer"],
+        "answer": "Refrigerant"
+    },
+    {
+        "question": "The percent rating of water tube boiler is 200 %, factor of evaporation is 1.10, and heating surface is 400 ft2. Determine the rate of evaporation, in kg/hr.",
+        "choices": ["1831", "1138", "1831", "1813"],
+        "answer": "1138"
+    },
+    {
+        "question": "In the absorption refrigeration system, is a pressure vessel mounted above the generator through which the vapor leaving the generator pass. How do you call this component?",
+        "choices": ["Absorber", "Rectifier", "Analyzer", "Reflux"],
+        "answer": "Analyzer"
+    },
+    {
+        "question": "A Carnot cycle is represented by a rectangle in a Ts diagram that operates between temperature limits of 300 oK and 650 oK. Inscribed within a rectangle is a ellipse of maximum major and minor axes, represents a cycle and operating at the same temperature limits. Considering that the major axis of the ellipse is two times that of its minor axis. Determine the thermal efficiency of the cycle represented by an ellipse.",
+        "choices": ["44.88 %", "43.66 %", "48.48 %", "46.36 %"],
+        "answer": "44.88 %"
+    },
+    {
+        "question": "Determine the critical radius in cm for an asbestos-cement covered pipe [kasb = 0.208 W/m-oK]. The external heat-transfer coefficient is 1.5 Btu/h-ft2-oF.",
+        "choices": ["2.44 cm", "2.66 cm", "2.55 cm", "2.22 cm"],
+        "answer": "2.44 cm"
+    },
+    {
+        "question": "A hiker carried an Aneroid barometer from the foot of Mount Banahaw to the camp of the NPA leader Ka Roger. On the foot of the mountain, the barometer reads 30.150 inches of Hg, and on the camp, which is nearly at the top of the mountain it reads 28.607 inches of Hg. Assume that the average air density (atmospheric) was 0.075 pcf, estimate the height of the mountain, in ft.",
+        "choices": ["1455.54", "1554.54", "1545.54", "1455.55"],
+        "answer": "1455.54"
+    },
+    {
+        "question": "In the absorption refrigeration system, it is the inlet part of the condenser, cooled by a separate circuit of cooling water or strong aqua. It condenses a small part of the vapor leaving the bubble column and returns it as a liquid to the top of baffle plate. This ensures that the vapor going to the condenser is lowered in temperature and enriched in ammonia. What is this component?",
+        "choices": ["Reflux", "Rectifier", "Analyzer", "Absorber"],
+        "answer": "Rectifier"
+    },
+    {
+        "question": "In a geothermal power plant, the mass flow rate of ground water is 4000 kg/s and the quality after throttling is 20%. If the turbine power is 80 MW, what is the change in enthalpy of steam at the inlet and outlet of the turbine?",
+        "choices": ["120 kJ/kg", "100 kJ/kg", "200 kJ/kg", "150 kJ/kg"],
+        "answer": "100 kJ/kg"
+    },
+    {
+        "question": "Determine the partial pressure of CO2 for the following analysis of gas mixture by weight at 101 kPaa and 25 oC: CO2 = 35 % and N2 = 65 %.",
+        "choices": ["25.75 kPaa", "27.55 kPaa", "52.75 kPaa", "52.57 kPaa"],
+        "answer": "25.75 kPaa"
+    },
+    {
+        "question": "Which of the following is a scale of temperature in which the melting point of ice is taken as 0o and the boiling point of water is 80o?",
+        "choices": ["Reaumur Scale", "Genetron Scale", "Carrene Scale", "Frigorie Scale"],
+        "answer": "Reaumur Scale"
+    },
+    {
+        "question": "A certain coal has the following ultimate analysis by weight. C = 67 %, Ash = 5 %, Moisture = 8 %, N = 6 %, H = 3 %, Sulfur = 7 %, O = 4 %. Calculate the higher heating value in Btu/lb.",
+        "choices": ["15 179", "17 519", "11 579", "19 517"],
+        "answer": "11 579"
+    },
+    {
+        "question": "What is the amount of heat energy required to raise the temperature of one pound of water one degree Fahrenheit. It is 1/180 of the heat required to raise the temperature of one pound of water from 32 to 212 oF at constant atmospheric pressure of 14,696 psi absolute.",
+        "choices": ["Specific heat", "British thermal unit", "Calorie", "Sensible heat"],
+        "answer": "British thermal unit"
+    },
+    {
+        "question": "Determine the heating value of a certain fuel with a SG = 0.997.",
+        "choices": ["42 975 kJ/kg", "42 795 kJ/kg", "42 597 kJ/kg", "42 579 kJ/kg"],
+        "answer": "42 975 kJ/kg"
+    },
+    {
+        "question": "How do you call the mixtures or substances that are used in laboratory methods of producing a drop in temperature? The most common example is the mixture of ice and salt.",
+        "choices": ["Calorific mixture", "Frigorific mixture", "Water-ammonia mixture", "Hygroscopic mixture"],
+        "answer": "Frigorific mixture"
+    },
+    {
+        "question": "If an airplane is flying at an altitude of 5 800 ft, what is the approximate atmospheric pressure at the said altitude?",
+        "choices": ["12.34 psi", "13.24 psi", "14.7 psi", "14.32 psi"],
+        "answer": "12.34 psi"
+    },
+    {
+        "question": "It the maximum temperature of any gas or vapor at which it may be condensed into a liquid; above this temperature, it is impossible to condense regardless of the pressure applied. How do you call this temperature?",
+        "choices": ["Saturation temperature", "Critical temperature", "Superheated temperature", "Dew point temperature"],
+        "answer": "Critical temperature"
+    },
+    {
+        "question": "Calculate the energy transfer rate across 6” wall of firebrick with a temperature difference across of 50 oC. the thermal conductivity of the firebrick is 0.65 Btu/hr-ft-oF.",
+        "choices": ["369 W/m2", "639 W/m2", "369 Btu/hr-Ft2", "639 Btu/hr-Ft2"],
+        "answer": "369 W/m2"
+    },
+    {
+        "question": "Any refrigerant that exists as a liquid under normal atmospheric pressure and temperature must be vaporized in an evaporator under a pressure below atmospheric. This is sometimes referred to as:",
+        "choices": ["Halogenated refrigerant", "Vacuum refrigerant", "Freon refrigerant", "Halocarbon refrigerant"],
+        "answer": "Vacuum refrigerant"
+    },
+    {
+        "question": "What is the specific gravity of a fuel at 28o Baume?",
+        "choices": ["0.868", "0.886", "0.688", "0.986"],
+        "answer": "0.886"
+    },
+    {
+        "question": "Air at 1 MPaa and 310 oC is expanded to 250 kPaa in accordance with the relation pV1.25 = C. Determine the work done.",
+        "choices": ["+ 162.11 kJ/kg", "+ 126.11 kJ/kg", "– 162.11 kJ/kg", "– 126.11 kJ/kg"],
+        "answer": "+ 162.11 kJ/kg"
+    },
+    {
+        "question": "It is any one of a group of refrigerants that have been developed since about 1925 to overcome the irritating or toxic effects of refrigerants, such as ammonia and sulfur dioxide and the high condensing pressures required with carbon dioxide. How do you call these refrigerants?",
+        "choices": ["Halogenated refrigerants", "Vacuum refrigerants", "Freon refrigerants", "Halocarbon refrigerants"],
+        "answer": "Halogenated refrigerants"
+    },
+    {
+        "question": "A Rankine cycle operates with a thermal efficiency of 40 % and the factor of evaporation of the boiler is 1.15. Determine the mass flow rate of steam if the cycle power output is 5.5 MW.",
+        "choices": ["5.3 kg/s", "3.5 kg/s", "4.3 kg/s", "6.3 kg/s"],
+        "answer": "5.3 kg/s"
+    },
+    {
+        "question": "This refrigeration system component combines the functions of a cooling tower and a condenser. It consists of a casing enclosing a fan or blower section, water eliminators, refrigerant condensing coil, water pan, float valve, and spray pump outside the casing. How do you call this component?",
+        "choices": ["Water-cooled condenser", "Atmospheric condenser", "Evaporative condenser", "Chiller"],
+        "answer": "Evaporative condenser"
+    },
+    {
+        "question": "A boiler operates at 82 % efficiency while the mass of steam generated is 490 200 kg in 6 hours. The enthalpy of steam is 3187 kJ/kg and feed is 604.83 kJ/kg while the fuel used for boiler has a heating value of 32 567.85 kJ/kg. Find the mass of fuel needed per day in metric tons.",
+        "choices": ["179.6", "198.6", "189.6", "169.8"],
+        "answer": "189.6"
+    },
+    {
+        "question": "It refers to a factor used in calculating the over-all heat transfer through the tube walls of a condenser tube or other heating surface. It includes the sum of the heat-transfer rate of the layer of dirt and foreign material that builds up on the water side of the tube. What is this factor?",
+        "choices": ["Cooling factor", "By-pass factor", "Contact factor", "Fouling factor"],
+        "answer": "Fouling factor"
+    },
+    {
+        "question": "A 10 kg/s of air enters the theater at 16 oC. The theater is to be maintained at 27 oC DB and 20 oC WB. If the sensible heat ratio is 0.71, what is the latent heat load of the theater?",
+        "choices": ["45.21 kW", "110.682 kW", "54.21 kW", "42.51 Kw"],
+        "answer": "45.21 kW"
+    },
+    {
+        "question": "It is a refrigeration system evaporator which is arranged with a tank or a single drum (accumulator) located above the coil so that the inside of the evaporator is full of refrigerant. How do you call this type of evaporator?",
+        "choices": ["Flooded evaporator", "Cooing coil evaporator", "Dry evaporator", "Headered coil evaporator"],
+        "answer": "Flooded evaporator"
+    },
+    {
+        "question": "A 80 MW power plant has an average load of 34 500 kW and a load factor of 0.75. Find the reserve power over a peak load power.",
+        "choices": ["14 000 kW", "24 000 kW", "34 000 kW", "4 000 kW"],
+        "answer": "34 000 kW"
+    },
+    {
+        "question": "What is the standardized term used by the industry to describe any device that meters or regulates the flow of liquid refrigerant to an evaporator?",
+        "choices": ["Refrigerant control", "Expansion valve", "Throttling valve", "Capillary tube"],
+        "answer": "Expansion Valve"
+    },
+    {
+        "question": "A steam generator burns fuel oil with 25 % excess air. Fuel may be represented by C14H30. Calculate the actual-air fuel ratio.",
+        "choices": ["17.63", "16.63", "18.63", "15.63"],
+        "answer": "18.63"
+    },
+    {
+        "question": "Define a “control valve”.",
+        "choices": ["The value set on the scale of the control system in order to obtain the required condition", "The quantity or condition of the controlled medium", "The flow or pressure of the steam (or fluid) being manipulated", "The valve of the controlled condition actually maintained under steady state conditions"],
+        "answer": "The valve of the controlled condition actually maintained under steady state conditions"
+    },
+    {
+        "question": "A container filled with helium is dropped 3000 m above the ground, find the change of temperature?",
+        "choices": ["12.43 oC", "15.43 oC", "9.43 oC", "8.43 oC"],
+        "answer": "9.43 oC"
+    },
+    {
+        "question": "A pneumatic temperature control is used on the steam supply to a nonstorage heat exchanger that heats water serving an office heating system. What is referred to as “manipulated variable”?",
+        "choices": ["The water being heated", "The air signal from the controller to the valve actuator", "The steam supply", "The temperature of the air being heated"],
+        "answer": "The steam supply"
+    },
+    {
+        "question": "Which of the following valves is the one designed to allow a fluid to pass through in one direction?",
+        "choices": ["Globe valve", "Float valve", "Gate valve", "Check valve"],
+        "answer": "Check valve"
+    },
+    {
+        "question": "A 3153-lb car is accelerated from 32 fps to 55 fps in 10 seconds. Determine the work done, in Btu.",
+        "choices": ["125.92", "152.92", "192.52", "129.52"],
+        "answer": "125.92"
+    },
+    {
+        "question": "How do you classify a solenoid valve?",
+        "choices": ["A thermal valve", "A bellows valve", "A magnetic stop valve", "A bi-metallic valve"],
+        "answer": "A magnetic stop valve"
+    },
+    {
+        "question": "What is a thermostat?",
+        "choices": ["A temperature-operated switch", "A pressure-operated switch", "A superheat-operated switch", "A back pressure-operated switch"],
+        "answer": "A temperature-operated switch"
+    },
+    {
+        "question": "A turbine has a peripheral coefficient of 0.6. Find the runner diameter of the turbine if it operates at 450 rpm and a head of 60 m.",
+        "choices": ["0.874 m", "0.478 m", "0.784 m", "0.748 m"],
+        "answer": "0.874 m"
+    },
+    {
+        "question": "Which of the following is the one of the main purposes of refractory in a boiler furnace?",
+        "choices": ["Help preheat the air for the furnace", "Help preheat the feed water", "Protect economizer from excessive heat", "Prevent excessive furnace heat losses"],
+        "answer": "Prevent excessive furnace heat losses"
+    },
+    {
+        "question": "Heat is transferred from hot water to an oil in a double-pipe counterflow heat exchanger. Water enters the outer pipe at 120 oC and exits at 55 oC while the oil enters the inner pipe at 26 oC and exits at 65 oC. What is the log-mean temperature difference (LMTD)?",
+        "choices": ["42.60 oC", "46.20 oC", "40.62 oC", "42.06 oC"],
+        "answer": "40.62 oC"
+    },
+    {
+        "question": "Balance pressure traps are what type of steam trap?",
+        "choices": ["Thermodynamic", "Mechanical", "Thermostatic", "They do not belong to any specific type of trap family"],
+        "answer": "Thermostatic"
+    },
+    {
+        "question": "In a Rankine cycle, steam enters the turbine at 2.5MPa and a condenser pressure of 50KPa. What is the quality of steam at the turbine exhaust? Steam Properties: @ 2.5Mpaa, h = 2803.1 kJ/kg & s = 6.2575 kJ/kg-OK; @ 50kPaa, hf = 340.49 kJ/kg, hfg = 2305.4 kJ/kg, vf = 0.00103 m3/kg, sf = 1.0910 kJ/kg-OK, sfg = 6.5029 kJ/kg-OK.",
+        "choices": ["79.45 %", "59.75 %", "97.45 %", "95.55 %"],
+        "answer": "79.45 %"
+    },
+    {
+        "question": "An adiabatic turbine steam generating plant receives steam at a pressure of 7.0 MPa and 550OC (h = 3531 kJ/kg) and exhausts at a condenser pressure of 20kPa (h = 2290 kJ/kg). The turbine inlet is 3 meters higher than the turbine exit, inlet steam velocity is 15m/s and the exit is 300m/s. Calculate the turbine work in kJ/kg.",
+        "choices": ["1296.14", "1619.42", "1196.24", "1294.16"],
+        "answer": "1196.24"
+    },
+    {
+        "question": "Determine the indicated power of a four-cylinder, 4-stroke, Diesel engine with 20-cm bore and 30-cm stroke running at 1000 rpm and has a reading of 450 kPa mean effective pressure in the indicator diagram.",
+        "choices": ["159.83 Hp", "158.93 Hp", "189.53 Hp", "198.53 Hp"],
+        "answer": "189.53 Hp"
+    },
+    {
+        "question": "What is a characteristic feature of thermodynamic steam traps?",
+        "choices": ["They pass condensate at steam temperature", "They operate by holding back condensate until it has cooled", "They cannot be fitted outside", "They can only be fitted on low pressure steam systems"],
+        "answer": "They operate by holding back condensate until it has cooled"
+    },
+    {
+        "question": "The approach and efficiency of cooling tower are 10 oC and 65 %, respectively. If the temperature of water leaving the tower is 27 oC, determine the temperature of water entering the tower.",
+        "choices": ["54.57 oC", "45.57 oC", "55.47 oC", "54.75 oC"],
+        "answer": "45.57 oC"
+    },
+    {
+        "question": "What are the main considerations for steam trap selection?",
+        "choices": ["Price", "Air venting, plant performance, flow capacity and reliability", "Connections", "The trap must be the same size as the condensate drain line"],
+        "answer": "Air venting, plant performance, flow capacity and reliability"
+    },
+    {
+        "question": "An air-vapor mixture has a dry bulb temperature of 30 oC and a humidity ratio of 0.015 kg/kg d.a., calculate the enthalpy of the moist air.",
+        "choices": ["68.527 kJ/kg d.a", "65.827 kJ/kg d.a.", "86.527 kJ/kg d.a", "67.528 kJ/kg d.a"],
+        "answer": "68.527 kJ/kg d.a."
+    },
+    {
+        "question": "Determine the equivalence ratio of the following mixture: 4 grams of butane, C4H10, and 75 grams of air.",
+        "choices": ["0.72", "0.62", "0.92", "0.82"],
+        "answer": "0.82"
+    },
+    {
+        "question": "Can temperature controlled applications be trapped?",
+        "choices": ["Traps should not be fitted under any circumstances", "Only if there is no lift after the trap", "If the pressure on the trap is always higher than backpressure", "Pumps should always be fitted to remove condensate"],
+        "answer": "If the pressure on the trap is always higher than backpressure"
+    },
+    {
+        "question": "Find the air Hp of an industrial fan that delivers 25 m3/s of air through a 900 mm by 1200 mm outlet. Static pressure is 127 mm of water gage and air density is 1.18 kg/m3.",
+        "choices": ["52.3 Hp", "42.3 Hp", "35.2 Hp", "34.2 Hp"],
+        "answer": "52.3 Hp"
+    },
+    {
+        "question": "Determine the indicated mean effective pressure of an engine, in psi, having a brake mean effective pressure of 750 kPa and 80 % mechanical efficiency.",
+        "choices": ["138", "136", "137", "135"],
+        "answer": "136"
+    },
+    {
+        "question": "Unless they are designed to flood, what is the important when removing condensate from heat exchangers?",
+        "choices": ["Condensate is allowed to sub-cool before reaching the trap", "Condensate is removed at steam temperature", "Condensate should back-up into the steam pipe", "That the trap is fitted level with or above the heater outlet"],
+        "answer": "Condensate is removed at steam temperature"
+    },
+    {
+        "question": "The indicator card (actual p-V diagram) of an engine in a Diesel power plant indicates an area of 0.06 m2 and length of 300 mm, and with a spring scale of 2500 kPa/m. The engine was tested using Prony brake with lever arm of 3 m and tare weight of 8 kN. Determine the mechanical efficiency if the engine is running at 600 rpm. The engine is 2-stroke and has 12 cylinders, 300 mm bore, and 450 mm stroke.",
+        "choices": ["78.01 %", "82.01 %", "79.01 %", "76.01 %"],
+        "answer": "79.01 %"
+    },
+    {
+        "question": "How is flash steam produced?",
+        "choices": ["From condensate passing from high to low pressure systems", "From saturated steam", "From superheated steam", "From steam mixed with high temperature air"],
+        "answer": "From condensate passing from high to low pressure systems"
+    },
+    {
+        "question": "A 2-kg steam at 2.5 MPaa and 260 oC undergoes a constant pressure until the quality becomes 70 %. Determine the heat rejected, in Btu. At 2.5 MPaa and 260oC: h = 2907.4 kJ/kg; and at 2.5 MPaa and 70 % quality: hf = 962.11 kJ/kg and hg = 2803.1 kJ/kg.",
+        "choices": ["1244.7 Btu", "1442.7 Btu", "1424.7 Btu", "1274.4 Btu"],
+        "answer": "1244.7 Btu"
+    },
+    {
+        "question": "Are steam traps required to pass air?",
+        "choices": ["Steam traps should not pass air under any circumstances", "Only when the trap has passed all the condensate", "Air should be removed as soon as it reaches the trap", "Only on high pressure steam system"],
+        "answer": "Air should be removed as soon as it reaches the trap"
+    },
+    {
+        "question": "A 145 000-kW turbo-generator requires 690 000 kg/hr of steam at rated load and 23 000 kg/hr of steam at zero load. Determine the steam rate, in kg/kW-hr, at 75 % of its rated load.",
+        "choices": ["4.81 kg/kW-hr", "5.81 kg/kW-hr", "3.81 kg/kW-hr", "2.81 kg/kW-hr"],
+        "answer": "4.81 kg/kW-hr"
+    },
+    {
+        "question": "How do you call a system employing open sprinklers attached to a piping system connected to a water supply through which is opened by the operation of a fire detection system installed in the same areas as the sprinklers?",
+        "choices": ["Mechanical sprinkler", "Wet pipe system", "Automatic system", "Deluge system"],
+        "answer": "Deluge system"
+    },
+    {
+        "question": "What is probably the first consideration when selecting a control system?",
+        "choices": ["What degree of accuracy is required?", "Is the control for heating or cooling?", "Is a two or three port valve required?", "In the event of power failure, must the valve fail-open or fail-closed?"],
+        "answer": "In the event of power failure, must the valve fail-open or fail-closed?"
+    },
+    {
+        "question": "The combustion gases of a furnace are separated from its surrounding or ambient air which is 29 oC. The brick wall is 130 mm and has a thermal conductivity of 1.23 W/m-oC with a surface emissivity of 0.81. The outer surface temperature of the wall is 130 oC and with surface air conductance of 15 W/m2-oC. For steady state conditions, what is the total heat transmitted for a surface area of 30 m2?",
+        "choices": ["70.33 kW", "33.07 kW", "73.30 kW", "37.30 kW"],
+        "answer": "70.33 kW"
+    },
+    {
+        "question": "Which of the following ranges of humidity ratio is used for comfort air conditioning?",
+        "choices": ["50 to 55 %", "60 to 65 %", "55 to 60 %", "45 to 50 %"],
+        "answer": "55 to 60 %"
+    },
+    {
+        "question": "When adding the refrigerant in a refrigeration system, it shall be charge into which of the following parts of the system?",
+        "choices": ["High pressure side", "Low and high pressure side", "Low pressure side", "Compressor discharge line"],
+        "answer": "Low pressure side"
+    },
+    {
+        "question": "A 1.5 MW Diesel power generating unit has a generator efficiency of 85 %. Determine the volume flow rate, in lps, of cooling water required for the engine at 18 oC temperature rise.",
+        "choices": ["21 lps", "22 lps", "19 lps", "23 lps"],
+        "answer": "21 lps"
+    },
+    {
+        "question": "Why is a boiler feed tank heated to approximately 85 oC?",
+        "choices": ["To reduce the energy required to raise steam", "To reduce the content of total dissolved solids in the water supplied to the boiler", "To reduce the gas content of the water", "To reduce the content of suspended solids in the water"],
+        "answer": "To reduce the gas content of the water"
+    },
+    {
+        "question": "What is used to dry air?",
+        "choices": ["A separator", "A steam trap", "A strainer", "A tee piece"],
+        "answer": "A separator"
+    },
+    {
+        "question": "What causes water hammer in the boiler?",
+        "choices": ["Suspended water droplets", "An air/water mixture", "Strainers fitted on their sides", "Slugs of water in the steam"],
+        "answer": "Slugs of water in the steam"
+    },
+    {
+        "question": "A Carnot refrigerator is to remove heat from a cooled space at a rate of 18 000 kJ/hr to maintain the temperature at – 8 oC. If the air surrounding the refrigerator is 25 oC, determine the minimum power required for the refrigerator.",
+        "choices": ["0.723 kW", "0.623 kW", "0.523 kW", "0.423 kW"],
+        "answer": "0.623 kW"
+    },
+    {
+        "question": "How does air enter a steam system?",
+        "choices": ["Through joints, on shut down of the steam system", "With make-up water to the boiler feedtank", "With condensate entering the boiler feedtank", "Both a, b, & c"],
+        "answer": "Both a, b, & c"
+    },
+    {
+        "question": "A Pelton wheel has a capacity of 25 000 kW with head of 290 m. What is the number of jet needed for this turbine if the jet if the nozzle jet diameter is 200 mm.",
+        "choices": ["3", "2", "4", "1"],
+        "answer": "4"
+    },
+    {
+        "question": "Why should strainers installed on steam lines be fitted on their sides?",
+        "choices": ["To prevent the build-up of water in the strainer body", "To trap more dirt", "To reduce the frequency of cleaning", "To provide maximum screening area for the steam"],
+        "answer": "To prevent the build-up of water in the strainer body"
+    },
+    {
+        "question": "The water turbine of a 5-MW hydro-power plant has a specific speed of 40 rpm and a discharge of 2020 lps. What is the approximate diameter of the jet.",
+        "choices": ["191 mm", "181 mm", "171 mm", "161 mm"],
+        "answer": "191 mm"
+    },
+    {
+        "question": "What is the result of using a heat exchanger rating to calculate its steam consumption?",
+        "choices": ["The true connected heat load may be different from the rated figure.", "The rating does not take account of the temperature of the secondary medium", "The rating is based on a steam pressure of 1.0 bar", "The rating does not allow for condensate forming in the heat exchanger"],
+        "answer": "The true connected heat load may be different from the rated figure."
+    },
+    {
+        "question": "A heat exchanger has a design rating based on a working pressure of 7 bar g. What would be the effect of supplying the exchanger with steam at 3 bar g?",
+        "choices": ["The heat output would be greater because the enthalpy of evaporation at 3 bar g is higher than at 7 bar g.", "The heat output would be greater because steam at 3 bar g has a greater volume than steam at 7 bar g.", "Less weight of steam would be required because steam at 3 bar g has a higher enthalpy of evaporation than 7 bar g.", "The output would be reduced because the difference in temperature between the steam and product is reduced."],
+        "answer": "The output would be reduced because the difference in temperature between the steam and product is reduced."
+    },
+    {
+        "question": "A standard 25-mm outside diameter steel tube (with wall thickness of 1.65 mm) is carrying 0.34 lps of oil. Determine the velocity of flow of oil inside the tube.",
+        "choices": ["191 fpm", "171 fpm", "181 fpm", "161 fpm"],
+        "answer": "181 fpm"
+    },
+    {
+        "question": "For any particular tank temperature how does the heat loss from the lid of a closed tank compare with that of bottom?",
+        "choices": ["They are approximately double those from the bottom", "Losses from the top are approximately double those from the bottom", "Losses from the bottom are approximately double those from the top", "Losses from the top are approximately 4 times those from the bottom"],
+        "answer": "Losses from the top are approximately double those from the bottom"
+    },
+    {
+        "question": "Helium is used in a Carnot engine where the volumes beginning with the constant temperature heat addition are V1 = 0.3565 m3, V2 = 0.5130 m3, V3 = 8.0 m3, and V4 = 5.57 m3. Determine the thermal efficiency if k = 1.666.",
+        "choices": ["83.95 %", "85.93 %", "89.35 %", "85.39 %"],
+        "answer": "83.95 %"
+    },
+    {
+        "question": "What is the disadvantage of heating a tank by direct steam injection?",
+        "choices": ["It agitates the solution", "Some of the enthalpy of water is used", "Steam traps are not required", "It dilutes the tank content"],
+        "answer": "It dilutes the tank content"
+    },
+    {
+        "question": "The existing 2000 TR chiller at a large hospital, where you are assigned as Engineer, must be replaced. Which of the following types most likely to be installed?",
+        "choices": ["Screw chiller", "Reciprocating chiller", "Scroll Chiller", "Centrifugal chiller"],
+        "answer": "Centrifugal chiller"
+    },
+    {
+        "question": "The temperature inside a furnace is 320 oC and temperature of the outside is – 10 oC. What is the temperature difference in oR.",
+        "choices": ["495", "594", "945", "596"],
+        "answer": "594"
+    },
+    {
+        "question": "Refrigeration condensers are rated based upon their ability to reject the total heat that comes from which of the following?",
+        "choices": ["Compressor work and net refrigeration effect", "Superheating", "Subcooling", "Compressor work"],
+        "answer": "Compressor work and net refrigeration effect"
+    },
+    {
+        "question": "The forced convective heat transfer coefficient for a hot fluid flowing over a cold surface is 225 W/m2.0C for a particular problem. The fluid temperature upstream of the cold surface is 120 0C, and the surface is held at 10 0C. Determine the heat transfer rate per unit surface from the fluid to the surface.",
+        "choices": ["24 570 W/m2", "52.470 W/m2", "24 700 W/m2", "24 750 W/m2"],
+        "answer": "24 750 W/m2"
+    },
+    {
+        "question": "A published „U‟ value from a steam coil to a water based solution is given as 550 – 1300 W/m2-oC. When would be figure near the lower end of the range be used?",
+        "choices": ["When the steam is known to be of good quality", "For short coils", "For small diameter coils", "When scaling or fouling of the coil takes place"],
+        "answer": "When scaling or fouling of the coil takes place"
+    },
+    {
+        "question": "Steam coils should enter and leave the top of a tank when:",
+        "choices": ["The tank contains a corrosive solution", "When agitation of the tank solution is required", "When steam locking the trap draining a base coil could occur", "When good heat distribution is required"],
+        "answer": "The tank contains a corrosive solution"
+    },
+    {
+        "question": "What range of „U‟ values would you apply for mild steel jacket around a stainless steel tank containing a water and detergent solution?",
+        "choices": ["285 – 480", "850 – 1700", "450 – 1140", "285 – 850"],
+        "answer": "450 – 1140"
+    },
+    {
+        "question": "A 5 m x 4 m x 4 m room has an air temperature of 32 oC (psat = 4.559 kPaa, hg = 2559.9 kJ/kg) and the pressure is 101 kPaa. The mass of water vapor in air is 2.5 kg with Rv = 0.45 kJ/kg-oK. What is the relative humidity of the air?",
+        "choices": ["94.08 %", "84.08 %", "74.08 %", "64.08 %"],
+        "answer": "94.08 %"
+    },
+    {
+        "question": "A tank is to be heated by direct steam injection. How will the quantity of heat required compare with steam coil heating?",
+        "choices": ["It depends on the temperature of the water being heated", "More heat will be required", "The same amount of heat will be required", "Less heat will be required"],
+        "answer": "The same amount of heat will be required"
+    },
+    {
+        "question": "If the velocity of discharge from a fire hose is 15 m/s and the hose is oriented 45o from the horizontal. Disregarding air friction, determine the maximum range of the discharge.",
+        "choices": ["14 m", "24 m", "33 m", "23 m"],
+        "answer": "23 m"
+    },
+    {
+        "question": "Which of the following parameters has the greatest limiting effect on the thermal performance of an open, evaporative cooling tower?",
+        "choices": ["Wet-Bulb temperature", "Range", "Dry-Bulb temperature", "Approach"],
+        "answer": "Wet-Bulb temperature"
+    },
+    {
+        "question": "A full cylindrical tank 12 m high has a constant diameter of 6 m. The tank has a 100 mm diameter hole in its bottom. The coefficient of discharge for the hole is 0.98. How long will it take for the water level to drop from 12 m to 6 m?",
+        "choices": ["16 minutes", "24 minutes", "20 minutes", "28 minutes"],
+        "answer": "24 minutes"
+    },
+    {
+        "question": "Air enters a cooling tower at 10 oC DB and 9.5 oC WB temperature. It leaves the tower saturated at 21 oC. Which condition is a likely outcome of this?",
+        "choices": ["Sublimation", "Condensation", "Adsorption", "Fog"],
+        "answer": "Fog"
+    },
+    {
+        "question": "A gaseous mixture of propane (C3H8), methane (CH4), and ethane (C2H6) have partial pressure 50 kPa, 95 kPa, and 115 kPa respectively. Determine the mass percentage of propane.",
+        "choices": ["30.68 %", "21.68 %", "28.68 %", "32.68 %"],
+        "answer": "30.68 %"
+    },
+    {
+        "question": "It is a space, or several rooms, or units of space having some sort of coincident loads or similar operating characteristics. It may or may not be an enclosed space, or it may consist of many partitioned rooms. How do you call this?",
+        "choices": ["Zone", "Space", "Room", "Plenum"],
+        "answer": "Zone"
+    },
+    {
+        "question": "A pump delivering 230 lps of water whose absolute viscosity is 0.0114 poise has a 300 mm diameter suction pipe and 254 mm diameter discharge pipe. Determine the friction factor in the suction line if the pipe material is a cast iron.",
+        "choices": ["0.02068", "0.2013", "0.0199", "0.0299"],
+        "answer": "0.0199"
+    },
+    {
+        "question": "In air conditioning, it indicates either a volume or a site without a partition or a partitioned room or group of rooms. How do you call this?",
+        "choices": ["Zone", "Space", "Room", "Plenum"],
+        "answer": "Space"
+    },
+    {
+        "question": "A boiler installed where the atmospheric pressure is 752 mm Hg has a pressure of 12 kg/cm2. Find the absolute pressure, in MPa.",
+        "choices": ["1277.05 kPaa", "1772.05 kPaa", "1727.05 kPaa", "1572.07 kPaa"],
+        "answer": "1277.05 kPaa"
+    },
+    {
+        "question": "It is an enclosed or partitioned space that is usually treated as a single load. If conditioned, it often has an individual control system. What is this?",
+        "choices": ["Zone", "Space", "Room", "Plenum"],
+        "answer": "Room"
+    },
+    {
+        "question": "Indicator test that shows that the area of card is 33 mm2, length of card is 50 mm. If spring scale is 1.72 MPa per mm, determine the MEP:",
+        "choices": ["1.781 Mpa", "1.135 Mpa", "33 Mpa", "50 Mpa"],
+        "answer": "1.135 Mpa"
+    },
+    {
+        "question": "Calculate the thermal efficiency of an air standard diesel cycle engine operating at a volumetric compression ratio of 23:1 with a cut-off ratio of 2.25.",
+        "choices": ["62.6%", "65.6%", "60.6%", "67.6%"],
+        "answer": "65.6%"
+    },
+    {
+        "question": "It represents the rate, in Btu/hr or W, at which heat enters a conditioned space from an external source or is released to the space from an internal source during a given time interval.",
+        "choices": ["Space heat gain", "Space cooling load", "Space heating load", "Space heat extraction rate"],
+        "answer": "Space heat gain"
+    },
+    {
+        "question": "It is the rate, in Btu/hr or W, at which heat must be removed from a conditioned space so as to maintain a constant temperature and acceptable relative humidity. Its sensible load component is equal to the sum of the convective heat transfer from the surfaces of the building envelope, furnishings, occupants, appliances, and equipment. How do you call this?",
+        "choices": ["Space heat gain", "Space cooling load", "Space heating load", "Space heat extraction rate"],
+        "answer": "Space cooling load"
+    },
+    {
+        "question": "An Engineer claims to have created a heat engine that produces 15 kW of power for a 20 kW input while operating between energy reservoirs at 37 oC and 400 oC. Is the Engineer‟s claim valid?",
+        "choices": ["Valid", "Probably", "Not valid", "May be valid"],
+        "answer": "Not valid"
+    },
+    {
+        "question": "There are 20 kg of exhaust gas formed per kg of fuel oil burned in the combustion of diesoline C16H32. What is the excess air percent?",
+        "choices": ["30.1 %", "21.5 %", "29.16 %", "30.6 %"],
+        "answer": "29.16 %"
+    },
+    {
+        "question": "A process that the body uses to convert energy in food into heat and work, or it is the process that determines the rate at which energy is converted from chemical to thermal form within the body.",
+        "choices": ["Metabolism", "Body food processing", "Eating", "Blood circulation"],
+        "answer": "Metabolism"
+    },
+    {
+        "question": "A Diesel power plant uses fuel with heating value of 45 038.8 kJ/kg. What is the density of fuel at 30 oC?",
+        "choices": ["0.7882 kg/li", "0.9887 kg/li", "0.8782 kg/li", "0.8878 kg/li"],
+        "answer": "0.8782 kg/li"
+    },
+    {
+        "question": "What is a body insulation that is usually described as a single equivalent uniform layer over the whole body?",
+        "choices": ["Skin", "Clothing", "Blood", "Water"],
+        "answer": "Clothing"
+    },
+    {
+        "question": "What is the insulating value of clothing?",
+        "choices": ["Btu unit", "Calorie unit", "Clo units", "Frigorie Unit"],
+        "answer": "Clo units"
+    },
+    {
+        "question": "Which of the following is the value of clo units?",
+        "choices": ["Btu Hr ft F 880 . 0 clo 1 2 o   ", "kW m F 100 clo 1 2 o  ", "W m F 275 . 0 clo 1 2 o  ", "kW m F 190 clo 1 2 o  "],
+        "answer": "Btu Hr ft F 880 . 0 clo 1 2 o   "
+    },
+    {
+        "question": "Determine the friction power of an engine if the frictional torque developed is 0.30 kN-m running 1200 rpm.",
+        "choices": ["47.7 kW", "43.3 kw", "37.7 kW", "33.3 kW"],
+        "answer": "37.7 kW"
+    },
+    {
+        "question": "A 500 kW Diesel engine operates at 101.3 kPaa and 27 oC in Calamba City. If the engine will operates in Baguio City having 93 kPaa and 23 oC, what new brake power will be developed if mechanical efficiency is 85 %.",
+        "choices": ["455.96 kW", "954.1 kW", "549.10 kW", "495.1 kW"],
+        "answer": "455.96 kW"
+    },
+    {
+        "question": "What is the basic index used to describe the radiant conditions in a space, it is the mean temperature of individual; exposed surfaces in the environment?",
+        "choices": ["Index temperature", "Mean radiant temperature", "Space temperature", "Dry bulb temperature"],
+        "answer": "Mean radiant temperature"
+    },
+    {
+        "question": "Fish weighing 11 000 kg with a temperature of 20 oC is brought to a cold storage and which shall be cooled to – 10 oC in 11 hours. Find the required plant refrigerating capacity in TR if the specific heat of fish is 0.7 kCal/kg-oC above freezing and 0.30 kCal/kg-oC below freezing point that is – 3 oC. The latent heat of freezing is 55.5 kCal/kg.",
+        "choices": ["25.26", "15.26", "14.38", "24.38"],
+        "answer": "24.38"
+    },
+    {
+        "question": "In order to avoid cavitation in a centrifugal pump, which of the following is true?",
+        "choices": ["Installation NPSH ≥ pump NPSH", "Installation NPSH ≤ pump NPSH", "Installation NPSH < pump NPSH", "Installation NPSH should be negative"],
+        "answer": "Installation NPSH ≥ pump NPSH"
+    },
+    {
+        "question": "A refrigeration system operates on the reversed Carnot cycle. The minimum and maximum temperatures are – 25 C and 72 C, respectively. If the heat rejected at the condenser is 6000 kJ/min, find the tons of refrigeration required.",
+        "choices": ["20.44 TR", "42.20 TR", "24.40 TR", "44.20 TR"],
+        "answer": "20.44 TR"
+    },
+    {
+        "question": "What always accompanies an isentropic expansion of steam?",
+        "choices": ["An increase in entropy", "An increase in enthalpy", "A decrease in entropy", "A decrease in enthalpy"],
+        "answer": "A decrease in enthalpy"
+    },
+    {
+        "question": "Those substance that are particularly variable in the moisture content that they can possess at different times.",
+        "choices": ["Wet materials", "Gross materials", "Hygroscopic materials", "Bone-dry-weight material"],
+        "answer": "Hygroscopic materials"
+    },
+    {
+        "question": "The hygroscopic moisture content of a substance expressed as a percentage of the bone-dry-weight of the material.",
+        "choices": ["Moisture content", "Bone-dry-weight", "Regain", "Gross weight"],
+        "answer": "Regain"
+    },
+    {
+        "question": "What is the advantage of a pressurized deaerator over an atmospheric deaerator?",
+        "choices": ["A boiler feed tank is no longer required", "Less over all energy will be required to produce the steam", "It can be fitted at ground level", "It removes more oxygen"],
+        "answer": "It removes more oxygen"
+    },
+    {
+        "question": "In proximate analysis, the coal analysis is consisting of moisture content, fixed carbon, ash, and which of the following?",
+        "choices": ["Sulfur", "Nitrogen", "Hydrogen", "Volatile matter"],
+        "answer": "Volatile matter"
+    },
+    {
+        "question": "How do you call the heating value of the fuel if the water in the products of combustion is in the liquid state?",
+        "choices": ["Higher heating value", "Proximate heating value", "Lower heating value", "Gravimetric heating value"],
+        "answer": "Higher heating value"
+    },
+    {
+        "question": "What is the rate, in Btu/h or W, at which heat must be added to the conditioned space to maintain a constant temperature and sometimes a specified relative humidity?",
+        "choices": ["Space heat gain", "Space cooling load", "Space heating load", "Space heat extraction rate"],
+        "answer": "Space heating load"
+    },
+    {
+        "question": "Space heat extraction rate Qex, Btu /h (W), is the rate at which heat is actually removed from the conditioned space by the air system. Its sensible heat rate component is equal to the sensible cooling load only when the space air temperature remains constant.",
+        "choices": ["Space heat gain", "Space cooling load", "Space heating load", "Space heat extraction rate"],
+        "answer": "Space heat extraction rate"
+    },
+    {
+        "question": "It is the rate, in Btu/h or W, of heat transfer at the coil. Its cooling load component is the rate at which heat is removed by the chilled water flowing through the coil or is absorbed by the refrigerant inside the coil. What do you call this?",
+        "choices": ["Coil load", "Refrigerating load", "Heating coil load", "Cooling load"],
+        "answer": "Coil load"
+    },
+    {
+        "question": "It is the rate, in Btu/hr or W, at which heat is added to the conditioned air from the hot water, steam, or electric heating elements inside the coil.",
+        "choices": ["Coil load", "Refrigerating load", "Heating coil load", "Cooling load"],
+        "answer": "Heating coil load"
+    },
+    {
+        "question": "What is the rate, in Btu/hr or W, at which heat is absorbed by the refrigerant at the evaporator. For central hydronic systems, it is the sum of the coil load plus the chilled water piping heat gain, pump power heat gain, and storage tank heat gain. For most water systems in commercial buildings, the water piping and pump power heat gain is only about 5 to 10 percent of the coil load. In an air conditioning system using DX coil(s), it is equal to the DX coil load.",
+        "choices": ["Coil load", "Refrigerating load", "Heating coil load", "Cooling load"],
+        "answer": "Refrigerating load"
+    },
+    {
+        "question": "It is a humidity sensor used to measure relative humidity, dew point, or absolute humidity of ambient or moving air. This device could be mechanical or electronic. How do you call this?",
+        "choices": ["Hydrometer", "Psychrometer", "Hygrometer", "Barometer"],
+        "answer": "Hygrometer"
+    },
+    {
+        "question": "It is a device designed to control the flow of steam, water, gas, or other fluids. It can be considered a variable orifice positioned by an actuator in response to impulses or signals from the controller. It may be equipped with either a throttling plug, V-port, or rotating ball specially designed to provide a desired flow characteristic. How do you call this device.",
+        "choices": ["Automatic Valve", "Thermostat", "Automatic flow meter", "Pyrometer"],
+        "answer": "Automatic Valve"
+    },
+    {
+        "question": "Assume that you are checking the water level in a boiler which is on the line in a power plant. Upon opening the gage cocks, you determine that the water level was above the top gage cock. Of the following actions, the best one to take first in this situation would be to:",
+        "choices": ["Shut-off the fuel and air supply", "Surface-blow the boiler", "Close the steam outlet valve from the boiler", "Increase the speed of the feed water"],
+        "answer": "Close the steam outlet valve from the boiler"
+    },
+    {
+        "question": "It is a component in a hydro plant that absorbs water hammer during load fluctuations and serves as an auxiliary reservoir during high load demands. What is this component?",
+        "choices": ["Spillway", "Surge tank", "Dam", "penstock"],
+        "answer": "Surge tank"
+    },
+    {
+        "question": "It is a bituminous coal that contains plenty of hydrocarbons, forming lumped masses when burned. This coal is ideal for forming carbonaceous gases for reduction of ore. What do you call this coal?",
+        "choices": ["Coking or coking coal", "Peat coal", "Free burning coal", "Lignite"],
+        "answer": "Coking or coking coal"
+    },
+    {
+        "question": "It is the temperature at which the oil vapors will continue to burn when ignited.",
+        "choices": ["Fire point", "Ignition temperature", "Flash point", "Creep temperature"],
+        "answer": "Fire point"
+    },
+    {
+        "question": "It is the temperature to which oil has to be heated until sufficient flammable vapor is driven off to flash when brought into momentary contact with a flame. How do you call this temperature?",
+        "choices": ["Fire point", "Ignition temperature", "Flash point", "Creep temperature"],
+        "answer": "Flash point"
+    },
+    {
+        "question": "The color of a lubricating oil is obtained by reference to transmitted light; the color by reflected light is referred to as:",
+        "choices": ["Bloom", "Deflection", "Reflection", "Residue"],
+        "answer": "Bloom"
+    },
+    {
+        "question": "How do you call the material left after heating an oil under specified conditions at high temperature, and is useful as a quality control tool in the refining of viscous oils, particularly residual oils?",
+        "choices": ["Ash", "Carbon residue", "Color", "Coke"],
+        "answer": "Carbon residue"
+    },
+    {
+        "question": "Petroleum oils, when cooled, may become plastic solids, either from wax formation or from the fluid congealing. With some oils, the initial wax crystal formation becomes visible at temperatures slightly above the solidification point. When that temperature is reached at specific test conditions, it is known as the",
+        "choices": ["Cloud point", "Creep point", "Pour point", "Flash point"],
+        "answer": "Cloud point"
+    },
+    {
+        "question": "It is the temperature at which cooled oil will just flow under specific test conditions; and it indicates the lowest temperature at which a lubricant can readily flow from its container. How do you call this temperature?",
+        "choices": ["Cloud point", "Creep point", "Pour point", "Flash point"],
+        "answer": "Pour point"
+    },
+    {
+        "question": "It is a term indicating the measure of acidic components in oils; and was original intent to indicate the degree of refining in new oils, and to follow the development of oxidation in service, with its effects on deposit formation and corrosion. What is this?",
+        "choices": ["Neutralization number", "Total base number", "Total acid number", "Neutralization number and total acid number"],
+        "answer": "Neutralization number and total acid number"
+    },
+    {
+        "question": "How do you call a measure of alkaline components in oils, especially those additives used in engine oils to neutralize acids formed during fuel combustion?",
+        "choices": ["Neutralization number", "Total base number", "Total acid number", "Neutralization number and total acid number"],
+        "answer": "Total base number"
+    },
+    {
+        "question": "These are materials with low coefficients of friction compared to metals, and they are used to reduce friction and wear in a variety of applications. There are a large number of such materials, and they include graphite, molybdenum disulfide, polytetrafluoroethylene, talc, graphite fluoride, polymers, and certain metal salts. How do you call these materials?",
+        "choices": ["Greases", "Liquid lubricants", "Solid lubricants", "Powder lubricants"],
+        "answer": "Solid lubricants"
+    },
+    {
+        "question": "These are engine oil additives used to help keep the engine clean by solubilizing and dispersing sludge, soot, and deposit precursors. How do you call these oil additives?",
+        "choices": ["Detergents", "Oxidation inhibitors", "Dispersants", "Corrosion inhibitors"],
+        "answer": "Dispersants"
+    },
+    {
+        "question": "How do you call these engine oil additives used to prevent attack on sensitive bearing metals?",
+        "choices": ["Detergents", "Oxidation inhibitors", "Dispersants", "Corrosion inhibitors"],
+        "answer": "Corrosion inhibitors"
+    },
+    {
+        "question": "These are engine oil additives used to prevent or reduce deposits and corrosion by neutralizing combustion by-product acids. What are these additives?",
+        "choices": ["Detergents", "Oxidation inhibitors", "Dispersants", "Corrosion inhibitors"],
+        "answer": "Detergents"
+    },
+    {
+        "question": "What is the molecular attraction of layers of an unlike matters?",
+        "choices": ["Adhesion", "Advection", "Cohesion", "Convection"],
+        "answer": "Adhesion"
+    },
+    {
+        "question": "How do you call these engine oil additives used to prevent attack on iron and steel surfaces by condensed moisture and acidic corrosion products, aggravated by low-temperature stop-and-go operation?",
+        "choices": ["Detergents", "Oxidation inhibitors", "Dispersants", "Rust inhibitors"],
+        "answer": "Rust inhibitors"
+    },
+    {
+        "question": "How do you call these engine oil additives used to help enable adequate low-temperature flow, along with sufficient viscosity at high temperatures?",
+        "choices": ["Viscosity-index improvers", "Pour point dispersants", "Oxidation inhibitors", "Rust inhibitors"],
+        "answer": "Viscosity-index improvers"
+    },
+    {
+        "question": "These oil additives are used to minimize wear under boundary lubrication conditions, such as cam and lifter, and cylinder-wall and piston-ring surfaces.",
+        "choices": ["Anti-wear additives", "Pour point dispersants", "Oxidation inhibitors", "Rust inhibitors"],
+        "answer": "Anti-wear additives"
+    },
+    {
+        "question": "These are engine oil additives used to allow air to break away easily from the oil.",
+        "choices": ["Anti-wear additives", "Defoamants", "Oxidation inhibitors", "Rust inhibitors"],
+        "answer": "Defoamants"
+    },
+    {
+        "question": "These engine oil additives are used to improve fuel efficiency by reducing friction at rubbing surfaces. How do you call these oil additives?",
+        "choices": ["Anti-wear additives", "Oxidation inhibitors", "Friction modifiers", "Rust inhibitors"],
+        "answer": "Friction modifiers"
+    },
+    {
+        "question": "How do you call an opening where hot source of energy from the earth is harnessed?",
+        "choices": ["Crater", "Fumarole", "Hot water source", "Volcano opening"],
+        "answer": "Fumarole"
+    },
+    {
+        "question": "At standard atmospheric conditions, what is the approximate speed of sound?",
+        "choices": ["336 m/s", "633 m/s", "363 m/s", "346 m/s"],
+        "answer": "336 m/s"
+    },
+    {
+        "question": "The speed of sound is also called as:",
+        "choices": ["Sound velocity", "Subsonic velocity", "Acoustic velocity", "Critical velocity"],
+        "answer": "Acoustic velocity"
+    },
+    {
+        "question": "This is the velocity at which a small pressure wave moves through a fluid. How do you call this velocity?",
+        "choices": ["Sonic velocity", "Supersonic velocity", "Subsonic velocity", "Hypersonic velocity"],
+        "answer": "Sonic velocity"
+    },
+    {
+        "question": "Which of the following is the speed of light?",
+        "choices": ["2.998 x 108 m/s", "2.998 x 1010 m/s", "2.998 x 109", "2.998 x 107 m/s"],
+        "answer": "2.998 x 108 m/s"
+    },
+    {
+        "question": "What can you say about entropy in the universe?",
+        "choices": ["Entropy is always increasing", "Entropy is decreasing", "Entropy will zero at the end of time", "Entropy is stagnating"],
+        "answer": "Entropy is always increasing"
+    },
+    {
+        "question": "Which of the following is the chemical formula of butane?",
+        "choices": ["C2H5", "C4H10", "C10H16", "C3H6"],
+        "answer": "C4H10"
+    },
+    {
+        "question": "If the sensible heat ratio is 0.75, what does it mean?",
+        "choices": ["75 % latent heat and 25 % sensible heat", "75 % sensible heat and 25 % latent heat", "25 % latent and sensible heat and 75 % latent heat", "75 % sensible and latent heat and 25 % sensible heat"],
+        "answer": "75 % sensible heat and 25 % latent heat"
+    },
+    {
+        "question": "The hardness of ground water required as feed water for a boiler is 0 – 10 ppm (part per million), which of the following is the range of alkalinity requirement?",
+        "choices": ["pH 9 to pH 10", "pH 10 to pH 11", "pH 6 to pH 10", "pH 8 to pH 10"],
+        "answer": "pH 10 to pH 11"
+    },
+    {
+        "question": "As used in the Revised PSME Code for Boilers and Pressure Vessels, it is any boiler which does not exceed any of the following limits: 405 mm inside diameter, 1065 mm overall length of outside to outside heats at center, 1.85 m2 of water heating surface, and 7.03 kg/cm2 maximum allowable working pressure. What is this boiler?",
+        "choices": ["Power boiler", "Miniature boiler", "Portable boiler", "Locomotive boiler"],
+        "answer": "Miniature boiler"
+    },
+    {
+        "question": "It is a closed vessel in which steam or other vapor (to be used externally to itself) is generated by the direct application of heat used for power generation. How do you call this boiler?",
+        "choices": ["Power boiler", "Oil-fired boiler", "Portable boiler", "Miniature boiler"],
+        "answer": "Power boiler"
+    },
+    {
+        "question": "It is a closed vessel intended for use in heating water of for application of heat to generate steam or other vapor to be used externally from it. What do you call this pressure vessel?",
+        "choices": ["Boiler or steam generator", "Unfired pressure vessel", "Fired pressure vessel", "Pressurized tank"],
+        "answer": "Boiler or steam generator"
+    },
+    {
+        "question": "What do you call a vessel in which pressure is obtained from external sources, or from an indirect application of heat?",
+        "choices": ["Boiler or steam generator", "Unfired pressure vessel", "Fired pressure vessel", "Pressurized tank"],
+        "answer": "Unfired pressure vessel"
+    },
+    {
+        "question": "It is any boiler or unfired pressure vessel constructed, installed, placed in operation but subject to annual inspection. What do you call this?",
+        "choices": ["Miniature boiler", "New boiler", "Existing installation", "Portable boiler"],
+        "answer": "Existing installation"
+    },
+    {
+        "question": "It is a boiler that has been inspected and declared unsafe to operate or disqualified, marked and marked indicating its rejection. How do you call this boiler?",
+        "choices": ["Second hand boiler", "Condemned boiler", "Reinstalled boiler", "Unfired boiler"],
+        "answer": "Condemned boiler"
+    },
+    {
+        "question": "When new boilers are installed in either existing or new buildings, a minimum height of at least ______ shall be provided between top of the boiler proper and ceiling.",
+        "choices": ["1050 mm", "1250 mm", "2130 mm", "2050 mm"],
+        "answer": "2130 mm"
+    },
+    {
+        "question": "For power boilers, when the tensile strength of steel is not known, it shall be taken as 379 MPa and which of the following for the wrought iron?",
+        "choices": ["379 N/mm2", "450 MPa", "310 MPa", "521 N/mm2"],
+        "answer": "310 MPa"
+    },
+    {
+        "question": "Name one characteristic feature of mechanical steam traps.",
+        "choices": ["They pass condensate at steam temperature", "They operate by sensing condensate temperature", "They can be fitted into any position", "They are not affected by increasing back pressure"],
+        "answer": "They operate by sensing condensate temperature"
+    },
+    {
+        "question": "In a mechanical steam trap, why is a float trap better at venting air than an inverted bucket trap?",
+        "choices": ["A float can quickly adjust to the presence of air", "A float is fitted with an automatic air vent", "A float trap does not vent air better than bucket trap", "The air vent orifice is adjustable on a float trap"],
+        "answer": "A float is fitted with an automatic air vent"
+    },
+    {
+        "question": "In a mechanical steam trap, what added benefit does the automatic air vent offer to a float trap?",
+        "choices": ["It stops the trap from freezing in cold weather", "The trap can be use on larger backpressures", "It significantly increases the cold start-up capacity of the trap", "The condensate orifice can be the same size for all pressure gauges"],
+        "answer": "It significantly increases the cold start-up capacity of the trap"
+    },
+    {
+        "question": "In a mechanical steam trap, what advantage does a bucket trap have over a float type?",
+        "choices": ["It is able to withstand waterhammer", "It can be used on higher pressure", "It can discharge air freely", "It cannot lose its water seal"],
+        "answer": "It can be used on higher pressure"
+    },
+    {
+        "question": "A heat exchanger is designed to operate without waterlogging of the steam space. What is the usual choice of trap for its drainage?",
+        "choices": ["Thermostatic trap", "Inverted bucket trap", "Thermodynamic trap", "Float trap with thermostatic air vent"],
+        "answer": "Float trap with thermostatic air vent"
+    },
+    {
+        "question": "Which is the best trap to use when steam locking can occur?",
+        "choices": ["An inverted bucket trap with an internal check valve mechanism", "A balanced pressure steam trap", "A float trap with automatic air vent", "A float trap with steam lock release mechanism"],
+        "answer": "A balanced pressure steam trap"
+    },
+    {
+        "question": "What is a common cause of waterhammer in drying coils?",
+        "choices": ["Wet steam supplied to the coil", "Too low a steam pressure onto the coil", "Condensate has to lift after the steam trap", "The coil falling in the direction of steam flow"],
+        "answer": "Condensate has to lift after the steam trap"
+    },
+    {
+        "question": "Which of the following statements is true?",
+        "choices": ["Bimetallic steam traps are an ideal choice for rotating cylinders", "Rotating cylinders can not suffer from steam locking", "Strainers cannot be fitted to float traps which have a steam lock release", "Air vents around the thermodynamic and inverted bucket traps can considerably improve start-up times"],
+        "answer": "Air vents around the thermodynamic and inverted bucket traps can considerably improve start-up times"
+    },
+    {
+        "question": "Name the principle cause of waterhammer?",
+        "choices": ["Water particles suspended in steam", "Water allowed to build up in pipes", "Water droplets carried along the insides of pipes", "Wet steam passing through steam traps"],
+        "answer": "Water allowed to build up in pipes"
+    },
+    {
+        "question": "What effect does steam locking have on rotating machinery?",
+        "choices": ["None at all", "It reduces the drying rate of drying cylinders", "It increases the drying rate of drying cylinders", "It causes the steam trap to air bind"],
+        "answer": "It reduces the drying rate of drying cylinders"
+    },
+    {
+        "question": "What do you call a boiler of which both the location and ownership have been changed after primary use?",
+        "choices": ["Second hand boiler", "Miniature boiler", "Surplus boiler", "Reinstalled boiler"],
+        "answer": "Second hand boiler"
+    },
+    {
+        "question": "It is a boiler removed from its original setting and re-erected at the same location or erected at a location without change of ownership. How do you call this boiler?",
+        "choices": ["Second hand boiler", "Miniature boiler", "Surplus boiler", "Reinstalled boiler"],
+        "answer": "Reinstalled boiler"
+    },
+    {
+        "question": "Each miniature boiler shall be equipped with which of the following for the determination of water level?",
+        "choices": ["Safety valve", "Water gage glass", "Fusible plug", "Pressure gages"],
+        "answer": "Water gage glass"
+    },
+    {
+        "question": "The maximum allowable working pressure of a non-code steel or wrought iron heating boiler of welded construction shall not exceed to which of the following pressures?",
+        "choices": ["1 atmosphere", "100 kPa", "1 Bar", "2 gage pressure"],
+        "answer": "1 Bar"
+    },
+    {
+        "question": "What do you call a refrigeration system in which the refrigerant gas evolved in the evaporator is taken up in an absorber and released in a generator upon the application of heat?",
+        "choices": ["Absorption refrigeration system", "Cascade refrigeration system", "Flooded refrigeration system", "Steam jet refrigeration system"],
+        "answer": "Absorption refrigeration system"
+    },
+    {
+        "question": "What do you call a shut-off valve other than a valve for controlling the flow of refrigerant in a refrigeration system?",
+        "choices": ["Fusible valve", "Check valve", "Stop valve", "Relief valve"],
+        "answer": "Stop valve"
+    },
+    {
+        "question": "What is a device, used in refrigeration system, having a predetermined temperature fusible member for the relief of pressures?",
+        "choices": ["Fusible valve", "Check valve", "Stop valve", "Relief valve"],
+        "answer": "Fusible valve"
+    },
+    {
+        "question": "It is a measure of the lack of potential or quality of energy; and once that energy has been exchanged or converted, it cannot revert back to a higher level. What is this?",
+        "choices": ["Specific heat", "Internal energy", "Entropy", "Molecular energy"],
+        "answer": "Entropy"
+    },
+    {
+        "question": "What do you call the method used to evaluate all welds performed on pressure parts of boiler tube materials?",
+        "choices": ["Radiographic test", "Vacuum test", "Hydrostatic test", "Orsat analysis"],
+        "answer": "Radiographic test"
+    },
+    {
+        "question": "It is a boiler testing method thatなどはused to verify the microstructure of the boiler tubes using optical microscopes. How do you call this method?",
+        "choices": ["Tube sampling", "Radiographic testing", "Metallurgic replication", "Optical testing"],
+        "answer": "Metallurgic replication"
+    },
+    {
+        "question": "Which of the following is true regarding the relation of rk and re for spark-ignition engine, where rk = compression ratio while re = expansion ratio?",
+        "choices": ["rk > re", "rk < re", "rk = re", "re is not considered in the spark-ignition engine"],
+        "answer": "rk = re"
+    },
+    {
+        "question": "It is the generic term given to a family of solid fuels with high carbon content. How do you call this?",
+        "choices": ["Solid fuel", "Anthracite", "Coal", "Bituminous"],
+        "answer": "Coal"
+    },
+    {
+        "question": "It is a boiler fuel created from the residue produced from crude petroleum after it has been distilled to produce lighter oils like gasoline, paraffin, kerosene, diesel or gas oil. What is this fuel?",
+        "choices": ["Oil", "Coke", "Kerosene", "Peat"],
+        "answer": "Oil"
+    },
+    {
+        "question": "What do you call a form of boiler fuel that is easy to burn, with very little excess air?",
+        "choices": ["Coal", "Gas", "Oil", "Bunker"],
+        "answer": "Gas"
+    },
+    {
+        "question": "The second law of thermodynamics says that whenever energy is exchanged or converted from one form to another, the potential for energy to do work will be _________.",
+        "choices": ["Decreased", "Zero", "Increased", "Stagnant"],
+        "answer": "Decreased"
+    },
+    {
+        "question": "What is true about steam as it condenses?",
+        "choices": ["It does so at constant entropy and temperature", "It does so at constant enthalpy and reducing temperature", "Both enthalpy and entropy reduce and temperature remains constant", "Both enthalpy and entropy increase"],
+        "answer": "Both enthalpy and entropy reduce and temperature remains constant"
+    },
+    {
+        "question": "It is an increase in fluid pressure in a long pipe caused by a sudden velocity decrease, where the sudden decrease in velocity is caused by a valve closing.",
+        "choices": ["Aero dynamics", "Terminal velocity", "Water hammer", "Drag"],
+        "answer": "Water hammer"
+    },
+    {
+        "question": "It is an upward force that is exerted on an object (like flat plate, airfoil, rotating cylinder, etc.) as the object passes through a fluid. What do you call this?",
+        "choices": ["Drag", "Aero horsepower", "Lift", "Terminal velocity"],
+        "answer": "Lift"
+    },
+    {
+        "question": "What is a frictional force that acts parallel but opposite to the direction of motion of fluid?",
+        "choices": ["Drag", "Aero horsepower", "Lift", "Terminal velocity"],
+        "answer": "Drag"
+    },
+    {
+        "question": "It is a term used by automobile manufacturers to designate the power required to move a car horizontally at 50 mi/hr against the drag force. What is this?",
+        "choices": ["Mechanical horsepower", "Fuel power", "Aero horsepower", "Fluid power"],
+        "answer": "Aero horsepower"
+    },
+    {
+        "question": "A manufacturer claims that it has a COP of 2.0 when cooling a food at 5 oC using ambient air at 30 oC as a heat sink. Is the claim of the manufacturer valid?",
+        "choices": ["Yes", "No", "Probably", "It needs experimental verification"],
+        "answer": "Yes"
+    },
+    {
+        "question": "What can you say about the velocity of fluid at the center of the pipe section?",
+        "choices": ["Maximum", "Minimum", "Average", "Zero"],
+        "answer": "Maximum"
+    },
+    {
+        "question": "Continuity equation is applicable to which of the following?",
+        "choices": ["Viscous and unviscous fluids", "Compressibility fluids", "Conservation of mass", "Steady and unsteady flows"],
+        "answer": "Conservation of mass"
+    },
+    {
+        "question": "Hygrometer is an instrument used to determine of which of the following?",
+        "choices": ["Specific gravity of fluids", "Specific gravity of gases", "Specific gravity of liquids", "Specific gravity of solids"],
+        "answer": "Specific gravity of fluids"
+    },
+    {
+        "question": "At critical point of a pure substance, what is the value of latent heat?",
+        "choices": ["Maximum", "Zero", "Minimum", "Below zero"],
+        "answer": "Zero"
+    },
+    {
+        "question": "Which of the following is a function of a steam nozzle?",
+        "choices": ["Converts kinetic energy into heat energy", "Changes internal energy into kinetic energy", "Converts potential energy into heat energy", "Changes enthalpic energy into kinetic energy"],
+        "answer": "Changes enthalpic energy into kinetic energy"
+    },
+    {
+        "question": "Generally steam turbines in power station operate at which of the following speeds?",
+        "choices": ["3000 rpm", "4000 rpm", "1000 rpm", "500 rpm"],
+        "answer": "4000 rpm"
+    },
+    {
+        "question": "Tidal power is the power generated from which of the following?",
+        "choices": ["Waves of the ocean", "Thermal energy of ocean water", "Raw sea water", "Rise and fall of tides"],
+        "answer": "Rise and fall of tides"
+    },
+    {
+        "question": "Which of the following is an expression or equivalent of horsepower per ton of refrigeration?",
+        "choices": ["COP 715 . 4", "COP x 4.715", "715 . 4 COP", "COP x 715 . 4 1"],
+        "answer": "COP 715 . 4"
+    },
+    {
+        "question": "It is the ratio of the amount of heat taken up by a substance to the temperature at which the substance exists. How do you call this?",
+        "choices": ["Internal energy", "Enthalpy", "Flow energy", "Entropy"],
+        "answer": "Entropy"
+    },
+    {
+        "question": "Which of the following is a type of water turbine where a jet of water is made to fall on the blades or buckets and due to the impulse of water the turbine starts moving?",
+        "choices": ["Reaction turbine", "Francis turbine", "Steam turbine", "Pelton wheel"],
+        "answer": "Pelton wheel"
+    },
+    {
+        "question": "What do you call a fan in which the fluid is accelerated parallel to the fan axis?",
+        "choices": ["Axial centrifugal fan", "Mixed flow centrifugal fan", "Radial centrifugal fan", "Francis type fan"],
+        "answer": "Axial centrifugal fan"
+    },
+    {
+        "question": "It represents the loss due to mechanical friction of the moving parts of the engine, and expressed as horsepower. How do you call this?",
+        "choices": ["Indicated Hp", "Combined Hp", "Brake Hp", "Friction Hp"],
+        "answer": "Friction Hp"
+    },
+    {
+        "question": "How do you call a device or engine which continually and indefinitely discharged more energy than it receives?",
+        "choices": ["Carnot engine", "Stirling engine", "Generating machine", "Perpetual motion machine"],
+        "answer": "Perpetual motion machine"
+    },
+    {
+        "question": "In plotting the bHp versus speed in a wide open throttle test for a spark ignition engine, the bHp curve:",
+        "choices": ["is a Straight line", "tends to concave downward", "has no characteristic shape", "tends to concave upward"],
+        "answer": "tends to concave downward"
+    },
+    {
+        "question": "Upon entering the boiler room, you find the water out of the glass, the safety valve blowing off strong, and a fire under the boiler. Your first action would be to:",
+        "choices": ["Remove the fire with draft and damper open", "Cool the boiler down completely", "Prevent priming by not raising the safety valve or making change in operating of engines or boiler", "Cool the boiler down completely and prevent priming by not raising the safety valve"],
+        "answer": "Remove the fire with draft and damper open"
+    },
+    {
+        "question": "The A.S.M.E. Boiler code for boiler shells requires a tensile strength of which of the following, in psi?",
+        "choices": ["10000 to 20000", "55000 to 63000", "25000 to 45000", "70000 to 85000"],
+        "answer": "55000 to 63000"
+    },
+    {
+        "question": "The best time to blow a boiler down is:",
+        "choices": ["Once a day when the load is lightest", "Once a day under full load", "When the chemical concentration is greatest", "Once a shift"],
+        "answer": "When the chemical concentration is greatest"
+    },
+    {
+        "question": "In performing a hydrostatic test on an existing power boiler, the required test pressure must be controlled so that it is not exceeded by more than:",
+        "choices": ["2%", "6%", "4%", "8%"],
+        "answer": "2%"
+    },
+    {
+        "question": "The first step to take in planning a preventive maintenance program is to:",
+        "choices": ["Replace all electric wiring", "Make an equipment inventory", "Replace all pump seals", "Repair all equipment which is not in operation"],
+        "answer": "Make an equipment inventory"
+    },
+    {
+        "question": "Which of the following is the most important consideration in a fire prevention program?",
+        "choices": ["Train the staff to place flammable in fireproof containers", "Know how to attack fires regardless of size", "See that halls, corridors, and exits are not blocked", "Detect and eliminate every possible fire hazard"],
+        "answer": "Detect and eliminate every possible fire hazard"
+    },
+    {
+        "question": "Which of the following types of portable fire extinguisher is recommended as most effective for putting out oil fires?",
+        "choices": ["Pump tank type", "Cartridge actuated type", "Soda acid type", "Foam type"],
+        "answer": "Foam type"
+    },
+    {
+        "question": "Which of the following are the four stages of the warning system designated by the high air pollution alert warning system?",
+        "choices": ["Initial, chronic, acute, penetrating", "Forecast, alert, warning, emergency", "Light, medium, heavy, extra heavy", "Early, moderate, severe, toxic"],
+        "answer": "Forecast, alert, warning, emergency"
+    },
+    {
+        "question": "The chemical most commonly used to speed sedimentation of sewage is known as:",
+        "choices": ["Lime", "Sulfuric acid", "Copper sulfate", "Methylene blue"],
+        "answer": "Lime"
+    },
+    {
+        "question": "Most of the bacteria in sewage are:",
+        "choices": ["Saprophytic", "Parasitic", "Dangerous", "Pathogenic"],
+        "answer": "Saprophytic"
+    },
+    {
+        "question": "One of the two types of non-material nuclear radiation is:",
+        "choices": ["Gamma radiation", "Walton radiation", "Transmutation radiation", "Betatron radiation"],
+        "answer": "Gamma radiation"
+    },
+    {
+        "question": "Which of the following is not a qualification for an applicant for ME board examination:",
+        "choices": ["A certified plant mechanic", "At least 18 years old", "A holder of BSME degree", "A citizen of the Philippines"],
+        "answer": "A certified plant mechanic"
+    },
+    {
+        "question": "A thermo hydraulic feed water regulator is used to regulate the flow of water to a drum type boiler. The amount of water input to the boiler is controlled in proportion to the:",
+        "choices": ["Boiler load", "Setting of the feed pump relief valve", "Amount of water in the outer tube that flashes into steam", "Water level in the drum"],
+        "answer": "Water level in the drum"
+    },
+    {
+        "question": "The standard capacity rating conditions for any refrigeration compressor is:",
+        "choices": ["5oF, 19.6 psig for the suction 86oF, 154.5 psig for the discharge", "5oF, 9.6 psig for the suction 96oF, 154.5 psig for the discharge", "10oF, 9.6 psig for the suction 96oF, 144.5 psig for the discharge", "5oF, 19.6 psig for the suction 96oF, 134.5 psig for the discharge"],
+        "answer": "5oF, 19.6 psig for the suction 86oF, 154.5 psig for the discharge"
+    },
+    {
+        "question": "In accordance with the air pollution control code, no person shall cause or permit the emission of air contaminants from a boiler with a capacity of 500 million BTU sulfur dioxide content of more than:",
+        "choices": ["300 parts per million by volume undiluted emissions measured at 15 percent excess air", "200 parts per million by volume of undiluted emissions measured at 10 percent excess air", "200 parts per million by volume undiluted emissions measured at 15 percent excess air", "300 per million by volume undiluted emissions measured at 10 percent excess air"],
+        "answer": "200 parts per million by volume of undiluted emissions measured at 10 percent excess air"
+    },
+    {
+        "question": "Assume that one of your assistance was near the Freon 11 refrigeration system when a liquid Freon line ruptured. Some of the liquid Freon 11 has gotten into your assistant‟s right eye. Of the following actions, the one which you should not take is to:",
+        "choices": ["Immediately call for an eye doctor specialist (medical doctor)", "Gently and quickly rub the Freon 11 out of the eye", "Uses a boric-acid solution to clean out the Freon 11 from his eye", "Wash the eye by gently blowing the Freon 11 out of his eye with air"],
+        "answer": "Gently and quickly rub the Freon 11 out of the eye"
+    },
+    {
+        "question": "Fish weighing 11 000 kg with a temperature of 20 oC is brought to a cold storage and which shall be cooled to – 10 oC in 11 hours. Find the required plant refrigerating capacity in TR if the specific heat of fish is 0.7 kCal/kg-oC above freezing and 0.30 kCal/kg-oC below freezing point that is – 3 oC. The latent heat of freezing is 55.5 kCal/kg.",
+        "choices": ["25.26", "15.26", "14.38", "24.38"],
+        "answer": "24.38"
+    },
+    {
+        "question": "In order to avoid cavitation in a centrifugal pump, which of the following is true?",
+        "choices": ["Installation NPSH ≥ pump NPSH", "Installation NPSH ≤ pump NPSH", "Installation NPSH < pump NPSH", "Installation NPSH should be negative"],
+        "answer": "Installation NPSH ≥ pump NPSH"
+    },
+    {
+        "question": "A refrigeration system operates on the reversed Carnot cycle. The minimum and maximum temperatures are – 25 C and 72 C, respectively. If the heat rejected at the condenser is 6000 kJ/min, find the tons of refrigeration required.",
+        "choices": ["20.44 TR", "42.20 TR", "24.40 TR", "44.20 TR"],
+        "answer": "20.44 TR"
+    },
+    {
+        "question": "What always accompanies an isentropic expansion of steam?",
+        "choices": ["An increase in entropy", "An increase in enthalpy", "A decrease in entropy", "A decrease in enthalpy"],
+        "answer": "A decrease in enthalpy"
+    },
+    {
+        "question": "Those substance that are particularly variable in the moisture content that they can possess at different times.",
+        "choices": ["Wet materials", "Gross materials", "Hygroscopic materials", "Bone-dry-weight material"],
+        "answer": "Hygroscopic materials"
+    },
+    {
+        "question": "The hygroscopic moisture content of a substance expressed as a percentage of the bone-dry-weight of the material.",
+        "choices": ["Moisture content", "Bone-dry-weight", "Regain", "Gross weight"],
+        "answer": "Regain"
+    },
+    {
+        "question": "What is the advantage of a pressurized deaerator over an atmospheric deaerator?",
+        "choices": ["A boiler feed tank is no longer required", "Less over all energy will be required to produce the steam", "It can be fitted at ground level", "It removes more oxygen"],
+        "answer": "It removes more oxygen"
+    },
+    {
+        "question": "In proximate analysis, the coal analysis is consisting of moisture content, fixed carbon, ash, and which of the following?",
+        "choices": ["Sulfur", "Nitrogen", "Hydrogen", "Volatile matter"],
+        "answer": "Volatile matter"
+    },
+    {
+        "question": "How do you call the heating value of the fuel if the water in the products of combustion is in the liquid state?",
+        "choices": ["Higher heating value", "Proximate heating value", "Lower heating value", "Gravimetric heating value"],
+        "answer": "Higher heating value"
+    },
+    {
+        "question": "What is the rate, in Btu/h or W, at which heat must be added to the conditioned space to maintain a constant temperature and sometimes a specified relative humidity?",
+        "choices": ["Space heat gain", "Space cooling load", "Space heating load", "Space heat extraction rate"],
+        "answer": "Space heating load"
+    },
+    {
+        "question": "Space heat extraction rate Qex, Btu /h (W), is the rate at which heat is actually removed from the conditioned space by the air system. Its sensible heat rate component is equal to the sensible cooling load only when the space air temperature remains constant.",
+        "choices": ["Space heat gain", "Space cooling load", "Space heating load", "Space heat extraction rate"],
+        "answer": "Space heat extraction rate"
+    },
+    {
+        "question": "It is the rate, in Btu/h or W, of heat transfer at the coil. Its cooling load component is the rate at which heat is removed by the chilled water flowing through the coil or is absorbed by the refrigerant inside the coil. What do you call this?",
+        "choices": ["Coil load", "Refrigerating load", "Heating coil load", "Cooling load"],
+        "answer": "Coil load"
+    },
+    {
+        "question": "It is the rate, in Btu/hr or W, at which heat is added to the conditioned air from the hot water, steam, or electric heating elements inside the coil.",
+        "choices": ["Coil load", "Refrigerating load", "Heating coil load", "Cooling load"],
+        "answer": "Heating coil load"
+    },
+    {
+        "question": "What is the rate, in Btu/hr or W, at which heat is absorbed by the refrigerant at the evaporator. For central hydronic systems, it is the sum of the coil load plus the chilled water piping heat gain, pump power heat gain, and storage tank heat gain. For most water systems in commercial buildings, the water piping and pump power heat gain is only about 5 to 10 percent of the coil load. In an air conditioning system using DX coil(s), it is equal to the DX coil load.",
+        "choices": ["Coil load", "Refrigerating load", "Heating coil load", "Cooling load"],
+        "answer": "Refrigerating load"
+    },
+    {
+        "question": "It is a humidity sensor used to measure relative humidity, dew point, or absolute humidity of ambient or moving air. This device could be mechanical or electronic. How do you call this?",
+        "choices": ["Hydrometer", "Psychrometer", "Hygrometer", "Barometer"],
+        "answer": "Hygrometer"
+    },
+    {
+        "question": "It is a device designed to control the flow of steam, water, gas, or other fluids. It can be considered a variable orifice positioned by an actuator in response to impulses or signals from the controller. It may be equipped with either a throttling plug, V-port, or rotating ball specially designed to provide a desired flow characteristic. How do you call this device.",
+        "choices": ["Automatic Valve", "Thermostat", "Automatic flow meter", "Pyrometer"],
+        "answer": "Automatic Valve"
+    },
+    {
+        "question": "Assume that you are checking the water level in a boiler which is on the line in a power plant. Upon opening the gage cocks, you determine that the water level was above the top gage cock. Of the following actions, the best one to take first in this situation would be to:",
+        "choices": ["Shut-off the fuel and air supply", "Surface-blow the boiler", "Close the steam outlet valve from the boiler", "Increase the speed of the feed water"],
+        "answer": "Close the steam outlet valve from the boiler"
+    },
+    {
+        "question": "It is a component in a hydro plant that absorbs water hammer during load fluctuations and serves as an auxiliary reservoir during high load demands. What is this component?",
+        "choices": ["Spillway", "Surge tank", "Dam", "penstock"],
+        "answer": "Surge tank"
+    },
+    {
+        "question": "It is a bituminous coal that contains plenty of hydrocarbons, forming lumped masses when burned. This coal is ideal for forming carbonaceous gases for reduction of ore. What do you call this coal?",
+        "choices": ["Coking or coking coal", "Peat coal", "Free burning coal", "Lignite"],
+        "answer": "Coking or coking coal"
+    },
+    {
+        "question": "It is the temperature at which the oil vapors will continue to burn when ignited.",
+        "choices": ["Fire point", "Ignition temperature", "Flash point", "Creep temperature"],
+        "answer": "Fire point"
+    },
+    {
+        "question": "It is the temperature to which oil has to be heated until sufficient flammable vapor is driven off to flash when brought into momentary contact with a flame. How do you call this temperature?",
+        "choices": ["Fire point", "Ignition temperature", "Flash point", "Creep temperature"],
+        "answer": "Flash point"
+    },
+    {
+        "question": "The color of a lubricating oil is obtained by reference to transmitted light; the color by reflected light is referred to as:",
+        "choices": ["Bloom", "Deflection", "Reflection", "Residue"],
+        "answer": "Bloom"
+    },
+    {
+        "question": "How do you call the material left after heating an oil under specified conditions at high temperature, and is useful as a quality control tool in the refining of viscous oils, particularly residual oils?",
+        "choices": ["Ash", "Carbon residue", "Color", "Coke"],
+        "answer": "Carbon residue"
+    },
+    {
+        "question": "Petroleum oils, when cooled, may become plastic solids, either from wax formation or from the fluid congealing. With some oils, the initial wax crystal formation becomes visible at temperatures slightly above the solidification point. When that temperature is reached at specific test conditions, it is known as the",
+        "choices": ["Cloud point", "Creep point", "Pour point", "Flash point"],
+        "answer": "Cloud point"
+    },
+    {
+        "question": "It is the temperature at which cooled oil will just flow under specific test conditions; and it indicates the lowest temperature at which a lubricant can readily flow from its container. How do you call this temperature?",
+        "choices": ["Cloud point", "Creep point", "Pour point", "Flash point"],
+        "answer": "Pour point"
+    },
+    {
+        "question": "It is a term indicating the measure of acidic components in oils; and was original intent to indicate the degree of refining in new oils, and to follow the development of oxidation in service, with its effects on deposit formation and corrosion. What is this?",
+        "choices": ["Neutralization number", "Total base number", "Total acid number", "Neutralization number and total acid number"],
+        "answer": "Neutralization number and total acid number"
+    },
+    {
+        "question": "How do you call a measure of alkaline components in oils, especially those additives used in engine oils to neutralize acids formed during fuel combustion?",
+        "choices": ["Neutralization number", "Total base number", "Total acid number", "Neutralization number and total acid number"],
+        "answer": "Total base number"
+    },
+    {
+        "question": "These are materials with low coefficients of friction compared to metals, and they are used to reduce friction and wear in a variety of applications. There are a large number of such materials, and they include graphite, molybdenum disulfide, polytetrafluoroethylene, talc, graphite fluoride, polymers, and certain metal salts. How do you call these materials?",
+        "choices": ["Greases", "Liquid lubricants", "Solid lubricants", "Powder lubricants"],
+        "answer": "Solid lubricants"
+    },
+    {
+        "question": "These are engine oil additives used to help keep the engine clean by solubilizing and dispersing sludge, soot, and deposit precursors. How do you call these oil additives?",
+        "choices": ["Detergents", "Oxidation inhibitors", "Dispersants", "Corrosion inhibitors"],
+        "answer": "Dispersants"
+    },
+    {
+        "question": "How do you call these engine oil additives used to prevent attack on sensitive bearing metals?",
+        "choices": ["Detergents", "Oxidation inhibitors", "Dispersants", "Corrosion inhibitors"],
+        "answer": "Corrosion inhibitors"
+    },
+    {
+        "question": "These are engine oil additives used to prevent or reduce deposits and corrosion by neutralizing combustion by-product acids. What are these additives?",
+        "choices": ["Detergents", "Oxidation inhibitors", "Dispersants", "Corrosion inhibitors"],
+        "answer": "Detergents"
+    },
+    {
+        "question": "What is the molecular attraction of layers of an unlike matters?",
+        "choices": ["Adhesion", "Advection", "Cohesion", "Convection"],
+        "answer": "Adhesion"
+    },
+    {
+        "question": "How do you call these engine oil additives used to prevent attack on iron and steel surfaces by condensed moisture and acidic corrosion products, aggravated by low-temperature stop-and-go operation?",
+        "choices": ["Detergents", "Oxidation inhibitors", "Dispersants", "Rust inhibitors"],
+        "answer": "Rust inhibitors"
+    },
+    {
+        "question": "How do you call these engine oil additives used to help enable adequate low-temperature flow, along with sufficient viscosity at high temperatures?",
+        "choices": ["Viscosity-index improvers", "Pour point dispersants", "Oxidation inhibitors", "Rust inhibitors"],
+        "answer": "Viscosity-index improvers"
+    },
+    {
+        "question": "These oil additives are used to minimize wear under boundary lubrication conditions, such as cam and lifter, and cylinder-wall and piston-ring surfaces.",
+        "choices": ["Anti-wear additives", "Pour point dispersants", "Oxidation inhibitors", "Rust inhibitors"],
+        "answer": "Anti-wear additives"
+    },
+    {
+        "question": "These are engine oil additives used to allow air to break away easily from the oil.",
+        "choices": ["Anti-wear additives", "Defoamants", "Oxidation inhibitors", "Rust inhibitors"],
+        "answer": "Defoamants"
+    },
+    {
+        "question": "These engine oil additives are used to improve fuel efficiency by reducing friction at rubbing surfaces. How do you call these oil additives?",
+        "choices": ["Anti-wear additives", "Oxidation inhibitors", "Friction modifiers", "Rust inhibitors"],
+        "answer": "Friction modifiers"
+    },
+    {
+        "question": "How do you call an opening where hot source of energy from the earth is harnessed?",
+        "choices": ["Crater", "Fumarole", "Hot water source", "Volcano opening"],
+        "answer": "Fumarole"
+    },
+    {
+        "question": "At standard atmospheric conditions, what is the approximate speed of sound?",
+        "choices": ["336 m/s", "633 m/s", "363 m/s", "346 m/s"],
+        "answer": "336 m/s"
+    },
+    {
+        "question": "The speed of sound is also called as:",
+        "choices": ["Sound velocity", "Subsonic velocity", "Acoustic velocity", "Critical velocity"],
+        "answer": "Acoustic velocity"
+    },
+    {
+        "question": "This is the velocity at which a small pressure wave moves through a fluid. How do you call this velocity?",
+        "choices": ["Sonic velocity", "Supersonic velocity", "Subsonic velocity", "Hypersonic velocity"],
+        "answer": "Sonic velocity"
+    },
+    {
+        "question": "Which of the following is the speed of light?",
+        "choices": ["2.998 x 108 m/s", "2.998 x 1010 m/s", "2.998 x 109", "2.998 x 107 m/s"],
+        "answer": "2.998 x 108 m/s"
+    },
+    {
+        "question": "What can you say about entropy in the universe?",
+        "choices": ["Entropy is always increasing", "Entropy is decreasing", "Entropy will zero at the end of time", "Entropy is stagnating"],
+        "answer": "Entropy is always increasing"
+    },
+    {
+        "question": "Which of the following is the chemical formula of butane?",
+        "choices": ["C2H5", "C4H10", "C10H16", "C3H6"],
+        "answer": "C4H10"
+    },
+    {
+        "question": "If the sensible heat ratio is 0.75, what does it mean?",
+        "choices": ["75 % latent heat and 25 % sensible heat", "75 % sensible heat and 25 % latent heat", "25 % latent and sensible heat and 75 % latent heat", "75 % sensible and latent heat and 25 % sensible heat"],
+        "answer": "75 % sensible heat and 25 % latent heat"
+    },
+    {
+        "question": "The hardness of ground water required as feed water for a boiler is 0 – 10 ppm (part per million), which of the following is the range of alkalinity requirement?",
+        "choices": ["pH 9 to pH 10", "pH 10 to pH 11", "pH 6 to pH 10", "pH 8 to pH 10"],
+        "answer": "pH 10 to pH 11"
+    },
+    {
+        "question": "As used in the Revised PSME Code for Boilers and Pressure Vessels, it is any boiler which does not exceed any of the following limits: 405 mm inside diameter, 1065 mm overall length of outside to outside heats at center, 1.85 m2 of water heating surface, and 7.03 kg/cm2 maximum allowable working pressure. What is this boiler?",
+        "choices": ["Power boiler", "Miniature boiler", "Portable boiler", "Locomotive boiler"],
+        "answer": "Miniature boiler"
+    },
+    {
+        "question": "It is a closed vessel in which steam or other vapor (to be used externally to itself) is generated by the direct application of heat used for power generation. How do you call this boiler?",
+        "choices": ["Power boiler", "Oil-fired boiler", "Portable boiler", "Miniature boiler"],
+        "answer": "Power boiler"
+    },
+    {
+        "question": "It is a closed vessel intended for use in heating water of for application of heat to generate steam or other vapor to be used externally from it. What do you call this pressure vessel?",
+        "choices": ["Boiler or steam generator", "Unfired pressure vessel", "Fired pressure vessel", "Pressurized tank"],
+        "answer": "Boiler or steam generator"
+    },
+    {
+        "question": "What do you call a vessel in which pressure is obtained from external sources, or from an indirect application of heat?",
+        "choices": ["Boiler or steam generator", "Unfired pressure vessel", "Fired pressure vessel", "Pressurized tank"],
+        "answer": "Unfired pressure vessel"
+    },
+    {
+        "question": "It is any boiler or unfired pressure vessel constructed, installed, placed in operation but subject to annual inspection. What do you call this?",
+        "choices": ["Miniature boiler", "New boiler", "Existing installation", "Portable boiler"],
+        "answer": "Existing installation"
+    },
+    {
+        "question": "It is a boiler that has been inspected and declared unsafe to operate or disqualified, marked and marked indicating its rejection. How do you call this boiler?",
+        "choices": ["Second hand boiler", "Condemned boiler", "Reinstalled boiler", "Unfired boiler"],
+        "answer": "Condemned boiler"
+    },
+    {
+        "question": "When new boilers are installed in either existing or new buildings, a minimum height of at least ______ shall be provided between top of the boiler proper and ceiling.",
+        "choices": ["1050 mm", "1250 mm", "2130 mm", "2050 mm"],
+        "answer": "2130 mm"
+    },
+    {
+        "question": "For power boilers, when the tensile strength of steel is not known, it shall be taken as 379 MPa and which of the following for the wrought iron?",
+        "choices": ["379 N/mm2", "450 MPa", "310 MPa", "521 N/mm2"],
+        "answer": "310 MPa"
+    },
+    {
+        "question": "Name one characteristic feature of mechanical steam traps.",
+        "choices": ["They pass condensate at steam temperature", "They operate by sensing condensate temperature", "They can be fitted into any position", "They are not affected by increasing back pressure"],
+        "answer": "They operate by sensing condensate temperature"
+    },
+    {
+        "question": "In a mechanical steam trap, why is a float trap better at venting air than an inverted bucket trap?",
+        "choices": ["A float can quickly adjust to the presence of air", "A float is fitted with an automatic air vent", "A float trap does not vent air better than bucket trap", "The air vent orifice is adjustable on a float trap"],
+        "answer": "A float is fitted with an automatic air vent"
+    },
+    {
+        "question": "In a mechanical steam trap, what added benefit does the automatic air vent offer to a float trap?",
+        "choices": ["It stops the trap from freezing in cold weather", "The trap can be use on larger backpressures", "It significantly increases the cold start-up capacity of the trap", "The condensate orifice can be the same size for all pressure gauges"],
+        "answer": "It significantly increases the cold start-up capacity of the trap"
+    },
+    {
+        "question": "In a mechanical steam trap, what advantage does a bucket trap have over a float type?",
+        "choices": ["It is able to withstand waterhammer", "It can be used on higher pressure", "It can discharge air freely", "It cannot lose its water seal"],
+        "answer": "It can be used on higher pressure"
+    },
+    {
+        "question": "A heat exchanger is designed to operate without waterlogging of the steam space. What is the usual choice of trap for its drainage?",
+        "choices": ["Thermostatic trap", "Inverted bucket trap", "Thermodynamic trap", "Float trap with thermostatic air vent"],
+        "answer": "Float trap with thermostatic air vent"
+    },
+    {
+        "question": "Which is the best trap to use when steam locking can occur?",
+        "choices": ["An inverted bucket trap with an internal check valve mechanism", "A balanced pressure steam trap", "A float trap with automatic air vent", "A float trap with steam lock release mechanism"],
+        "answer": "A balanced pressure steam trap"
+    },
+    {
+        "question": "What is a common cause of waterhammer in drying coils?",
+        "choices": ["Wet steam supplied to the coil", "Too low a steam pressure onto the coil", "Condensate has to lift after the steam trap", "The coil falling in the direction of steam flow"],
+        "answer": "Condensate has to lift after the steam trap"
+    },
+    {
+        "question": "Which of the following statements is true?",
+        "choices": ["Bimetallic steam traps are an ideal choice for rotating cylinders", "Rotating cylinders can not suffer from steam locking", "Strainers cannot be fitted to float traps which have a steam lock release", "Air vents around the thermodynamic and inverted bucket traps can considerably improve start-up times"],
+        "answer": "Air vents around the thermodynamic and inverted bucket traps can considerably improve start-up times"
+    },
+    {
+        "question": "Name the principle cause of waterhammer?",
+        "choices": ["Water particles suspended in steam", "Water allowed to build up in pipes", "Water droplets carried along the insides of pipes", "Wet steam passing through steam traps"],
+        "answer": "Water allowed to build up in pipes"
+    },
+    {
+        "question": "What effect does steam locking have on rotating machinery?",
+        "choices": ["None at all", "It reduces the drying rate of drying cylinders", "It increases the drying rate of drying cylinders", "It causes the steam trap to air bind"],
+        "answer": "It reduces the drying rate of drying cylinders"
+    },
+    {
+        "question": "What do you call a boiler of which both the location and ownership have been changed after primary use?",
+        "choices": ["Second hand boiler", "Miniature boiler", "Surplus boiler", "Reinstalled boiler"],
+        "answer": "Second hand boiler"
+    },
+    {
+        "question": "It is a boiler removed from its original setting and re-erected at the same location or erected at a location without change of ownership. How do you call this boiler?",
+        "choices": ["Second hand boiler", "Miniature boiler", "Surplus boiler", "Reinstalled boiler"],
+        "answer": "Reinstalled boiler"
+    },
+    {
+        "question": "Each miniature boiler shall be equipped with which of the following for the determination of water level?",
+        "choices": ["Safety valve", "Water gage glass", "Fusible plug", "Pressure gages"],
+        "answer": "Water gage glass"
+    },
+    {
+        "question": "The maximum allowable working pressure of a non-code steel or wrought iron heating boiler of welded construction shall not exceed to which of the following pressures?",
+        "choices": ["1 atmosphere", "100 kPa", "1 Bar", "2 gage pressure"],
+        "answer": "1 Bar"
+    },
+    {
+        "question": "What do you call a refrigeration system in which the refrigerant gas evolved in the evaporator is taken up in an absorber and released in a generator upon the application of heat?",
+        "choices": ["Absorption refrigeration system", "Cascade refrigeration system", "Flooded refrigeration system", "Steam jet refrigeration system"],
+        "answer": "Absorption refrigeration system"
+    },
+    {
+        "question": "What do you call a shut-off valve other than a valve for controlling the flow of refrigerant in a refrigeration system?",
+        "choices": ["Fusible valve", "Check valve", "Stop valve", "Relief valve"],
+        "answer": "Stop valve"
+    },
+    {
+        "question": "What is a device, used in refrigeration system, having a predetermined temperature fusible member for the relief of pressures?",
+        "choices": ["Fusible valve", "Check valve", "Stop valve", "Relief valve"],
+        "answer": "Fusible valve"
+    },
+    {
+        "question": "It is a measure of the lack of potential or quality of energy; and once that energy has been exchanged or converted, it cannot revert back to a higher level. What is this?",
+        "choices": ["Specific heat", "Internal energy", "Entropy", "Molecular energy"],
+        "answer": "Entropy"
+    },
+    {
+        "question": "What do you call the method used to evaluate all welds performed on pressure parts of boiler tube materials?",
+        "choices": ["Radiographic test", "Vacuum test", "Hydrostatic test", "Orsat analysis"],
+        "answer": "Radiographic test"
+    },
+    {
+        "question": "It is a boiler testing method thatなどはused to verify the microstructure of the boiler tubes using optical microscopes. How do you call this method?",
+        "choices": ["Tube sampling", "Radiographic testing", "Metallurgic replication", "Optical testing"],
+        "answer": "Metallurgic replication"
+    },
+    {
+        "question": "Which of the following is true regarding the relation of rk and re for spark-ignition engine, where rk = compression ratio while re = expansion ratio?",
+        "choices": ["rk > re", "rk < re", "rk = re", "re is not considered in the spark-ignition engine"],
+        "answer": "rk = re"
+    },
+    {
+        "question": "It is the generic term given to a family of solid fuels with high carbon content. How do you call this?",
+        "choices": ["Solid fuel", "Anthracite", "Coal", "Bituminous"],
+        "answer": "Coal"
+    },
+    {
+        "question": "It is a boiler fuel created from the residue produced from crude petroleum after it has been distilled to produce lighter oils like gasoline, paraffin, kerosene, diesel or gas oil. What is this fuel?",
+        "choices": ["Oil", "Coke", "Kerosene", "Peat"],
+        "answer": "Oil"
+    },
+    {
+        "question": "What do you call a form of boiler fuel that is easy to burn, with very little excess air?",
+        "choices": ["Coal", "Gas", "Oil", "Bunker"],
+        "answer": "Gas"
+    },
+    {
+        "question": "The second law of thermodynamics says that whenever energy is exchanged or converted from one form to another, the potential for energy to do work will be _________.",
+        "choices": ["Decreased", "Zero", "Increased", "Stagnant"],
+        "answer": "Decreased"
+    },
+    {
+        "question": "What is true about steam as it condenses?",
+        "choices": ["It does so at constant entropy and temperature", "It does so at constant enthalpy and reducing temperature", "Both enthalpy and entropy reduce and temperature remains constant", "Both enthalpy and entropy increase"],
+        "answer": "Both enthalpy and entropy reduce and temperature remains constant"
+    },
+    {
+        "question": "It is an increase in fluid pressure in a long pipe caused by a sudden velocity decrease, where the sudden decrease in velocity is caused by a valve closing.",
+        "choices": ["Aero dynamics", "Terminal velocity", "Water hammer", "Drag"],
+        "answer": "Water hammer"
+    },
+    {
+        "question": "It is an upward force that is exerted on an object (like flat plate, airfoil, rotating cylinder, etc.) as the object passes through a fluid. What do you call this?",
+        "choices": ["Drag", "Aero horsepower", "Lift", "Terminal velocity"],
+        "answer": "Lift"
+    },
+    {
+        "question": "What is a frictional force that acts parallel but opposite to the direction of motion of fluid?",
+        "choices": ["Drag", "Aero horsepower", "Lift", "Terminal velocity"],
+        "answer": "Drag"
+    },
+    {
+        "question": "It is a term used by automobile manufacturers to designate the power required to move a car horizontally at 50 mi/hr against the drag force. What is this?",
+        "choices": ["Mechanical horsepower", "Fuel power", "Aero horsepower", "Fluid power"],
+        "answer": "Aero horsepower"
+    },
+    {
+        "question": "A manufacturer claims that it has a COP of 2.0 when cooling a food at 5 oC using ambient air at 30 oC as a heat sink. Is the claim of the manufacturer valid?",
+        "choices": ["Yes", "No", "Probably", "It needs experimental verification"],
+        "answer": "Yes"
+    },
+    {
+        "question": "What can you say about the velocity of fluid at the center of the pipe section?",
+        "choices": ["Maximum", "Minimum", "Average", "Zero"],
+        "answer": "Maximum"
+    },
+    {
+        "question": "Continuity equation is applicable to which of the following?",
+        "choices": ["Viscous and unviscous fluids", "Compressibility fluids", "Conservation of mass", "Steady and unsteady flows"],
+        "answer": "Conservation of mass"
+    },
+    {
+        "question": "Hygrometer is an instrument used to determine of which of the following?",
+        "choices": ["Specific gravity of fluids", "Specific gravity of gases", "Specific gravity of liquids", "Specific gravity of solids"],
+        "answer": "Specific gravity of fluids"
+    },
+    {
+        "question": "At critical point of a pure substance, what is the value of latent heat?",
+        "choices": ["Maximum", "Zero", "Minimum", "Below zero"],
+        "answer": "Zero"
+    },
+    {
+        "question": "Which of the following is a function of a steam nozzle?",
+        "choices": ["Converts kinetic energy into heat energy", "Changes internal energy into kinetic energy", "Converts potential energy into heat energy", "Changes enthalpic energy into kinetic energy"],
+        "answer": "Changes enthalpic energy into kinetic energy"
+    },
+    {
+        "question": "Generally steam turbines in power station operate at which of the following speeds?",
+        "choices": ["3000 rpm", "4000 rpm", "1000 rpm", "500 rpm"],
+        "answer": "4000 rpm"
+    },
+    {
+        "question": "Tidal power is the power generated from which of the following?",
+        "choices": ["Waves of the ocean", "Thermal energy of ocean water", "Raw sea water", "Rise and fall of tides"],
+        "answer": "Rise and fall of tides"
+    },
+    {
+        "question": "Which of the following is an expression or equivalent of horsepower per ton of refrigeration?",
+        "choices": ["COP 715 . 4", "COP x 4.715", "715 . 4 COP", "COP x 715 . 4 1"],
+        "answer": "COP 715 . 4"
+    },
+    {
+        "question": "It is the ratio of the amount of heat taken up by a substance to the temperature at which the substance exists. How do you call this?",
+        "choices": ["Internal energy", "Enthalpy", "Flow energy", "Entropy"],
+        "answer": "Entropy"
+    },
+    {
+        "question": "Which of the following is a type of water turbine where a jet of water is made to fall on the blades or buckets and due to the impulse of water the turbine starts moving?",
+        "choices": ["Reaction turbine", "Francis turbine", "Steam turbine", "Pelton wheel"],
+        "answer": "Pelton wheel"
+    },
+    {
+        "question": "What do you call a fan in which the fluid is accelerated parallel to the fan axis?",
+        "choices": ["Axial centrifugal fan", "Mixed flow centrifugal fan", "Radial centrifugal fan", "Francis type fan"],
+        "answer": "Axial centrifugal fan"
+    },
+    {
+        "question": "It represents the loss due to mechanical friction of the moving parts of the engine, and expressed as horsepower. How do you call this?",
+        "choices": ["Indicated Hp", "Combined Hp", "Brake Hp", "Friction Hp"],
+        "answer": "Friction Hp"
+    },
+    {
+        "question": "How do you call a device or engine which continually and indefinitely discharged more energy than it receives?",
+        "choices": ["Carnot engine", "Stirling engine", "Generating machine", "Perpetual motion machine"],
+        "answer": "Perpetual motion machine"
+    },
+    {
+        "question": "In plotting the bHp versus speed in a wide open throttle test for a spark ignition engine, the bHp curve:",
+        "choices": ["is a Straight line", "tends to concave downward", "has no characteristic shape", "tends to concave upward"],
+        "answer": "tends to concave downward"
+    },
+    {
+        "question": "Upon entering the boiler room, you find the water out of the glass, the safety valve blowing off strong, and a fire under the boiler. Your first action would be to:",
+        "choices": ["Remove the fire with draft and damper open", "Cool the boiler down completely", "Prevent priming by not raising the safety valve or making change in operating of engines or boiler", "Cool the boiler down completely and prevent priming by not raising the safety valve"],
+        "answer": "Remove the fire with draft and damper open"
+    },
+    {
+        "question": "The A.S.M.E. Boiler code for boiler shells requires a tensile strength of which of the following, in psi?",
+        "choices": ["10000 to 20000", "55000 to 63000", "25000 to 45000", "70000 to 85000"],
+        "answer": "55000 to 63000"
+    },
+    {
+        "question": "The best time to blow a boiler down is:",
+        "choices": ["Once a day when the load is lightest", "Once a day under full load", "When the chemical concentration is greatest", "Once a shift"],
+        "answer": "When the chemical concentration is greatest"
+    },
+    {
+        "question": "In performing a hydrostatic test on an existing power boiler, the required test pressure must be controlled so that it is not exceeded by more than:",
+        "choices": ["2%", "6%", "4%", "8%"],
+        "answer": "2%"
+    },
+    {
+        "question": "The first step to take in planning a preventive maintenance program is to:",
+        "choices": ["Replace all electric wiring", "Make an equipment inventory", "Replace all pump seals", "Repair all equipment which is not in operation"],
+        "answer": "Make an equipment inventory"
+    },
+    {
+        "question": "Which of the following is the most important consideration in a fire prevention program?",
+        "choices": ["Train the staff to place flammable in fireproof containers", "Know how to attack fires regardless of size", "See that halls, corridors, and exits are not blocked", "Detect and eliminate every possible fire hazard"],
+        "answer": "Detect and eliminate every possible fire hazard"
+    },
+    {
+        "question": "Which of the following types of portable fire extinguisher is recommended as most effective for putting out oil fires?",
+        "choices": ["Pump tank type", "Cartridge actuated type", "Soda acid type", "Foam type"],
+        "answer": "Foam type"
+    },
+    {
+        "question": "Which of the following are the four stages of the warning system designated by the high air pollution alert warning system?",
+        "choices": ["Initial, chronic, acute, penetrating", "Forecast, alert, warning, emergency", "Light, medium, heavy, extra heavy", "Early, moderate, severe, toxic"],
+        "answer": "Forecast, alert, warning, emergency"
+    },
+    {
+        "question": "The chemical most commonly used to speed sedimentation of sewage is known as:",
+        "choices": ["Lime", "Sulfuric acid", "Copper sulfate", "Methylene blue"],
+        "answer": "Lime"
+    },
+    {
+        "question": "Most of the bacteria in sewage are:",
+        "choices": ["Saprophytic", "Parasitic", "Dangerous", "Pathogenic"],
+        "answer": "Saprophytic"
+    },
+    {
+        "question": "One of the two types of non-material nuclear radiation is:",
+        "choices": ["Gamma radiation", "Walton radiation", "Transmutation radiation", "Betatron radiation"],
+        "answer": "Gamma radiation"
+    },
+    {
+        "question": "Which of the following is not a qualification for an applicant for ME board examination:",
+        "choices": ["A certified plant mechanic", "At least 18 years old", "A holder of BSME degree", "A citizen of the Philippines"],
+        "answer": "A certified plant mechanic"
+    },
+    {
+        "question": "A thermo hydraulic feed water regulator is used to regulate the flow of water to a drum type boiler. The amount of water input to the boiler is controlled in proportion to the:",
+        "choices": ["Boiler load", "Setting of the feed pump relief valve", "Amount of water in the outer tube that flashes into steam", "Water level in the drum"],
+        "answer": "Water level in the drum"
+    },
+    {
+        "question": "The standard capacity rating conditions for any refrigeration compressor is:",
+        "choices": ["5oF, 19.6 psig for the suction 86oF, 154.5 psig for the discharge", "5oF, 9.6 psig for the suction 96oF, 154.5 psig for the discharge", "10oF, 9.6 psig for the suction 96oF, 144.5 psig for the discharge", "5oF, 19.6 psig for the suction 96oF, 134.5 psig for the discharge"],
+        "answer": "5oF, 19.6 psig for the suction 86oF, 154.5 psig for the discharge"
+    },
+    {
+        "question": "In accordance with the air pollution control code, no person shall cause or permit the emission of air contaminants from a boiler with a capacity of 500 million BTU sulfur dioxide content of more than:",
+        "choices": ["300 parts per million by volume undiluted emissions measured at 15 percent excess air", "200 parts per million by volume of undiluted emissions measured at 10 percent excess air", "200 parts per million by volume undiluted emissions measured at 15 percent excess air", "300 per million by volume undiluted emissions measured at 10 percent excess air"],
+        "answer": "200 parts per million by volume of undiluted emissions measured at 10 percent excess air"
+    },
+    {
+        "question": "Assume that one of your assistance was near the Freon 11 refrigeration system when a liquid Freon line ruptured. Some of the liquid Freon 11 has gotten into your assistant‟s right eye. Of the following actions, the one which you should not take is to:",
+        "choices": ["Immediately call for an eye doctor specialist (medical doctor)", "Gently and quickly rub the Freon 11 out of the eye", "Uses a boric-acid solution to clean out the Freon 11 from his eye", "Wash the eye by gently blowing the Freon 11 out of his eye with air"],
+        "answer": "Gently and quickly rub the Freon 11 out of the eye"
+    },
+    {
+        "question": "As compared to a power-driven triplex single-acting pump of the same size and operating at the same speed, a steam-driven duplex double-acting pump will:",
+        "choices": ["Pump more water per minute", "Give a more uniform discharge", "Have a higher first cost", "Be more economical to operate"],
+        "answer": "Pump more water per minute"
+    },
+    {
+        "question": "It is a device commonly used to cool condenser water in Power and Refrigeration plants. The function of which is to reject heat to the atmosphere by reducing the temperature of water circulated through condenser or other heat rejection equipment. What is this device commonly called?",
+        "choices": ["Condenser", "Cooling tower", "Cooler", "Evaporator"],
+        "answer": "Cooling tower"
+    },
+    {
+        "question": "It is a type of dryer in which the gases of combustion pass through the spaces surrounding, or in other ways heating, the drying chamber, but the gases are not allowed in contact with the material being dried. What is this dryer?",
+        "choices": ["Direct-heat type dryer", "Indirect-heat type dryer", "Steam-heated type dryer", "Rotary Dryer"],
+        "answer": "Indirect-heat type dryer"
+    },
+    {
+        "question": "In a refrigeration system, which of the following would cause a high suction pressure?",
+        "choices": ["Expansion valve not open wide enough", "Expansion valve open too wide", "King valve not open wide enough", "Dirty dehydrator"],
+        "answer": "Expansion valve open too wide"
+    },
+    {
+        "question": "In the deep well installing or operation, the difference between static water level and operating water level is called:",
+        "choices": ["Suction lift", "priming level", "drawdown", "clogging"],
+        "answer": "drawdown"
+    },
+    {
+        "question": "Which of the following is an characteristics of an impulse turbine?",
+        "choices": ["Steam striking blades on angle", "No steam reaction to velocity", "Steam striking blades at zero angle", "Steam reversing direction"],
+        "answer": "Steam striking blades at zero angle"
+    },
+    {
+        "question": "Gas produced by the combustion of fuel oil and cannot be found in the flue gases is:",
+        "choices": ["Carbon dioxide", "Oxygen", "Hydrogen", "Nitrogen"],
+        "answer": "Hydrogen"
+    },
+    {
+        "question": "Scale in boiler can:",
+        "choices": ["Create low steam quality", "Cause foaming", "Overheat blow off line", "Inhibit circulation and heat transfer"],
+        "answer": "Inhibit circulation and heat transfer"
+    },
+    {
+        "question": "The effectiveness of a body as a thermal radiator at a given temperature:",
+        "choices": ["Absorptivity", "Conductivity", "Emissivity", "Reflectivity"],
+        "answer": "Emissivity"
+    },
+    {
+        "question": "To protect adequately the engine bearings, what type and better arrangement of lubricating oil filter is most practical?",
+        "choices": ["Full flow type filter installed between the lubricating oil pump and bearings", "Splash lubricating system in the crank case", "Duplex filter installed before the lubricating pump", "Bypass filter with cleanable and replaceable elements"],
+        "answer": "Full flow type filter installed between the lubricating oil pump and bearings"
+    },
+    {
+        "question": "When the expansion or compression of gas takes place without transfer of heat to or from the gas, the process is called:",
+        "choices": ["Reversible", "Polytrophic", "Adiabatic", "Isothermal"],
+        "answer": "Adiabatic"
+    },
+    {
+        "question": "Which of the following is other name for the liquid valve?",
+        "choices": ["Freon valve", "king valve", "shut off valve", "Master valve"],
+        "answer": "king valve"
+    },
+    {
+        "question": "In accordance with recommended maintenance practice, thermostats used in a pneumatic temperature control system should be checked:",
+        "choices": ["Weekly", "Monthly", "Bi-monthly", "Once a year"],
+        "answer": "Once a year"
+    },
+    {
+        "question": "Of the following, the best method use to determine the moisture level in a refrigeration system is to:",
+        "choices": ["Weigh the driver after it has been in the system for a period of time", "Use a moisture indicator", "Visually check the sight glass for particles of corrosion", "Test a sampler lubricating oil with phosphorus pentoxide"],
+        "answer": "Use a moisture indicator"
+    },
+    {
+        "question": "A full-flow drier is usually recommended to be used in a hermetic refrigeration compressor system to keep the system dry and to:",
+        "choices": ["Prevent the products of decomposition from getting into the evaporator in the event of motor burn-out", "Condense out liquid refrigerant during compressor off cycles and compressor start-up", "Prevent the compressor unit form decreasing in capacity", "Prevent the liquid from dumping into the compressor crank-case"],
+        "answer": "Prevent the products of decomposition from getting into the evaporator in the event of motor burn-out"
+    },
+    {
+        "question": "You are supervising the installation of a steam-driven reciprocating pump. The pump’s air chamber is missing and you have to replace it with one with several salvaged ones. The salvaged air chamber selected should have a volume equal to, most nearly,:",
+        "choices": ["Half of the position displacement of the pump", "1 ½ times the position displacement of the pump", "2 times the piston displacement of the pump", "2 ½ times the piston displacement of the pump"],
+        "answer": "2 ½ times the piston displacement of the pump"
+    },
+    {
+        "question": "Economical partial-load operation of steam turbines is obtained by minimizing throttling losses. This is accomplished by:",
+        "choices": ["Reducing the boiler pressure and temperature", "Throttling the steam flow into the uncontrolled set of nozzles", "Dividing the first-stage nozzles into several groups and providing a steam control valve for each group", "Controlling the fuel flow to the steam generator"],
+        "answer": "Dividing the first-stage nozzles into several groups and providing a steam control valve for each group"
+    },
+    {
+        "question": "How do you compare superheated steam to that of saturated steam at the same pressure?",
+        "choices": ["Contains more heat energy", "Has a greater enthalpy of evaporation", "Has a smaller specific volume", "Condenses at a higher temperature"],
+        "answer": "Contains more heat energy"
+    },
+    {
+        "question": "Which of the following is not a characteristic of superheated steam?",
+        "choices": ["It contains no water droplets", "It causes severe erosion in pipes", "It may cause uneven heating of a product", "It has a temperature greater than 165 oC"],
+        "answer": "It causes severe erosion in pipes"
+    },
+    {
+        "question": "Superheated steam at a pressure of 6 bar g:",
+        "choices": ["Has a larger specific heat capacity than water", "Has a dryness fraction of 0.99", "Must not be used as a heat transfer medium", "Has a temperature greater than 165 oC"],
+        "answer": "Has a temperature greater than 165 oC"
+    },
+    {
+        "question": "Of the following, the main purpose of a sub-cooler in a refrigerant piping system for a two-stage system is to:",
+        "choices": ["Reduce the total power requirements and total heat rejection to the second stage", "Reduce the total power requirements and return oil to the compressor", "Improve the flow of evaporator gas per ton and increase the temperature", "Increase the heat rejection per ton and avoid system shutdown"],
+        "answer": "Reduce the total power requirements and total heat rejection to the second stage"
+    },
+    {
+        "question": "In large refrigeration systems, the usual location for charging the refrigeration system is into the:",
+        "choices": ["Suction line", "Liquid line between the receiver shut-off valve and the expansion valve", "Line between the condenser and the compressor", "Line between the high pressure cut-off switch and the expansion valve"],
+        "answer": "Liquid line between the receiver shut-off valve and the expansion valve"
+    },
+    {
+        "question": "The effect of a voltage variation to 90 percent of normal voltage, for a compound wound DC motor, of the full load current is:",
+        "choices": ["Increase in the full load current approximately by 10%", "Zero", "A decrease in the full load current of approximately 10%", "A decrease in the full load current 20%"],
+        "answer": "Increase in the full load current approximately by 10%"
+    },
+    {
+        "question": "The main advantage of operating a steam engine or steam turbine “condensing” is that it:",
+        "choices": ["Increases the mean effective pressure in the prime mover", "Decrease the condensate temperature", "Permits the use of exhaust steam to drive auxiliary equipment", "Eliminates the need for separating non-condensable from the steam"],
+        "answer": "Increases the mean effective pressure in the prime mover"
+    },
+    {
+        "question": "The automatic shut off valves for a water gage installed on a high-pressure boiler must be:",
+        "choices": ["Horizontal swing-check valves", "Vertical swing-check valves", "Ball-check valves", "Spring-loaded check valves"],
+        "answer": "Ball-check valves"
+    },
+    {
+        "question": "The efficiency of a riveted joint is defined as the ratio of the:",
+        "choices": ["Plate thickness to the rivet diameter", "Strength the riveted joint to the strength of a welded joint", "Strength of the riveted joint to the strength of the solid plate", "Number of rivets in the first row of the joint to the total number of rivets on one side of the joint"],
+        "answer": "Strength of the riveted joint to the strength of the solid plate"
+    },
+    {
+        "question": "It corresponds to a heat absorption rate of 237.6 Btu/min (4.175 kW) with inlet and outlet pressures corresponding to saturation temperature of 23 oF (-5 oC) and 59 oF (15 oC), respectively. How do you call this absorption rate?",
+        "choices": ["American Unit of refrigeration", "British Unit of refrigeration", "European Unit of refrigeration", "Standard Unit of refrigeration"],
+        "answer": "British Unit of refrigeration"
+    },
+    {
+        "question": "What is the advantage of an internal water level control over an external one?",
+        "choices": ["The external control is in a ‘dead’ area", "It is less likely to scale up", "It will respond more quickly to changes in water level", "Daily testing of the level control chamber is not required"],
+        "answer": "Daily testing of the level control chamber is not required"
+    },
+    {
+        "question": "What is the purpose of testing gauge glasses?",
+        "choices": ["To ensure the gauge cocks are operative", "To ensure there is sufficient water over the top fire tube", "To ensure the boiler water level is being properly sensed", "To check the boiler 1st and 2nd low water level alarms"],
+        "answer": "To ensure the gauge cocks are operative"
+    },
+    {
+        "question": "What is the effect of an overloaded boiler?",
+        "choices": ["Water level rises and lock-out occurs", "Reduced steam production", "Water level drops and lock-out occurs", "Steam velocity reduces and separator efficiency drops"],
+        "answer": "Water level drops and lock-out occurs"
+    },
+    {
+        "question": "Why is slow, controlled warm-up of a steam system essential?",
+        "choices": ["To make it easier to open the boiler main stop valve", "To minimize undue stresses and eliminate damage", "To permit separators to remove more water", "To prevent stress on the boiler"],
+        "answer": "To minimize undue stresses and eliminate damage"
+    },
+    {
+        "question": "Which of the following is the main purpose of the steam distribution manifold?",
+        "choices": ["It replaces the need for a separator after the boiler", "to remove air from the steam system", "To provide an extra separating function", "It is a requirement of the pressure systems regulations"],
+        "answer": "To provide an extra separating function"
+    },
+    {
+        "question": "Priming of a boiler is:",
+        "choices": ["Getting a boiler prepared for start-up", "A reduction in boiler pressure and carryover of water", "Occurrence of excessive TDS and carryover of water", "Balancing of boilers in a multi-boiler installation"],
+        "answer": "Occurrence of excessive TDS and carryover of water"
+    },
+    {
+        "question": "What is the advantage of interruptible tariff?",
+        "choices": ["Quick and easy to change to heavy fuel oil when required", "Price of fuel", "Price of interruptible gas lower than fixed supply", "Convenience of supply"],
+        "answer": "Price of interruptible gas lower than fixed supply"
+    },
+    {
+        "question": "At what pressure should a boiler safety valve be set?",
+        "choices": ["Maximum working pressure", "Normal working pressure", "Hydraulic test pressure", "Feed pump maximum pressure"],
+        "answer": "Maximum working pressure"
+    },
+    {
+        "question": "What is the purpose of a bottom blowdown valve?",
+        "choices": ["To control water level", "To drain the boiler", "To maintain TDS", "To remove sludge"],
+        "answer": "To remove sludge"
+    },
+    {
+        "question": "How often, as a minimum, should gauge glasses be tested?",
+        "choices": ["Once a shift", "Once a day", "Twice a day", "Once a week"],
+        "answer": "Once a day"
+    },
+    {
+        "question": "Why are two gauge glasses often fitted?",
+        "choices": ["One is a check against the other", "One is a reserve", "It is a legal requirement", "To increase periods between maintenance"],
+        "answer": "It is a legal requirement"
+    },
+    {
+        "question": "Temporary hardness salts are reduced by:",
+        "choices": ["Raising the water temperature", "Lowering the water temperature", "Raising the pH value", "letting the water settle"],
+        "answer": "Raising the water temperature"
+    },
+    {
+        "question": "What is the effect of CO2 in a steam system?",
+        "choices": ["The formation of scale", "The formation of sludge", "Corrosion", "Acidity"],
+        "answer": "Corrosion"
+    },
+    {
+        "question": "Which of the following forms soft scale or sludge?",
+        "choices": ["Magnesium sulphate", "Sodium bicarbonate", "Sodium carbonate", "Calcium bicarbonate"],
+        "answer": "Calcium bicarbonate"
+    },
+    {
+        "question": "Which of the following are principal dissolved solids that are scale forming?",
+        "choices": ["Carbonates and sulphates of sodium", "Calcium bicarbonate", "Carbonates and sulphates of magnesium", "Bicarbonate of sodium and magnesium"],
+        "answer": "Carbonates and sulphates of magnesium"
+    },
+    {
+        "question": "What is the effect of temperature on calcium and magnesium sulphates?",
+        "choices": ["They separate out as soft scale and sludge", "They precipitate out solution and form hard scale", "Foaming and carryover occurs", "The TDS is increased"],
+        "answer": "They precipitate out solution and form hard scale"
+    },
+    {
+        "question": "What is the treatment for scale forming salts in boiler feedwater?",
+        "choices": ["They are chemically treated to modify the pH", "The feedwater tank is raised to at least 85 oC", "They are chemically treated to produce suspended solids", "They are removed by filtration means"],
+        "answer": "They are chemically treated to produce suspended solids"
+    },
+    {
+        "question": "Which of the following types of alcohol is the most frequently considered as fuel for internal combustion engine?",
+        "choices": ["Methyl alcohol", "Ethyl alcohol", "Isopropyl alcohol", "Alcogas"],
+        "answer": "Ethyl alcohol"
+    },
+    {
+        "question": "In a thermal plant, name the components of a self-acting temperature control system.",
+        "choices": ["Control valve and actuator", "Control valve, actuator and sensor", "Control valve, actuator, capillary tube and sensor", "Control valve, actuator and capillary tube"],
+        "answer": "Control valve, actuator, capillary tube and sensor"
+    },
+    {
+        "question": "What is the purpose of over temperature protection within the self-acting control system?",
+        "choices": ["To protect the valve from high temperature steam", "To protect the liquid fill in the capillary from boiling", "To protect the control system from irreversible damage", "To protect the application from overtemperature"],
+        "answer": "To protect the control system from irreversible damage"
+    },
+    {
+        "question": "Why are three-port self-acting control valves used in an industrial steam of a thermal system?",
+        "choices": ["To mix or divert liquids especially water", "To dump steam to waste under fault conditions", "Where cooling applications are required", "When large valves are required to meet large capacities"],
+        "answer": "To mix or divert liquids especially water"
+    },
+    {
+        "question": "How do you call a process in which superheated steam is either restored to its saturated state, or its superheated temperature is reduced?",
+        "choices": ["Superheating", "Regenerative heating", "Reheating", "Desuperheating"],
+        "answer": "Desuperheating"
+    },
+    {
+        "question": "What does MAWP stand for",
+        "choices": ["Maximum attenuated working pressure", "Maximum allowable working pressure", "Maximum allowable with pressure", "Minimum allowable working pressure"],
+        "answer": "Maximum allowable working pressure"
+    },
+    {
+        "question": "Name one disadvantage of a direct acting pressure reducing valve.",
+        "choices": ["It only has proportional control", "It has proportional and integral control but no derivative control", "It operates in an o/off fashion", "An external power source is required for it to operate"],
+        "answer": "It only has proportional control"
+    },
+    {
+        "question": "In order to avoid cavitation in a centrifugal pump, which of the following is true?",
+        "choices": ["Installation NPSH ≥ pump NPSH", "Installation NPSH ≤ pump NPSH", "Installation NPSH < pump NPSH", "Installation NPSH should be negative"],
+        "answer": "Installation NPSH ≥ pump NPSH"
+    },
+    {
+        "question": "It is dust removal equipment that consists of a cylindrical tank structure provided with a tangential opening at one end for gas passage and a spray manifold at the center which is made of a vertical pipe attached with spray nozzles where water is introduced at the bottom of this spray pipe. The gas revolves around the cylindrical body as it enters the scrubber, and comes in contact with the water spray, the dust fly ash are then wetted and hence separated from the gas leaves the scrubber at the top.",
+        "choices": ["Cinder trap or catcher", "Cyclone Separator", "Cyclonic Spray Scrubber", "Electrostatic Precipitator"],
+        "answer": "Cyclonic Spray Scrubber"
+    },
+    {
+        "question": "What is a heat exchanger that allows cross contact between two media? This heat exchanger allows the cooling water to flow by gravity over the outside of tubes or plates.",
+        "choices": ["Single-pass heat exchanger", "Double-pass heat exchanger", "Baudelot heat exchanger", "Shell-and-tube heat exchanger"],
+        "answer": "Baudelot heat exchanger"
+    },
+    {
+        "question": "What is the recommended weight of the machine foundation?",
+        "choices": ["3 to 5 times the machine weight", "4 to 6 times the machine weight", "2 to 4 times the machine weight", "2 to 4 times the machine weight"],
+        "answer": "3 to 5 times the machine weight"
+    },
+    {
+        "question": "It is a bituminous coal that contains plenty of hydrocarbons, forming lumped masses when burned. This coal is ideal for forming carbonaceous gases for reduction of ore. What do you call this coal?",
+        "choices": ["Coking or coking coal", "Free burning coal", "Peat coal", "Lignite coal"],
+        "answer": "Coking or coking coal"
+    },
+    {
+        "question": "It is an engine in which the connecting rod is directly connected to the piston wristpin. The side thrust caused by the angularity of the connecting rod is taken by the piston bearing against the cylinder wall.",
+        "choices": ["Opposed-piston engine", "Trunk piston engine", "Crosshead engine", "2-stroke engine"],
+        "answer": "Trunk piston engine"
+    },
+    {
+        "question": "It is an internal combustion engine wherein the ignition of the fuel is not accomplished solely by the heat developed from the compression of the combustion air supplied but partly or entirely by other heat sources, such as an uncooled tube, plate, bulb, or an electric resistance coil.",
+        "choices": ["Spark-ignition engine", "Compression-ignition engine", "Surface-ignition engine", "Dual combustion engine"],
+        "answer": "Surface-ignition engine"
+    },
+    {
+        "question": "This is the condition in a geothermal plant wherein the ground surface where the well is drilled is depressed or subsides due to depleting. What do you call this?",
+        "choices": ["Ground subsidence", "Chemical pollution", "Thermal pollution", "Dissolved solids"],
+        "answer": "Ground subsidence"
+    },
+    {
+        "question": "In the critical thickness of insulator concept for a cylinder, what does the Biot number indicate if its value is less than 1?",
+        "choices": ["Condition for optimum heat flow", "Addition of insulation will increase heat transfer rate", "Additional insulation will decrease the heat transfer rate", "Heat transfer rate reaches a maximum"],
+        "answer": "Addition of insulation will increase heat transfer rate"
+    },
+    {
+        "question": "How do you call the ratio of the product of a convective heat transfer coefficient and the critical radius of the insulator to that of the thermal conductivity of the insulator?",
+        "choices": ["Biot number", "Nusselt number", "Prandlt number", "Reynolds number"],
+        "answer": "Biot number"
+    },
+    {
+        "question": "This is a type of dryer that consists of a vertical shaft in which the wet feed is introduced at the top and falls downward over baffles while coming in contact with the hot air that rises and exhaust at the top. This dryer is used for drying palay, wheat, and grains.",
+        "choices": ["Rotary dryer", "Tower dryer", "Hearth dryer", "Tray dryer"],
+        "answer": "Tower dryer"
+    },
+    {
+        "question": "How do you call those substances that are particularly variable in the moisture content that they can possess at different times?",
+        "choices": ["Wet materials", "Hygroscopic materials", "Gross materials", "Bone-dry-weight material"],
+        "answer": "Hygroscopic materials"
+    },
+    {
+        "question": "The bottom blow down on a boiler is used to:",
+        "choices": ["Remove mud drum water impurities", "Increase boiler priming", "Reduce steam pressure in the header", "Increase the boiler water level"],
+        "answer": "Remove mud drum water impurities"
+    },
+    {
+        "question": "In a Brayton cycle or gas turbine cycle, what do you call the heat exchanger that passes exhaust heat to the compressed air, prior to combustion?",
+        "choices": ["Reheater", "Heater", "Recuperator", "Heat exchanger"],
+        "answer": "Recuperator"
+    },
+    {
+        "question": "The heat rejected by the working substance to the regenerator in the Stirling cycle is:",
+        "choices": ["Equal to the heat absorbed by the working substance from the regenerator", "Not equal to the heat absorbed by the working substance from the regenerator", "Dependent on the value of temperature in the heat addition process", "Measured during the constant temperature heat rejection process"],
+        "answer": "Equal to the heat absorbed by the working substance from the regenerator"
+    },
+    {
+        "question": "How do you call a device that converts liquid refrigerant to vapour, with the help of the surrounding heat?",
+        "choices": ["Condenser", "Compressor", "Expansion valve", "Evaporator"],
+        "answer": "Evaporator"
+    },
+    {
+        "question": "In gas compressor, when the volumetric efficiency increases, the piston displacement has:",
+        "choices": ["Not been changed", "Been increased", "Been decreased", "Been insufficient data"],
+        "answer": "Been decreased"
+    },
+    {
+        "question": "The ratio of its radiating power to that of a black body at same temperature.",
+        "choices": ["Transmissivity", "Absorptivity", "Reflectivity", "Emissivity"],
+        "answer": "Emissivity"
+    },
+    {
+        "question": "Fans used to withdraw air under suction, that is, the resistance to gas flow is imposed primarily upon the inlet.",
+        "choices": ["Blowers", "industrial fans", "Exhauster", "Domestic fans"],
+        "answer": "Exhauster"
+    },
+    {
+        "question": "The phenomenon of rising water in the tube of small diameter is called what?",
+        "choices": ["Surface tension", "Water gage rise", "Capillary rise", "Fluid column rise"],
+        "answer": "Capillary rise"
+    },
+    {
+        "question": "Pitot tube is used to measure,",
+        "choices": ["Height", "Viscosity", "Velocity", "Density"],
+        "answer": "Velocity"
+    },
+    {
+        "question": "During engine operation, to vary the air quantity and also to vary the air fuel mixture, this is used to pen and closed the inlet manifold.",
+        "choices": ["Throttle valve", "Choke valve", "Check valve", "Gate valve"],
+        "answer": "Throttle valve"
+    }
+]
