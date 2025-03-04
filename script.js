@@ -24,38 +24,52 @@ function shuffle(array) {
   return array;
 }
 
-document.querySelectorAll('input[name="mode"]').forEach((input) =>
-  input.addEventListener("change", (e) => {
-    mode = e.target.value;
-    document.getElementById("startButton").textContent = `Start ${mode.charAt(0).toUpperCase() + mode.slice(1)}`;
-  })
-);
+// Wait for DOM to load before adding event listeners
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll('input[name="mode"]').forEach((input) =>
+    input.addEventListener("change", (e) => {
+      mode = e.target.value;
+      document.getElementById("startButton").textContent = `Start ${mode.charAt(0).toUpperCase() + mode.slice(1)}`;
+    })
+  );
 
-document.querySelectorAll('input[name="order"]').forEach((input) =>
-  input.addEventListener("change", (e) => (order = e.target.value))
-);
+  document.querySelectorAll('input[name="order"]').forEach((input) =>
+    input.addEventListener("change", (e) => (order = e.target.value))
+  );
 
-document.getElementById("repeatsEnabled").addEventListener("change", (e) => {
-  repeatsEnabled = e.target.checked;
-  maxRepeats = repeatsEnabled ? parseInt(document.getElementById("maxRepeatsInput").value) || 1 : 0;
-});
-document.getElementById("maxRepeatsInput").addEventListener("change", (e) => {
-  maxRepeats = repeatsEnabled ? parseInt(e.target.value) || 1 : 0;
-  if (maxRepeats > 5) maxRepeats = 5;
-  if (maxRepeats < 0) maxRepeats = 0;
-});
-document.getElementById("activeRecallEnabled").addEventListener("change", (e) => {
-  activeRecallEnabled = e.target.checked;
-});
+  const repeatsEnabledInput = document.getElementById("repeatsEnabled");
+  if (repeatsEnabledInput) {
+    repeatsEnabledInput.addEventListener("change", (e) => {
+      repeatsEnabled = e.target.checked;
+      maxRepeats = repeatsEnabled ? parseInt(document.getElementById("maxRepeatsInput").value) || 1 : 0;
+    });
+  }
 
-document.getElementById("startButton").addEventListener("click", startGame);
-document.getElementById("quitButton").addEventListener("click", resetGame);
-document.getElementById("infoButton").addEventListener("click", showQuote);
-document.getElementById("skipButton").addEventListener("click", skipQuestion);
-document.getElementById("creditsButton").addEventListener("click", toggleCredits);
-document.getElementById("prevButton").addEventListener("click", prevQuestion);
-document.getElementById("nextButton").addEventListener("click", nextQuestion);
-document.getElementById("closeQuote").addEventListener("click", hideQuote);
+  const maxRepeatsInput = document.getElementById("maxRepeatsInput");
+  if (maxRepeatsInput) {
+    maxRepeatsInput.addEventListener("change", (e) => {
+      maxRepeats = repeatsEnabled ? parseInt(e.target.value) || 1 : 0;
+      if (maxRepeats > 5) maxRepeats = 5;
+      if (maxRepeats < 0) maxRepeats = 0;
+    });
+  }
+
+  const activeRecallEnabledInput = document.getElementById("activeRecallEnabled");
+  if (activeRecallEnabledInput) {
+    activeRecallEnabledInput.addEventListener("change", (e) => {
+      activeRecallEnabled = e.target.checked;
+    });
+  }
+
+  document.getElementById("startButton").addEventListener("click", startGame);
+  document.getElementById("quitButton").addEventListener("click", resetGame);
+  document.getElementById("infoButton").addEventListener("click", showQuote);
+  document.getElementById("skipButton").addEventListener("click", skipQuestion);
+  document.getElementById("creditsButton").addEventListener("click", toggleCredits);
+  document.getElementById("prevButton").addEventListener("click", prevQuestion);
+  document.getElementById("nextButton").addEventListener("click", nextQuestion);
+  document.getElementById("closeQuote").addEventListener("click", hideQuote);
+});
 
 async function loadQuizFiles() {
   try {
@@ -78,9 +92,9 @@ async function loadQuizFiles() {
 
 async function startGame() {
   if (!selectedQuiz) return alert("Please select a quiz!");
-  repeatsEnabled = document.getElementById("repeatsEnabled").checked;
-  activeRecallEnabled = document.getElementById("activeRecallEnabled").checked;
-  maxRepeats = repeatsEnabled ? parseInt(document.getElementById("maxRepeatsInput").value) || 1 : 0;
+  repeatsEnabled = document.getElementById("repeatsEnabled")?.checked || false;
+  activeRecallEnabled = document.getElementById("activeRecallEnabled")?.checked || false;
+  maxRepeats = repeatsEnabled ? parseInt(document.getElementById("maxRepeatsInput")?.value) || 1 : 0;
   // Disable repeats and active recall for Learn mode
   if (mode === "learn") {
     repeatsEnabled = false;
