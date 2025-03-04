@@ -5,9 +5,12 @@ let order = "ordered";
 let selectedQuiz = "";
 let answeredCount = 0;
 let queue = [];
+let recallQueue = [];
 let wrongAttempt = false;
-let repeatCount = 0; // Track number of repeat cycles
-const maxRepeats = 2; // Set maximum repeats
+let repeatCount = 0;
+let repeatsEnabled = false;
+let activeRecallEnabled = false;
+let maxRepeats = 1;
 
 const correctSound = document.getElementById("correctSound");
 const incorrectSound = document.getElementById("incorrectSound");
@@ -32,11 +35,26 @@ document.querySelectorAll('input[name="order"]').forEach((input) =>
   input.addEventListener("change", (e) => (order = e.target.value))
 );
 
+document.getElementById("repeatsEnabled").addEventListener("change", (e) => {
+  repeatsEnabled = e.target.checked;
+  maxRepeats = repeatsEnabled ? parseInt(document.getElementById("maxRepeatsInput").value) || 1 : 0;
+});
+document.getElementById("maxRepeatsInput").addEventListener("change", (e) => {
+  maxRepeats = repeatsEnabled ? parseInt(e.target.value) || 1 : 0;
+  if (maxRepeats > 5) maxRepeats = 5;
+  if (maxRepeats < 0) maxRepeats = 0;
+});
+document.getElementById("activeRecallEnabled").addEventListener("change", (e) => {
+  activeRecallEnabled = e.target.checked;
+});
+
 document.getElementById("startButton").addEventListener("click", startGame);
 document.getElementById("quitButton").addEventListener("click", resetGame);
 document.getElementById("infoButton").addEventListener("click", showQuote);
 document.getElementById("skipButton").addEventListener("click", skipQuestion);
 document.getElementById("creditsButton").addEventListener("click", toggleCredits);
+document.getElementById("prevButton").addEventListener("click", prevQuestion);
+document.getElementById("nextButton").addEventListener("click", nextQuestion);
 
 async function loadQuizFiles() {
   try {
@@ -59,13 +77,18 @@ async function loadQuizFiles() {
 
 async function startGame() {
   if (!selectedQuiz) return alert("Please select a quiz!");
+  repeatsEnabled = document.getElementById("repeatsEnabled").checked;
+  activeRecallEnabled = document.getElementById("activeRecallEnabled").checked;
+  maxRepeats = repeatsEnabled ? parseInt(document.getElementById("maxRepeatsInput").value) || 1 : 0;
   try {
     const response = await fetch(`/.netlify/functions/getQuestions?quiz_file=${encodeURIComponent(selectedQuiz)}`);
     if (!response.ok) throw new Error("Failed to load questions");
     questions = await response.json();
     queue = [...questions];
-    if (order === "random") queue.sort(() => Math.random() - 0.5);
-    repeatCount = 0; // Reset repeat count
+    recallQueue = [];
+    if (order === "random") shuffle(queue);
+    repeatCount = 0;
+    currentQuestionIndex = 0; // Start at first question
     document.getElementById("start-screen").classList.add("hidden");
     document.getElementById("game-screen").classList.remove("hidden");
     loadQuestion();
@@ -76,27 +99,46 @@ async function startGame() {
 }
 
 function loadQuestion() {
-  if (queue.length === 0) return endGame();
+  if (queue.length === 0) {
+    if (recallQueue.length > 0 && activeRecallEnabled) {
+      queue = [...recallQueue];
+      recallQueue = [];
+      currentQuestionIndex = 0;
+    } else {
+      return endGame();
+    }
+  }
   const q = queue[currentQuestionIndex];
-  document.getElementById("question").textContent = q.question;
-  const choicesContainer = document.getElementById("choices");
-  choicesContainer.innerHTML = "";
-  // Create a copy of choices and shuffle it
-  const shuffledChoices = [...q.choices]; // Copy to avoid modifying original
-  shuffle(shuffledChoices);
-  shuffledChoices.forEach((choice) => {
-    const button = document.createElement("button");
-    button.textContent = choice;
-    button.onclick = () => checkAnswer(button, choice, q.answer);
-    choicesContainer.appendChild(button);
-  });
-  document.getElementById("progress").textContent = `${answeredCount}/${questions.length}`;
-  document.getElementById("feedback").textContent = "";
-  wrongAttempt = false; // Reset for new question
+  document.getElementById("question").innerHTML = q.question;
+  if (mode === "learn") {
+    document.getElementById("choices").innerHTML = ""; // Hide choices
+    document.getElementById("answer").innerHTML = q.answer; // Show only answer
+    document.getElementById("answer").classList.remove("hidden");
+    document.getElementById("navigation").classList.remove("hidden");
+    document.getElementById("skipButton").classList.add("hidden");
+    document.getElementById("feedback").classList.add("hidden"); // Hide feedback
+  } else {
+    document.getElementById("answer").classList.add("hidden");
+    document.getElementById("navigation").classList.add("hidden");
+    document.getElementById("skipButton").classList.remove("hidden");
+    document.getElementById("feedback").classList.remove("hidden");
+    const choicesContainer = document.getElementById("choices");
+    choicesContainer.innerHTML = "";
+    const shuffledChoices = [...q.choices];
+    shuffle(shuffledChoices);
+    shuffledChoices.forEach((choice) => {
+      const button = document.createElement("button");
+      button.innerHTML = choice;
+      button.onclick = () => checkAnswer(button, choice, q.answer);
+      choicesContainer.appendChild(button);
+    });
+  }
+  document.getElementById("progress").textContent = `${currentQuestionIndex + 1}/${questions.length}`;
 }
 
 function checkAnswer(button, choice, correctAnswer) {
   const feedback = document.getElementById("feedback");
+  const currentQuestion = queue[currentQuestionIndex];
   if (choice === correctAnswer) {
     button.classList.add("correct");
     correctSound.play();
@@ -105,19 +147,32 @@ function checkAnswer(button, choice, correctAnswer) {
       answeredCount++;
       setTimeout(nextQuestion, 1000);
     } else if (mode === "practice") {
-      if (!wrongAttempt) {
-        answeredCount++; // First correct attempt
-        if (repeatCount < maxRepeats) {
-          repeatCount++; // Start repeat cycle
-          setTimeout(resetQuestion, 500); // Repeat for practice
+      if (!repeatsEnabled && !activeRecallEnabled) {
+        answeredCount++;
+        setTimeout(nextQuestion, 500);
+      } else if (repeatsEnabled) {
+        if (!wrongAttempt) {
+          answeredCount++;
+          if (repeatCount < maxRepeats) {
+            repeatCount++;
+            setTimeout(resetQuestion, 500);
+          } else {
+            setTimeout(nextQuestion, 500);
+          }
         } else {
-          setTimeout(nextQuestion, 500); // Move on after max repeats
+          if (repeatCount < maxRepeats) {
+            repeatCount++;
+            setTimeout(resetQuestion, 500);
+          } else {
+            answeredCount++;
+            setTimeout(nextQuestion, 500);
+          }
         }
-      } else {
-        // Correct after wrong attempt, reset if wrong occurred
-        repeatCount = 0; // Back to square one
-        wrongAttempt = false; // Reset for new cycle
-        setTimeout(resetQuestion, 500); // Repeat to start fresh
+      }
+      if (activeRecallEnabled && wrongAttempt) {
+        if (!recallQueue.includes(currentQuestion)) {
+          recallQueue.push(currentQuestion);
+        }
       }
     }
   } else {
@@ -129,23 +184,43 @@ function checkAnswer(button, choice, correctAnswer) {
       answeredCount++;
       setTimeout(nextQuestion, 1000);
     }
-    // Practice mode persists, resets cycle on wrong
   }
+}
+
+function prevQuestion() {
+  if (mode === "learn" && currentQuestionIndex > 0) {
+    currentQuestionIndex--;
+    loadQuestion();
+  }
+}
+
+function nextQuestion() {
+  if (mode === "learn" && currentQuestionIndex < queue.length - 1) {
+    currentQuestionIndex++;
+    loadQuestion();
+  } else if (activeRecallEnabled && recallQueue.length > 0) {
+    const recallQuestion = recallQueue.shift();
+    if (queue.length > 0) {
+      queue.splice(currentQuestionIndex, 1);
+    }
+    if (!queue.includes(recallQuestion)) {
+      queue.unshift(recallQuestion);
+    }
+    currentQuestionIndex = 0;
+  } else if (queue.length > 0) {
+    queue.splice(currentQuestionIndex, 1);
+    currentQuestionIndex = 0;
+  }
+  wrongAttempt = false;
+  repeatCount = 0;
+  loadQuestion();
 }
 
 function skipQuestion() {
   const skipped = queue.splice(currentQuestionIndex, 1)[0];
-  queue.push(skipped);
+  queue.push(skipped); // Move skipped question to the end
   wrongAttempt = false;
-  repeatCount = 0; // Reset on skip
-  loadQuestion();
-}
-
-function nextQuestion() {
-  queue.splice(currentQuestionIndex, 1);
-  currentQuestionIndex = 0;
-  wrongAttempt = false;
-  repeatCount = 0; // Reset on next
+  repeatCount = 0;
   loadQuestion();
 }
 
@@ -156,7 +231,10 @@ function resetQuestion() {
 function endGame() {
   document.getElementById("question").textContent = "Game Over!";
   document.getElementById("choices").innerHTML = "";
+  document.getElementById("answer").classList.add("hidden");
+  document.getElementById("navigation").classList.add("hidden");
   document.getElementById("skipButton").classList.add("hidden");
+  document.getElementById("feedback").classList.add("hidden");
 }
 
 function resetGame() {
@@ -164,6 +242,7 @@ function resetGame() {
   document.getElementById("start-screen").classList.remove("hidden");
   questions = [];
   queue = [];
+  recallQueue = [];
   answeredCount = 0;
   currentQuestionIndex = 0;
   wrongAttempt = false;

@@ -134,8 +134,8 @@ select, button {
 #quitButton {
     position: relative; /* Change to absolute and drag */
     top: -10px; /* Retained, drag to adjust */
-    left: -240px; /* Retained, drag to adjust */
-    background: #ff3333; /* Bright red */
+    left: -125px; /* Retained, drag to adjust */
+    background: #1e1a1a; /* dark grey */
     color: white;
     padding: 8px 12px; /* Touch-friendly, drag to resize */
     border-radius: 8px;
@@ -146,8 +146,8 @@ select, button {
 #infoButton {
     position: relative; /* Change to absolute and drag */
     top: -10px; /* Retained, drag to adjust */
-    right: -240px; /* Retained, drag to adjust */
-    background: #007bff; /* Bright blue */
+    right: -125px; /* Retained, drag to adjust */
+    background: #1e1a1a; /* Bright blue */
     color: white;
     padding: 8px 12px; /* Touch-friendly, drag to resize */
     border-radius: 8px;
@@ -208,3 +208,42 @@ select, button {
     text-align: center; /* Centered */
     /* Try: display: block; margin-top: 15px; or background: #333333; */
 }
+
+/* ... (previous styles remain unchanged) ... */
+
+/* Answer display - Elegant and bold */
+.answer {
+    margin-top: 10px; /* Drag to adjust */
+    font-size: 32px; /* Retained */
+    font-weight: 500;
+    color: #33ff00; /* White */
+    text-shadow: 0 0 5px rgba(67, 117, 255, 0.459); /* Neon glow */
+    text-align: center; /* Centered */
+    /* Try: margin-top: 15px; or font-size: 24px; */
+}
+
+/* Navigation buttons - Elegant and mobile-friendly */
+#navigation {
+    margin-top: 15px; /* Drag to adjust */
+    display: flex;
+    justify-content: space-between; /* Space arrows evenly */
+    width: 100%;
+    /* Try: margin-top: 10px; */
+}
+#prevButton, #nextButton {
+    background: linear-gradient(270deg, #232325, #141414); /* Neutral gradient */
+    color: #ffffff; /* White */
+    padding: 10px 15px; /* Touch-friendly */
+    border: none;
+    border-radius: 8px; /* Rounded */
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease;
+    /* Try: padding: 12px 18px; */
+}
+#prevButton:hover, #nextButton:hover {
+    transform: scale(1.05); /* Zoom */
+    background: linear-gradient(90deg,  #232325, #141414); /* Lighter */
+    /* Try: transform: scale(1.1); */
+}
+
+/* ... (remaining styles remain unchanged) ... */
