@@ -1,5 +1,7 @@
 [build]
+  command = "node set-build-date.js && echo 'Build date set'"
   functions = "functions"
+  publish = "."  # Ensure the publish directory is set to the root or your build output directory
 
 [functions]
   included_files = ["functions/data/**/*"]

@@ -70,6 +70,12 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("prevButton").addEventListener("click", prevQuestion);
   document.getElementById("nextButton").addEventListener("click", nextQuestion);
   document.getElementById("closeQuote").addEventListener("click", hideQuote);
+
+  // Set last updated date on page load
+  const lastUpdated = document.getElementById("last-updated");
+  if (lastUpdated) {
+    lastUpdated.textContent = `Last Updated: ${__BUILD_DATE__ || 'Unknown Date'}`;
+  }
 });
 
 async function loadQuizFiles() {
@@ -96,7 +102,6 @@ async function startGame() {
   repeatsEnabled = document.getElementById("repeatsEnabled")?.checked || false;
   activeRecallEnabled = document.getElementById("activeRecallEnabled")?.checked || false;
   maxRepeats = repeatsEnabled ? parseInt(document.getElementById("maxRepeatsInput")?.value) || 1 : 0;
-  // Disable repeats and active recall for Learn mode
   if (mode === "learn") {
     repeatsEnabled = false;
     activeRecallEnabled = false;
@@ -108,10 +113,10 @@ async function startGame() {
     questions = await response.json();
     queue = [...questions];
     recallQueue = [];
-    completedCount = 0; // Reset completed count
+    completedCount = 0;
     if (order === "random") shuffle(queue);
     repeatCount = 0;
-    currentQuestionIndex = 0; // Start at first question
+    currentQuestionIndex = 0;
     document.getElementById("start-screen").classList.add("hidden");
     document.getElementById("game-screen").classList.remove("hidden");
     loadQuestion();
