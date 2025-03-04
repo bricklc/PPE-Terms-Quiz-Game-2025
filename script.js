@@ -80,6 +80,12 @@ async function startGame() {
   repeatsEnabled = document.getElementById("repeatsEnabled").checked;
   activeRecallEnabled = document.getElementById("activeRecallEnabled").checked;
   maxRepeats = repeatsEnabled ? parseInt(document.getElementById("maxRepeatsInput").value) || 1 : 0;
+  // Disable repeats and active recall for Learn mode
+  if (mode === "learn") {
+    repeatsEnabled = false;
+    activeRecallEnabled = false;
+    maxRepeats = 0;
+  }
   try {
     const response = await fetch(`/.netlify/functions/getQuestions?quiz_file=${encodeURIComponent(selectedQuiz)}`);
     if (!response.ok) throw new Error("Failed to load questions");

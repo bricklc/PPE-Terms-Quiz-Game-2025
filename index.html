@@ -42,7 +42,7 @@
             <button id="quitButton">X</button>
             <button id="infoButton">i</button>
             <div id="question" class="question"></div>
-            <div id="answer" class="answer"></div> <!-- Only question and answer in Learn -->
+            <div id="answer" class="answer"></div>
             <div id="navigation">
                 <button id="prevButton">← Previous</button>
                 <button id="nextButton">Next →</button>
@@ -62,5 +62,20 @@
     <audio id="correctSound" src="/sounds/correct.mp3"></audio>
     <audio id="incorrectSound" src="/sounds/incorrect.mp3"></audio>
     <script src="script.js"></script>
+    <script>
+        // Toggle settings visibility based on mode
+        document.querySelectorAll('input[name="mode"]').forEach((input) => {
+            input.addEventListener("change", (e) => {
+                const settings = document.getElementById("settings");
+                if (e.target.value === "learn") {
+                    settings.style.display = "none";
+                } else {
+                    settings.style.display = "block";
+                }
+                mode = e.target.value;
+                document.getElementById("startButton").textContent = `Start ${mode.charAt(0).toUpperCase() + mode.slice(1)}`;
+            });
+        });
+    </script>
 </body>
 </html>
