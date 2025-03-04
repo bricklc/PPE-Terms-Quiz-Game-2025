@@ -53,7 +53,7 @@ body {
     padding: 12px; /* Touch-friendly, drag to adjust */
     background: #2c2c2c; /* Darker card background */
     border-radius: 8px; /* Rounded like mobile apps */
-    text-align: left; /* List readability */
+    text-align: middle; /* List readability */
     color: #e0e0e0; /* Light gray for readability */
     font-size: 14px; /* Mobile-friendly, drag to adjust */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
@@ -150,7 +150,7 @@ select, button {
     background: linear-gradient(270deg, #232325, #141414); /* Bright blue */
     color: white;
     padding: 8px 12px; /* Touch-friendly, drag to resize */
-    border-radius: 8px;
+    border-radius: 10px;
     /* Try: position: absolute; top: 10px; right: -10px; */
 }
 
@@ -216,8 +216,8 @@ select, button {
     margin-top: 10px; /* Drag to adjust */
     font-size: 32px; /* Retained */
     font-weight: 500;
-    color: #fffb00; /* Yellow */
-    text-shadow: 0 0 5px rgba(67, 117, 255, 0.459); /* Neon glow */
+    color: #ffffff10; /* Yellow */
+    text-shadow: 0 0 5px rgba(67, 195, 255, 0.158); /* Neon glow */
     text-align: center; /* Centered */
     /* Try: margin-top: 15px; or font-size: 24px; */
 }
@@ -254,7 +254,7 @@ select, button {
     padding: 15px; /* Touch-friendly */
     background: rgba(29, 29, 29, 0.95); /* Semi-transparent dark */
     border-radius: 10px; /* Smooth rounding */
-    color: #d3d8e0; /* Light gray */
+    color: #ffffff; /* Light gray */
     font-size: 16px; /* Readable */
     text-align: center; /* Centered */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
