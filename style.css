@@ -16,7 +16,7 @@ body {
     max-width: 620px; /* Limit on larger screens, drag */
     min-width: 300px; /* Minimum width for small screens */
     margin: 0 auto; /* Center horizontally */
-    background: rgba(0, 0, 0, 0.9); /* Semi-transparent dark */
+    background: rgba(27, 27, 27, 0.788); /* Semi-transparent dark */
     padding: 18px; /* Touch-friendly, drag */
     border-radius: 12px; /* Larger rounding */
     box-shadow: 0 2px 15px rgba(241, 241, 241, 0.719), inset 0 0 10px rgba(0, 170, 255, 0.1); /* Glassmorphism */
@@ -73,10 +73,10 @@ body {
 
 /* Question text - Bold for mobile emphasis */
 .question {
-    font-size: 20px; /* Larger for mobile, drag to adjust */
+    font-size: 22px; /* Larger for mobile, drag to adjust */
     font-weight: 500; /* Medium bold */
     margin-bottom: 15px; /* Retained, drag to adjust */
-    color: #ff2600; /* White for contrast */
+    color: #fc3b3b; /* White for contrast */
     /* Try: font-size: 22px; margin-bottom: 10px; */
 }
 
@@ -216,8 +216,8 @@ select, button {
     margin-top: 10px; /* Drag to adjust */
     font-size: 32px; /* Retained */
     font-weight: 500;
-    color: #ffffff10; /* Yellow */
-    text-shadow: 0 0 5px rgba(67, 195, 255, 0.158); /* Neon glow */
+    color: #f5f5f52c; /* Yellow */
+    text-shadow: 0 0 2px rgba(67, 195, 255, 0.158); /* Neon glow */
     text-align: center; /* Centered */
     /* Try: margin-top: 15px; or font-size: 24px; */
 }
