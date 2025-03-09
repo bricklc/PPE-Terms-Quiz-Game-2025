@@ -13,10 +13,12 @@ let activeRecallEnabled = false;
 let maxRepeats = 1;
 let completedCount = 0; // Track completed questions
 
-// New variables for quiz statistics
+// New variables for quiz statistics and speed run
 let quizStartTime = null;
 let quizEndTime = null;
 let correctCount = 0;
+let speedRunTimer = null;
+let speedRunEnabled = false;
 
 const correctSound = document.getElementById("correctSound");
 const incorrectSound = document.getElementById("incorrectSound");
@@ -67,6 +69,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  const speedRunEnabledInput = document.getElementById("speedRunEnabled");
+  if (speedRunEnabledInput) {
+    speedRunEnabledInput.addEventListener("change", (e) => {
+      speedRunEnabled = e.target.checked;
+    });
+  }
+
   document.getElementById("startButton").addEventListener("click", startGame);
   document.getElementById("quitButton").addEventListener("click", resetGame);
   document.getElementById("infoButton").addEventListener("click", showQuote);
@@ -76,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("nextButton").addEventListener("click", nextQuestion);
   document.getElementById("closeQuote").addEventListener("click", hideQuote);
 
-  // New event listener for ending the quiz early
+  // Event listener for ending the quiz early
   const endEarlyButton = document.getElementById("endEarlyButton");
   if (endEarlyButton) {
     endEarlyButton.addEventListener("click", endQuizEarly);
@@ -134,6 +143,21 @@ async function startGame() {
       quizStartTime = new Date();
       correctCount = 0;
       answeredCount = 0;
+      // Start Speed Run timer if enabled
+      if (document.getElementById("speedRunEnabled").checked) {
+        let timeStr = document.getElementById("speedRunTimeInput").value.toLowerCase().trim();
+        let timeLimitMs = 0;
+        if (timeStr.includes("min")) {
+          let num = parseInt(timeStr);
+          timeLimitMs = num * 60000;
+        } else if (timeStr.includes("s")) {
+          let num = parseInt(timeStr);
+          timeLimitMs = num * 1000;
+        }
+        if (timeLimitMs > 0) {
+          speedRunTimer = setTimeout(() => { endQuizEarly(); }, timeLimitMs);
+        }
+      }
     }
     
     document.getElementById("start-screen").classList.add("hidden");
@@ -268,6 +292,10 @@ function resetQuestion() {
 }
 
 function endGame() {
+  if (speedRunTimer) {
+    clearTimeout(speedRunTimer);
+    speedRunTimer = null;
+  }
   if (mode === "quiz") {
     quizEndTime = new Date();
     let timeTakenSec = Math.round((quizEndTime - quizStartTime) / 1000);
@@ -289,8 +317,12 @@ function endGame() {
   document.getElementById("quoteDisplay").classList.add("hidden");
 }
 
-// New function to end the quiz early
+// New function to end the quiz early (also used by Speed Run timer)
 function endQuizEarly() {
+  if (speedRunTimer) {
+    clearTimeout(speedRunTimer);
+    speedRunTimer = null;
+  }
   if (mode === "quiz") {
     quizEndTime = new Date();
     let timeTakenSec = Math.round((quizEndTime - quizStartTime) / 1000);
@@ -313,6 +345,10 @@ function endQuizEarly() {
 }
 
 function resetGame() {
+  if (speedRunTimer) {
+    clearTimeout(speedRunTimer);
+    speedRunTimer = null;
+  }
   document.getElementById("game-screen").classList.add("hidden");
   document.getElementById("start-screen").classList.remove("hidden");
   questions = [];

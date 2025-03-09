@@ -37,6 +37,11 @@
       <div id="settings">
         <label><input type="checkbox" id="repeatsEnabled" name="repeatsEnabled"> Enable Repeats</label>
         <label>Max Repeats: <input type="number" id="maxRepeatsInput" name="maxRepeats" min="0" max="5" value="1"></label>
+        <!-- Speed Run options, only shown in Quiz Mode -->
+        <div id="speedRunContainer" style="display: none;">
+          <label><input type="checkbox" id="speedRunEnabled" name="speedRunEnabled"> Enable Speed Run</label>
+          <label>Time Limit: <input type="text" id="speedRunTimeInput" name="speedRunTime" value="30s"></label>
+        </div>
       </div>
       <button id="startButton">Start Practice</button>
     </div>
@@ -51,7 +56,7 @@
       </div>
       <div id="choices" class="choices"></div>
       <button id="skipButton">Skip</button>
-      <!-- New End Early Button -->
+      <!-- End Quiz Early button -->
       <button id="endEarlyButton">End Quiz Early</button>
       <div id="progress"></div>
       <div id="feedback" class="feedback"></div>
@@ -75,10 +80,18 @@
     document.querySelectorAll('input[name="mode"]').forEach((input) => {
       input.addEventListener("change", (e) => {
         const settings = document.getElementById("settings");
+        const speedRunContainer = document.getElementById("speedRunContainer");
         if (e.target.value === "learn") {
           settings.style.display = "none";
+          speedRunContainer.style.display = "none";
         } else {
           settings.style.display = "block";
+          // Only display Speed Run options in Quiz Mode
+          if(e.target.value === "quiz") {
+            speedRunContainer.style.display = "block";
+          } else {
+            speedRunContainer.style.display = "none";
+          }
         }
         mode = e.target.value;
         document.getElementById("startButton").textContent = `Start ${mode.charAt(0).toUpperCase() + mode.slice(1)}`;
