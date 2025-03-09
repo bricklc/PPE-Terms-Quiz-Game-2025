@@ -91,6 +91,15 @@ document.addEventListener("DOMContentLoaded", () => {
     endEarlyButton.addEventListener("click", endQuizEarly);
   }
 
+  // Event listener for See Quiz Data button
+  document.getElementById("seeQuizDataButton").addEventListener("click", showQuizData);
+
+  // Event listener for Close Chart button
+  document.getElementById("closeChart").addEventListener("click", () => {
+    document.getElementById("chart-screen").classList.add("hidden");
+    document.getElementById("start-screen").classList.remove("hidden");
+  });
+
   // Set last updated date on page load
   const lastUpdated = document.getElementById("last-updated");
   if (lastUpdated) {
@@ -162,6 +171,7 @@ async function startGame() {
     
     document.getElementById("start-screen").classList.add("hidden");
     document.getElementById("game-screen").classList.remove("hidden");
+    document.getElementById("chart-screen").classList.add("hidden");
     // Show End Quiz Early button only in Quiz Mode
     document.getElementById("endEarlyButton").style.display = (mode === "quiz") ? "block" : "none";
     loadQuestion();
@@ -313,6 +323,10 @@ function endGame() {
                      <strong>Accuracy:</strong> ${accuracy}%<br>
                      <strong>Time Taken:</strong> ${timeTakenSec} seconds`;
     document.getElementById("question").innerHTML = "Game Over!" + statsHTML;
+    // Store accuracy in localStorage when quiz is fully completed
+    let quizData = JSON.parse(localStorage.getItem("quizData_" + selectedQuiz)) || [];
+    quizData.push(parseFloat(accuracy));
+    localStorage.setItem("quizData_" + selectedQuiz, JSON.stringify(quizData));
   } else {
     document.getElementById("question").textContent = "Game Over!";
   }
@@ -358,6 +372,7 @@ function resetGame() {
   }
   document.getElementById("game-screen").classList.add("hidden");
   document.getElementById("start-screen").classList.remove("hidden");
+  document.getElementById("chart-screen").classList.add("hidden");
   questions = [];
   queue = [];
   recallQueue = [];
@@ -395,6 +410,55 @@ function hideQuote() {
 function toggleCredits() {
   const creditsMessage = document.getElementById("creditsMessage");
   creditsMessage.style.display = creditsMessage.style.display === "none" || !creditsMessage.style.display ? "block" : "none";
+}
+
+// New function to display quiz accuracy graph
+function showQuizData() {
+  if (!selectedQuiz) {
+    alert("Please select a quiz first.");
+    return;
+  }
+
+  let quizData = JSON.parse(localStorage.getItem("quizData_" + selectedQuiz)) || [];
+  if (quizData.length === 0) {
+    alert("No quiz data available yet.");
+    return;
+  }
+
+  document.getElementById("start-screen").classList.add("hidden");
+  document.getElementById("chart-screen").classList.remove("hidden");
+
+  let ctx = document.getElementById("accuracyChart").getContext("2d");
+
+  // Destroy previous chart if it exists to prevent overlap
+  if (window.accuracyChart) {
+    window.accuracyChart.destroy();
+  }
+
+  let labels = quizData.map((_, index) => index + 1); // Attempt numbers (1, 2, 3, ...)
+  let data = {
+    labels: labels,
+    datasets: [{
+      label: "Accuracy (%)",
+      data: quizData,
+      borderColor: "rgba(75, 192, 192, 1)",
+      backgroundColor: "rgba(75, 192, 192, 0.2)",
+      fill: true,
+    }]
+  };
+
+  window.accuracyChart = new Chart(ctx, {
+    type: "line",
+    data: data,
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100
+        }
+      }
+    }
+  });
 }
 
 window.onload = loadQuizFiles;

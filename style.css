@@ -274,4 +274,13 @@ body {
   #last-updated {
     display: inline;
   }
-  
+
+  /* Chart screen styling */
+  #chart-screen {
+    text-align: center;
+  }
+
+  #accuracyChart {
+    width: 100%;
+    height: 400px;
+  }
