@@ -139,13 +139,14 @@ body {
     border-radius: 8px;
   }
   
-  /* End Quiz Early button */
+  /* End Quiz Early button - hidden by default */
   #endEarlyButton {
     margin-top: 10px;
     background: #cc0000;
     color: white;
     padding: 12px;
     border-radius: 8px;
+    display: none;
   }
   
   /* Speed Run container styling */
