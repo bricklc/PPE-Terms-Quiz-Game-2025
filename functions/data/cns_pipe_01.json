@@ -500,7 +500,7 @@
         "answer": "Carnot efficiency"
     },
     {
-        "question": "The following factors are necessary to define a thermodynamic cycle expect",
+        "question": "The following factors are necessary to define a thermodynamic cycle except",
         "choices": ["The working substance", "High and low temperature reservoirs", "The time it takes to complete the cycle", "The means of doing work on the system"],
         "answer": "The time it takes to complete the cycle"
     },
@@ -823,7 +823,7 @@
     {
         "question": "Sometimes called percentage humidity",
         "choices": ["Humidity ratio", "Saturation ratio", "Absolute humidity", "Relative humidity"],
-        "answer": "Saturation Ratio"
+        "answer": "Saturation ratio"
     },
     {
         "question": "When measuring ____________ of air, the bulb of the thermometer should be shaded to reduce the effect of direct radiation",
