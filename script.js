@@ -330,7 +330,7 @@ async function showQuote() {
   const quoteDisplay = document.getElementById("quoteDisplay");
   const quoteText = document.getElementById("quoteText");
   try {
-    const response = await fetch("/.netlify/functions/getQuestions?quiz_file=quotes.json");
+    const response = await fetch("/.netlify/functions/getQuizFiles?quiz_file=quotes.json");
     if (!response.ok) throw new Error("Failed to load quotes");
     const quotes = await response.json();
     const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
