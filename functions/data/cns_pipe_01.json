@@ -725,9 +725,15 @@
         "answer": "165 deg."
     },
     {
-        "question": "Which of the following turbines are centrifugal pumps operating in reverse? Weight per unit volume is termed as:",
+        "question": "Which of the following turbines are centrifugal pumps operating in reverse?",
         "choices": ["Reaction turbines", "Impulse turbines", "Tangential turbines", "Axial flow turbines"],
         "answer": "Reaction turbines"
+    },
+    {
+        "question": "Weight per unit volume is termed as:",
+        "choices": ["Weight Density", "Pressure", "Specific gravity", "Specific density"],
+        "answer": "Weight Density"
+       
     },
     {
         "question": "Measure of hotness or coldness of the body",
