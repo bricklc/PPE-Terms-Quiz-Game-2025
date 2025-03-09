@@ -42,6 +42,10 @@
           <label><input type="checkbox" id="speedRunEnabled" name="speedRunEnabled"> Enable Speed Run</label>
           <label>Time Limit: <input type="text" id="speedRunTimeInput" name="speedRunTime" value="30s"></label>
         </div>
+        <!-- Reveal Correct Answer option, only shown in Quiz Mode -->
+        <div id="revealAnswerContainer" style="display: none;">
+          <label><input type="checkbox" id="revealCorrectAnswer" name="revealCorrectAnswer"> Reveal Correct Answer after Incorrect Guess</label>
+        </div>
       </div>
       <button id="startButton">Start Practice</button>
     </div>
@@ -56,7 +60,7 @@
       </div>
       <div id="choices" class="choices"></div>
       <button id="skipButton">Skip</button>
-      <!-- End Quiz Early button (visibility controlled via JS & CSS) -->
+      <!-- End Quiz Early button (only visible in Quiz Mode) -->
       <button id="endEarlyButton">End Quiz Early</button>
       <div id="progress"></div>
       <div id="feedback" class="feedback"></div>
@@ -81,16 +85,20 @@
       input.addEventListener("change", (e) => {
         const settings = document.getElementById("settings");
         const speedRunContainer = document.getElementById("speedRunContainer");
+        const revealAnswerContainer = document.getElementById("revealAnswerContainer");
         if (e.target.value === "learn") {
           settings.style.display = "none";
           speedRunContainer.style.display = "none";
+          revealAnswerContainer.style.display = "none";
         } else {
           settings.style.display = "block";
-          // Only display Speed Run options in Quiz Mode
-          if(e.target.value === "quiz") {
+          // Only display Speed Run and Reveal Answer options in Quiz Mode
+          if (e.target.value === "quiz") {
             speedRunContainer.style.display = "block";
+            revealAnswerContainer.style.display = "block";
           } else {
             speedRunContainer.style.display = "none";
+            revealAnswerContainer.style.display = "none";
           }
         }
         mode = e.target.value;

@@ -157,6 +157,14 @@ body {
     margin-right: 10px;
   }
   
+  /* Reveal Answer container styling */
+  #revealAnswerContainer {
+    margin-top: 10px;
+  }
+  #revealAnswerContainer label {
+    margin-right: 10px;
+  }
+  
   /* Progress display */
   #progress {
     margin-top: 15px;

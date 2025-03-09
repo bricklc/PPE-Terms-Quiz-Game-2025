@@ -250,7 +250,12 @@ function checkAnswer(button, choice, correctAnswer) {
   } else {
     button.classList.add("wrong");
     incorrectSound.play();
-    feedback.textContent = "Wrong! 😣💥";
+    // If in quiz mode and user has enabled reveal option, show the correct answer
+    if (mode === "quiz" && document.getElementById("revealCorrectAnswer").checked) {
+      feedback.textContent = `Wrong! 😣💥 Correct Answer: ${correctAnswer}`;
+    } else {
+      feedback.textContent = "Wrong! 😣💥";
+    }
     wrongAttempt = true;
     if (mode === "quiz") {
       answeredCount++;
@@ -368,7 +373,7 @@ async function showQuote() {
   const quoteDisplay = document.getElementById("quoteDisplay");
   const quoteText = document.getElementById("quoteText");
   try {
-    // Fixed: Use getQuestions endpoint for quotes.json
+    // Fetch quotes from quotes.json
     const response = await fetch("/.netlify/functions/getQuestions?quiz_file=quotes.json");
     if (!response.ok) throw new Error("Failed to load quotes");
     const quotes = await response.json();
