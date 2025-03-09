@@ -13,6 +13,11 @@ let activeRecallEnabled = false;
 let maxRepeats = 1;
 let completedCount = 0; // Track completed questions
 
+// New variables for quiz statistics
+let quizStartTime = null;
+let quizEndTime = null;
+let correctCount = 0;
+
 const correctSound = document.getElementById("correctSound");
 const incorrectSound = document.getElementById("incorrectSound");
 
@@ -71,6 +76,12 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("nextButton").addEventListener("click", nextQuestion);
   document.getElementById("closeQuote").addEventListener("click", hideQuote);
 
+  // New event listener for ending the quiz early
+  const endEarlyButton = document.getElementById("endEarlyButton");
+  if (endEarlyButton) {
+    endEarlyButton.addEventListener("click", endQuizEarly);
+  }
+
   // Set last updated date on page load
   const lastUpdated = document.getElementById("last-updated");
   if (lastUpdated) {
@@ -117,6 +128,14 @@ async function startGame() {
     if (order === "random") shuffle(queue);
     repeatCount = 0;
     currentQuestionIndex = 0;
+    
+    // Initialize quiz statistics for quiz mode
+    if (mode === "quiz") {
+      quizStartTime = new Date();
+      correctCount = 0;
+      answeredCount = 0;
+    }
+    
     document.getElementById("start-screen").classList.add("hidden");
     document.getElementById("game-screen").classList.remove("hidden");
     loadQuestion();
@@ -175,6 +194,7 @@ function checkAnswer(button, choice, correctAnswer) {
     correctSound.play();
     feedback.textContent = "Correct! 🥳🎉";
     if (mode === "quiz") {
+      correctCount++;  // Increment correct answer count
       answeredCount++;
       setTimeout(nextQuestion, 1000);
     } else if (mode === "practice") {
@@ -248,7 +268,42 @@ function resetQuestion() {
 }
 
 function endGame() {
-  document.getElementById("question").textContent = "Game Over!";
+  if (mode === "quiz") {
+    quizEndTime = new Date();
+    let timeTakenSec = Math.round((quizEndTime - quizStartTime) / 1000);
+    let accuracy = answeredCount > 0 ? ((correctCount / answeredCount) * 100).toFixed(2) : 0;
+    let statsHTML = `<br><br><strong>Time Started:</strong> ${quizStartTime.toLocaleTimeString()}<br>
+                     <strong>Time Ended:</strong> ${quizEndTime.toLocaleTimeString()}<br>
+                     <strong>Score:</strong> ${correctCount} / ${answeredCount}<br>
+                     <strong>Accuracy:</strong> ${accuracy}%<br>
+                     <strong>Time Taken:</strong> ${timeTakenSec} seconds`;
+    document.getElementById("question").innerHTML = "Game Over!" + statsHTML;
+  } else {
+    document.getElementById("question").textContent = "Game Over!";
+  }
+  document.getElementById("choices").innerHTML = "";
+  document.getElementById("answer").classList.add("hidden");
+  document.getElementById("navigation").classList.add("hidden");
+  document.getElementById("skipButton").classList.add("hidden");
+  document.getElementById("feedback").classList.add("hidden");
+  document.getElementById("quoteDisplay").classList.add("hidden");
+}
+
+// New function to end the quiz early
+function endQuizEarly() {
+  if (mode === "quiz") {
+    quizEndTime = new Date();
+    let timeTakenSec = Math.round((quizEndTime - quizStartTime) / 1000);
+    let accuracy = answeredCount > 0 ? ((correctCount / answeredCount) * 100).toFixed(2) : 0;
+    let statsHTML = `<br><br><strong>Time Started:</strong> ${quizStartTime.toLocaleTimeString()}<br>
+                     <strong>Time Ended:</strong> ${quizEndTime.toLocaleTimeString()}<br>
+                     <strong>Score:</strong> ${correctCount} / ${answeredCount}<br>
+                     <strong>Accuracy:</strong> ${accuracy}%<br>
+                     <strong>Time Taken:</strong> ${timeTakenSec} seconds`;
+    document.getElementById("question").innerHTML = "Quiz Ended Early!" + statsHTML;
+  } else {
+    document.getElementById("question").textContent = "Quiz Ended Early!";
+  }
   document.getElementById("choices").innerHTML = "";
   document.getElementById("answer").classList.add("hidden");
   document.getElementById("navigation").classList.add("hidden");
