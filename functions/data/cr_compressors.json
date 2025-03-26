@@ -1,0 +1,152 @@
+[
+    {
+    "question": "Which of the following best describes the function of a compressor?",
+    "choices": ["To reduce the volume of a gas while increasing its pressure", "To convert thermal energy into mechanical energy", "To transfer heat between two fluids", "To decrease the pressure of a fluid"],
+    "answer": "To reduce the volume of a gas while increasing its pressure"
+    },
+    {
+    "question": "What is the primary parameter used to classify compressors?",
+    "choices": ["Type of gas compressed", "Pressure ratio", "Lubrication method", "Power source"],
+    "answer": "Pressure ratio"
+    },
+    {
+    "question": "Which type of compressor typically operates at the highest efficiency?",
+    "choices": ["Reciprocating compressor", "Centrifugal compressor", "Axial flow compressor", "Screw compressor"],
+    "answer": "Axial flow compressor"
+    },
+    {
+    "question": "Which thermodynamic process best represents a compressor with the least energy requirement?",
+    "choices": ["Isothermal", "Isentropic", "Polytropic", "Adiabatic"],
+    "answer": "Isothermal"
+    },
+    {
+    "question": "What is the primary reason multi-stage compression is used in compressors?",
+    "choices": ["To reduce compression work", "To decrease the volumetric flow rate", "To increase the compressor size", "To allow for higher discharge temperature"],
+    "answer": "To reduce compression work"
+    },
+    {
+    "question": "How does intercooling affect the power consumption of a multi-stage compressor?",
+    "choices": ["Increases it", "Decreases it", "Has no effect", "Doubles it"],
+    "answer": "Decreases it"
+    },
+    {
+    "question": "Which of the following compressors is best suited for high-pressure, low-flow applications?",
+    "choices": ["Centrifugal", "Reciprocating", "Axial", "Rotary screw"],
+    "answer": "Reciprocating"
+    },
+    {
+    "question": "In a centrifugal compressor, what component is responsible for increasing the pressure of the gas?",
+    "choices": ["Diffuser", "Impeller", "Stator", "Intercooler"],
+    "answer": "Diffuser"
+    },
+    {
+    "question": "Which parameter is used to evaluate the efficiency of a compressor?",
+    "choices": ["Isothermal efficiency", "Mechanical efficiency", "Volumetric efficiency", "All of the above"],
+    "answer": "All of the above"
+    },
+    {
+    "question": "What happens to the volumetric efficiency of a reciprocating compressor as the clearance volume increases?",
+    "choices": ["Increases", "Decreases", "Remains constant", "First increases, then decreases"],
+    "answer": "Decreases"
+    },
+    {
+    "question": "Which problem is most commonly associated with reciprocating compressors?",
+    "choices": ["Surge", "Stall", "Liquid slugging", "Choking"],
+    "answer": "Liquid slugging"
+    },
+    {
+    "question": "What is the main consequence of compressor surge in a centrifugal compressor?",
+    "choices": ["Increased efficiency", "Reverse flow and instability", "Reduced noise levels", "Continuous smooth operation"],
+    "answer": "Reverse flow and instability"
+    },
+    {
+    "question": "Which factor can lead to compressor stall in an axial compressor?",
+    "choices": ["High flow velocity", "Excessive blade loading", "Increased suction pressure", "Low inlet temperature"],
+    "answer": "Excessive blade loading"
+    },
+    {
+    "question": "What is the function of a variable inlet guide vane (VIGV) in a centrifugal compressor?",
+    "choices": ["Control surge", "Reduce bearing wear", "Increase mechanical efficiency", "Adjust lubrication requirements"],
+    "answer": "Control surge"
+    },
+    {
+    "question": "In a reciprocating compressor, how does the compression ratio affect the discharge temperature?",
+    "choices": ["Higher ratio leads to lower temperature", "Higher ratio leads to higher temperature", "No effect", "First decreases, then increases"],
+    "answer": "Higher ratio leads to higher temperature"
+    },
+    {
+    "question": "Which type of lubrication is typically used in screw compressors?",
+    "choices": ["Splash lubrication", "Pressure lubrication", "Mist lubrication", "Oil-flooded lubrication"],
+    "answer": "Oil-flooded lubrication"
+    },
+    {
+    "question": "What is the purpose of a labyrinth seal in an axial compressor?",
+    "choices": ["To increase airflow", "To prevent gas leakage between stages", "To improve aerodynamics", "To enhance thermal efficiency"],
+    "answer": "To prevent gas leakage between stages"
+    },
+    {
+    "question": "Which factor primarily influences the choice between an axial and centrifugal compressor?",
+    "choices": ["Cost", "Required pressure ratio and flow rate", "Power supply type", "Lubrication method"],
+    "answer": "Required pressure ratio and flow rate"
+    },
+    {
+    "question": "In a reciprocating compressor, what is the purpose of an unloader valve?",
+    "choices": ["Reduce motor power consumption", "Prevent liquid slugging", "Increase compression ratio", "Improve heat transfer"],
+    "answer": "Reduce motor power consumption"
+    },
+    {
+    "question": "Which of the following is a typical cause of high discharge temperature in a compressor?",
+    "choices": ["Low suction pressure", "Low compression ratio", "High cooling water flow", "Oversized suction valve"],
+    "answer": "Low suction pressure"
+    },
+    {
+    "question": "Which organization establishes safety standards for pressure vessels, including compressor casings?",
+    "choices": ["ASME", "NFPA", "ASTM", "IEC"],
+    "answer": "ASME"
+    },
+    {
+    "question": "ASME BPVC Section VIII covers which aspect of compressors?",
+    "choices": ["Electrical components", "Piping layout", "Pressure vessel design", "Noise control"],
+    "answer": "Pressure vessel design"
+    },
+    {
+    "question": "Which ISO standard specifies performance testing of compressors?",
+    "choices": ["ISO 9001", "ISO 1217", "ISO 50001", "ISO 14001"],
+    "answer": "ISO 1217"
+    },
+    {
+    "question": "What does NFPA 99 regulate in relation to medical air compressors?",
+    "choices": ["Pressure vessel integrity", "Fire protection", "Electrical wiring", "Medical gas systems"],
+    "answer": "Medical gas systems"
+    },
+    {
+    "question": "Which standard provides guidelines for the safe operation of reciprocating compressors?",
+    "choices": ["API 618", "API 674", "ASHRAE 62.1", "IEEE 519"],
+    "answer": "API 618"
+    },
+    {
+    "question": "What is the purpose of OSHA regulations in relation to air compressors?",
+    "choices": ["To ensure operational efficiency", "To provide safety guidelines for workers", "To regulate noise levels in industrial areas", "To classify compressor types"],
+    "answer": "To provide safety guidelines for workers"
+    },
+    {
+    "question": "Which problem is most commonly associated with reciprocating compressors?",
+    "choices": ["Surge", "Stall", "Liquid slugging", "Choking"],
+    "answer": "Liquid slugging"
+    },
+    {
+    "question": "What is the main consequence of compressor surge in a centrifugal compressor?",
+    "choices": ["Increased efficiency", "Reverse flow and instability", "Reduced noise levels", "Continuous smooth operation"],
+    "answer": "Reverse flow and instability"
+    },
+    {
+    "question": "Which factor can lead to compressor stall in an axial compressor?",
+    "choices": ["High flow velocity", "Excessive blade loading", "Increased suction pressure", "Low inlet temperature"],
+    "answer": "Excessive blade loading"
+    },
+    {
+    "question": "Which factor primarily influences the choice between an axial and centrifugal compressor?",
+    "choices": ["Cost", "Required pressure ratio and flow rate", "Power supply type", "Lubrication method"],
+    "answer": "Required pressure ratio and flow rate"
+    }
+    ]
