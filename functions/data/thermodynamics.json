@@ -1,0 +1,77 @@
+[
+    {
+        "question": "What does the First Law of Thermodynamics state?",
+        "choices": ["Energy cannot be created or destroyed, only change form", "Entropy of an isolated system always increases", "Absolute zero temperature is unattainable", "Heat flows spontaneously from hot to cold"],
+        "answer": "Energy cannot be created or destroyed, only change form"
+    },
+    {
+        "question": "Which thermodynamic property remains constant during an isobaric process?",
+        "choices": ["Temperature", "Volume", "Pressure", "Entropy"],
+        "answer": "Pressure"
+    },
+    {
+        "question": "What is the efficiency of a Carnot engine operating between temperatures T_H (hot reservoir) and T_L (cold reservoir)?",
+        "choices": ["1 - (T_L / T_H)", "1 - (T_H / T_L)", "(T_H - T_L) / T_L", "T_L / T_H"],
+        "answer": "1 - (T_L / T_H)"
+    },
+    {
+        "question": "Which thermodynamic process occurs with no heat transfer?",
+        "choices": ["Isothermal", "Isobaric", "Isochoric", "Adiabatic"],
+        "answer": "Adiabatic"
+    },
+    {
+        "question": "What does the Second Law of Thermodynamics define?",
+        "choices": ["Internal Energy", "Enthalpy", "Entropy", "Work"],
+        "answer": "Entropy"
+    },
+    {
+        "question": "For an ideal gas, the internal energy is a function of only which property?",
+        "choices": ["Pressure", "Volume", "Temperature", "Entropy"],
+        "answer": "Temperature"
+    },
+    {
+        "question": "What is the term for the amount of heat required to raise the temperature of a unit mass of a substance by one degree?",
+        "choices": ["Specific Heat", "Latent Heat", "Enthalpy", "Internal Energy"],
+        "answer": "Specific Heat"
+    },
+    {
+        "question": "In a Rankine cycle, where does the heat addition primarily occur?",
+        "choices": ["Pump", "Turbine", "Condenser", "Boiler"],
+        "answer": "Boiler"
+    },
+    {
+        "question": "Which process involves a constant volume?",
+        "choices": ["Isothermal", "Isobaric", "Isochoric (Isometric)", "Adiabatic"],
+        "answer": "Isochoric (Isometric)"
+    },
+    {
+        "question": "What is the state postulate?",
+        "choices": ["The state of a simple compressible system is completely specified by two independent, intensive properties.", "Energy is always conserved.", "Entropy always increases.", "Work done is path dependent."],
+        "answer": "The state of a simple compressible system is completely specified by two independent, intensive properties."
+    },
+    {
+        "question": "What does 'quality' (x) represent in a two-phase (liquid-vapor) mixture?",
+        "choices": ["The fraction of liquid by volume", "The fraction of vapor by mass", "The ratio of specific heats", "The pressure relative to saturation pressure"],
+        "answer": "The fraction of vapor by mass"
+    },
+    {
+        "question": "Which cycle is the ideal cycle for gas-turbine engines?",
+        "choices": ["Otto Cycle", "Diesel Cycle", "Rankine Cycle", "Brayton Cycle"],
+        "answer": "Brayton Cycle"
+    },
+    {
+        "question": "What is enthalpy (H) defined as?",
+        "choices": ["U - PV", "U + PV", "Q - W", "TS"],
+        "answer": "U + PV"
+    },
+    {
+        "question": "Which mode of heat transfer does not require a medium?",
+        "choices": ["Conduction", "Convection", "Radiation", "Advection"],
+        "answer": "Radiation"
+    },
+    {
+        "question": "The Clausius statement of the Second Law relates to which device?",
+        "choices": ["Heat Engine", "Refrigerator/Heat Pump", "Turbine", "Compressor"],
+        "answer": "Refrigerator/Heat Pump"
+    }
+]

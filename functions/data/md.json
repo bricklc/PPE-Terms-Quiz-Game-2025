@@ -1,0 +1,77 @@
+[
+    {
+        "question": "What type of stress is induced in a shaft subjected to twisting?",
+        "choices": ["Tensile Stress", "Compressive Stress", "Shear Stress (Torsional)", "Bending Stress"],
+        "answer": "Shear Stress (Torsional)"
+    },
+    {
+        "question": "Which theory of failure is most suitable for ductile materials under static loading?",
+        "choices": ["Maximum Normal Stress Theory (Rankine)", "Maximum Shear Stress Theory (Tresca)", "Distortion Energy Theory (Von Mises)", "Mohr's Theory"],
+        "answer": "Distortion Energy Theory (Von Mises)"
+    },
+    {
+        "question": "What is the primary purpose of using a factor of safety in design?",
+        "choices": ["To increase the weight of the component", "To account for uncertainties in loads, material properties, and analysis", "To make the component fail predictably", "To reduce the manufacturing cost"],
+        "answer": "To account for uncertainties in loads, material properties, and analysis"
+    },
+    {
+        "question": "What phenomenon describes the failure of a material under repeated cyclic loading below its ultimate tensile strength?",
+        "choices": ["Creep", "Fatigue", "Buckling", "Yielding"],
+        "answer": "Fatigue"
+    },
+    {
+        "question": "Which type of bearing is generally preferred for high-speed applications with moderate loads?",
+        "choices": ["Journal Bearing (Sliding Contact)", "Ball Bearing (Rolling Contact)", "Thrust Bearing", "Needle Roller Bearing"],
+        "answer": "Ball Bearing (Rolling Contact)"
+    },
+    {
+        "question": "In gear terminology, what is the circle representing the theoretical rolling contact between mating gears?",
+        "choices": ["Addendum Circle", "Dedendum Circle", "Pitch Circle", "Base Circle"],
+        "answer": "Pitch Circle"
+    },
+    {
+        "question": "Which type of spring is commonly used in vehicle suspension systems?",
+        "choices": ["Torsion Spring", "Helical Compression Spring", "Leaf Spring", "Flat Spiral Spring"],
+        "answer": "Helical Compression Spring"
+    },
+    {
+        "question": "What is the primary function of threads on a bolt?",
+        "choices": ["To increase the bolt's diameter", "To convert rotational motion into linear motion and provide clamping force", "To reduce stress concentration", "To provide lubrication access"],
+        "answer": "To convert rotational motion into linear motion and provide clamping force"
+    },
+    {
+        "question": "Which welding defect appears as a groove melted into the base metal adjacent to the weld toe and left unfilled by weld metal?",
+        "choices": ["Porosity", "Slag Inclusion", "Undercut", "Lack of Fusion"],
+        "answer": "Undercut"
+    },
+    {
+        "question": "What is the main advantage of using involute profiles for gear teeth?",
+        "choices": ["Easier manufacturing", "Constant velocity ratio even with variations in center distance", "Higher load capacity", "Quieter operation at low speeds"],
+        "answer": "Constant velocity ratio even with variations in center distance"
+    },
+    {
+        "question": "Which component is designed to fail intentionally to protect other parts of a machine?",
+        "choices": ["Shaft", "Bearing", "Shear Pin / Fuse", "Gear"],
+        "answer": "Shear Pin / Fuse"
+    },
+    {
+        "question": "What is stress concentration?",
+        "choices": ["The average stress across a component", "The localization of high stresses due to geometric discontinuities", "The stress level at which yielding occurs", "The ratio of ultimate stress to working stress"],
+        "answer": "The localization of high stresses due to geometric discontinuities"
+    },
+    {
+        "question": "Which type of key provides a positive drive and allows axial movement?",
+        "choices": ["Sunk Key", "Saddle Key", "Spline", "Woodruff Key"],
+        "answer": "Spline"
+    },
+    {
+        "question": "What is the primary mechanism of power transmission in a belt drive?",
+        "choices": ["Positive engagement", "Friction between the belt and pulleys", "Magnetic force", "Fluid coupling"],
+        "answer": "Friction between the belt and pulleys"
+    },
+    {
+        "question": "Which property represents a material's resistance to scratching or indentation?",
+        "choices": ["Toughness", "Hardness", "Stiffness", "Strength"],
+        "answer": "Hardness"
+    }
+]

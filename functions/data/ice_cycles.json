@@ -1,0 +1,77 @@
+[
+    {
+        "question": "Which ideal cycle represents the operation of a typical spark-ignition (gasoline) engine?",
+        "choices": ["Otto Cycle", "Diesel Cycle", "Brayton Cycle", "Rankine Cycle"],
+        "answer": "Otto Cycle"
+    },
+    {
+        "question": "In the ideal Otto cycle, which two processes are assumed to be adiabatic (isentropic)?",
+        "choices": ["Heat addition and heat rejection", "Compression and expansion (power stroke)", "Intake and exhaust", "Constant volume and constant pressure processes"],
+        "answer": "Compression and expansion (power stroke)"
+    },
+    {
+        "question": "Which ideal cycle represents the operation of a typical compression-ignition engine?",
+        "choices": ["Otto Cycle", "Diesel Cycle", "Carnot Cycle", "Stirling Cycle"],
+        "answer": "Diesel Cycle"
+    },
+    {
+        "question": "What is the main difference between the ideal Otto cycle and the ideal Diesel cycle?",
+        "choices": ["The compression process", "The expansion process", "The heat addition process", "The heat rejection process"],
+        "answer": "The heat addition process"
+    },
+    {
+        "question": "In the ideal Diesel cycle, how does the heat addition process occur?",
+        "choices": ["Constant Volume", "Constant Pressure", "Constant Temperature", "Adiabatically"],
+        "answer": "Constant Pressure"
+    },
+    {
+        "question": "How does increasing the compression ratio generally affect the thermal efficiency of an ideal Otto cycle?",
+        "choices": ["Increases efficiency", "Decreases efficiency", "Has no effect on efficiency", "Efficiency first increases, then decreases"],
+        "answer": "Increases efficiency"
+    },
+    {
+        "question": "What is 'cutoff ratio' in the context of the Diesel cycle?",
+        "choices": ["Ratio of volumes before and after compression", "Ratio of volumes after and before heat addition", "Ratio of pressures before and after heat addition", "Ratio of temperatures during expansion"],
+        "answer": "Ratio of volumes after and before heat addition"
+    },
+    {
+        "question": "Which cycle combines constant volume and constant pressure heat addition?",
+        "choices": ["Otto Cycle", "Diesel Cycle", "Dual Cycle", "Brayton Cycle"],
+        "answer": "Dual Cycle"
+    },
+    {
+        "question": "What is Mean Effective Pressure (MEP)?",
+        "choices": ["The maximum pressure reached during the cycle", "The average pressure during the intake stroke", "A fictitious constant pressure that would produce the same net work if acting on the piston during the power stroke", "The pressure at the end of compression"],
+        "answer": "A fictitious constant pressure that would produce the same net work if acting on the piston during the power stroke"
+    },
+    {
+        "question": "What are the 'Air Standard Assumptions' used for analyzing ideal ICE cycles?",
+        "choices": ["Working fluid is air, behaving as an ideal gas with constant specific heats; combustion is replaced by heat addition; exhaust is replaced by heat rejection; processes are internally reversible.", "Working fluid is fuel-air mixture; specific heats vary with temperature; combustion is instantaneous.", "Working fluid is steam; cycle involves phase change; processes are irreversible.", "Working fluid is refrigerant; heat transfer occurs at constant temperature."],
+        "answer": "Working fluid is air, behaving as an ideal gas with constant specific heats; combustion is replaced by heat addition; exhaust is replaced by heat rejection; processes are internally reversible."
+    },
+    {
+        "question": "For the same compression ratio and heat input, which ideal cycle is most efficient?",
+        "choices": ["Otto Cycle", "Diesel Cycle", "Dual Cycle", "Cannot be determined without more information"],
+        "answer": "Otto Cycle"
+    },
+    {
+        "question": "For the same maximum pressure and temperature, which ideal cycle is typically most efficient?",
+        "choices": ["Otto Cycle", "Diesel Cycle", "Dual Cycle", "Brayton Cycle"],
+        "answer": "Diesel Cycle"
+    },
+    {
+        "question": "What is the primary function of a spark plug in an Otto cycle engine?",
+        "choices": ["To inject fuel", "To ignite the air-fuel mixture", "To open the exhaust valve", "To measure cylinder pressure"],
+        "answer": "To ignite the air-fuel mixture"
+    },
+    {
+        "question": "In a four-stroke engine cycle, how many revolutions of the crankshaft correspond to one complete cycle?",
+        "choices": ["One", "Two", "Three", "Four"],
+        "answer": "Two"
+    },
+    {
+        "question": "What is 'scavenging' in the context of two-stroke engines?",
+        "choices": ["Lubricating the cylinder walls", "Igniting the fuel mixture", "The process of replacing exhaust gases in the cylinder with fresh air/mixture", "Cooling the engine block"],
+        "answer": "The process of replacing exhaust gases in the cylinder with fresh air/mixture"
+    }
+]
