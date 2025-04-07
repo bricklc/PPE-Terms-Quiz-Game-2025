@@ -1,0 +1,1612 @@
+[
+    {
+        "question": "Reheating process in Brayton cycle, the turbine work will",
+        "choices": [
+            "Increase",
+            "Decrease",
+            "Remains the same",
+            "None of these"
+        ],
+        "answer": "Increase"
+    },
+    {
+        "question": "Which of the following is the chemical formula of ethanol?",
+        "choices": [
+            "C7H16",
+            "C2H6O",
+            "C7H8",
+            "C6H12"
+        ],
+        "answer": "C2H6O"
+    },
+    {
+        "question": "Which of the following is the chemical formula of heptane?",
+        "choices": [
+            "C7H16",
+            "C2H6O",
+            "C7H8",
+            "C6H12"
+        ],
+        "answer": "C7H16"
+    },
+    {
+        "question": "Which of the following is the chemical formula of hexane?",
+        "choices": [
+            "C7H16",
+            "C2H6O",
+            "C7H8",
+            "C6H12"
+        ],
+        "answer": "C6H12"
+    },
+    {
+        "question": "Which of the following is the chemical formula of toluene?",
+        "choices": [
+            "C7H16",
+            "C2H6O",
+            "C7H8",
+            "C6H12"
+        ],
+        "answer": "C7H8"
+    },
+    {
+        "question": "As the air passes through a nozzle, which of the following will increase?",
+        "choices": [
+            "Temperature",
+            "Enthalpy",
+            "Internal energy",
+            "Mach number"
+        ],
+        "answer": "Mach number"
+    },
+    {
+        "question": "As the air passes through a diffuser, which of the following will decrease?",
+        "choices": [
+            "Temperature",
+            "Enthalpy",
+            "Internal energy",
+            "Mach number"
+        ],
+        "answer": "Mach number"
+    },
+    {
+        "question": "As the air passes through a nozzle, which of the following will decrease?",
+        "choices": [
+            "Temperature",
+            "Enthalpy",
+            "Internal energy",
+            "Mach number"
+        ],
+        "answer": "Internal energy"
+    },
+    {
+        "question": "As the air passes through a diffuser, which of the following will increase?",
+        "choices": [
+            "Density",
+            "Entropy",
+            "Mach number",
+            "Velocity"
+        ],
+        "answer": "Density"
+    },
+    {
+        "question": "As the air passes through a diffuser, which of the following will NOT be affected?",
+        "choices": [
+            "Density",
+            "Entropy",
+            "Mach number",
+            "Velocity"
+        ],
+        "answer": "Entropy"
+    },
+    {
+        "question": "After passing through a convergent-divergent nozzle the temperature of air will:",
+        "choices": [
+            "Increase",
+            "Decrease",
+            "Remains the same",
+            "None of these"
+        ],
+        "answer": "Decrease"
+    },
+    {
+        "question": "After passing through a convergent-divergent nozzle the density of air will:",
+        "choices": [
+            "Increase",
+            "Decrease",
+            "Remains the same",
+            "None of these"
+        ],
+        "answer": "Decrease"
+    },
+    {
+        "question": "After passing through a convergent-divergent nozzle the mach number of air will:",
+        "choices": [
+            "Increase",
+            "Decrease",
+            "Remains the same",
+            "None of these"
+        ],
+        "answer": "Decrease"
+    },
+    {
+        "question": "By increasing the temperature source of Carnot cycle, which of the following will not be affected?",
+        "choices": [
+            "Efficiency",
+            "Work",
+            "Heat added",
+            "Heat rejected"
+        ],
+        "answer": "Heat rejected"
+    },
+    {
+        "question": "By decreasing the temperature source of Carnot cycle, which of the following will not be affected?",
+        "choices": [
+            "Efficiency",
+            "Work",
+            "Heat added",
+            "Heat rejected"
+        ],
+        "answer": "Heat added"
+    },
+    {
+        "question": "By superheating the refrigerant in vapor compression cycle with useful cooling, which of the following will increase? (use per unit mass analysis)",
+        "choices": [
+            "Condenser pressure",
+            "Evaporator pressure",
+            "Quality after expansion",
+            "Heat rejected from condenser"
+        ],
+        "answer": "Heat rejected from condenser"
+    },
+    {
+        "question": "By superheating the refrigerant in vapor compression cycle with useful cooling, which of the following will decrease? (use per unit mass analysis)",
+        "choices": [
+            "Refrigerated effect",
+            "COP",
+            "Compressor power",
+            "Mass flow rate"
+        ],
+        "answer": "Mass flow rate"
+    },
+    {
+        "question": "By superheating the refrigerant in vapor compression cycle without useful cooling, which of the following will decrease? (use per unit mass analysis)",
+        "choices": [
+            "Heat rejected",
+            "COP",
+            "Compressor power",
+            "Specific volume at suction"
+        ],
+        "answer": "COP"
+    },
+    {
+        "question": "By superheating the refrigerant in vapor compression cycle without useful cooling, which of the following will increase? (use per unit mass analysis)",
+        "choices": [
+            "Heat rejected",
+            "COP",
+            "Compressor power",
+            "Specific volume at suction"
+        ],
+        "answer": "Compressor power"
+    },
+    {
+        "question": "By superheating the refrigerant in vapor compression cycle without useful cooling, which of the following will not be affected? (use per unit mass analysis)",
+        "choices": [
+            "Refrigerated effect",
+            "COP",
+            "Compressor power",
+            "Mass flow rate"
+        ],
+        "answer": "Compressor power"
+    },
+    {
+        "question": "By sub-cooling the refrigerant in vapor compression cycle at condenser exit, which of the following will increase? (use per unit mass analysis)",
+        "choices": [
+            "Refrigerated effect",
+            "Specific volume at suction",
+            "Compressor power",
+            "Mass flow rate"
+        ],
+        "answer": "Refrigerated effect"
+    },
+    {
+        "question": "By sub-cooling the refrigerant in vapor compression cycle at condenser exit, which of the following will decrease? (use per unit mass analysis)",
+        "choices": [
+            "Refrigerated effect",
+            "Specific volume at suction",
+            "Compressor power",
+            "Mass flow rate"
+        ],
+        "answer": "Mass flow rate"
+    },
+    {
+        "question": "By increasing the vaporizing temperature in vapor compression cycle, which of the following will increase? (Use per unit mass analysis)",
+        "choices": [
+            "mass flow rate",
+            "COP",
+            "specific volume at suction",
+            "compressor work"
+        ],
+        "answer": "COP"
+    },
+    {
+        "question": "By increasing the vaporizing temperature in vapor compression cycle, which of the following will decrease? (Use per unit mass analysis)",
+        "choices": [
+            "Refrigeration effect",
+            "COP",
+            "evaporator temperature",
+            "Temperature difference between evaporator and compressor"
+        ],
+        "answer": "Temperature difference between evaporator and compressor"
+    },
+    {
+        "question": "By increasing the condenser pressure in vapor compression cycle, which of the following will increase? (Use per unit mass analysis)",
+        "choices": [
+            "moisture content after expansion",
+            "compressor power",
+            "heat rejected from condenser",
+            "mass flow rate"
+        ],
+        "answer": "moisture content after expansion"
+    },
+    {
+        "question": "If the pressure drop in the condenser Increases in a vapor compression cycle, which of the following will increase? (Use per unit mass analysis)",
+        "choices": [
+            "mass flow rate",
+            "compressor power",
+            "heat rejected in the condenser",
+            "specific volume of suction"
+        ],
+        "answer": "heat rejected in the condenser"
+    },
+    {
+        "question": "If the pressure drop in the condenser increases in a vapor compression cycle, which of the following will decrease? (Use per unit mass analysis)",
+        "choices": [
+            "Refrigeration effect",
+            "mass flow rate",
+            "heat rejected in the condenser",
+            "compressor power"
+        ],
+        "answer": "mass flow rate"
+    },
+    {
+        "question": "If the pressure drop in the condenser increases in a vapor compression cycle, which of the following will not be affected? (Use per unit mass analysis)",
+        "choices": [
+            "compressor power",
+            "mass flow rate",
+            "heat rejection in the condenser",
+            "COP"
+        ],
+        "answer": "compressor power"
+    },
+    {
+        "question": "If the pressure drop in the evaporator increases in a vapor compression cycle, which of the following will increase? (Use per unit mass analysis)",
+        "choices": [
+            "Refrigerating effect",
+            "vaporizing temperature",
+            "heat rejected in the condenser",
+            "COP"
+        ],
+        "answer": "heat rejected in the condenser"
+    },
+    {
+        "question": "If the pressure drop in the evaporator increases in a vapor compression cycle, which of the following will decrease? (Use per unit mass analysis)",
+        "choices": [
+            "specific volume at suction",
+            "compressor power",
+            "heat rejected in the condenser",
+            "COP"
+        ],
+        "answer": "COP"
+    },
+    {
+        "question": "By lowering the condenser pressure in Rankine cycle, which of the following will decrease? (Use per unit mass analysis)",
+        "choices": [
+            "pump work",
+            "turbine",
+            "heat rejected",
+            "cycle efficiency"
+        ],
+        "answer": "heat rejected"
+    },
+    {
+        "question": "By increasing the boiler pressure in Rankine cycle, which of the following will decrease? (Use per unit mass analysis)",
+        "choices": [
+            "heat rejected",
+            "pump work",
+            "cycle efficiency",
+            "moisture"
+        ],
+        "answer": "heat rejected"
+    },
+    {
+        "question": "By superheating the steam to a higher temperature in Rankine cycle, which of the following will decrease? (Use per unit mass analysis)",
+        "choices": [
+            "moisture content at the turbine exhaust",
+            "turbine work",
+            "heat added",
+            "heat rejected"
+        ],
+        "answer": "moisture content at the turbine exhaust"
+    },
+    {
+        "question": "By superheating the steam to a higher temperature in Rankine cycle, which of the following will increase? (Use per unit mass analysis)",
+        "choices": [
+            "moisture content at the turbine exhaust",
+            "pump work",
+            "condenser pressure",
+            "cycle efficiency"
+        ],
+        "answer": "cycle efficiency"
+    },
+    {
+        "question": "By reheating the steam before entering the second stage in Rankine cycle, which of the following will decrease?",
+        "choices": [
+            "turbine work",
+            "moisture content after expansion",
+            "heat added",
+            "heat rejected"
+        ],
+        "answer": "moisture content after expansion"
+    },
+    {
+        "question": "When Rankine cycle is modified with regeneration, which of the following will increase?",
+        "choices": [
+            "turbine work",
+            "heat added",
+            "heat rejected",
+            "cycle efficiency"
+        ],
+        "answer": "cycle efficiency"
+    },
+    {
+        "question": "Is the combination of base load and peaking load.",
+        "choices": [
+            "rated load",
+            "intermediate load",
+            "combine load",
+            "over-all load"
+        ],
+        "answer": "intermediate load"
+    },
+    {
+        "question": "Sum of the maximum demand over the simultaneous maximum demand.",
+        "choices": [
+            "use factor",
+            "capacity factor",
+            "demand factor",
+            "diversity factor"
+        ],
+        "answer": "diversity factor"
+    },
+    {
+        "question": "Regenerative with feed heating cycle with infinite number of feedwater heaters thus efficiency is equal to:",
+        "choices": [
+            "otto cycle",
+            "stirling cycle",
+            "erricson cycle",
+            "carnot cycle"
+        ],
+        "answer": "carnot cycle"
+    },
+    {
+        "question": "A type of turbine used in desalination of sea water.",
+        "choices": [
+            "back pressure turbine",
+            "passout turbine",
+            "peaking turbine",
+            "reaction turbine"
+        ],
+        "answer": "back pressure turbine"
+    },
+    {
+        "question": "States that when conductor and magnetic field move relatively to each other, an electric voltage is induced in the conductor.",
+        "choices": [
+            "Maxwell's law",
+            "Kirchoff's law",
+            "Faraday's law",
+            "Newtons law"
+        ],
+        "answer": "Faraday's law"
+    },
+    {
+        "question": "Transfers heat directly to electrical energy by utilizing thermionic emissions.",
+        "choices": [
+            "Thermionic motor",
+            "Thermionic generator",
+            "Thermionic converter",
+            "Thermionic cell"
+        ],
+        "answer": "Thermionic generator"
+    },
+    {
+        "question": "Is the largest group of coal containing 46-86% of fixed carbon and 20 to 40% volatile matter.",
+        "choices": [
+            "anthracite",
+            "sub-anthracite",
+            "Bituminous",
+            "Sub-bituminous"
+        ],
+        "answer": "Bituminous"
+    },
+    {
+        "question": "When 1 gram of coal is subjected to a temperature of about 105°C for a period of 1 hour, the loss in weight of the sample gives the:",
+        "choices": [
+            "volatile matter",
+            "ash",
+            "Fixed carbon",
+            "moisture content"
+        ],
+        "answer": "moisture content"
+    },
+    {
+        "question": "When 1 gram of sample of coal is placed in a crucible and heated 950°C and maintain at that temperature for 7 minutes there is a loss in weight due to elimination of:",
+        "choices": [
+            "volatile matter and moisture",
+            "ash",
+            "Fixed carbon",
+            "moisture content"
+        ],
+        "answer": "volatile matter and moisture"
+    },
+    {
+        "question": "Consist of hydrogen and certain hydrogen carbon compounds which can be removed from coal by heating.",
+        "choices": [
+            "moisture content",
+            "product of combustion",
+            "ash",
+            "volatile matter"
+        ],
+        "answer": "volatile matter"
+    },
+    {
+        "question": "By heating 1 gram of coal in an uncovered crucible until the coal is completely burned, the __ will formed.",
+        "choices": [
+            "volatile matter and moisture",
+            "ash",
+            "Fixed carbon",
+            "moisture content"
+        ],
+        "answer": "ash"
+    },
+    {
+        "question": "Caking coal are used to produce coke by heating in a coke oven in the absence of __ with volatile matter driven off.",
+        "choices": [
+            "air",
+            "oil",
+            "oxygen",
+            "nitrogen"
+        ],
+        "answer": "air"
+    },
+    {
+        "question": "Grindability of standard coal is",
+        "choices": [
+            "80",
+            "90",
+            "100",
+            "110"
+        ],
+        "answer": "100"
+    },
+    {
+        "question": "Major constituent of all natural gases is",
+        "choices": [
+            "ethane",
+            "methane",
+            "propane",
+            "Cethane"
+        ],
+        "answer": "methane"
+    },
+    {
+        "question": "Two types of fans are:",
+        "choices": [
+            "centrifugal and axial",
+            "reciprocating and axial",
+            "centrifugal and rotary",
+            "tangential and rotary"
+        ],
+        "answer": "centrifugal and axial"
+    },
+    {
+        "question": "Enthalpy of substance at specified state due to chemical composition.",
+        "choices": [
+            "enthalpy of reaction",
+            "enthalpy of combustion",
+            "enthalpy of formation",
+            "enthalpy of product"
+        ],
+        "answer": "enthalpy of formation"
+    },
+    {
+        "question": "A type of boiler used for duper critical pressure operation.",
+        "choices": [
+            "La Mont boiler",
+            "Once through-circulation boiler",
+            "Force circulation boiler",
+            "Natural circulation boiler"
+        ],
+        "answer": "Once through-circulation boiler"
+    },
+    {
+        "question": "Economizer in a water tube boiler is heated by:",
+        "choices": [
+            "electric furnace",
+            "electric current",
+            "incoming flue gas",
+            "outgoing flue gas"
+        ],
+        "answer": "outgoing flue gas"
+    },
+    {
+        "question": "Receives heat partly by convection and partly by radiation.",
+        "choices": [
+            "radiant superheater",
+            "desuperheater",
+            "convective superheater",
+            "pendant superheater"
+        ],
+        "answer": "pendant superheater"
+    },
+    {
+        "question": "Regenerative superheater is a storage type of heat exchangers have an energy storage medium called.",
+        "choices": [
+            "matrix",
+            "regenerator",
+            "Boiler",
+            "Recuperator"
+        ],
+        "answer": "matrix"
+    },
+    {
+        "question": "Stirling cycle uses a ____ as working fluids.",
+        "choices": [
+            "incompressible gas",
+            "incompressible fluids",
+            "compressible refrigerant",
+            "compressible fluids"
+        ],
+        "answer": "compressible fluids"
+    },
+    {
+        "question": "In Striling process, the heat is added during",
+        "choices": [
+            "Isobaric process",
+            "Isentropic process",
+            "Isothermal process",
+            "Heat process"
+        ],
+        "answer": "Isothermal process"
+    },
+    {
+        "question": "Brayton cycle is known as",
+        "choices": [
+            "Carnot cycle",
+            "Joule cycle",
+            "Carnot cycle",
+            "Rankine cycle"
+        ],
+        "answer": "Joule cycle"
+    },
+    {
+        "question": "It is applied to propulsion of vehicle because of certain practical characteristics.",
+        "choices": [
+            "Diesel cycle",
+            "Otto cycle",
+            "Carnot cycle",
+            "Brayton cycle"
+        ],
+        "answer": "Brayton cycle"
+    },
+    {
+        "question": "Heat exchangers typically involve",
+        "choices": [
+            "no work interaction",
+            "no heat interaction",
+            "no energy interaction",
+            "none of these"
+        ],
+        "answer": "none of these"
+    },
+    {
+        "question": "A device that is used to convert the heat to work is called",
+        "choices": [
+            "Adiabatic",
+            "Regenerator",
+            "Heat engines",
+            "None of these"
+        ],
+        "answer": "Heat engines"
+    },
+    {
+        "question": "The objective of a heat pump is to maintain a heated space at",
+        "choices": [
+            "Low temperature",
+            "High temperature",
+            "Medium temperature",
+            "None of these"
+        ],
+        "answer": "High temperature"
+    },
+    {
+        "question": "A device that violates the second law of thermodynamics is called",
+        "choices": [
+            "perpetual motion machine of second kind",
+            "perpetual motion machine of third kind",
+            "perpetual motion machine of the first kind",
+            "none of these"
+        ],
+        "answer": "perpetual motion machine of second kind"
+    },
+    {
+        "question": "A process is called _____ if no irreversibilities occur outside the system boundaries during the process.",
+        "choices": [
+            "externally reversible",
+            "internally reversible",
+            "reversible",
+            "none of these"
+        ],
+        "answer": "externally reversible"
+    },
+    {
+        "question": "An energy interaction which is not accompanied by entropy transfer is",
+        "choices": [
+            "energy",
+            "heat",
+            "work",
+            "none of these"
+        ],
+        "answer": "work"
+    },
+    {
+        "question": "A _____ is used in aircraft engines and some automotive engine. In this method, a turbine driven by the exhaust gases is used to provide power to compressor or blower at the inlet.",
+        "choices": [
+            "discharging",
+            "turbocharging",
+            "supercharging",
+            "scavenging"
+        ],
+        "answer": "turbocharging"
+    },
+    {
+        "question": "The only device where the changes in kinetic energy are significant are the",
+        "choices": [
+            "compressor",
+            "pumps",
+            "nozzles and diffusers",
+            "none of these"
+        ],
+        "answer": "nozzles and diffusers"
+    },
+    {
+        "question": "The distance between TDC and BDC in which the piston can travel is the",
+        "choices": [
+            "right extreme position",
+            "displacement stroke",
+            "stroke of the engine",
+            "swept stroke"
+        ],
+        "answer": "stroke of the engine"
+    },
+    {
+        "question": "In compression-engine the combustion of air-fuel mixture is self-ignited as a result of compressing the mixture above its",
+        "choices": [
+            "self developed temperature",
+            "mixing temperature",
+            "self feed temperature",
+            "self ignition temperature"
+        ],
+        "answer": "self ignition temperature"
+    },
+    {
+        "question": "The thermal efficiency of an ideal Otto cycle depends _______ of the working fluid.",
+        "choices": [
+            "the pressure ratio of the engine and the specific ratio",
+            "the temperature ratio of the engine and the specific ratio",
+            "the moles ratio of the engine and the specific heat ratio",
+            "the compression ratio of the engine and the specific heat ratio"
+        ],
+        "answer": "the compression ratio of the engine and the specific heat ratio"
+    },
+    {
+        "question": "Using monoatomic gas, the thermal efficiency of Otto cycle",
+        "choices": [
+            "increases",
+            "decreases",
+            "remains constant",
+            "none of these"
+        ],
+        "answer": "increases"
+    },
+    {
+        "question": "In diesel engine, combustion process during combustion occurs during",
+        "choices": [
+            "isothermal process",
+            "constant pressure process",
+            "isentropic process",
+            "adiabatic"
+        ],
+        "answer": "constant pressure process"
+    },
+    {
+        "question": "If the cutoff ratio decreases, the efficiency of diesel cycle",
+        "choices": [
+            "increases",
+            "decreases",
+            "remains constant",
+            "none of these"
+        ],
+        "answer": "increases"
+    },
+    {
+        "question": "If Erickson cycle , the regeneration process occur during ______ process.",
+        "choices": [
+            "constant volume",
+            "constant temperature",
+            "constant pressure",
+            "none of these"
+        ],
+        "answer": "constant pressure"
+    },
+    {
+        "question": "In Brayton cycle, the ____ during constant pressure process.",
+        "choices": [
+            "work is added",
+            "heat is transferred",
+            "pressure is rejected",
+            "energy is added"
+        ],
+        "answer": "heat is transferred"
+    },
+    {
+        "question": "The two major application areas of gas turbine engines are",
+        "choices": [
+            "driving automotive engine and locomotives",
+            "heating and generation",
+            "aircraft propulsion and electric power generation",
+            "none of these"
+        ],
+        "answer": "aircraft propulsion and electric power generation"
+    },
+    {
+        "question": "The use of regenerator in is recommended only when the turbine exhaust temperature is higher than the compressor.",
+        "choices": [
+            "exit temperature",
+            "inlet temperature",
+            "mean temperature",
+            "absolute temperature"
+        ],
+        "answer": "exit temperature"
+    },
+    {
+        "question": "As the number of stages is increased, the expansion process becomes",
+        "choices": [
+            "isentropic",
+            "isothermal",
+            "isometric",
+            "polytropic"
+        ],
+        "answer": "isothermal"
+    },
+    {
+        "question": "Aircraft gas turbines operate at higher pressure ratio typically between",
+        "choices": [
+            "6 to 8",
+            "12 to 24",
+            "10 to 18",
+            "10 to 25"
+        ],
+        "answer": "10 to 25"
+    },
+    {
+        "question": "The first commercial high-pass ratio engines has a bypass ratio of",
+        "choices": [
+            "1",
+            "3",
+            "5",
+            "7"
+        ],
+        "answer": "5"
+    },
+    {
+        "question": "The single-stage expansion process of an ideal brayton cycle without regeneration is replace by a multistage expansion process with reheating between the same pressure limits. As a result of modification, thermal efficiency will:",
+        "choices": [
+            "Increase",
+            "Decrease",
+            "Remain constant",
+            "none of these"
+        ],
+        "answer": "Decrease"
+    },
+    {
+        "question": "Which of the following is/are the application of Brayton cycle",
+        "choices": [
+            "Propulsion system",
+            "Automotive Turbine Engines",
+            "Aircraft Turbine engines",
+            "all of these"
+        ],
+        "answer": "all of these"
+    },
+    {
+        "question": "It used as working fluid in high-temperature application of vapor cycle?",
+        "choices": [
+            "Helium",
+            "Deuterium",
+            "Mercury",
+            "Water"
+        ],
+        "answer": "Mercury"
+    },
+    {
+        "question": "The superheat vapor enters the turbine and expands isentropically and produces work by the rating shaft. The _________ may drop, during the process.",
+        "choices": [
+            "density",
+            "Viscosity of fuel",
+            "Temperature and pressure",
+            "none of these"
+        ],
+        "answer": "Temperature and pressure"
+    },
+    {
+        "question": "Only________ of the turbine work output is required to operate the pump",
+        "choices": [
+            "0.01%",
+            "0.02%",
+            "0.03%",
+            "0.04%"
+        ],
+        "answer": "0.04%"
+    },
+    {
+        "question": "Superheating the steam to higher temperature decreases the moisture content of the steam at the_______",
+        "choices": [
+            "turbine inlet",
+            "compression inlet",
+            "compressor exit",
+            "turbine exit"
+        ],
+        "answer": "turbine exit"
+    },
+    {
+        "question": "Regeneration also provides a convenient means a dearating the feedwater to prevent",
+        "choices": [
+            "boiler explosion",
+            "boiler scale production",
+            "boiler corrosion",
+            "compressor damage"
+        ],
+        "answer": "boiler corrosion"
+    },
+    {
+        "question": "Can be apply in Steam turbine cycle (Rankine), gas turbine cycle (Brayton) and combined cycle",
+        "choices": [
+            "Hydroelectric plant",
+            "Nuclear power plant",
+            "Cogeneration plant",
+            "Tidal power plant"
+        ],
+        "answer": "Cogeneration plant"
+    },
+    {
+        "question": "In a Rankine cycle with fixed turbine inlet conditions. What is the effect of lowering the condenser pressure the heat rejected will.:",
+        "choices": [
+            "increase",
+            "decrease",
+            "remains the same",
+            "none of these"
+        ],
+        "answer": "decrease"
+    },
+    {
+        "question": "In an ideal Rankine cycle with fixed boiler and condenser pressures. What is the effect of superheating the steam to a higher temperature, the pump work input will:",
+        "choices": [
+            "increase",
+            "decrease",
+            "remains the same",
+            "none of these"
+        ],
+        "answer": "remains the same"
+    },
+    {
+        "question": "How do the following quantities change when the simple ideal Rankine cycle is modified with? The heat rejected:",
+        "choices": [
+            "increase",
+            "decrease",
+            "remains the same",
+            "none of these"
+        ],
+        "answer": "decrease"
+    },
+    {
+        "question": "During a combustion process, the components which exist before the reaction are called",
+        "choices": [
+            "reaction",
+            "combustion",
+            "reactants",
+            "product"
+        ],
+        "answer": "reactants"
+    },
+    {
+        "question": "In an obvious reason for incomplete combustion",
+        "choices": [
+            "insufficient carbon",
+            "insufficient air",
+            "insufficient nitrogen",
+            "insufficient oxygen"
+        ],
+        "answer": "insufficient oxygen"
+    },
+    {
+        "question": "Higher heating value when H2O in the product of combustion is in",
+        "choices": [
+            "solid form",
+            "vapor form",
+            "gas form",
+            "liquid form"
+        ],
+        "answer": "liquid form"
+    },
+    {
+        "question": "Device which transfer heat from low temperature medium to a higher temperature one is a",
+        "choices": [
+            "adiabatic",
+            "refrigerator",
+            "heat exchanger",
+            "heat pump"
+        ],
+        "answer": "heat pump"
+    },
+    {
+        "question": "A rule of thumb is that the COP improves by ______ for each C the evaporating temperature is raised or the condensing temperature is lowered.",
+        "choices": [
+            "2 to 4%",
+            "6 to 7%",
+            "1 to 5%",
+            "6 to 10%"
+        ],
+        "answer": "2 to 4%"
+    },
+    {
+        "question": "Are generally more expensive to purchase and install than other heating systems , but they save money in the long run.",
+        "choices": [
+            "Refrigerator",
+            "Adiabatic",
+            "Heat pumps",
+            "Humidifyer"
+        ],
+        "answer": "Heat pumps"
+    },
+    {
+        "question": "The most widely used absorption system is the ammonia-water system, where ammonia is serves as a refrigerant and H2O as the",
+        "choices": [
+            "cooling",
+            "heating",
+            "heating and cooling",
+            "transport medium"
+        ],
+        "answer": "transport medium"
+    },
+    {
+        "question": "The efficiency of all reversible heat engines operating between the same two reservoir________",
+        "choices": [
+            "Differ",
+            "Are the same",
+            "Are Unequal",
+            "None of the above"
+        ],
+        "answer": "Are the same"
+    },
+    {
+        "question": "A process with no heat transfer is known as",
+        "choices": [
+            "isobaric process",
+            "adiabatic process",
+            "isothermal process",
+            "isothermal process"
+        ],
+        "answer": "adiabatic process"
+    },
+    {
+        "question": "The relative density of a substance is the ratio of its density of:",
+        "choices": [
+            "mercury",
+            "oil",
+            "gas",
+            "water"
+        ],
+        "answer": "water"
+    },
+    {
+        "question": "This type of heat exchanger allows fluids to flow at right angles to each other",
+        "choices": [
+            "Series flow",
+            "Parallel flow",
+            "Cross flow",
+            "Counter flow"
+        ],
+        "answer": "Cross flow"
+    },
+    {
+        "question": "The fact the total energy in any one energy system remains constant is called the principle of_____",
+        "choices": [
+            "Conservation of Energy",
+            "Second Law of Thermodynamics",
+            "Conservation of Mass",
+            "Zeroth Law of Thermodynamics"
+        ],
+        "answer": "Conservation of Energy"
+    },
+    {
+        "question": "A process for which the inlet and outlet enthalpies are the same",
+        "choices": [
+            "isenthalpic",
+            "enthalpy conservation",
+            "throttling",
+            "steady state"
+        ],
+        "answer": "throttling"
+    },
+    {
+        "question": "the sum of energies of all the molecules in system, energies that appear in several complex forms",
+        "choices": [
+            "kinetic energy",
+            "internal energy",
+            "external energy",
+            "flow work"
+        ],
+        "answer": "internal energy"
+    },
+    {
+        "question": "a system that is completely impervous to its surrounding. Neither mass nor energy cross its bounderies",
+        "choices": [
+            "open system",
+            "closed system",
+            "adiabatic system",
+            "isolated system"
+        ],
+        "answer": "isolated system"
+    },
+    {
+        "question": "a device used to measure small and moderate pressure difference",
+        "choices": [
+            "manometer",
+            "bourdon gage",
+            "barometer",
+            "piezometer"
+        ],
+        "answer": "manometer"
+    },
+    {
+        "question": "a vapor having a temperature higher than the saturation temperature corresponding to its pressure.",
+        "choices": [
+            "superheated vapor",
+            "saturated vapor",
+            "super saturated vapor",
+            "subcooled vapor"
+        ],
+        "answer": "superheated vapor"
+    },
+    {
+        "question": "the energy or stored capacity for performing work possessed by a moving body, by virtue of its momentum.",
+        "choices": [
+            "internal energy",
+            "work",
+            "gravitational potential energy",
+            "kinetic energy"
+        ],
+        "answer": "kinetic energy"
+    },
+    {
+        "question": "the thermodynamic process wherein temperature is constant and the change in internal energy is zero",
+        "choices": [
+            "isobaric process",
+            "isometric process",
+            "isothermal process",
+            "polytropic process"
+        ],
+        "answer": "isothermal process"
+    },
+    {
+        "question": "the function of a pump and compressor is to",
+        "choices": [
+            "transfer heat from one fluid to another",
+            "increase the total energy content of the flow",
+            "extract energy from the flow",
+            "exchange heat to increase energy to the flow"
+        ],
+        "answer": "increase the total energy content of the flow"
+    },
+    {
+        "question": "this law states that ‘all energy received as heat by a heat-engine cannot be converted into mechanical work’",
+        "choices": [
+            "1st law of thermodynamics",
+            "2nd law of thermodynamics",
+            "3rd law of thermodynamic",
+            "all of the above"
+        ],
+        "answer": "2nd law of thermodynamics"
+    },
+    {
+        "question": "the intensity of pressure that is measured above absolute zero is called",
+        "choices": [
+            "gage pressure",
+            "absolute pressure",
+            "vacuum pressure",
+            "saturation pressure"
+        ],
+        "answer": "absolute pressure"
+    },
+    {
+        "question": "This is the ratio of the heat equivalent of the brake or useful horsepower developed by an engine and available on its crankshaft to the heat during the same time",
+        "choices": [
+            "brake engine efficiency",
+            "indicated thermal efficiency",
+            "combined thermal efficiency",
+            "brake thermal efficiency"
+        ],
+        "answer": "brake thermal efficiency"
+    },
+    {
+        "question": "flow work is equal to pressure times _______",
+        "choices": [
+            "temperature",
+            "entropy",
+            "internal energy",
+            "specific volume"
+        ],
+        "answer": "specific volume"
+    },
+    {
+        "question": "this form of energy is due to the position or elevation of the body",
+        "choices": [
+            "internal energy",
+            "kinetic energy",
+            "potential energy",
+            "work"
+        ],
+        "answer": "potential energy"
+    },
+    {
+        "question": "another term for constant volume process",
+        "choices": [
+            "isometic",
+            "isochoric",
+            "isovolumic",
+            "all of the above"
+        ],
+        "answer": "all of the above"
+    },
+    {
+        "question": "work done by the steam during a reversible adiabatic expansion process in the turbine",
+        "choices": [
+            "brake work",
+            "ideal work",
+            "actual fluid work",
+            "combine work"
+        ],
+        "answer": "ideal work"
+    },
+    {
+        "question": "the efficiency of carnot cycle depends upon the",
+        "choices": [
+            "pressure",
+            "entropy",
+            "volume",
+            "temperature"
+        ],
+        "answer": "temperature"
+    },
+    {
+        "question": "it is a commonly used device for measuring temperature differences or high temperatures.",
+        "choices": [
+            "thermistor",
+            "thermocouple",
+            "bimetallic strip",
+            "mercury in glass"
+        ],
+        "answer": "thermocouple"
+    },
+    {
+        "question": "the science and technology concerned with precisely measuring energy and enthalpy",
+        "choices": [
+            "thermodynamics",
+            "chemistry",
+            "calorimetry",
+            "none of the above"
+        ],
+        "answer": "calorimetry"
+    },
+    {
+        "question": "the rate of doing work per unit time",
+        "choices": [
+            "torque",
+            "power",
+            "force",
+            "moment"
+        ],
+        "answer": "power"
+    },
+    {
+        "question": "it an ideal rankine cycle with fixed boiler and condenser pressure. What is the effect of superheating the steam to a higher temperature to the cycle thermal efficiency?",
+        "choices": [
+            "the cycle thermal efficiency will increase",
+            "the cycle thermal efficiency will decrease",
+            "the cycle thermal efficiency will remain constant",
+            "none of the above"
+        ],
+        "answer": "the cycle thermal efficiency will increase"
+    },
+    {
+        "question": "A vapor having a temperature higher than the saturation temperature corresponding to the existing pressure",
+        "choices": [
+            "superheated vapor",
+            "saturated vapor",
+            "wet vapor",
+            "none of the above"
+        ],
+        "answer": "superheated vapor"
+    },
+    {
+        "question": "it is the work done in pushing a fluid across a boundary, usually into or out a system",
+        "choices": [
+            "mechanical work",
+            "non flow work",
+            "flow work",
+            "electrical work"
+        ],
+        "answer": "flow work"
+    },
+    {
+        "question": "a liquid that has a temperature lower than the saturation temperature corresponding to the existing pressure.",
+        "choices": [
+            "subcooled liquid",
+            "saturated liquid",
+            "unsaturated liquid",
+            "water"
+        ],
+        "answer": "subcooled liquid"
+    },
+    {
+        "question": "this type of boiler, the water passes through the tubes while the flue gases burn outside the tubes",
+        "choices": [
+            "water column",
+            "try cocks",
+            "gauge glass",
+            "all of the above"
+        ],
+        "answer": "gauge glass"
+    },
+    {
+        "question": "it prevents damage to the boiler by giving warning of low water",
+        "choices": [
+            "safety valve",
+            "fusible plug",
+            "relief valve",
+            "try cocks"
+        ],
+        "answer": "fusible plug"
+    },
+    {
+        "question": "it has several functions. When necessary it empties the boiler for cleaning, inspection, or repair. It blows out mud scale, or sediment when the boiler is in operation and prevents excessive concentration of soluble impurities in the boiler",
+        "choices": [
+            "blow-down line",
+            "boiler feedwater pump",
+            "steam valve",
+            "none of the above"
+        ],
+        "answer": "blow-down line"
+    },
+    {
+        "question": "is a feedwater preheating and waste heat recovery device which utilizes the heat of the flue gases",
+        "choices": [
+            "economizer",
+            "open heater",
+            "closed heater",
+            "waterwalls"
+        ],
+        "answer": "economizer"
+    },
+    {
+        "question": "it is a heat exchanger which utilizes the heat of the flue gases to preheat the air needed for combustion",
+        "choices": [
+            "economizer",
+            "feedwater heater",
+            "reheater",
+            "air preheater"
+        ],
+        "answer": "air preheater"
+    },
+    {
+        "question": "it is a system of furnace cooling tubes which can extend the evaporative capacity of the water-tube boiler and at the same time protect the furncace walls from high temperature.",
+        "choices": [
+            "reheater",
+            "waterwalls",
+            "superheater",
+            "feedwater heater"
+        ],
+        "answer": "waterwalls"
+    },
+    {
+        "question": "it is based on the generation of 34.5 lbm/hr of steam from water at 212F and equivalent to 33500 btu/hr",
+        "choices": [
+            "One horsepower",
+            "One kw",
+            "One Boiler Horsepower",
+            "none of the above"
+        ],
+        "answer": "One Boiler Horsepower"
+    },
+    {
+        "question": "it prevents boiler pressure from rising above a certain predetermined pressure by opening to allow excess steam to escape into the atmosphere when that point is reached, thus guarding against a possible expulsion through excessive pressure.",
+        "choices": [
+            "relief valve",
+            "safety valve",
+            "fusible plug",
+            "pressure switches"
+        ],
+        "answer": "safety valve"
+    },
+    {
+        "question": "in a water tube boiler, the water will pass through _____",
+        "choices": [
+            "inside the tubes",
+            "outside the tubes",
+            "inside the shell",
+            "outside the shell"
+        ],
+        "answer": "inside the tubes"
+    },
+    {
+        "question": "it is the temperature to which the air becomes saturated at constant pressure",
+        "choices": [
+            "dry bulb temperatue",
+            "wet bulb temperature",
+            "dew point temperature",
+            "saturation temperature"
+        ],
+        "answer": "dew point temperature"
+    },
+    {
+        "question": "in a ______ cooling tower, the air moves horizontally through the fills as the water moves downward.",
+        "choices": [
+            "cross flow",
+            "counter flow",
+            "parallel flow",
+            "double flow"
+        ],
+        "answer": "cross flow"
+    },
+    {
+        "question": "it is the subject that deals with the behavior of moist air",
+        "choices": [
+            "psychrometer",
+            "psychrometry",
+            "refrigeration",
+            "pneumatics"
+        ],
+        "answer": "psychrometry"
+    },
+    {
+        "question": "it is the ration of the mass of water vapor in a certain volume of moist air at a given temperature to the mass of hot water in the same volume of saturated air at the same temperature",
+        "choices": [
+            "humidity ratio",
+            "specific humidity",
+            "humidity",
+            "relative humidity"
+        ],
+        "answer": "relative humidity"
+    },
+    {
+        "question": "air whose condition is such that any decrease in temperature will result in condensation of water vapor into liquid.",
+        "choices": [
+            "saturated air",
+            "unsaturated air",
+            "saturated vapor",
+            "moist air"
+        ],
+        "answer": "saturated air"
+    },
+    {
+        "question": "it is the warm water temperature minus the cold water temperature leaving the cooling tower",
+        "choices": [
+            "approach",
+            "terminal difference",
+            "cooling range",
+            "LMTD"
+        ],
+        "answer": "cooling range"
+    },
+    {
+        "question": "the temperature where the relative humidity becomes 100 % and where the water vapor starts to condense is known as _____",
+        "choices": [
+            "dry bulb temperature",
+            "dewpoint temperature",
+            "wet bulb temperature",
+            "saturated temperature"
+        ],
+        "answer": "dewpoint temperature"
+    },
+    {
+        "question": "the surrounding air ____ temperature is the lowest temperature to which water could possibly be cooled in a cooling tower",
+        "choices": [
+            "dry bulb",
+            "wet bulb",
+            "dew point",
+            "saturation temperature"
+        ],
+        "answer": "wet bulb"
+    },
+    {
+        "question": "Which is not a major part of the vapor compression system?",
+        "choices": [
+            "compressor",
+            "condenser",
+            "evaporator",
+            "refrigerant"
+        ],
+        "answer": "refrigerant"
+    },
+    {
+        "question": "This refers to the rate of heat transfer attribute only to a change in dry-bulb temperature",
+        "choices": [
+            "sensible heating or cooling",
+            "humidification",
+            "dehumidification",
+            "cooling and dehumidifying"
+        ],
+        "answer": "sensible heating or cooling"
+    },
+    {
+        "question": "it is a binary mixture of dry air and water-vapor",
+        "choices": [
+            "dry air",
+            "saturated vapor",
+            "moist air",
+            "wet mixture"
+        ],
+        "answer": "moist air"
+    },
+    {
+        "question": "the temperature measured by an ordinary thermometer",
+        "choices": [
+            "wet bulb temp",
+            "dry bulb temp",
+            "dew point temp",
+            "wet – bulb depression"
+        ],
+        "answer": "dry bulb temp"
+    },
+    {
+        "question": "The mass of water interspersed in each kilogram of dry air",
+        "choices": [
+            "enthalpy",
+            "humidity ratio",
+            "specific volume",
+            "relative humidity"
+        ],
+        "answer": "humidity ratio"
+    },
+    {
+        "question": "This system combines two vapor compression units with the condenser of the low temperature system discharge its heat to the evaporator of the high temperature system",
+        "choices": [
+            "cascade systems",
+            "multistage system",
+            "binary system",
+            "multi pressure system"
+        ],
+        "answer": "cascade systems"
+    },
+    {
+        "question": "A process of increasing the humidity ratio at constant dry bulb temperature",
+        "choices": [
+            "dehumidifying process",
+            "cooling process",
+            "heating process",
+            "humidifying process"
+        ],
+        "answer": "humidifying process"
+    },
+    {
+        "question": "the ratio of the partial pressure of water vapor in the air to the saturation pressure corresponding to the temperature of the air",
+        "choices": [
+            "humidity ratio",
+            "relative humidity",
+            "specific humidity",
+            "moisture content"
+        ],
+        "answer": "relative humidity"
+    },
+    {
+        "question": "In an air conditioning process that involves heating without changing the moisture content of air. The process is represented by a horizontal line in the psychrometric chart, from left to right",
+        "choices": [
+            "sensible cooling process",
+            "sensible heating process",
+            "humidifying process",
+            "heating and dehumidifying process"
+        ],
+        "answer": "sensible heating process"
+    },
+    {
+        "question": "It is an air conditioning process of increasing the humidity ratio without changing the dry-bulb temperature of air. The process is represented in the psychrometric chart by a vertical line, from up to down",
+        "choices": [
+            "sensible cooling process",
+            "sensible heating process",
+            "humidifying process",
+            "heating and dehumidifying process"
+        ],
+        "answer": "humidifying process"
+    },
+    {
+        "question": "The temperature at which the water vapor content of moist air begins to condense when air is cooled at constant pressure",
+        "choices": [
+            "dew point temperature",
+            "wet bulb temperature",
+            "dry bulb temperature",
+            "condensing temperature"
+        ],
+        "answer": "dew point temperature"
+    },
+    {
+        "question": "It is the index of performance of a refrigeration system which is a dimensionless quantity",
+        "choices": [
+            "coefficient of performance",
+            "energy ratio",
+            "energy efficiency",
+            "performance ratio"
+        ],
+        "answer": "coefficient of performance"
+    },
+    {
+        "question": "It is simply the compression of the gas in two or more cylinders in place of a single cylinder compressor",
+        "choices": [
+            "intercooled compression",
+            "multistage compression",
+            "efficient compression",
+            "performance compression"
+        ],
+        "answer": "multistage compression"
+    },
+    {
+        "question": "The transfer of energy from the more energetic in two or more energetic particles of a substance to the adjacent less energetic ones as a result of interaction between the particles",
+        "choices": [
+            "heat transfer",
+            "radiation",
+            "conduction",
+            "convection"
+        ],
+        "answer": "conduction"
+    },
+    {
+        "question": "What is the simultaneous control of temperature, humidity, air movement, and quantity of air in space?",
+        "choices": [
+            "refrigeration",
+            "psychometry",
+            "air conditioning",
+            "humidification"
+        ],
+        "answer": "air conditioning"
+    },
+    {
+        "question": "The non condensing component of the moist air",
+        "choices": [
+            "hydrogen",
+            "water vapour",
+            "nitrogen",
+            "dry air"
+        ],
+        "answer": "dry air"
+    },
+    {
+        "question": "What is the pressure of the refrigerant between the expansion valve and the intake of the compressor in a multi pressure refrigeration system?",
+        "choices": [
+            "high side pressure",
+            "dishcharge pressure",
+            "condensing pressure",
+            "low side pressure"
+        ],
+        "answer": "low side pressure"
+    }
+]

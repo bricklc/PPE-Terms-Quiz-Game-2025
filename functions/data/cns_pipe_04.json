@@ -1,0 +1,712 @@
+[
+    {
+        "question": "The measure of the ability of a goal to withstand exposure to the environment elements without excessive crumbling",
+        "choices": [
+            "crumbling coefficient",
+            "weatherability",
+            "cohensiveness",
+            "attrition coefficient"
+        ],
+        "answer": "weatherability"
+    },
+    {
+        "question": "A type of coal that tends to break apart as it burns thereby exposing the unburned coal to the combustion air.",
+        "choices": [
+            "loose coal",
+            "free burning coal",
+            "non-cohensive coal",
+            "aggregate"
+        ],
+        "answer": "free burning coal"
+    },
+    {
+        "question": "A type of coal that produced a fused coal mass as it burns.",
+        "choices": [
+            "plastic coal",
+            "caking coal",
+            "soft coal",
+            "high-moisture coal"
+        ],
+        "answer": "caking coal"
+    },
+    {
+        "question": "A combustible coal content that produces a major atmospheric pollutant consequently, it is important that coal has a low percentage of this component.",
+        "choices": [
+            "nitrogen",
+            "sulfur",
+            "carbon",
+            "hydrogen"
+        ],
+        "answer": "sulfur"
+    },
+    {
+        "question": "The sum of the pressure head and velocity head.",
+        "choices": [
+            "static head",
+            "pressure head",
+            "velocity head",
+            "dynamic head"
+        ],
+        "answer": "dynamic head"
+    },
+    {
+        "question": "Which of the following statement is/are true regards to the first law of thermodynamics for a change in state of a control mass",
+        "choices": [
+            "since heat and work are path function Q-W must also be a path function",
+            "Q-W is an inexact differential",
+            "A and B",
+            "Q-W is a point function"
+        ],
+        "answer": "Q-W is a point function"
+    },
+    {
+        "question": "Which of the following statements is/are true with regards to heat and work.",
+        "choices": [
+            "heat and work are both transient phenomena",
+            "both heat and work are boundary phenomena",
+            "both heat and work are path function",
+            "all of the above"
+        ],
+        "answer": "all of the above"
+    },
+    {
+        "question": "The height of the surface of the water above the gage point",
+        "choices": [
+            "pressure head",
+            "velocity head",
+            "dynamic head",
+            "static head"
+        ],
+        "answer": "static head"
+    },
+    {
+        "question": "The head required to produced a flow of the water.",
+        "choices": [
+            "static head",
+            "pressure head",
+            "velocity head",
+            "dynamic head"
+        ],
+        "answer": "velocity head"
+    },
+    {
+        "question": "The dynamic pressure of the liquid at pump section less the corresponding to the temperature at the same point, converted to liquid.",
+        "choices": [
+            "NPSH",
+            "specific head",
+            "c.pump operating head",
+            "suction head"
+        ],
+        "answer": "NPSH"
+    },
+    {
+        "question": "The algebraic difference of the discharge and suction heads.",
+        "choices": [
+            "pump operating head",
+            "TDH",
+            "A and B",
+            "NPSH"
+        ],
+        "answer": "A and B"
+    },
+    {
+        "question": "The transfer of the heat energy from exhaust gases to compressed air flowing between the compressor and combustion chamber.",
+        "choices": [
+            "intercooling",
+            "convection",
+            "regeneration",
+            "economics"
+        ],
+        "answer": "regeneration"
+    },
+    {
+        "question": "The removal of heat from compressed air between stages of compression.",
+        "choices": [
+            "regeneration",
+            "exhaustion",
+            "heat evacuation",
+            "intercooling"
+        ],
+        "answer": "intercooling"
+    },
+    {
+        "question": "As a general rule, the cooling water side of the condenser should be schedule for inspection for every:",
+        "choices": [
+            "month",
+            "3 months",
+            "6 months",
+            "year"
+        ],
+        "answer": "3 months"
+    },
+    {
+        "question": "If the compressor runs continually, the cause might be the:",
+        "choices": [
+            "high-pressure cutout switch is jammed shut",
+            "low pressure switch is jammed shut",
+            "thermal bulb is not operating properly",
+            "scale trap is clogged"
+        ],
+        "answer": "low pressure switch is jammed shut"
+    },
+    {
+        "question": "If the temperature in the icebox is too high, the trouble could be:",
+        "choices": [
+            "a clogged scale trap",
+            "air in the system",
+            "automatic controls not functioning properly",
+            "insufficient cooling water to the condenser"
+        ],
+        "answer": "automatic controls not functioning properly"
+    },
+    {
+        "question": "If frost forms on the cylinders, the cause would be:",
+        "choices": [
+            "expansion valve not open wide enough",
+            "charging valve open too wide",
+            "expansion valve open too wide",
+            "dehydrator not working properly"
+        ],
+        "answer": "expansion valve open too wide"
+    },
+    {
+        "question": "The most likely cause of high superheat would be:",
+        "choices": [
+            "too much refrigerant",
+            "expansion valve open too wide",
+            "expansion valve closed in too much wide",
+            "back-pressure valve set too high"
+        ],
+        "answer": "expansion valve open too wide"
+    },
+    {
+        "question": "Short-cycling means that the machine:",
+        "choices": [
+            "grounds out frequently",
+            "stops and starts frequently",
+            "runs too fast",
+            "runs too slow"
+        ],
+        "answer": "stops and starts frequently"
+    },
+    {
+        "question": "If the cooling water to the condenser should suddenly fail:",
+        "choices": [
+            "the solenoid valve will close",
+            "the compressor will shut down",
+            "the expansion valve will close",
+            "an alarm will ring to notify the engineer"
+        ],
+        "answer": "the compressor will shut down"
+    },
+    {
+        "question": "The memory lost when the operating power is removed",
+        "choices": [
+            "power memory",
+            "volatile memory",
+            "initial memory",
+            "quick data"
+        ],
+        "answer": "volatile memory"
+    },
+    {
+        "question": "Which of the following regions in a multi-stage turbine where efficiency a highest?",
+        "choices": [
+            "High pressure region above 200 psi",
+            "Intermediate pressure region",
+            "Low pressure most region",
+            "A and B"
+        ],
+        "answer": "Intermediate pressure region"
+    },
+    {
+        "question": "Calculate the use factor of a 135 MW plant with a load facetor of 0.8 and a peak load of 120 MW if its operation is limited to 8500 hrs in a year",
+        "choices": [
+            "0.90",
+            "0.73",
+            "0.70",
+            "0.78"
+        ],
+        "answer": "0.73"
+    },
+    {
+        "question": "Calculate the net radiation heat flux exchange of two bodies with surface temperature of 25 deg C. The radiation heat transfer coefficient is 7.0 W/m2-k",
+        "choices": [
+            "700 w/sq m",
+            "750 w/sq m",
+            "665 w/sq m",
+            "650 w/sq m"
+        ],
+        "answer": "665 w/sq m"
+    },
+    {
+        "question": "Calculate the reserve factor for a power plant with a load factor of 0.7 average load of 50 MW and rated capacity of 80 MW",
+        "choices": [
+            "2",
+            "1.5",
+            "1.12",
+            "1.6"
+        ],
+        "answer": "1.12"
+    },
+    {
+        "question": "Maximum demand of 30 MW and 10 MW are connected to a power plant with a peak load of 70 MW. What is the diversity factor of the plant?",
+        "choices": [
+            "0.50",
+            "0.70",
+            "0.65",
+            "0.86"
+        ],
+        "answer": "0.65"
+    },
+    {
+        "question": "A gas in piston-cylinder set-up undergoes an expansion of such rate that PV 1.2 =constant. Before the expansion process the pressure of the gas is 300 kpa and the volume is 0.50 m3. If the final volume of the gas is 0.1 m3, calculate the work done by the gas",
+        "choices": [
+            "9.71 KJ",
+            "11.0 KJ",
+            "12 KJ",
+            "8 KJ"
+        ],
+        "answer": "9.71 KJ"
+    },
+    {
+        "question": "The phenomenon in which air enters a submerged suction pipe from the water surface is called a:",
+        "choices": [
+            "whirlpool",
+            "vacuum",
+            "vortex",
+            "thixotropic"
+        ],
+        "answer": "vortex"
+    },
+    {
+        "question": "Where groundwater ( wells and springs) or surface water (streams and takes) are used for feedwater, water hardness of ____ and alkalinity of pH 10 to be ph should be considered",
+        "choices": [
+            "0-10 ppm",
+            "10-20 ppm",
+            "20-30 ppm",
+            "30-40 ppm"
+        ],
+        "answer": "0-10 ppm"
+    },
+    {
+        "question": "Which of the following is not a solid fuel?",
+        "choices": [
+            "peat",
+            "briquettes",
+            "tar",
+            "coke"
+        ],
+        "answer": "tar"
+    },
+    {
+        "question": "Canisters of helmets shall be removed immediately after having been used on sucking water from a public service main or private-use water system",
+        "choices": [
+            "horizontal split case pump",
+            "vertical shaft turbine pump",
+            "booster pump",
+            "submersible pump"
+        ],
+        "answer": "booster pump"
+    },
+    {
+        "question": "A small fitting with a double offset, or shaped like the letter U with the ends turned out",
+        "choices": [
+            "elbow tee",
+            "expansion loop",
+            "spigot joint",
+            "cross-over"
+        ],
+        "answer": "cross-over"
+    },
+    {
+        "question": "The condition in which droplets of water are carried by steam in the boiler",
+        "choices": [
+            "priming",
+            "breeching",
+            "carryover",
+            "condensation"
+        ],
+        "answer": "priming"
+    },
+    {
+        "question": "At the start of the compression process of an air-standard diesel power cycle the pressure is 100kpa and the temp is 15 deg C. for a mean effective pressure of 1362 kpa and compression ratio of 18 the heat of combustion developed is 1800 kj/kg. what is the thermal efficiency of the cycle?",
+        "choices": [
+            "65 %",
+            "59 %",
+            "55%",
+            "68%"
+        ],
+        "answer": "59 %"
+    },
+    {
+        "question": "A circular chip (k= 150 w/ mk) with a diameter d=10mm and thickness t= 4 cm inside diameter and 12 cm outer diameter. The inside wall temperature of the pipe is maintained at 500 deg C while the outside surface of asbestos at 90 deg C. Calculate the heat loss per meter length",
+        "choices": [
+            "1265w/m",
+            "1500 w/m",
+            "1400 w/m",
+            "1100 w/m"
+        ],
+        "answer": "1265w/m"
+    },
+    {
+        "question": "Exergy is always",
+        "choices": [
+            "being produced",
+            "being destroyed",
+            "not changing",
+            "none of the above"
+        ],
+        "answer": "being destroyed"
+    },
+    {
+        "question": "A 5m thick flat plane ( k=60 w/ mk) is well insulated on its sides, while the top and bottom surfaces are maintained at 150 deg. Assuming a steady state heat conduction, calculate the temperature 4 m below the top surface.",
+        "choices": [
+            "100 deg c",
+            "120 deg c",
+            "94 deg c",
+            "80 deg c"
+        ],
+        "answer": "94 deg c"
+    },
+    {
+        "question": "A solid of diameter D=0.5 m and surface emissivity of 0.8 contains electrons that dissipate 100 W of heat. If it does not receive radiation from the surroundings, what is the surface temp?",
+        "choices": [
+            "300 deg C",
+            "280 deg C",
+            "230 deg C",
+            "270 deg C"
+        ],
+        "answer": "230 deg C"
+    },
+    {
+        "question": "Which of the following is basically a jet engine that exhausts into a turbine generator?",
+        "choices": [
+            "aeroderivative gas turbine",
+            "brayton engine",
+            "industrial gas turbine",
+            "joule turbine"
+        ],
+        "answer": "aeroderivative gas turbine"
+    },
+    {
+        "question": "It is referred to as the maximum continous power available from a hydroelectric power plant even under the most adverse hydraulic condition",
+        "choices": [
+            "primary power",
+            "continuous base power",
+            "continuous peak power",
+            "firm power"
+        ],
+        "answer": "firm power"
+    },
+    {
+        "question": "Energy destruction is a result of",
+        "choices": [
+            "heat transfer",
+            "work production",
+            "process irreversibility",
+            "none of the above"
+        ],
+        "answer": "process irreversibility"
+    },
+    {
+        "question": "Working fluids used in refrigeration cycle decreases in temperature as they pass through the throttle valve. The Joule-Thompson coefficient of these fluids is",
+        "choices": [
+            "negative",
+            "zero",
+            "positive",
+            "none of the above"
+        ],
+        "answer": "positive"
+    },
+    {
+        "question": "The interaction that occurs between a system and its surroundings as the system executes a process, which is the result of the system being at the temperature different from the surrounding, is",
+        "choices": [
+            "mass transfer",
+            "heat transfer",
+            "work transfer",
+            "none of the above"
+        ],
+        "answer": "heat transfer"
+    },
+    {
+        "question": "Working fluids used in refrigeration cycle decreases in temperature as the pass through the throttle valve. The joule-thompson coefficient of these fluids is",
+        "choices": [
+            "negative",
+            "zero",
+            "positive",
+            "none of the above"
+        ],
+        "answer": "positive"
+    },
+    {
+        "question": "The interactions that occurs between a system and its surroundings as a system executes a process, which is the result of the system being at temperature different from the surrounding is",
+        "choices": [
+            "mass transfer",
+            "heat transfer",
+            "work transfer",
+            "none of the above"
+        ],
+        "answer": "heat transfer"
+    },
+    {
+        "question": "An air pollutant which is the result of burning fuels oils",
+        "choices": [
+            "ferrous oxide",
+            "hydrogen nitride",
+            "sulfur dioxide",
+            "aluminum oxide"
+        ],
+        "answer": "sulfur dioxide"
+    },
+    {
+        "question": "Analysis of solid fuel to determine moisture, volatile matter, fixed carbon, and ash expressed as percentage of the total weight of the sample",
+        "choices": [
+            "viscometer",
+            "proximate analysis",
+            "ultimate",
+            "pour point"
+        ],
+        "answer": "proximate analysis"
+    },
+    {
+        "question": "A gas analysis apparatus in which the percentage of oxygen, carbon dioxide and neonoxide in the gas measured by absorption in separate chemical solutions",
+        "choices": [
+            "orsat",
+            "proximate",
+            "ultimate",
+            "pour point"
+        ],
+        "answer": "orsat"
+    },
+    {
+        "question": "The water added to boiler feed to compensate for the water lost through blowdown, leakage, etc",
+        "choices": [
+            "condensate",
+            "make-up",
+            "sulfur",
+            "economizer"
+        ],
+        "answer": "make-up"
+    },
+    {
+        "question": "Gas flow caused by boiler's pressure being less than boiler’s furnace pressure",
+        "choices": [
+            "induced draft",
+            "infrared",
+            "injector",
+            "inhibitoR"
+        ],
+        "answer": "induced draft"
+    },
+    {
+        "question": "An automatic pressure-relieving device that opens in proportion to the increase in pressure over its opening pressure",
+        "choices": [
+            "pressure gauge",
+            "relieve valve",
+            "ammeter",
+            "calorimeter"
+        ],
+        "answer": "relieve valve"
+    },
+    {
+        "question": "A rotating device used to convert kinetic energy into mechanical energy",
+        "choices": [
+            "turbine",
+            "generator",
+            "pump",
+            "vacuum"
+        ],
+        "answer": "turbine"
+    },
+    {
+        "question": "Air can be prevented from getting into the system by:",
+        "choices": [
+            "keeping all gland and stuffing boxes on the high pressure side tight",
+            "keeping the dehydrator clean at all times",
+            "keeping all glands and stuffing boxes on the low pressure side tight",
+            "running the refrigerant through an aerator"
+        ],
+        "answer": "keeping all glands and stuffing boxes on the low pressure side tight"
+    },
+    {
+        "question": "An excessively high head pressure could be caused by",
+        "choices": [
+            "solenoid valve shut off",
+            "insufficient cooling water to the condenser",
+            "insufficient cooling water to the evaporator coils",
+            "too much cooling water to the condenser"
+        ],
+        "answer": "insufficient cooling water to the condenser"
+    },
+    {
+        "question": "The solenoid valve is controlled by",
+        "choices": [
+            "the amount of liquid in the system",
+            "the amount of gas in the system",
+            "the temperature in the condenser",
+            "the thermal switch operated by the icebox temperature"
+        ],
+        "answer": "the thermal switch operated by the icebox temperature"
+    },
+    {
+        "question": "If the discharge side of the thermal expansion valve is warmer than the",
+        "choices": [
+            "expansion valve is working normally",
+            "expansion valve is not working normally",
+            "solenoid valve is not working normally",
+            "scale trap is dirty"
+        ],
+        "answer": "expansion valve is not working normally"
+    },
+    {
+        "question": "If the pressure is too high",
+        "choices": [
+            "the relief valve should open before the high pressure output",
+            "the relief valve should open and let excess refrigerant go to receiver",
+            "the high pressure output switch should operate before the relief valve",
+            "close in on the suction valve"
+        ],
+        "answer": "the high pressure output switch should operate before the relief valve"
+    },
+    {
+        "question": "If a pressurized water reactor (PWR)",
+        "choices": [
+            "the coolant water is pressurized to work as moderator",
+            "b the coolant water boils in the core of the reactor",
+            "the coolant water is pressurized to prevent boiling of water in the core",
+            "no moderator is used"
+        ],
+        "answer": "the coolant water is pressurized to prevent boiling of water in the core"
+    },
+    {
+        "question": "Which of the following property of coal has major influence on the design and operation of a steam power plant",
+        "choices": [
+            "density of coal",
+            "carbon content of coal",
+            "ash content of coal",
+            "shape and size of coal"
+        ],
+        "answer": "ash content of coal"
+    },
+    {
+        "question": "a boiler horsepower is equal to the evaporation of 3405lbs of 100 degrees c water per hr. how much steam in lb per hour a 700 horsepower boiler can generate?",
+        "choices": [
+            "24150 lb / hr",
+            "21000 lb/ hr",
+            "18000 lb/hr",
+            "30000 lb/hr"
+        ],
+        "answer": "21000 lb/ hr"
+    },
+    {
+        "question": "is obtained by mixing and burning precisely the right amount of fuel and oxygen so that products are left once combustion is complete",
+        "choices": [
+            "perfect combustion",
+            "burning combustion",
+            "firing combustion",
+            "burning combustion"
+        ],
+        "answer": "perfect combustion"
+    },
+    {
+        "question": "what type of boiler commonly used in industrial and heavy commercial application due to less expensive to make low pressure, easier to maintain and repair",
+        "choices": [
+            "water tube boiler",
+            "fire tube boiler",
+            "air tube boiler",
+            "marine water"
+        ],
+        "answer": "fire tube boiler"
+    },
+    {
+        "question": "during the emergency operation of the boiler, when there is no water in the gauge glass and steam comes out of the bottom trycock, the water level cannot be determined. What preventive measure the operator does to save the boiler",
+        "choices": [
+            "shutdown the boiler and do not add water",
+            "add water to compensate the water losss",
+            "increase the firing rate",
+            "continue to operate the boiler and add water"
+        ],
+        "answer": "shutdown the boiler and do not add water"
+    },
+    {
+        "question": "the most important valve in the boiler operation and the last line of defense against disaster is known as",
+        "choices": [
+            "pressure gauge",
+            "compound gauge",
+            "safety valve",
+            "gate valve"
+        ],
+        "answer": "safety valve"
+    },
+    {
+        "question": "a common test and very important when a boiler is being repaired and or replaced before being back in operation or in service is known as",
+        "choices": [
+            "hydrostatic test",
+            "water level test",
+            "test clamp",
+            "acid test"
+        ],
+        "answer": "hydrostatic test"
+    },
+    {
+        "question": "In heat transfer by conduction, due to symmetry the heat flow as a point is perpendicular to the isothermal surface through the point. This mode of conduction is a characteristic of",
+        "choices": [
+            "non-isotropic",
+            "isotropic",
+            "insulators",
+            "conductors"
+        ],
+        "answer": "non-isotropic"
+    },
+    {
+        "question": "why should you avoid bending or twisting of fan blades in an air conditioning unit?",
+        "choices": [
+            "it will not cause ice build up",
+            "it will wear out the motor bearings &cause noise",
+            "it may not slice suction line",
+            "it decrease the volume flow of refrigerant"
+        ],
+        "answer": "it will wear out the motor bearings &cause noise"
+    },
+    {
+        "question": "The heat transferred radially across insulated pipe per unit area",
+        "choices": [
+            "remain constant",
+            "inversely proportional to the thermal conductivity",
+            "decrease from pipe wall to insulated surface",
+            "increase form pipe wall to insulated surface"
+        ],
+        "answer": "decrease from pipe wall to insulated surface"
+    },
+    {
+        "question": "under normal operating conditions, when a solid material to be dried is placed inside a batch tray dryer, the material is usually subjected",
+        "choices": [
+            "under constant drying conditions",
+            "under variable drying conditions",
+            "under high temperature drying",
+            "under low temperature drying"
+        ],
+        "answer": "under constant drying conditions"
+    },
+    {
+        "question": "a change of phase directly from vapor to solid without passing through the liquid state is called as",
+        "choices": [
+            "sublimation",
+            "vaporization",
+            "solidification",
+            "deposition"
+        ],
+        "answer": "deposition"
+    },
+    {
+        "question": "in terms of heat transfer, the use of a cooling tower is said to be more efficient and more economical compared to an ordinary heat exchanger since",
+        "choices": [
+            "large vol of air is available and free",
+            "temperature profiles of air and water can cross each other",
+            "large amount of water can be processed",
+            "a cooling tower is much smaller and cheaper than a heat heat exchanger"
+        ],
+        "answer": "temperature profiles of air and water can cross each other"
+    }
+]
