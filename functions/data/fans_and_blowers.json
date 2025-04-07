@@ -1,0 +1,392 @@
+[
+    {
+        "question": "Which of the following devices is typically used for moving large volumes of air at low pressure?",
+        "choices": [
+            "Compressor",
+            "Fan",
+            "Blower",
+            "Pump"
+        ],
+        "answer": "Fan"
+    },
+    {
+        "question": "What is the primary function of a blower?",
+        "choices": [
+            "Cool down electronics",
+            "Compress air to high pressure",
+            "Move gas with a moderate pressure rise",
+            "Generate vacuum"
+        ],
+        "answer": "Move gas with a moderate pressure rise"
+    },
+    {
+        "question": "Which type of fan is most suitable for high-flow, low-pressure applications?",
+        "choices": [
+            "Axial fan",
+            "Centrifugal fan",
+            "Mixed flow fan",
+            "Radial fan"
+        ],
+        "answer": "Axial fan"
+    },
+    {
+        "question": "In a centrifugal fan, the air flows:",
+        "choices": [
+            "Parallel to the shaft",
+            "Perpendicularly to the shaft",
+            "In spiral motion",
+            "Inward along the shaft"
+        ],
+        "answer": "Perpendicularly to the shaft"
+    },
+    {
+        "question": "The performance of a fan is generally evaluated in terms of:",
+        "choices": [
+            "Noise level",
+            "Static pressure and flow rate",
+            "Material of construction",
+            "Vibration level"
+        ],
+        "answer": "Static pressure and flow rate"
+    },
+    {
+        "question": "Which law is used to predict the performance of geometrically similar fans?",
+        "choices": [
+            "Bernoulli's Principle",
+            "Fan Affinity Laws",
+            "Boyle's Law",
+            "Darcy-Weisbach Equation"
+        ],
+        "answer": "Fan Affinity Laws"
+    },
+    {
+        "question": "Which component imparts kinetic energy to the air in a centrifugal fan?",
+        "choices": [
+            "Diffuser",
+            "Shaft",
+            "Impeller",
+            "Motor"
+        ],
+        "answer": "Impeller"
+    },
+    {
+        "question": "What is the typical shape of blades in a backward-curved centrifugal fan?",
+        "choices": [
+            "Bent forward",
+            "Radially straight",
+            "Curved opposite to rotation",
+            "Curved along the rotation"
+        ],
+        "answer": "Curved opposite to rotation"
+    },
+    {
+        "question": "Which fan type usually generates the highest noise levels?",
+        "choices": [
+            "Axial fan",
+            "Backward-inclined fan",
+            "Forward-curved fan",
+            "Mixed-flow fan"
+        ],
+        "answer": "Axial fan"
+    },
+    {
+        "question": "In terms of fan performance, what does the static pressure measure?",
+        "choices": [
+            "Kinetic energy of air",
+            "Resistance to airflow",
+            "Heat transfer",
+            "Power loss"
+        ],
+        "answer": "Resistance to airflow"
+    },
+    {
+        "question": "What is the effect of increasing impeller diameter in a centrifugal fan?",
+        "choices": [
+            "Decreases static pressure",
+            "Reduces noise",
+            "Increases flow and pressure",
+            "Slows motor speed"
+        ],
+        "answer": "Increases flow and pressure"
+    },
+    {
+        "question": "Which of the following fans is best suited for clean air and high-volume flow applications?",
+        "choices": [
+            "Radial blade fan",
+            "Forward-curved fan",
+            "Backward-curved fan",
+            "Tube axial fan"
+        ],
+        "answer": "Tube axial fan"
+    },
+    {
+        "question": "Blowers typically operate in the pressure range of:",
+        "choices": [
+            "Below 100 mmHg",
+            "0.1 to 0.5 bar",
+            "Above 1 bar",
+            "Vacuum range"
+        ],
+        "answer": "0.1 to 0.5 bar"
+    },
+    {
+        "question": "What is the role of a volute casing in a centrifugal fan?",
+        "choices": [
+            "Increase air speed",
+            "Convert velocity head into pressure head",
+            "Reduce temperature",
+            "Act as a bearing support"
+        ],
+        "answer": "Convert velocity head into pressure head"
+    },
+    {
+        "question": "Which parameter most affects fan noise level?",
+        "choices": [
+            "Air temperature",
+            "Impeller material",
+            "Blade tip speed",
+            "Voltage rating"
+        ],
+        "answer": "Blade tip speed"
+    },
+    {
+        "question": "What does the term \"surge\" refer to in fan operation?",
+        "choices": [
+            "Flow exceeding rated capacity",
+            "Sudden change in rotation",
+            "Instability due to mismatch in pressure and flow",
+            "Thermal overload"
+        ],
+        "answer": "Instability due to mismatch in pressure and flow"
+    },
+    {
+        "question": "Which type of blower uses rotating lobes to trap air and move it?",
+        "choices": [
+            "Centrifugal blower",
+            "Roots blower",
+            "Screw blower",
+            "Vane blower"
+        ],
+        "answer": "Roots blower"
+    },
+    {
+        "question": "In axial fans, increasing blade pitch angle generally results in:",
+        "choices": [
+            "Lower flow rate",
+            "Higher flow rate",
+            "Reduced efficiency",
+            "Increased noise only"
+        ],
+        "answer": "Higher flow rate"
+    },
+    {
+        "question": "What is the purpose of inlet guide vanes in fan design?",
+        "choices": [
+            "To prevent backflow",
+            "To control flow direction and improve efficiency",
+            "To support the shaft",
+            "To remove noise"
+        ],
+        "answer": "To control flow direction and improve efficiency"
+    },
+    {
+        "question": "Which fan is best for systems with high resistance?",
+        "choices": [
+            "Axial fan",
+            "Forward-curved centrifugal fan",
+            "Backward-inclined centrifugal fan",
+            "Propeller fan"
+        ],
+        "answer": "Backward-inclined centrifugal fan"
+    },
+    {
+        "question": "What type of impeller blade design is typically used in material handling fans?",
+        "choices": [
+            "Backward-curved",
+            "Airfoil",
+            "Straight radial",
+            "Mixed flow"
+        ],
+        "answer": "Straight radial"
+    },
+    {
+        "question": "What is the effect of air density on fan performance?",
+        "choices": [
+            "No effect",
+            "Affects motor speed",
+            "Proportional to flow rate",
+            "Affects pressure and power requirement"
+        ],
+        "answer": "Affects pressure and power requirement"
+    },
+    {
+        "question": "In a fan curve, the intersection of system curve and fan curve represents:",
+        "choices": [
+            "Maximum flow",
+            "Shut-off point",
+            "Operating point",
+            "Surge point"
+        ],
+        "answer": "Operating point"
+    },
+    {
+        "question": "The specific speed of a fan is used to:",
+        "choices": [
+            "Determine the shaft size",
+            "Estimate power factor",
+            "Classify the type of fan",
+            "Choose bearing type"
+        ],
+        "answer": "Classify the type of fan"
+    },
+    {
+        "question": "The term \"Total Pressure” in fan performance includes:",
+        "choices": [
+            "Static + dynamic pressure",
+            "Static - dynamic pressure",
+            "Static pressure only",
+            "Velocity pressure only"
+        ],
+        "answer": "Static + dynamic pressure"
+    },
+    {
+        "question": "The noise from fans is primarily due to:",
+        "choices": [
+            "Voltage fluctuations",
+            "Mechanical imbalance",
+            "Turbulence and blade passing",
+            "Temperature rise"
+        ],
+        "answer": "Turbulence and blade passing"
+    },
+    {
+        "question": "Which test is commonly used to determine fan performance?",
+        "choices": [
+            "Vibration analysis",
+            "Wind tunnel test",
+            "AMCA test",
+            "Thermal imaging"
+        ],
+        "answer": "AMCA test"
+    },
+    {
+        "question": "Which of the following reduces fan power consumption without reducing airflow too much?",
+        "choices": [
+            "Reducing blade length",
+            "Using a variable frequency drive (VFD)",
+            "Increasing inlet diameter",
+            "Removing diffusers"
+        ],
+        "answer": "Using a variable frequency drive (VFD)"
+    },
+    {
+        "question": "In fan design, stall occurs when:",
+        "choices": [
+            "Flow rate is maximum",
+            "Air density is too low",
+            "Flow separates from the blades",
+            "Motor is undersized"
+        ],
+        "answer": "Flow separates from the blades"
+    },
+    {
+        "question": "Which AMCA standard defines laboratory methods for testing the aerodynamic performance of fans?",
+        "choices": [
+            "AMCA 205",
+            "AMCA 300",
+            "AMCA 210/ASHRAE 51",
+            "AMCA 500"
+        ],
+        "answer": "AMCA 210/ASHRAE 51"
+    },
+    {
+        "question": "What does the AMCA Certified Ratings Seal indicate?",
+        "choices": [
+            "The product is energy-efficient",
+            "The product meets safety standards only",
+            "The product has been tested and certified to meet AMCA performance standards",
+            "The manufacturer is a member of AMCA"
+        ],
+        "answer": "The product has been tested and certified to meet AMCA performance standards"
+    },
+    {
+        "question": "AMCA Standard 300 focuses on which of the following?",
+        "choices": [
+            "Sound testing of fans",
+            "Vibration levels",
+            "Structural safety",
+            "Air filtration efficiency"
+        ],
+        "answer": "Sound testing of fans"
+    },
+    {
+        "question": "ANSI/ASHRAE Standard 90.1 primarily deals with:",
+        "choices": [
+            "Fire safety in ventilation systems",
+            "Energy efficiency in buildings, including fan power limitations",
+            "Noise control for mechanical equipment",
+            "Indoor air quality requirements"
+        ],
+        "answer": "Energy efficiency in buildings, including fan power limitations"
+    },
+    {
+        "question": "Which standard provides fan efficiency grade (FEG) classifications?",
+        "choices": [
+            "ISO 5801",
+            "AMCA 205",
+            "AMCA 210",
+            "ASME B73.1"
+        ],
+        "answer": "AMCA 205"
+    },
+    {
+        "question": "ISO 5801 is an international standard for:",
+        "choices": [
+            "Fan vibration and noise",
+            "Testing fan safety features",
+            "Performance testing of fans using standardized methods",
+            "Material selection for HVAC fans"
+        ],
+        "answer": "Performance testing of fans using standardized methods"
+    },
+    {
+        "question": "NFPA 91 provides safety standards for which type of systems?",
+        "choices": [
+            "Fire alarm systems",
+            "Industrial exhaust systems including fans",
+            "Lighting and electrical systems",
+            "Emergency lighting systems"
+        ],
+        "answer": "Industrial exhaust systems including fans"
+    },
+    {
+        "question": "Which AMCA standard focuses on damper and louver performance rather than fans?",
+        "choices": [
+            "AMCA 500",
+            "AMCA 210",
+            "AMCA 204",
+            "AMCA 300"
+        ],
+        "answer": "AMCA 500"
+    },
+    {
+        "question": "According to AMCA 204, what type of fan is considered Class I?",
+        "choices": [
+            "A fan rated for explosive atmospheres",
+            "A low-speed, low-pressure fan",
+            "A high-efficiency axial fan",
+            "A mixed-flow fan"
+        ],
+        "answer": "A low-speed, low-pressure fan"
+    },
+    {
+        "question": "The Occupational Safety and Health Administration (OSHA) regulates which of the following in relation to fans and blowers?",
+        "choices": [
+            "Impeller blade curvature",
+            "Motor insulation class",
+            "Guarding of rotating equipment and noise exposure levels",
+            "Fan blade material specifications"
+        ],
+        "answer": "Guarding of rotating equipment and noise exposure levels"
+    }
+]
