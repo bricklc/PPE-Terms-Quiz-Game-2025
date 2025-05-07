@@ -1,0 +1,97 @@
+[
+    {
+        "question": "What section guides the full lifecycle of smoke-control system implementation?",
+        "choices": ["901.0 Scope", "902.0 Definitions", "904.0 Smoke-Control Systems", "913.0 Testing"],
+        "answer": "901.0 Scope"
+    },
+    {
+        "question": "Where are the technical terms like “Smoke-Control System” and “Tenable Environment” defined?",
+        "choices": ["901.0 Scope", "902.0 Definitions", "903.0 Principles of Smoke Control", "920.0 Required Inspection"],
+        "answer": "902.0 Definitions"
+    },
+    {
+        "question": "Which section aligns with NFPA 92A and details the objectives behind smoke control?",
+        "choices": ["903.0 Principles of Smoke Control", "904.0 Smoke-Control Systems", "905.0 Pressure Differences", "910.0 Elevator Smoke Control"],
+        "answer": "903.0 Principles of Smoke Control"
+    },
+    {
+        "question": "Which section distinguishes between dedicated and shaft-type smoke-control systems?",
+        "choices": ["904.0 Smoke-Control Systems", "901.0 Scope", "906.0 Stairtower Pressurization Systems", "909.0 Fire Floor Exhaust"],
+        "answer": "904.0 Smoke-Control Systems"
+    },
+    {
+        "question": "Where can you find the design pressure specifications for smoke control compliance?",
+        "choices": ["905.0 Pressure Differences", "902.0 Definitions", "913.0 Testing", "920.0 Required Inspection"],
+        "answer": "905.0 Pressure Differences"
+    },
+    {
+        "question": "What section covers the role of pressurized stairtowers in maintaining evacuation paths?",
+        "choices": ["906.0 Stairtower Pressurization Systems", "904.0 Smoke-Control Systems", "912.0 Controls for Stair Pressurization Systems", "910.0 Elevator Smoke Control"],
+        "answer": "906.0 Stairtower Pressurization Systems"
+    },
+    {
+        "question": "Which section specifies fan types based on building height for smoke control?",
+        "choices": ["907.0 Supply Air Fans", "905.0 Pressure Differences", "913.0 Testing", "909.0 Fire Floor Exhaust"],
+        "answer": "907.0 Supply Air Fans"
+    },
+    {
+        "question": "What section enhances stairtower effectiveness through exhaust control?",
+        "choices": ["909.0 Fire Floor Exhaust", "910.0 Elevator Smoke Control", "906.0 Stairtower Pressurization Systems", "907.0 Supply Air Fans"],
+        "answer": "909.0 Fire Floor Exhaust"
+    },
+    {
+        "question": "Where is elevator lobby smoke protection discussed?",
+        "choices": ["910.0 Elevator Smoke Control", "909.0 Fire Floor Exhaust", "912.0 Controls for Stair Pressurization Systems", "913.0 Testing"],
+        "answer": "910.0 Elevator Smoke Control"
+    },
+    {
+        "question": "Which section mandates automatic and manual fan activation, plus smoke detection interlocks?",
+        "choices": ["912.0 Controls for Stair Pressurization Systems", "904.0 Smoke-Control Systems", "913.0 Testing", "920.0 Required Inspection"],
+        "answer": "912.0 Controls for Stair Pressurization Systems"
+    },
+    {
+        "question": "Where are test procedures for verifying pressure and airflow in smoke-control systems found?",
+        "choices": ["913.0 Testing", "901.0 Scope", "920.0 Required Inspection", "905.0 Pressure Differences"],
+        "answer": "913.0 Testing"
+    },
+    {
+        "question": "Which section governs firestop protection for wall and floor penetrations?",
+        "choices": ["919.0 Penetrations", "916.0 Installation", "914.0 General Requirements", "915.0 Plans and Specifications"],
+        "answer": "919.0 Penetrations"
+    },
+    {
+        "question": "Where do I look to confirm if pipe openings in fire-rated walls need firestopping?",
+        "choices": ["914.0 General Requirements", "917.0 Definitions", "920.0 Required Inspection", "916.0 Installation"],
+        "answer": "914.0 General Requirements"
+    },
+    {
+        "question": "Where should firestop methods be documented before starting construction?",
+        "choices": ["915.0 Plans and Specifications", "914.0 General Requirements", "918.0 Combustible Piping Installations", "916.0 Installation"],
+        "answer": "915.0 Plans and Specifications"
+    },
+    {
+        "question": "What tells me how to properly install a firestop system?",
+        "choices": ["916.0 Installation", "919.0 Penetrations", "914.0 General Requirements", "917.0 Definitions"],
+        "answer": "916.0 Installation"
+    },
+    {
+        "question": "Where can I find what counts as a firestop system and how it’s rated?",
+        "choices": ["917.0 Definitions", "914.0 General Requirements", "915.0 Plans and Specifications", "920.0 Required Inspection"],
+        "answer": "917.0 Definitions"
+    },
+    {
+        "question": "Where do I find the rules for sealing plastic or combustible pipe penetrations?",
+        "choices": ["918.0 Combustible Piping Installations", "917.0 Definitions", "919.0 Penetrations", "916.0 Installation"],
+        "answer": "918.0 Combustible Piping Installations"
+    },
+    {
+        "question": "What if I’m using steel or copper pipes—do I still need to firestop?",
+        "choices": ["919.0 Noncombustible Piping Installations", "918.0 Combustible Piping Installations", "920.0 Required Inspection", "915.0 Plans and Specifications"],
+        "answer": "919.0 Noncombustible Piping Installations"
+    },
+    {
+        "question": "Where do I check the inspection rules before sealing a firestop penetration?",
+        "choices": ["920.0 Required Inspection", "916.0 Installation", "918.0 Combustible Piping Installations", "917.0 Definitions"],
+        "answer": "920.0 Required Inspection"
+    }
+]
