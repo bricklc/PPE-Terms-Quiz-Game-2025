@@ -1,0 +1,502 @@
+[
+    {
+        "question": "The primary objective of an industrial dryer is to:",
+        "choices": [
+            "Mix solids and liquids",
+            "Remove moisture from bulk materials",
+            "Sterilize materials",
+            "Add mass to products"
+        ],
+        "answer": "Remove moisture from bulk materials"
+    },
+    {
+        "question": "The falling rate period in drying indicates:",
+        "choices": [
+            "Increased drying speed",
+            "Moisture removal slows down",
+            "Start of heating process",
+            "Peak moisture diffusion"
+        ],
+        "answer": "Moisture removal slows down"
+    },
+    {
+        "question": "The driving force for drying is:",
+        "choices": [
+            "Volume of air",
+            "Drum rotation speed",
+            "Partial vapor pressure difference",
+            "Heat transfer coefficient"
+        ],
+        "answer": "Partial vapor pressure difference"
+    },
+    {
+        "question": "Which property is most critical when selecting a drying method for a material?",
+        "choices": [
+            "Price",
+            "Thermal sensitivity",
+            "Shape of container",
+            "Packaging"
+        ],
+        "answer": "Thermal sensitivity"
+    },
+    {
+        "question": "In industrial drying, a fluidized bed dryer:",
+        "choices": [
+            "Suspends particles in a hot air stream",
+            "Freezes the product",
+            "Uses radiant heat alone",
+            "Is used for fabrics only"
+        ],
+        "answer": "Suspends particles in a hot air stream"
+    },
+    {
+        "question": "Moisture content is typically measured in:",
+        "choices": [
+            "ppm",
+            "kJ/kg",
+            "% dry basis or wet basis",
+            "g/cm²"
+        ],
+        "answer": "% dry basis or wet basis"
+    },
+    {
+        "question": "One advantage of a vacuum dryer is:",
+        "choices": [
+            "High operating pressure",
+            "Works only at high temperatures",
+            "Suitable for heat-sensitive materials",
+            "Rapid airflow rate"
+        ],
+        "answer": "Suitable for heat-sensitive materials"
+    },
+    {
+        "question": "In convection drying, the heat is transferred to the material by:",
+        "choices": [
+            "Conduction",
+            "Infrared rays",
+            "Hot air stream",
+            "Electrical induction"
+        ],
+        "answer": "Hot air stream"
+    },
+    {
+        "question": "What happens when the relative humidity of air increases during drying?",
+        "choices": [
+            "Drying accelerates",
+            "Temperature drops",
+            "Drying rate decreases",
+            "Product overheats"
+        ],
+        "answer": "Drying rate decreases"
+    },
+    {
+        "question": "What is a hygroscopic material?",
+        "choices": [
+            "Loses weight in cold",
+            "Does not absorb moisture",
+            "Absorbs moisture from air",
+            "Requires no drying"
+        ],
+        "answer": "Absorbs moisture from air"
+    },
+    {
+        "question": "Which dryer is commonly used for drying granular solids in the chemical industry?",
+        "choices": [
+            "Rotary drum dryer",
+            "Belt dryer",
+            "Fluidized bed dryer",
+            "Infrared dryer"
+        ],
+        "answer": "Fluidized bed dryer"
+    },
+    {
+        "question": "A spray dryer converts liquid into powder through:",
+        "choices": [
+            "Boiling",
+            "Atomization and hot gas contact",
+            "Cold air blast",
+            "Centrifugal compression"
+        ],
+        "answer": "Atomization and hot gas contact"
+    },
+    {
+        "question": "The tray dryer operates in which mode?",
+        "choices": [
+            "Continuous",
+            "Batch",
+            "Semi-continuous",
+            "Sublimating"
+        ],
+        "answer": "Batch"
+    },
+    {
+        "question": "The rotary dryer is most efficient for drying:",
+        "choices": [
+            "Fabric and textiles",
+            "Chemicals in solution",
+            "Aggregates and minerals",
+            "Plastics"
+        ],
+        "answer": "Aggregates and minerals"
+    },
+    {
+        "question": "What type of dryer is used for sensitive biological materials?",
+        "choices": [
+            "Conduction dryer",
+            "Freeze dryer (Lyophilizer)",
+            "Fluidized bed",
+            "Rotary kiln"
+        ],
+        "answer": "Freeze dryer (Lyophilizer)"
+    },
+    {
+        "question": "A belt dryer is commonly used in:",
+        "choices": [
+            "Metal foundries",
+            "Food processing",
+            "Wood chip drying",
+            "Tablet coating"
+        ],
+        "answer": "Food processing"
+    },
+    {
+        "question": "A conduction dryer uses:",
+        "choices": [
+            "Direct hot air",
+            "Heated surface contact",
+            "Vacuum suction",
+            "UV radiation"
+        ],
+        "answer": "Heated surface contact"
+    },
+    {
+        "question": "In the pharmaceutical industry, which dryer is preferred for drying granules before tablet compression?",
+        "choices": [
+            "Tunnel dryer",
+            "Fluidized bed dryer",
+            "Rotary dryer",
+            "Infrared dryer"
+        ],
+        "answer": "Fluidized bed dryer"
+    },
+    {
+        "question": "Which type of dryer is used in paper manufacturing?",
+        "choices": [
+            "Belt dryer",
+            "Conduction dryer",
+            "Cylinder dryer",
+            "Microwave dryer"
+        ],
+        "answer": "Cylinder dryer"
+    },
+    {
+        "question": "Microwave dryers remove moisture by:",
+        "choices": [
+            "Air circulation",
+            "Dielectric heating",
+            "Steam injection",
+            "Condensation"
+        ],
+        "answer": "Dielectric heating"
+    },
+    {
+        "question": "A thermocouple in dryers is used to measure:",
+        "choices": [
+            "Pressure",
+            "Temperature",
+            "Flow rate",
+            "Moisture"
+        ],
+        "answer": "Temperature"
+    },
+    {
+        "question": "What component circulates air in a convection dryer?",
+        "choices": [
+            "Burner",
+            "Fan or blower",
+            "Drum",
+            "Condenser"
+        ],
+        "answer": "Fan or blower"
+    },
+    {
+        "question": "The main energy input in gas-fired industrial dryers is:",
+        "choices": [
+            "Electrical heating",
+            "Natural gas combustion",
+            "Wind energy",
+            "Compressed air"
+        ],
+        "answer": "Natural gas combustion"
+    },
+    {
+        "question": "A PLC (Programmable Logic Controller) in industrial dryers:",
+        "choices": [
+            "Heats air directly",
+            "Controls and automates dryer operations",
+            "Filters particles",
+            "Replaces motor"
+        ],
+        "answer": "Controls and automates dryer operations"
+    },
+    {
+        "question": "Overheating protection in dryers is achieved using:",
+        "choices": [
+            "Circuit breaker",
+            "Thermal cut-off or temperature limiter",
+            "Fan speed controller",
+            "Dry-run relay"
+        ],
+        "answer": "Thermal cut-off or temperature limiter"
+    },
+    {
+        "question": "Moisture content is often measured using a:",
+        "choices": [
+            "Multimeter",
+            "Moisture analyzer or hygrometer",
+            "IR camera",
+            "Viscosity meter"
+        ],
+        "answer": "Moisture analyzer or hygrometer"
+    },
+    {
+        "question": "The role of insulation in industrial dryers is to:",
+        "choices": [
+            "Support structure",
+            "Reduce heat loss and improve efficiency",
+            "Speed up drying",
+            "Control airflow"
+        ],
+        "answer": "Reduce heat loss and improve efficiency"
+    },
+    {
+        "question": "The drying chamber is where:",
+        "choices": [
+            "Waste is collected",
+            "Moisture is evaporated from the material",
+            "Burners are placed",
+            "Filters are mounted"
+        ],
+        "answer": "Moisture is evaporated from the material"
+    },
+    {
+        "question": "Why is air velocity important in drying systems?",
+        "choices": [
+            "Controls vibration",
+            "Lubricates components",
+            "Affects heat and mass transfer",
+            "Reduces motor friction"
+        ],
+        "answer": "Affects heat and mass transfer"
+    },
+    {
+        "question": "An indirect dryer means:",
+        "choices": [
+            "Materials contact heat source",
+            "No direct contact between heating medium and product",
+            "Combustion gases mix with product",
+            "Uses microwave"
+        ],
+        "answer": "No direct contact between heating medium and product"
+    },
+    {
+        "question": "NFPA 86 pertains to:",
+        "choices": [
+            "Energy labeling",
+            "Safety of industrial ovens and dryers",
+            "Food handling",
+            "Vibration limits"
+        ],
+        "answer": "Safety of industrial ovens and dryers"
+    },
+    {
+        "question": "The Philippine Electrical Code (PEC) ensures:",
+        "choices": [
+            "Safe electrical installation of dryers and industrial machines",
+            "Food-grade components",
+            "Paint application",
+            "Product labeling"
+        ],
+        "answer": "Safe electrical installation of dryers and industrial machines"
+    },
+    {
+        "question": "ISO 13577 is a standard for:",
+        "choices": [
+            "Fluid flow meters",
+            "Industrial furnaces and associated processing equipment",
+            "Consumer safety",
+            "Electrical tools"
+        ],
+        "answer": "Industrial furnaces and associated processing equipment"
+    },
+    {
+        "question": "The National Building Code of the Philippines (NBCP) applies to:",
+        "choices": [
+            "Factory schedules",
+            "Electrical transformers",
+            "Structural and installation safety including dryers",
+            "PLC programming"
+        ],
+        "answer": "Structural and installation safety including dryers"
+    },
+    {
+        "question": "IEC 60204-1 standard covers:",
+        "choices": [
+            "Ventilation systems",
+            "Safety of electrical equipment for machinery",
+            "Material compatibility",
+            "Combustion analysis"
+        ],
+        "answer": "Safety of electrical equipment for machinery"
+    },
+    {
+        "question": "OSHA regulations require that dryers handling flammable materials must be:",
+        "choices": [
+            "Stainless steel",
+            "Water-cooled",
+            "Explosion-proof and properly vented",
+            "Battery-powered"
+        ],
+        "answer": "Explosion-proof and properly vented"
+    },
+    {
+        "question": "ASHRAE standards apply primarily to:",
+        "choices": [
+            "Fire codes",
+            "Electrical breakers",
+            "Air handling and HVAC systems",
+            "Industrial coatings"
+        ],
+        "answer": "Air handling and HVAC systems"
+    },
+    {
+        "question": "In ASME standards, pressure dryers must comply with:",
+        "choices": [
+            "Section III",
+            "ASME Section VIII for pressure vessels",
+            "ISO 9001",
+            "IEEE 1584"
+        ],
+        "answer": "ASME Section VIII for pressure vessels"
+    },
+    {
+        "question": "Dryer emissions must comply with:",
+        "choices": [
+            "ISO 50001",
+            "NFPA 10",
+            "Local DENR Clean Air Act regulations",
+            "ANSI Y14.5"
+        ],
+        "answer": "Local DENR Clean Air Act regulations"
+    },
+    {
+        "question": "CE marking on industrial dryers means:",
+        "choices": [
+            "For exclusive export",
+            "Conforms with EU safety, health, and environmental protection",
+            "Made in China",
+            "Energy-efficient only"
+        ],
+        "answer": "Conforms with EU safety, health, and environmental protection"
+    },
+    {
+        "question": "A common sign of dryer inefficiency is:",
+        "choices": [
+            "Quiet operation",
+            "Excessive drying time",
+            "Bright indicator lights",
+            "High humidity"
+        ],
+        "answer": "Excessive drying time"
+    },
+    {
+        "question": "A clogged filter in an industrial dryer can cause:",
+        "choices": [
+            "Increased drum rotation",
+            "Reduced airflow and overheating",
+            "Uniform drying",
+            "Faster drying"
+        ],
+        "answer": "Reduced airflow and overheating"
+    },
+    {
+        "question": "Preventive maintenance includes:",
+        "choices": [
+            "Operating at full capacity",
+            "Regular inspection and cleaning",
+            "Emergency shutdowns",
+            "Delayed repairs"
+        ],
+        "answer": "Regular inspection and cleaning"
+    },
+    {
+        "question": "The best way to improve energy efficiency in dryers is to:",
+        "choices": [
+            "Turn off insulation",
+            "Use heat recovery systems",
+            "Increase load beyond rating",
+            "Operate at lower than required temperature"
+        ],
+        "answer": "Use heat recovery systems"
+    },
+    {
+        "question": "A heat pump dryer reuses:",
+        "choices": [
+            "Moist air",
+            "Lint",
+            "Condensed latent heat from the drying air",
+            "Combustion exhaust"
+        ],
+        "answer": "Condensed latent heat from the drying air"
+    },
+    {
+        "question": "Vibration in dryers may indicate:",
+        "choices": [
+            "Normal operation",
+            "Imbalance or mechanical wear",
+            "Good airflow",
+            "Clean filters"
+        ],
+        "answer": "Imbalance or mechanical wear"
+    },
+    {
+        "question": "Corrosion in dryer components can be minimized by:",
+        "choices": [
+            "Operating at high moisture",
+            "Using stainless steel or coated materials",
+            "Using plastic belts",
+            "Reducing temperature only"
+        ],
+        "answer": "Using stainless steel or coated materials"
+    },
+    {
+        "question": "What should be done when an industrial dryer emits burning smells?",
+        "choices": [
+            "Speed up blower",
+            "Shut down immediately and inspect",
+            "Ignore for 5 mins",
+            "Reduce voltage"
+        ],
+        "answer": "Shut down immediately and inspect"
+    },
+    {
+        "question": "Insufficient drying is often caused by:",
+        "choices": [
+            "Low drum speed",
+            "Inadequate temperature or airflow",
+            "High noise",
+            "Over-oiling"
+        ],
+        "answer": "Inadequate temperature or airflow"
+    },
+    {
+        "question": "Best practice for industrial dryer calibration is:",
+        "choices": [
+            "Every 5 years",
+            "When problems occur",
+            "Periodically as per manufacturer or ISO guidelines",
+            "When noise increases"
+        ],
+        "answer": "Periodically as per manufacturer or ISO guidelines"
+    }
+]

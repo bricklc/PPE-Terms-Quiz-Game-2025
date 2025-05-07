@@ -1,0 +1,502 @@
+   [
+    {
+        "question": "The primary purpose of a cooling tower is to:",
+        "choices": [
+            "Heat process water",
+            "Reject heat from water to the atmosphere",
+            "Increase humidity",
+            "Compress air"
+        ],
+        "answer": "Reject heat from water to the atmosphere"
+    },
+    {
+        "question": "Cooling towers work on the principle of:",
+        "choices": [
+            "Conduction",
+            "Evaporative cooling",
+            "Radiation",
+            "Convection only"
+        ],
+        "answer": "Evaporative cooling"
+    },
+    {
+        "question": "The heat removed in a cooling tower is primarily from:",
+        "choices": [
+            "Combustion",
+            "Solar radiation",
+            "Latent heat of vaporization",
+            "Mechanical work"
+        ],
+        "answer": "Latent heat of vaporization"
+    },
+    {
+        "question": "A cooling tower that uses fans to draw or force air is known as:",
+        "choices": [
+            "Natural draft",
+            "Mechanical draft",
+            "Indirect evaporator",
+            "Spray condenser"
+        ],
+        "answer": "Mechanical draft"
+    },
+    {
+        "question": "Drift in a cooling tower refers to:",
+        "choices": [
+            "Flow of hot water",
+            "Air bypass",
+            "Water droplets carried out with exhaust air",
+            "Vibration"
+        ],
+        "answer": "Water droplets carried out with exhaust air"
+    },
+    {
+        "question": "Which of the following is a key performance parameter for cooling towers?",
+        "choices": [
+            "Amperage",
+            "Approach and range temperature",
+            "PH level only",
+            "Air density"
+        ],
+        "answer": "Approach and range temperature"
+    },
+    {
+        "question": "The range of a cooling tower is defined as:",
+        "choices": [
+            "Temperature difference between ambient air and water",
+            "Difference between hot water and cooled water temperatures",
+            "Water level variation",
+            "Humidity variation"
+        ],
+        "answer": "Difference between hot water and cooled water temperatures"
+    },
+    {
+        "question": "Approach in cooling towers refers to:",
+        "choices": [
+            "Airflow direction",
+            "Cooling coil capacity",
+            "Difference between cold water temperature and wet-bulb temperature",
+            "Distance of installation"
+        ],
+        "answer": "Difference between cold water temperature and wet-bulb temperature"
+    },
+    {
+        "question": "Natural draft cooling towers typically have what shape?",
+        "choices": [
+            "Cube",
+            "Dome",
+            "Hyperbolic",
+            "Rectangular"
+        ],
+        "answer": "Hyperbolic"
+    },
+    {
+        "question": "The component that breaks water into fine droplets for heat transfer is the:",
+        "choices": [
+            "Motor",
+            "Basin",
+            "Spray nozzle or distributor",
+            "Drift eliminator"
+        ],
+        "answer": "Spray nozzle or distributor"
+    },
+    {
+        "question": "Which type of cooling tower is commonly used in small-scale HVAC systems?",
+        "choices": [
+            "Hyperbolic tower",
+            "Induced draft tower",
+            "Natural draft",
+            "Dry air cooler"
+        ],
+        "answer": "Induced draft tower"
+    },
+    {
+        "question": "In crossflow cooling towers:",
+        "choices": [
+            "Air and water flow in the same direction",
+            "Air flows horizontally, water flows vertically",
+            "Both flow upward",
+            "Only air circulates"
+        ],
+        "answer": "Air flows horizontally, water flows vertically"
+    },
+    {
+        "question": "In counterflow cooling towers:",
+        "choices": [
+            "Air flows upward while water flows downward",
+            "Air and water flow in same direction",
+            "Air moves sideward",
+            "No air is used"
+        ],
+        "answer": "Air flows upward while water flows downward"
+    },
+    {
+        "question": "The component that collects cooled water is the:",
+        "choices": [
+            "Drift eliminator",
+            "Cold water basin",
+            "Spray header",
+            "Fill media"
+        ],
+        "answer": "Cold water basin"
+    },
+    {
+        "question": "Fill media increases:",
+        "choices": [
+            "Noise",
+            "Surface area for heat and mass transfer",
+            "Pump load",
+            "Tower height"
+        ],
+        "answer": "Surface area for heat and mass transfer"
+    },
+    {
+        "question": "A drift eliminator is used to:",
+        "choices": [
+            "Increase air intake",
+            "Reduce water droplets escaping with exhaust air",
+            "Heat water",
+            "Add chemicals"
+        ],
+        "answer": "Reduce water droplets escaping with exhaust air"
+    },
+    {
+        "question": "The fan in a mechanical draft cooling tower:",
+        "choices": [
+            "Mixes chemicals",
+            "Moves air through the tower",
+            "Circulates water",
+            "Controls PH"
+        ],
+        "answer": "Moves air through the tower"
+    },
+    {
+        "question": "Make-up water is required in cooling towers to:",
+        "choices": [
+            "Heat water",
+            "Balance chemical pH",
+            "Compensate for evaporation, drift, and blowdown",
+            "Maintain fan speed"
+        ],
+        "answer": "Compensate for evaporation, drift, and blowdown"
+    },
+    {
+        "question": "Which material is commonly used for cooling tower fill?",
+        "choices": [
+            "Aluminum",
+            "PVC (Polyvinyl Chloride)",
+            "Cast iron",
+            "Stainless steel mesh"
+        ],
+        "answer": "PVC (Polyvinyl Chloride)"
+    },
+    {
+        "question": "What type of cooling tower uses closed-loop water flow?",
+        "choices": [
+            "Open circuit",
+            "Closed circuit (fluid cooler)",
+            "Counter-convection",
+            "Batch flow"
+        ],
+        "answer": "Closed circuit (fluid cooler)"
+    },
+    {
+        "question": "The ASHRAE 90.1 standard includes:",
+        "choices": [
+            "Pressure vessel design",
+            "Energy efficiency requirements for HVAC systems including cooling towers",
+            "Fan blade size",
+            "Water treatment rules"
+        ],
+        "answer": "Energy efficiency requirements for HVAC systems including cooling towers"
+    },
+    {
+        "question": "The Philippine Clean Water Act (RA 9275) mandates:",
+        "choices": [
+            "Proper treatment and discharge of blowdown water from cooling towers",
+            "Power saving in fans",
+            "Thermal design of HVAC",
+            "Motor rewinding guidelines"
+        ],
+        "answer": "Proper treatment and discharge of blowdown water from cooling towers"
+    },
+    {
+        "question": "The Cooling Technology Institute (CTI) is known for standards on:",
+        "choices": [
+            "Fire suppression",
+            "Cooling tower design and performance certification (e.g., CTI STD-201)",
+            "Evaporator heat transfer",
+            "Electrical wiring"
+        ],
+        "answer": "Cooling tower design and performance certification (e.g., CTI STD-201)"
+    },
+    {
+        "question": "The National Building Code of the Philippines (NBCP) includes:",
+        "choices": [
+            "Appliance maintenance",
+            "Mechanical system safety including cooling tower installation and access",
+            "Clean room pressure",
+            "Computer wiring"
+        ],
+        "answer": "Mechanical system safety including cooling tower installation and access"
+    },
+    {
+        "question": "OSHA standards for cooling towers focus on:",
+        "choices": [
+            "Power consumption",
+            "Air velocity",
+            "Worker safety, ladder access, and exposure to Legionella",
+            "Tower efficiency"
+        ],
+        "answer": "Worker safety, ladder access, and exposure to Legionella"
+    },
+    {
+        "question": "NFPA 214 covers:",
+        "choices": [
+            "Water pump installations",
+            "Water-cooling towers and fire protection",
+            "Air quality inside homes",
+            "Boiler emissions"
+        ],
+        "answer": "Water-cooling towers and fire protection"
+    },
+    {
+        "question": "IEC 60335 applies to:",
+        "choices": [
+            "Noise levels",
+            "Safety of electrical components in HVAC and cooling systems",
+            "Fan design",
+            "Heat exchanger layout"
+        ],
+        "answer": "Safety of electrical components in HVAC and cooling systems"
+    },
+    {
+        "question": "A cooling tower blowdown system must comply with:",
+        "choices": [
+            "ISO 9001 only",
+            "Local environmental discharge standards (DENR)",
+            "ASME pressure codes",
+            "IEEE grounding standards"
+        ],
+        "answer": "Local environmental discharge standards (DENR)"
+    },
+    {
+        "question": "ISO 16890 is a standard for:",
+        "choices": [
+            "Thermal insulation",
+            "Water softeners",
+            "Air filter performance affecting cooling tower intake",
+            "Energy meters"
+        ],
+        "answer": "Air filter performance affecting cooling tower intake"
+    },
+    {
+        "question": "ASHRAE 188 relates to:",
+        "choices": [
+            "Electrical standards",
+            "Legionellosis risk management in building water systems",
+            "Tower sizing",
+            "Pump head calculations"
+        ],
+        "answer": "Legionellosis risk management in building water systems"
+    },
+    {
+        "question": "A key indicator of poor cooling tower performance is:",
+        "choices": [
+            "Low fan noise",
+            "High cold water temperature",
+            "Low pH level",
+            "Fast airflow"
+        ],
+        "answer": "High cold water temperature"
+    },
+    {
+        "question": "Legionella bacteria thrive in:",
+        "choices": [
+            "Cold, dry systems",
+            "Warm, stagnant water in cooling towers",
+            "Open-air only",
+            "Chlorinated water exclusively"
+        ],
+        "answer": "Warm, stagnant water in cooling towers"
+    },
+    {
+        "question": "Routine chemical treatment in towers is for:",
+        "choices": [
+            "Increasing pressure",
+            "Preventing scale, corrosion, and microbial growth",
+            "Insulating pipes",
+            "Cleaning filters"
+        ],
+        "answer": "Preventing scale, corrosion, and microbial growth"
+    },
+    {
+        "question": "Blowdown helps control:",
+        "choices": [
+            "Air temperature",
+            "Dissolved solids in the circulating water",
+            "pH level only",
+            "Fan noise"
+        ],
+        "answer": "Dissolved solids in the circulating water"
+    },
+    {
+        "question": "A vibration switch in fan motors is used for:",
+        "choices": [
+            "Increasing speed",
+            "Shutdown during excessive vibration",
+            "Reversing rotation",
+            "Changing voltage"
+        ],
+        "answer": "Shutdown during excessive vibration"
+    },
+    {
+        "question": "One method to reduce drift loss is:",
+        "choices": [
+            "Reduce water flow",
+            "Use high-efficiency drift eliminators",
+            "Change fan motor",
+            "Increase chemical dosage"
+        ],
+        "answer": "Use high-efficiency drift eliminators"
+    },
+    {
+        "question": "Scaling in cooling towers is caused by:",
+        "choices": [
+            "Over-oiling",
+            "Mineral deposits from hard water",
+            "Fast air movement",
+            "Low air temperature"
+        ],
+        "answer": "Mineral deposits from hard water"
+    },
+    {
+        "question": "Water cycles of concentration indicate:",
+        "choices": [
+            "Amount of algae",
+            "Ratio of dissolved solids in recirculating water to make-up water",
+            "Motor speed",
+            "Fan cycles"
+        ],
+        "answer": "Ratio of dissolved solids in recirculating water to make-up water"
+    },
+    {
+        "question": "Cooling tower noise can be minimized by:",
+        "choices": [
+            "Increasing fan speed",
+            "Using steel louvers",
+            "Installing sound-attenuating equipment and low-noise fans",
+            "Draining the basin"
+        ],
+        "answer": "Installing sound-attenuating equipment and low-noise fans"
+    },
+    {
+        "question": "Which PPE is critical during cooling tower maintenance?",
+        "choices": [
+            "Hard hat only",
+            "Respirator, gloves, and eye protection",
+            "Safety sandals",
+            "Raincoat"
+        ],
+        "answer": "Respirator, gloves, and eye protection"
+    },
+    {
+        "question": "Low cooling efficiency may be due to:",
+        "choices": [
+            "Fast fan",
+            "Clogged fill or nozzles",
+            "Strong winds",
+            "High air temperature"
+        ],
+        "answer": "Clogged fill or nozzles"
+    },
+    {
+        "question": "Excessive water loss in towers may indicate:",
+        "choices": [
+            "Fan overload",
+            "Drift eliminator failure",
+            "Clean basin",
+            "Proper operation"
+        ],
+        "answer": "Drift eliminator failure"
+    },
+    {
+        "question": "An effective energy-saving strategy for towers:",
+        "choices": [
+            "Increase fan hours",
+            "Add water constantly",
+            "Use variable frequency drives (VFDs) on fans",
+            "Skip blowdown"
+        ],
+        "answer": "Use variable frequency drives (VFDs) on fans"
+    },
+    {
+        "question": "Clogged fill media can result in:",
+        "choices": [
+            "Reduced drift",
+            "Poor heat exchange and water flow",
+            "High efficiency",
+            "Fast cooling"
+        ],
+        "answer": "Poor heat exchange and water flow"
+    },
+    {
+        "question": "High approach temperature means:",
+        "choices": [
+            "Excellent cooling",
+            "Reduced cooling tower efficiency",
+            "Cold ambient",
+            "Fast water flow"
+        ],
+        "answer": "Reduced cooling tower efficiency"
+    },
+    {
+        "question": "Air short-circuiting in towers leads to:",
+        "choices": [
+            "Better airflow",
+            "Poor contact between air and water",
+            "Strong drift",
+            "More cooling"
+        ],
+        "answer": "Poor contact between air and water"
+    },
+    {
+        "question": "Wet-bulb temperature directly affects:",
+        "choices": [
+            "Voltage",
+            "The lowest possible cold water temperature",
+            "Chemical dosing",
+            "Fan torque"
+        ],
+        "answer": "The lowest possible cold water temperature"
+    },
+    {
+        "question": "Tower efficiency is best improved by:",
+        "choices": [
+            "Raising fan RPM",
+            "Regular maintenance and optimal flow rates",
+            "Using hard water",
+            "Reducing air"
+        ],
+        "answer": "Regular maintenance and optimal flow rates"
+    },
+    {
+        "question": "In cold climates, cooling towers are protected by:",
+        "choices": [
+            "Adding gas",
+            "Shortening fans",
+            "Basin heaters and louvers",
+            "Full shutdown"
+        ],
+        "answer": "Basin heaters and louvers"
+    },
+    {
+        "question": "A properly operating cooling tower will have:",
+        "choices": [
+            "High drift rate",
+            "Rising cold water temperature",
+            "Stable temperature differential and water level",
+            "No chemical feed"
+        ],
+        "answer": "Stable temperature differential and water level"
+    }
+]
