@@ -1,0 +1,302 @@
+[
+    {
+        "question": "This radial distance in a gear is measured between the addendum and dedendum circle, and is the sum of the addendum and the dedendum? How do you call this distance?",
+        "choices": ["Addendum", "Whole depth", "Working depth", "Space width"],
+        "answer": "Whole depth"
+    },
+    {
+        "question": "This minimum distance is measured between the non-driving side of a tooth and the adjacent side of the mating tooth. It is the amount by which the width of a tooth space exceeds the thickness of the engaging tooth measured on the pitch circle. What is this distance?",
+        "choices": ["Circular pitch", "Whole depth", "Backlash", "Space width"],
+        "answer": "Backlash"
+    },
+    {
+        "question": "How do you call the diameter of the imaginary cylinder that bounds the crest of an external thread and the roots of an internal thread?",
+        "choices": ["Mean diameter", "Stress diameter", "Minor diameter", "Major diameter"],
+        "answer": "Major diameter"
+    },
+    {
+        "question": "How do you call the circle on a gear that corresponds to the contact surface of the friction wheel?",
+        "choices": ["Addendum circle", "Root circle", "Pitch circle", "Base circle"],
+        "answer": "Pitch circle"
+    },
+    {
+        "question": "What is the largest roller chain size that can be used for power transmission at a sprocket speed of 1000 rpm?",
+        "choices": ["RC 35", "RC 50", "RC 80", "RC 60"],
+        "answer": "RC 60"
+    },
+    {
+        "question": "These are gears with teeth formed on conical surfaces and are used mostly for transmitting motion between intersecting shafts. How do you call these gears?",
+        "choices": ["Spur gears", "Bevel gears", "Helical gears", "Worm gearings"],
+        "answer": "Bevel gears"
+    },
+    {
+        "question": "For an American Standard Screw Threads, what does 6-32 UNC designate?",
+        "choices": [
+            "Size 6, 32 threads per inch, coarse thread",
+            "Size 6, 32 threads per inch, fine thread",
+            "6 inches basic diameter, 32 threads per inch, coarse thread",
+            "32 inches basic diameter, 6 threads per inch, coarse thread"
+        ],
+        "answer": "Size 6, 32 threads per inch, coarse thread"
+    },
+    {
+        "question": "In gearing, this is the ratio of the arc of action to the circular pitch.",
+        "choices": ["Speed ratio", "Arc ratio", "Contact ratio", "Gear ratio"],
+        "answer": "Contact ratio"
+    },
+    {
+        "question": "This are gears used to connect shafts that are non-intersecting and non-parallel. They are a cross between spriral bevel gears and worm gears.",
+        "choices": ["Helical gears", "Hypoid gears", "Planetary gears", "Bevel gears"],
+        "answer": "Hypoid gears"
+    },
+    {
+        "question": "AFBMA is an acronym for an association involved in what machine elements?",
+        "choices": ["Ball and roller bearings", "Journal bearings", "Flat belts and other belt types", "Any type of gears"],
+        "answer": "Ball and roller bearings"
+    },
+    {
+        "question": "It is a machine member that supports another part that rotates, slides, or oscillates in or on it.",
+        "choices": ["Pulley", "Key", "Bearing", "Shaft"],
+        "answer": "Bearing"
+    },
+    {
+        "question": "It is a bearing that permits constrained relative motion of rigid parts; lubricant is generally inserted or supplied between the mating surfaces to reduce friction and wear, and to carry away the heat generated.",
+        "choices": ["Sliding Contact Bearing", "Rolling Contact Bearing", "Thrust Bearing", "Journal Bearing"],
+        "answer": "Sliding Contact Bearing"
+    },
+    {
+        "question": "A bearing where surfaces are non-conformed and motion is primarily rolling; it composed of rolling elements interposed between an outer ring and inner ring.",
+        "choices": ["Conformal surfaces bearing", "Sliding-element bearing", "Rolling-element bearing", "Non-conformal surfaces bearing"],
+        "answer": "Rolling-element bearing"
+    },
+    {
+        "question": "In a straight bevel gear, how do you call the angle between an element on the pitch cone and an element on the face cone?",
+        "choices": ["Face angle", "Pitch angle", "Addendum angle", "Dedendum angle"],
+        "answer": "Addendum angle"
+    },
+    {
+        "question": "It is a Grashof four-bar mechanism in which the shortest link is the frame or fixed link and the other two cranks completely rotate with their axes. How do you call this Grashof four-bar mechanism?",
+        "choices": ["Drag-link mechanism", "Double-rocker mechanism", "Triple-rocker mechanism", "Crank-rocker mechanism"],
+        "answer": "Drag-link mechanism"
+    },
+    {
+        "question": "\"For a planar four-bar linkage, the sum of the shortest and longest lengths cannot be greater than the sum of the remaining two link lengths if there is to be a continuous relative rotation between two members.\" How do you call the preceding statement?",
+        "choices": ["Grubler's Law", "Coriolli's Law", "Grashof's Law", "Freudentein's Law"],
+        "answer": "Grashof's Law"
+    },
+    {
+        "question": "Which of the following is not true for an instant center or centro of planar linkages?",
+        "choices": [
+            "Centro is a point common to two bodies having the same velocity in each.",
+            "Centro is a point in one body about which another body does not rotate.",
+            "Centro is a point in one body about which another body actually turns.",
+            "Centro is a point in one body about which another body tends to turn."
+        ],
+        "answer": "Centro is a point in one body about which another body does not rotate."
+    },
+    {
+        "question": "An element assembled into a tapped hole is",
+        "choices": ["key", "nut", "screw", "worm gear"],
+        "answer": "screw"
+    },
+    {
+        "question": "In kinematics, the occurrence of linear and rotational motion simultaneously is known as",
+        "choices": ["mechanism", "rotakinetics", "corioli's", "Grashof's"],
+        "answer": "corioli's"
+    },
+    {
+        "question": "The ratio of the number of teeth to the pitch diameter is",
+        "choices": ["circular pitch", "mechanical advantage", "diametral pitch", "Lewi's form factor"],
+        "answer": "diametral pitch"
+    },
+    {
+        "question": "The radial distance between the bottomland and the pitch circle is",
+        "choices": ["clearance", "dedendum", "addendum", "working depth"],
+        "answer": "dedendum"
+    },
+    {
+        "question": "Is largely used for low strength applications such as elevator ropes not used to hoisting and for stationary guy ropes",
+        "choices": ["steel rope", "cast steel rope", "nylon rope", "iron wire rope"],
+        "answer": "iron wire rope"
+    },
+    {
+        "question": "In actual machines",
+        "choices": [
+            "Mechanical advantage is unity",
+            "Mechanical advantage is less than unity",
+            "Mechanical advantage is less than velocity ratio",
+            "Mechanical advantage is equal to velocity ratio"
+        ],
+        "answer": "Mechanical advantage is less than velocity ratio"
+    },
+    {
+        "question": "Used for permanent fits, are similar to involute splines except that the pressure angle is 14.50",
+        "choices": ["separation load", "stub serrations", "spline shaft", "involute serrations"],
+        "answer": "involute serrations"
+    },
+    {
+        "question": "A gear that has an advantage of smoother engagement, quietness of operation, greater strength and higher permission speeds",
+        "choices": ["zerol bevel gear", "straight bevel gear", "hypoid bevel gear", "spiral bevel gear"],
+        "answer": "spiral bevel gear"
+    },
+    {
+        "question": "The amount of which the width of a tooth space exceeds the thickness of engaging tooth is known as",
+        "choices": ["tooth space", "circular pitch", "backlash", "flank"],
+        "answer": "backlash"
+    },
+    {
+        "question": "Tooth breakage on gear is usually _______.",
+        "choices": ["a tensile fatigue", "a contact stress", "a crack", "none of these"],
+        "answer": "a tensile fatigue"
+    },
+    {
+        "question": "Is the angle through which the gear turns form the time given pair of teeth are in contact at the pitch point until they pass out the mesh",
+        "choices": ["angle of contact", "angle of approach", "position angle", "angle of recess"],
+        "answer": "angle of recess"
+    },
+    {
+        "question": "Which of the following quick return mechanism is most widely used in most of the slotters",
+        "choices": ["Whitworth mechanism", "Hydraulic mechanism", "Slotter disc mechanism", "Slotter link and gear mechanism"],
+        "answer": "Whitworth mechanism"
+    },
+    {
+        "question": "The axial distance between specified reference on the internal and external taper thread members",
+        "choices": ["pitch", "load", "standoff", "helix distance"],
+        "answer": "standoff"
+    },
+    {
+        "question": "The relation between two mating parts with reference to ease the assembly is called",
+        "choices": ["allowance", "clearance", "tolerance", "fits"],
+        "answer": "fits"
+    },
+    {
+        "question": "In a duplex reciprocating pump:",
+        "choices": [
+            "the slide valve for the one cylinder is controlled in the piston of the other cylinder",
+            "both slide valves operate simultaneously",
+            "each slide valve is controlled by its own piston rod",
+            "one slide valve operates the other slide valve"
+        ],
+        "answer": "the slide valve for the one cylinder is controlled in the piston of the other cylinder"
+    },
+    {
+        "question": "Heating above the transformation range, usually 1300F to 1350F, and cooling slowly to soften the metal and increase in machining.",
+        "choices": ["Annealing", "Hardening", "Normalizing", "Tempering"],
+        "answer": "Annealing"
+    },
+    {
+        "question": "Reheating to a temperature below the transformation range, followed by any desired rate of cooling to attain the desired properties of the metal.",
+        "choices": ["Annealing", "Hardening", "Normalizing", "Tempering"],
+        "answer": "Tempering"
+    },
+    {
+        "question": "Heating to some 100F above the transformation range with subsequent cooling to below that range in still air at room temperature to produce uniform structure of the metal.",
+        "choices": ["Annealing", "Hardening", "Normalizing", "Tempering"],
+        "answer": "Tempering"
+    },
+    {
+        "question": "Process of forming a metal parts by the use of a powerful pressure from a hammer or press to obtain the desired shape, after the metal has been heated to its plastic range.",
+        "choices": ["Rolling", "Forging", "Turning", "Casting"],
+        "answer": "Forging"
+    },
+    {
+        "question": "Ability of metal to be deformed considering without rupture.",
+        "choices": ["Ductility", "Plasticity", "Malleability", "Elasticity"],
+        "answer": "Elasticity"
+    },
+    {
+        "question": "The operation of cooling a heated piece of work rapidly by dipping it in water, brine or oil.",
+        "choices": ["Quenching", "Tempering", "Normalizing", "Annealing"],
+        "answer": "Quenching"
+    },
+    {
+        "question": "The process of heating a piece of steel to a temperature within or above critical range and cooling rapidly.",
+        "choices": ["Normalizing", "Hardening", "Annealing", "Tempering"],
+        "answer": "Hardening"
+    },
+    {
+        "question": "The moment of inertial of a rectangle whose base is b and height h about its base is:",
+        "choices": ["(bh^3)/12", "(bh^3)/3", "bh/36", "bh/24"],
+        "answer": "(bh^3)/12"
+    },
+    {
+        "question": "A stainless steel is obtained by the use of the following alloying element.",
+        "choices": ["Chromium", "Tungsten", "Carbon", "Phenol"],
+        "answer": "Chromium"
+    },
+    {
+        "question": "An alloy of copper and zinc",
+        "choices": ["Chromium", "Brass", "Cast Iron", "Aluminum"],
+        "answer": "Brass"
+    },
+    {
+        "question": "It is a hardening treatment whereby a cast material is being heated to a very high temperature then suddenly subjected to rapid cooling to improve hardenability or wear resistance is called:",
+        "choices": ["normalizing", "tempering", "annealing", "quenching"],
+        "answer": "quenching"
+    },
+    {
+        "question": "Unit deformation is also called",
+        "choices": ["Torsion", "Strain", "Stresss", "Sprain"],
+        "answer": "Strain"
+    },
+    {
+        "question": "Machine used for testing of very thin steel or surface layers.",
+        "choices": ["Charpy", "Izod", "Description", "Rockwell"],
+        "answer": "Rockwell"
+    },
+    {
+        "question": "Corrosion of iron or iron-based alloys:",
+        "choices": ["Rusting", "Crazing", "Chalking", "Fritting"],
+        "answer": "Rusting"
+    },
+    {
+        "question": "Change in length per unit length is:",
+        "choices": ["Strain", "Stress", "Deformation", "Tensile Strength"],
+        "answer": "Strain"
+    },
+    {
+        "question": "The maximum stress which is reached during tensile testing.",
+        "choices": ["stress", "elasticity", "strain", "tensile strength"],
+        "answer": "tensile strength"
+    },
+    {
+        "question": "Most abundant engineering material:",
+        "choices": ["Steel", "Babbitts", "Aluminum", "Cast Iron"],
+        "answer": "Cast Iron"
+    },
+    {
+        "question": "Machine used in testing steel generally strike the speciman from 220 to 265 ft - lb.",
+        "choices": ["Izod Test", "Charpy Test", "White Iron", "Malleable Iron"],
+        "answer": "White Iron"
+    },
+    {
+        "question": "Ability of a metal to resist being crushed.",
+        "choices": ["fatigue strength", "Bending strength", "Torsional strength", "Compressive Strength"],
+        "answer": "Compressive Strength"
+    },
+    {
+        "question": "Ferrous metals contain a relatively large amount of:",
+        "choices": ["Manganese", "Carbon", "Sulfur", "Phosphorus"],
+        "answer": "Carbon"
+    },
+    {
+        "question": "A flange coupling is:",
+        "choices": ["Used for collinear shaft", "Used for non-collinear shaft", "Rigid coupling", "Flexible flange"],
+        "answer": "Used for collinear shaft"
+    },
+    {
+        "question": "Ability of metal to stand loads without breaking down.",
+        "choices": ["Strain", "Stress", "Elasticity", "Strength"],
+        "answer": "Strength"
+    },
+    {
+        "question": "An alloy of tin, copper and a traced amount of phosphorous.",
+        "choices": ["Chromium", "Bronze", "Brass", "Aluminum"],
+        "answer": "Bronze"
+    },
+    {
+        "question": "This material is the most popular alloy spring steel for conditions involving higher stresses than can be used with the high-carbon steels and for use where fatigue resistance and long endurance are needed; this is also good for shock and impact loads.",
+        "choices": ["Chrome silicon", "Chrome vanadium", "hard-drawn wire", "Oil-tempered wire"],
+        "answer": "Chrome vanadium"
+    }
+]

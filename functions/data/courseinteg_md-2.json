@@ -1,0 +1,302 @@
+[
+    {
+        "question": "A treatment of the surface iron-based alloys, usually in the front of sheet strip is:",
+        "choices": ["epoxy painting", "bluing", "sanding", "coating"],
+        "answer": "bluing"
+    },
+    {
+        "question": "An element assembled into a tapped hole is",
+        "choices": ["key", "nut", "screw", "worm gear"],
+        "answer": "screw"
+    },
+    {
+        "question": "After hot working, a stress caused by reduced hydrogen solubility is",
+        "choices": ["residual stress", "galling", "pitting", "flaking"],
+        "answer": "flaking"
+    },
+    {
+        "question": "The procedure of heating to and holding metal at a designated temperature for a period of time and then cooling it at a controlled rate is",
+        "choices": ["annealing", "quenching", "tempering", "normalizing"],
+        "answer": "tempering"
+    },
+    {
+        "question": "In the design of mechanical members, the separation that takes place along in the direction of the highest shearing stress is",
+        "choices": ["ductile fracture", "fatigue stress", "residual stress", "torsional stress"],
+        "answer": "ductile fracture"
+    },
+    {
+        "question": "It is a square key with the bottom two corners are beveled",
+        "choices": ["Saddle key", "Barth key", "Woodruff key", "Grib head key"],
+        "answer": "Barth key"
+    },
+    {
+        "question": "Change in metal structure by which the surface structure recovers from its unstable condition",
+        "choices": ["Annealing", "Normalizing", "Aging", "Tempering"],
+        "answer": "Aging"
+    },
+    {
+        "question": "It is the ability of the material to absorb energy within its proportional limit",
+        "choices": ["yield strength", "resilience", "toughness", "creep strength"],
+        "answer": "resilience"
+    },
+    {
+        "question": "In kinematics, the occurrence of linear and rotational motion simultaneously is known as",
+        "choices": ["mechanism", "rotakinetics", "corioli's", "Grashof's"],
+        "answer": "corioli's"
+    },
+    {
+        "question": "The ratio of the number of teeth to the pitch diameter is",
+        "choices": ["circular pitch", "mechanical advantage", "diametral pitch", "Lewi's form factor"],
+        "answer": "diametral pitch"
+    },
+    {
+        "question": "A new hacksaw blade should not be used in old cut because",
+        "choices": ["the blade is very costly", "the blade have very sharp teeth", "the space is not sufficient to play the new blade in the old cut", "none of the above"],
+        "answer": "the space is not sufficient to play the new blade in the old cut"
+    },
+    {
+        "question": "Which of the file is not hardened?",
+        "choices": ["Tang", "Body", "Heel", "Point"],
+        "answer": "Tang"
+    },
+    {
+        "question": "In case of a flat scraper, the depth of the cut is verified by",
+        "choices": ["changing the convexity of the cutting edge", "changing the inclination", "changing its weight", "none of the above"],
+        "answer": "changing the inclination"
+    },
+    {
+        "question": "In which screw thread the side = width of the flat = width of the space = 0.5p",
+        "choices": ["Knuckle", "Square", "Buttress", "ACME"],
+        "answer": "Square"
+    },
+    {
+        "question": "18-8' stainless steel means",
+        "choices": ["18% Tungsten and 8% Chromium", "18% Nickel and 8% Chromium", "18% Chromium and 8% Nickel", "18% Chromium and 8% Cobalt"],
+        "answer": "18% Chromium and 8% Nickel"
+    },
+    {
+        "question": "Which is the lightest metal?",
+        "choices": ["Lead", "Aluminum", "GI Sheet", "Cast iron"],
+        "answer": "Aluminum"
+    },
+    {
+        "question": "Hardened steel parts have",
+        "choices": ["Fine grains", "Medium grains", "Coarse grains", "None of the above"],
+        "answer": "Fine grains"
+    },
+    {
+        "question": "Concentricity of an outside diameter can be checked by",
+        "choices": ["Vernier caliper", "Dial test indicator", "Outside micrometer", "Tube micrometer"],
+        "answer": "Dial test indicator"
+    },
+    {
+        "question": "Which micrometer has no anvil?",
+        "choices": ["outside micrometer", "screw thread micrometer", "depth micrometer", "digit micrometer"],
+        "answer": "depth micrometer"
+    },
+    {
+        "question": "Which micrometer is available with extension rods?",
+        "choices": ["outside micrometer", "screw thread micrometer", "inside micrometer", "combi micrometer"],
+        "answer": "inside micrometer"
+    },
+    {
+        "question": "Which gauge is used to check the internal threads?",
+        "choices": ["plug gauge", "thread plug gauge", "ring gauge", "thread ring gauge"],
+        "answer": "thread plug gauge"
+    },
+    {
+        "question": "The radial distance between the bottomland and the pitch circle is",
+        "choices": ["clearance", "dedendum", "addendum", "working depth"],
+        "answer": "dedendum"
+    },
+    {
+        "question": "A mechanical element connected directly in the prime mover is",
+        "choices": ["axle", "spindle", "line shaft", "transmission shaft"],
+        "answer": "line shaft"
+    },
+    {
+        "question": "A spur gear with infinite radius is also known as",
+        "choices": ["herringbone gear", "helical gear", "rack gear", "bevel gear"],
+        "answer": "rack gear"
+    },
+    {
+        "question": "An engineering material which contains a mixture of pure iron and 1 to 3 % slag is known as",
+        "choices": ["stainless steel", "killed steel", "wrought steel", "pig iron"],
+        "answer": "wrought steel"
+    },
+    {
+        "question": "In bolt design, the maximum load a bolt can withstand is",
+        "choices": ["ultimate load", "resultant bolt load", "permissible bolt load", "proof of load"],
+        "answer": "proof of load"
+    },
+    {
+        "question": "A forced shaft with a rotating pulley known as",
+        "choices": ["Cantilever beam", "Axle shaft", "Line shaft", "Transmission shaft"],
+        "answer": "Axle shaft"
+    },
+    {
+        "question": "The effect of alloying zinc to copper is",
+        "choices": ["to increase hardness", "to impart free-machining properties", "to hardness and strength", "to increase strength and ductility"],
+        "answer": "to increase strength and ductility"
+    },
+    {
+        "question": "Unlike materials or materials of different thickness can be butt welded by",
+        "choices": ["control of pressure and current", "adjusting time duration of current", "adjust initial gap", "all of the above"],
+        "answer": "control of pressure and current"
+    },
+    {
+        "question": "The purpose of inoculation is",
+        "choices": ["To clean the casting", "To change the chemical composition of a cast metal", "To decrease melting temperature of a cast metal", "To modify structure and properties of a cast metal"],
+        "answer": "To modify structure and properties of a cast metal"
+    },
+    {
+        "question": "Spiral bevel and hypoid gears should, in general be mounted on anti-friction bearings in an/ a _______ case",
+        "choices": ["water light", "oil light", "soluble light", "rubber light"],
+        "answer": "oil light"
+    },
+    {
+        "question": "The maximum theory of failure the elastic limit of a ductile ferrous material in shear is practically _______ its elastic limit in tension",
+        "choices": ["one-half", "three-halves", "three-fourths", "four-thirds"],
+        "answer": "one-half"
+    },
+    {
+        "question": "Is largely used for low strength applications such as elevator ropes not used to hoisting and for stationary guy ropes",
+        "choices": ["steel rope", "cast steel rope", "nylon rope", "iron wire rope"],
+        "answer": "iron wire rope"
+    },
+    {
+        "question": "In actual machines",
+        "choices": ["Mechanical advantage is unity", "Mechanical advantage is less than unity", "Mechanical advantage is less than velocity ratio", "Mechanical advantage is equal to velocity ratio"],
+        "answer": "Mechanical advantage is less than velocity ratio"
+    },
+    {
+        "question": "The limiting force of friction is equal to",
+        "choices": ["The value of friction force that stops the movement of the body", "The value of friction force that cannot exceed under a given situation", "The friction force when the body is just about to move", "The friction force acting on a body when it is in motion"],
+        "answer": "The friction force when the body is just about to move"
+    },
+    {
+        "question": "If the only force acting on two bodies is their mutual interactions and if both bodies start from rest, the distance travelled by each",
+        "choices": ["Proportional to the masses of the bodies", "Inversely proportional to the masses of the bodies", "Inversely proportional to the square of the masses of the bodies", "Directly proportional to the square of the masses of the bodies"],
+        "answer": "Inversely proportional to the masses of the bodies"
+    },
+    {
+        "question": "In majority of machine members the damping capacity of the material should be",
+        "choices": ["low", "zero", "high", "could be anything"],
+        "answer": "high"
+    },
+    {
+        "question": "A behavior of metals where in strength of metal is increased and ductility is decreased on heating at a relatively low temperature after cold working is called",
+        "choices": ["twinning", "solid solution hardening", "clustering", "strain aging"],
+        "answer": "strain aging"
+    },
+    {
+        "question": "It is a machine used for the testing of very thin steel or surface layers.",
+        "choices": ["Charpy test", "Description test", "Izod test", "Rockwell test"],
+        "answer": "Rockwell test"
+    },
+    {
+        "question": "The machine, which can flatter surface on horizontal, vertical or angular plane.",
+        "choices": ["drilling machine", "lathe machine", "power saw", "shaper machine"],
+        "answer": "shaper machine"
+    },
+    {
+        "question": "A machine tool, which is very similar to a shaper except the ram reciprocals vertically rather that horizontally",
+        "choices": ["Lathe", "Grinder", "Planer", "Slotter"],
+        "answer": "Slotter"
+    },
+    {
+        "question": "The operation of enlarging a hole by means of an adjustable cutting tool with only one cutting edge.",
+        "choices": ["Boring", "Broaching", "Drilling", "Milling"],
+        "answer": "Boring"
+    },
+    {
+        "question": "It is used to true and align machine tools fixtures and works is at and inspect size trueness of finished work, and to compare measurements either heights or depths or many other measurements",
+        "choices": ["Dial Gage", "Dial Indicator", "Tachometer", "Speedometer"],
+        "answer": "Dial Indicator"
+    },
+    {
+        "question": "A tool used for measuring diameters.",
+        "choices": ["Caliper", "Manometer", "Tachometer", "Pyrometer"],
+        "answer": "Caliper"
+    },
+    {
+        "question": "A process of forming metals by the use of dies after the metal is forced to its plastic range.",
+        "choices": ["Casting", "Forging", "Rolling", "Turning"],
+        "answer": "Rolling"
+    },
+    {
+        "question": "When using a drill press, the work should be held with",
+        "choices": ["the hand", "a gloved hand", "a vise or clamp", "pliers"],
+        "answer": "a vise or clamp"
+    },
+    {
+        "question": "If the angle on a drill is less than 59 deg.:",
+        "choices": ["the drill will make a large hole", "the drill will make a smaller hole", "the hole will take longer to drill and more power is required to drive the drill", "the drill will not center properly"],
+        "answer": "the hole will take longer to drill and more power is required to drive the drill"
+    },
+    {
+        "question": "If a drill speed is too great, it will:",
+        "choices": ["cut faster", "lose its temper", "cut slower", "not cut"],
+        "answer": "lose its temper"
+    },
+    {
+        "question": "Chuck used on turret lathe is",
+        "choices": ["collet chuck", "four jaw self centering chuck", "Magnetic Chuck", "Three jaw independent chuck"],
+        "answer": "Three jaw independent chuck"
+    },
+    {
+        "question": "Pipe is measured by:",
+        "choices": ["inside diameter", "outside diameter", "thickness of wall", "wire gage"],
+        "answer": "inside diameter"
+    },
+    {
+        "question": "Tubing is measured by:",
+        "choices": ["inside diameter", "outside diameter", "thickness of wall", "wire gage"],
+        "answer": "outside diameter"
+    },
+    {
+        "question": "A product of paddling furnace which contains less than 0.104 carbon, is called",
+        "choices": ["cast iron", "gray cast iron", "pig iron", "wrought iron"],
+        "answer": "wrought iron"
+    },
+    {
+        "question": "A lathe machine threading mechanism is called",
+        "choices": ["anvil", "changed stud gear", "reverse gear and lever", "spindle gear"],
+        "answer": "spindle gear"
+    },
+    {
+        "question": "The process of lengthening a piece of stock while the cross-sectional area is being reduced",
+        "choices": ["Drawing", "Honing", "Tapping", "Upsetting"],
+        "answer": "Drawing"
+    },
+    {
+        "question": "process of cutting internal threads by means of a cutting tool",
+        "choices": ["Chamfering", "Honing", "Reaming", "Tapping"],
+        "answer": "Tapping"
+    },
+    {
+        "question": "A tool used for turning nuts or bolts",
+        "choices": ["C-clamps", "Long nose", "Plier", "wrench"],
+        "answer": "wrench"
+    },
+    {
+        "question": "Soft solder is made of",
+        "choices": ["copper and zinc", "tin and lead", "tin and copper", "tin and zinc"],
+        "answer": "tin and lead"
+    },
+    {
+        "question": "Hard solder is made of:",
+        "choices": ["copper and zinc", "tin and zinc", "tin and copper", "tin and lead"],
+        "answer": "copper and zinc"
+    },
+    {
+        "question": "The process of checking the surface of a piece by rolling depressions into the surface",
+        "choices": ["honing", "knurling", "reaming", "snagging"],
+        "answer": "knurling"
+    },
+    {
+        "question": "Removing the sharp edges from a piece of stock is referred to as",
+        "choices": ["knurling", "chamfering", "planning", "turning"],
+        "answer": "chamfering"
+    }
+]
