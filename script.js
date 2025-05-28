@@ -236,15 +236,15 @@ function checkAnswer(button, choice, correctAnswer) {
     } else if (mode === "practice") {
       if (!repeatsEnabled) {
         answeredCount++;
-        setTimeout(nextQuestion, 500);
+        setTimeout(nextQuestion, 1000);
       } else if (repeatsEnabled) {
         if (!wrongAttempt) {
           answeredCount++;
           if (repeatCount < maxRepeats) {
             repeatCount++;
-            setTimeout(resetQuestion, 500);
+            setTimeout(resetQuestion, 1000);
           } else {
-            setTimeout(nextQuestion, 500);
+            setTimeout(nextQuestion, 1000);
           }
         } else {
           if (repeatCount < maxRepeats) {
