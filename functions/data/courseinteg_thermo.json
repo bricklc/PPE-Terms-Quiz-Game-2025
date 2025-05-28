@@ -1,0 +1,282 @@
+[
+    {
+        "question": "Enthalpy of an ideal gas is a function only of_______.",
+        "choices": [
+            "entropy",
+            "internal energy",
+            "temperature",
+            "pressure"
+        ],
+        "answer": "temperature"
+    },
+    {
+        "question": "Which of the following is the most efficient thermodynamic cycle?",
+        "choices": [
+            "Brayton",
+            "Otto",
+            "Carnot",
+            "Diesel"
+        ],
+        "answer": "Carnot"
+    },
+    {
+        "question": "What is the first law of thermodynamics?",
+        "choices": [
+            "internal energy is due to molecular motions",
+            "entropy of the universe is increased by irreversible processes",
+            "energy can neither be created nor destroyed",
+            "heat energy cannot be completely transformed into work"
+        ],
+        "answer": "energy can neither be created nor destroyed"
+    },
+    {
+        "question": "An ideal gas is compressed isothermally. What is the enthalpy change?",
+        "choices": [
+            "always negative",
+            "always positive",
+            "zero",
+            "undefined"
+        ],
+        "answer": "zero"
+    },
+    {
+        "question": "Name the process that has no heat transfer.",
+        "choices": [
+            "Isothermal",
+            "Isobaric",
+            "Polytropic",
+            "Adiabatic"
+        ],
+        "answer": "Adiabatic"
+    },
+    {
+        "question": "An ideal gas is compressed in a cylinder so well insulated that there is essentially no heat transfer. The temperature of the gas",
+        "choices": [
+            "Decreases",
+            "Increases",
+            "remain constant",
+            "is zero"
+        ],
+        "answer": "Increases"
+    },
+    {
+        "question": "What is the SI unit of pressure?",
+        "choices": [
+            "kg/cm²",
+            "dynes/cm²",
+            "Pascal",
+            "Psi"
+        ],
+        "answer": "Pascal"
+    },
+    {
+        "question": "The equation Cp= Cv + R applies to which of the following?",
+        "choices": [
+            "Enthalpy",
+            "ideal gas",
+            "two phase states",
+            "all pure substances"
+        ],
+        "answer": "ideal gas"
+    },
+    {
+        "question": "In the flow process, neglecting kinetic and potential energies, the integral of Vdp represents what ?",
+        "choices": [
+            "heat transfer",
+            "flow energy",
+            "enthalpy change",
+            "shaft work"
+        ],
+        "answer": "shaft work"
+    },
+    {
+        "question": "Mechanical energy of pressure transformed into energy of heat.",
+        "choices": [
+            "Kinetic energy",
+            "Enthalpy",
+            "Heat exchanger",
+            "Heat of compression"
+        ],
+        "answer": "Enthalpy"
+    },
+    {
+        "question": "The theory of changing heat into mechanical work.",
+        "choices": [
+            "Thermodynamics",
+            "Kinematics",
+            "Inertia",
+            "Kinetics"
+        ],
+        "answer": "Thermodynamics"
+    },
+    {
+        "question": "Average pressure on a surface when a changing pressure condition exist.",
+        "choices": [
+            "Back pressure",
+            "Partial pressure",
+            "Pressure drop",
+            "Mean effective pressure"
+        ],
+        "answer": "Mean effective pressure"
+    },
+    {
+        "question": "Which of the following cycles consists two isothermal and two constant volume processes?",
+        "choices": [
+            "Diesel cycle",
+            "Ericsson cycle",
+            "Stirling cycle",
+            "Otto cycle"
+        ],
+        "answer": "Stirling cycle"
+    },
+    {
+        "question": "A control volume refers to what?",
+        "choices": [
+            "A fixed region in space",
+            "A reversible process",
+            "An isolated system",
+            "A specified mass"
+        ],
+        "answer": "A fixed region in space"
+    },
+    {
+        "question": "In the polytropic process, PVn = constant, if the value of n is infinitely large, the process is",
+        "choices": [
+            "isobaric",
+            "isometric",
+            "isothermal",
+            "polytropic"
+        ],
+        "answer": "isometric"
+    },
+    {
+        "question": "If the temperature is held constant and the pressure is increased beyond the saturation pressure, then the working medium must be:",
+        "choices": [
+            "compressed liquid",
+            "subcooled liquid",
+            "saturated vapor",
+            "saturated liquid"
+        ],
+        "answer": "compressed liquid"
+    },
+    {
+        "question": "Is one whose temperature is below the saturation temperature corresponding to its pressure.",
+        "choices": [
+            "Superheated vapor",
+            "Wet vapor",
+            "Subcooled liquid",
+            "Saturated liquid"
+        ],
+        "answer": "Subcooled liquid"
+    },
+    {
+        "question": "Number of molecules in a mole of any substance is a constant called ______.",
+        "choices": [
+            "Rankine constant",
+            "Avogadro's number",
+            "Otto constant",
+            "Thompson constant"
+        ],
+        "answer": "Avogadro's number"
+    },
+    {
+        "question": "If the pressure of a gas is constant the volume directly proportional to the absolute temperature.",
+        "choices": [
+            "Boyle's law",
+            "Joule's law",
+            "Charles’ law",
+            "Kelvin's law"
+        ],
+        "answer": "Charles’ law"
+    },
+    {
+        "question": "The number of protons in the nucleus of an atom or the number of electrons in the orbit of an atom.",
+        "choices": [
+            "Atomic volume",
+            "Atomic number",
+            "Atomic weight",
+            "Atomic mass"
+        ],
+        "answer": "Atomic number"
+    },
+    {
+        "question": "In a P-T diagram of a pure substance, the curve separating the solid phase from the liquid phase is:",
+        "choices": [
+            "vaporization curve",
+            "fusion curve",
+            "boiling point",
+            "sublimation point"
+        ],
+        "answer": "fusion curve"
+    },
+    {
+        "question": "A water temperature of 18 °F in the water cooled condenser is equivalent in °C to _______",
+        "choices": [
+            "7.78",
+            "10",
+            "263.56",
+            "-9.44"
+        ],
+        "answer": "-9.44"
+    },
+    {
+        "question": "The latent heat of vaporization in Joules per kg is equal to _______",
+        "choices": [
+            "5.4 x10²",
+            "4.13 x10³",
+            "22.6 x10⁵",
+            "3.35 x10⁵"
+        ],
+        "answer": "22.6 x10⁵"
+    },
+    {
+        "question": "Form of energy associated with the kinetic energy of the random motion of large number of molecules.",
+        "choices": [
+            "Internal energy",
+            "Kinetic energy",
+            "Heat of fusion",
+            "Heat"
+        ],
+        "answer": "Heat"
+    },
+    {
+        "question": "If the temperature is held constant and the pressure is increased beyond the saturation pressure, then, the working medium must be:",
+        "choices": [
+            "saturated vapor",
+            "compressed liquid",
+            "saturated liquid",
+            "subcooled liquid"
+        ],
+        "answer": "compressed liquid"
+    },
+    {
+        "question": "Is the condition of pressure and temperature at which a liquid and its vapor are indistinguishable.",
+        "choices": [
+            "Critical point",
+            "Dew point",
+            "Absolute humidity",
+            "Relative humidity"
+        ],
+        "answer": "Critical point"
+    },
+    {
+        "question": "When a substance in gaseous state is below the critical temperature, it is called",
+        "choices": [
+            "vapor",
+            "cloud",
+            "moisture",
+            "steam"
+        ],
+        "answer": "vapor"
+    },
+    {
+        "question": "Superheated vapor behaves",
+        "choices": [
+            "just as gas",
+            "just as steam",
+            "just as ordinary vapor",
+            "approximately as a gas"
+        ],
+        "answer": "approximately as a gas"
+    }
+]

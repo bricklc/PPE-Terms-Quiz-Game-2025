@@ -1,0 +1,1942 @@
+[
+    {
+        "question": "Which is not a viscosity rating?",
+        "choices": [
+            "Redwood",
+            "SSU",
+            "Centipoise",
+            "Entropy Degrees API"
+        ],
+        "answer": "Entropy Degrees API"
+    },
+    {
+        "question": "Percent excess air is the difference between the air actually supplied and the theoretically required divided by",
+        "choices": [
+            "the theoretically air supplied",
+            "the actually air supplied",
+            "the deficiency of air supplied",
+            "the sufficient air supplied"
+        ],
+        "answer": "the theoretically air supplied"
+    },
+    {
+        "question": "What is the apparatus used in the analysis of combustible gases?",
+        "choices": [
+            "Calorimeter differential",
+            "Calorimeter gas",
+            "Calorimetry",
+            "Calorimeter"
+        ],
+        "answer": "Calorimeter"
+    },
+    {
+        "question": "Percent excess air is the difference between the air actually supplied and the theoretical air divided by",
+        "choices": [
+            "the sufficient air supplied",
+            "the deficiency air supplied",
+            "the actually air supplied",
+            "the theoretically air supplied"
+        ],
+        "answer": "the theoretically air supplied"
+    },
+    {
+        "question": "The viscosity of most commercially available petroleum lubricating oil changes rapidly above",
+        "choices": [
+            "120 °F",
+            "180 °F",
+            "150 °F",
+            "130 °F"
+        ],
+        "answer": "180 °F"
+    },
+    {
+        "question": "When 1 mol carbon combines with 1 mol oxygen",
+        "choices": [
+            "2 mols carbon dioxide",
+            "1 mol carbon dioxide",
+            "1 mol carbon and 1 mol carbon dioxide",
+            "1 mol carbon dioxide"
+        ],
+        "answer": "1 mol carbon dioxide"
+    },
+    {
+        "question": "What are the immediate undesirable products from the petroleum based lubricating oil when subjected to high pressure and temperature?",
+        "choices": [
+            "Gums, resins and acids",
+            "Sulfur",
+            "Soots and ashes",
+            "Carbon residue"
+        ],
+        "answer": "Gums, resins and acids"
+    },
+    {
+        "question": "What kind of bonding do common gases that exist in free state as diatomic molecules experiences?",
+        "choices": [
+            "lonic bonds",
+            "Covalent bonds",
+            "Metallic bonds",
+            "Nuclear bonds"
+        ],
+        "answer": "Covalent bonds"
+    },
+    {
+        "question": "An Orsat's apparatus is used for",
+        "choices": [
+            "volumetric analysis of the flue gas",
+            "gravimetric analysis of the flue gas",
+            "c. smoke density analysis of the flue gas",
+            "all of the above"
+        ],
+        "answer": "volumetric analysis of the flue gas"
+    },
+    {
+        "question": "A theorem that states that the total property of a mixture of ideal gases is the sum of the properties that the individual gases would have if each occupied the total mixture volume alone as the same temperature.",
+        "choices": [
+            "Gibbs Theorem",
+            "Dalton's theorem",
+            "Boltzmann's theorem",
+            "Maxwell's theorem"
+        ],
+        "answer": "Gibbs Theorem"
+    },
+    {
+        "question": "A small enough particles suspended in a fluid exhibit small random movements due to the statistical collision of fluid molecules on the particle's surface. This motion is called _______",
+        "choices": [
+            "Boltzmann motion",
+            "rectilinear motion",
+            "kinetic gas motion",
+            "Brownian motion"
+        ],
+        "answer": "Brownian motion"
+    },
+    {
+        "question": "When two or more light atoms have sufficient energy (available only at high temperatures and velocities) to fuse together to form a heavier nucleus the process is called _______",
+        "choices": [
+            "fusion",
+            "fission",
+            "the photoelectric effect",
+            "the Compton effect"
+        ],
+        "answer": "fusion"
+    },
+    {
+        "question": "What is the residue left after combustion of a fossil fuel?",
+        "choices": [
+            "Charcoal",
+            "Ash",
+            "Scraper",
+            "All of the choices"
+        ],
+        "answer": "Ash"
+    },
+    {
+        "question": "What is formed during incomplete combustion of carbon in fuels?",
+        "choices": [
+            "Carbon dioxide",
+            "Carbon monoxide",
+            "Nitrogen oxide",
+            "Oxygenated fuel"
+        ],
+        "answer": "Carbon monoxide"
+    },
+    {
+        "question": "A gas produced by the combustion of fuel oil and cannot be found in the flue gases is :",
+        "choices": [
+            "oxygen",
+            "nitrogen",
+            "hydrogen",
+            "carbon dioxide"
+        ],
+        "answer": "hydrogen"
+    },
+    {
+        "question": "Which of the following chemical reactions in which heat is absorbed?",
+        "choices": [
+            "Heat reaction",
+            "Endothermic reaction",
+            "Exothermic reaction",
+            "Combustion reaction"
+        ],
+        "answer": "Endothermic reaction"
+    },
+    {
+        "question": "A chemical reaction in which heat is given off.",
+        "choices": [
+            "Heat reaction",
+            "Endothermic reaction",
+            "Exothermic reaction",
+            "Combustion reaction"
+        ],
+        "answer": "Exothermic reaction"
+    },
+    {
+        "question": "A colorless, odorless mixture of nitrogen and oxygen, with traces of other gases water vapor and same impurities.",
+        "choices": [
+            "Air",
+            "Helium",
+            "Water gas",
+            "Nitrite"
+        ],
+        "answer": "Air"
+    },
+    {
+        "question": "The transfer of air and air characteristics by horizontal motion is called _______",
+        "choices": [
+            "convection",
+            "air transfer",
+            "advection",
+            "adhesion"
+        ],
+        "answer": "advection"
+    },
+    {
+        "question": "Properties of non - reacting gas mixtures are given by:",
+        "choices": [
+            "geometric weighting",
+            "volumetric weighting",
+            "volumetric weighting for molecular weight and density, and geometric weighting for all other properties except entropy",
+            "arithmetic average"
+        ],
+        "answer": "volumetric weighting for molecular weight and density, and geometric weighting for all other properties except entropy"
+    },
+    {
+        "question": "The process of separating two or more liquids by means of the difference in their boiling point.",
+        "choices": [
+            "Engler distillation",
+            "Fractional distillation",
+            "Gas scrubbing",
+            "Fractional crystallization"
+        ],
+        "answer": "Fractional distillation"
+    },
+    {
+        "question": "The gaseous products of combustion of a boiler which contains carbon dioxide, carbon monoxide, oxygen, nitrogen and water vapor is called ______",
+        "choices": [
+            "Flue gas",
+            "Producer gas",
+            "Product gas",
+            "Universal gas"
+        ],
+        "answer": "Flue gas"
+    },
+    {
+        "question": "A substance whose burning with oxygen yields heat energy such as coal, petroleum and natural gas.",
+        "choices": [
+            "Air",
+            "Fluid",
+            "Fuel",
+            "Gas"
+        ],
+        "answer": "Fuel"
+    },
+    {
+        "question": "Stoichiometric ratio is",
+        "choices": [
+            "chemically correct air - fuel ratio by volume",
+            "chemically correct air - fuel ratio by weight",
+            "theoretical mixture of air for complete combustion",
+            "actual ratio of air to fuel for maximum efficiency"
+        ],
+        "answer": "chemically correct air - fuel ratio by weight"
+    },
+    {
+        "question": "A type of radiation consisting of singly charged particles that generate to intermediate distances.",
+        "choices": [
+            "Nuclear radiation",
+            "Alpha radiation",
+            "Beta radiation",
+            "Gamma radiation"
+        ],
+        "answer": "Beta radiation"
+    },
+    {
+        "question": "The increase in velocity past the throat is due to the rapid decrease in the:",
+        "choices": [
+            "fluid density",
+            "fluid specific volume",
+            "fluid temperature",
+            "fluid pressure"
+        ],
+        "answer": "fluid density"
+    },
+    {
+        "question": "In an oxidation - reduction chemical reaction, all of the following occur except:",
+        "choices": [
+            "the exchange of electrons between elements",
+            "elements becoming more positive",
+            "elements becoming more negative",
+            "nuclear fusion"
+        ],
+        "answer": "nuclear fusion"
+    },
+    {
+        "question": "The residual oil left after the distillation of gasoline and kerosene from crude petroleum; yellow to brown oil, used as a diesel fuel and for enriching water gas.",
+        "choices": [
+            "Diesel oil",
+            "Gasoline oil",
+            "LPG",
+            "Gas oil"
+        ],
+        "answer": "Gas oil"
+    },
+    {
+        "question": "A fuel gas obtained by the destructive distillation of soft coal is called ______",
+        "choices": [
+            "Gas scrub",
+            "Coal gas",
+            "Alcogas",
+            "Water gas"
+        ],
+        "answer": "Coal gas"
+    },
+    {
+        "question": "Removing of impurities from a gas by bubbling it through a liquid purifying agent is called _______",
+        "choices": [
+            "Gas scrubbing",
+            "Gas purifying",
+            "Gas liquefying",
+            "Gas bubbling"
+        ],
+        "answer": "Gas scrubbing"
+    },
+    {
+        "question": "During the fusion process, mass is lost and converted to energy according to:",
+        "choices": [
+            "the Heisenburg uncertainty principle",
+            "the Compton's law",
+            "Einstein's law",
+            "The second law of thermodynamics"
+        ],
+        "answer": "Einstein's law"
+    },
+    {
+        "question": "A finely divided carbon deposit by the smoke or flame is called",
+        "choices": [
+            "Fly ash",
+            "Soot",
+            "Residue",
+            "All of the choices"
+        ],
+        "answer": "Soot"
+    },
+    {
+        "question": "Rare gases such as helium, argon, krypton, xenon and radon that are non - reactive are called _____",
+        "choices": [
+            "Non - reactants",
+            "Stop gases",
+            "Inert gases",
+            "Residual gases"
+        ],
+        "answer": "Inert gases"
+    },
+    {
+        "question": "Kinematics and dynamic viscosity vary from each other only by a factor equal to the:",
+        "choices": [
+            "fluid density",
+            "temperature",
+            "pressure",
+            "specific gas constant"
+        ],
+        "answer": "fluid density"
+    },
+    {
+        "question": "The following properties are different for isomers of the same chemical compound except :",
+        "choices": [
+            "density",
+            "melting point",
+            "number of atoms in a mole of each isomers",
+            "specific heat"
+        ],
+        "answer": "number of atoms in a mole of each isomers"
+    },
+    {
+        "question": "Atomic weights of the elements in the periodic table are not whole numbers because of:",
+        "choices": [
+            "the existence of isotopes",
+            "imprecise measurements during the development of the periodic table",
+            "round - off error in calculating atomic weights",
+            "the exchange of reference of the atomic mass unit from oxygen -16 to carbon -12 in 1961"
+        ],
+        "answer": "the existence of isotopes"
+    },
+    {
+        "question": "The tendency of a pure compound to be composed of the same elements combined in a definite proportion by mass.",
+        "choices": [
+            "Avogadro's law",
+            "Boyle's law",
+            "The law of definite proportions",
+            "Le Chatelier's principle"
+        ],
+        "answer": "The law of definite proportions"
+    },
+    {
+        "question": "How do you call the process of removing of impurities from a gas by bubbling it through a liquid purifying agent?",
+        "choices": [
+            "Gas scrubbing",
+            "Gas purifying",
+            "Gas liquefying",
+            "Gas bubbling"
+        ],
+        "answer": "Gas scrubbing"
+    },
+    {
+        "question": "What is the effect of a catalyst in a chemical reaction",
+        "choices": [
+            "absorb the exothermic heat of reaction",
+            "provide the exothermic heat of reaction",
+            "lower the activation energy",
+            "provide the heat of sublimation"
+        ],
+        "answer": "lower the activation energy"
+    },
+    {
+        "question": "The relationship between the concentration of products and reactants in a reversible chemical reaction given by:",
+        "choices": [
+            "the ionization constant",
+            "the equilibrium constant",
+            "the solubility product",
+            "Le Chatelier's principle"
+        ],
+        "answer": "the equilibrium constant"
+    },
+    {
+        "question": "What fuel gas obtained by the destructive distillation of soft coal?",
+        "choices": [
+            "Gas scrub",
+            "Coal gas",
+            "Alcogas",
+            "Water gas"
+        ],
+        "answer": "Coal gas"
+    },
+    {
+        "question": "The process of splitting the nucleus into smaller fragments.",
+        "choices": [
+            "fusion",
+            "fission",
+            "the photoelectric effect",
+            "the Compton effect"
+        ],
+        "answer": "fission"
+    },
+    {
+        "question": "The ash that is removed from the combustor after the fuel is burn is the",
+        "choices": [
+            "fly ash",
+            "bottom ash",
+            "c. scraper ash",
+            "top ash"
+        ],
+        "answer": "bottom ash"
+    },
+    {
+        "question": "A mixture of hydrogen and carbon monoxide made by passing steam over hot coke.",
+        "choices": [
+            "Water gas",
+            "Water vapor",
+            "hydrocarbon",
+            "Air"
+        ],
+        "answer": "Water gas"
+    },
+    {
+        "question": "All of the following are true of non-stoichiometric reactions except",
+        "choices": [
+            "there is an excess of one or more reactants",
+            "the percentage yield measures the efficiency of the reaction",
+            "non - stoichiometric reactions are rare in the combustion process",
+            "in combustion, air is often the excess reactant to assure complete combustion of fuel"
+        ],
+        "answer": "non - stoichiometric reactions are rare in the combustion process"
+    },
+    {
+        "question": "It is the ratio of the volume at the end of heat addition to the volume at the start of heat addition.",
+        "choices": [
+            "compression ratio",
+            "air-fuel ratio",
+            "volumetric ratio",
+            "cut-off ratio"
+        ],
+        "answer": "cut-off ratio"
+    },
+    {
+        "question": "Piston rings are made of:",
+        "choices": [
+            "alloy steel",
+            "carbon steel",
+            "copper",
+            "cast iron"
+        ],
+        "answer": "cast iron"
+    },
+    {
+        "question": "Loss power is due to :",
+        "choices": [
+            "poor compression",
+            "restricted exhaust",
+            "clogging of air cleaner",
+            "low injection pressure"
+        ],
+        "answer": "low injection pressure"
+    },
+    {
+        "question": "A branch system of pipes to carry waste emission away from the piston chambers of an internal combustion engine is called",
+        "choices": [
+            "exhaust nozzle",
+            "exhaust deflection pipe",
+            "exhaust pipe",
+            "exhaust manifold"
+        ],
+        "answer": "exhaust manifold"
+    },
+    {
+        "question": "The type of filter where the filtering elements is replaceable.",
+        "choices": [
+            "Paper edge filter",
+            "Metal edge filter",
+            "Pressure filter",
+            "Filter with element"
+        ],
+        "answer": "Metal edge filter"
+    },
+    {
+        "question": "When four events takes place in one revolution of a crankshaft of an engine, the engine is called :",
+        "choices": [
+            "rotary engine",
+            "steam engine",
+            "two stroke engine",
+            "four stroke engine"
+        ],
+        "answer": "two stroke engine"
+    },
+    {
+        "question": "Which of the following does not belong to the group?",
+        "choices": [
+            "Air injection system",
+            "Mechanical injection system",
+            "Time injection system",
+            "Gas admission system"
+        ],
+        "answer": "Time injection system"
+    },
+    {
+        "question": "Specific heat capacity is an SI derived unit described as:",
+        "choices": [
+            "J/kg",
+            "W/m °K",
+            "J/m³",
+            "J/kg °K"
+        ],
+        "answer": "J/kg °K"
+    },
+    {
+        "question": "A device whose primary function is to meter the flow of refrigerant to the evaporator.",
+        "choices": [
+            "Sniffer valve",
+            "Equalizer",
+            "Thermostatic expansion valve",
+            "Crossover valve"
+        ],
+        "answer": "Thermostatic expansion valve"
+    },
+    {
+        "question": "The internal combustion engines never work in",
+        "choices": [
+            "Rankine cycle",
+            "Diesel cycle",
+            "Dual combustion cycle",
+            "Otto cycle"
+        ],
+        "answer": "Rankine cycle"
+    },
+    {
+        "question": "The general chemical formula for all hydrocarbons is CnHm. In different combinations of interest, as internal combustion engine fuel, n varies from:",
+        "choices": [
+            "1 to 26",
+            "2 to 54",
+            "2 to 26",
+            "1 to 54"
+        ],
+        "answer": "1 to 26"
+    },
+    {
+        "question": "The general chemical formula for all hydrocarbons is CnHm. In different combinations of interest, as internal combustion engine fuel m varies from :",
+        "choices": [
+            "1 to 26",
+            "2 to 54",
+            "2 to 26",
+            "1 to 54"
+        ],
+        "answer": "2 to 54"
+    },
+    {
+        "question": "The general chemical formula of a paraffin fuel is",
+        "choices": [
+            "CnH2n",
+            "CnH2n-6",
+            "CnH2n+2",
+            "CnH2n-2"
+        ],
+        "answer": "CnH2n+2"
+    },
+    {
+        "question": "Naphthenes and olefins are types of hydrocarbons with chemical formula of:",
+        "choices": [
+            "CnH2n",
+            "CnH2n-6",
+            "CnH2n+2",
+            "CnH2n-2"
+        ],
+        "answer": "CnH2n"
+    },
+    {
+        "question": "Which of the following types of hydrocarbons have chemical formula of CnH2n-2 ?",
+        "choices": [
+            "Diolefins",
+            "Aromatics",
+            "Asphaltics",
+            "Paraffins"
+        ],
+        "answer": "Diolefins"
+    },
+    {
+        "question": "Which of the following types of hydrocarbons have chemical formula of CnH2n-4?",
+        "choices": [
+            "Diolefins",
+            "Aromatics",
+            "Asphaltics",
+            "Paraffins"
+        ],
+        "answer": "Asphaltics"
+    },
+    {
+        "question": "What is the chemical formula of an Aromatic type of hydrocarbon fuels ?",
+        "choices": [
+            "CnH2n-6",
+            "CnH2n-2",
+            "CnH2n",
+            "CnH2n+2"
+        ],
+        "answer": "CnH2n-6"
+    },
+    {
+        "question": "At atmospheric condition, hydrocarbon molecules with a low number of carbon atoms, 1 to 4 are",
+        "choices": [
+            "Liquids",
+            "Atomic",
+            "Gases",
+            "Light oils"
+        ],
+        "answer": "Gases"
+    },
+    {
+        "question": "Hydrocarbons with 5 to 15 carbon atoms are:",
+        "choices": [
+            "more or less volatile light oils",
+            "referred to as heavy oils",
+            "mixtures of many kinds of hydrocarbons",
+            "commercial fuels"
+        ],
+        "answer": "more or less volatile light oils"
+    },
+    {
+        "question": "Hydrocarbons with 16 to 26 carbon atoms are referred to as:",
+        "choices": [
+            "light oils",
+            "heavy oils",
+            "lubricating oils",
+            "commercial fuels"
+        ],
+        "answer": "heavy oils"
+    },
+    {
+        "question": "In a four stroke engine if a valve opens 25° before B.D.C. and close 10° after T.D.C. the valve should be:",
+        "choices": [
+            "puppet valve",
+            "exhaust valve",
+            "inlet valve",
+            "spring valve"
+        ],
+        "answer": "exhaust valve"
+    },
+    {
+        "question": "In a hot wire anemometer the rate of heat loss from sensing element is a function of :",
+        "choices": [
+            "mass rate of flow",
+            "pressure",
+            "velocity of flow",
+            "all of the above"
+        ],
+        "answer": "velocity of flow"
+    },
+    {
+        "question": "Sticking valves",
+        "choices": [
+            "valve tappet clearance incorrect",
+            "valve springs of defective material",
+            "valve guides gummed",
+            "lubricating oil of poor quality"
+        ],
+        "answer": "valve springs of defective material"
+    },
+    {
+        "question": "Detonation of pinging noise is due to:",
+        "choices": [
+            "early timing of fuel injection",
+            "late timing of fuel injection",
+            "head of piston carbonized",
+            "valve springs weak or broken"
+        ],
+        "answer": "late timing of fuel injection"
+    },
+    {
+        "question": "The thermal efficiency of a dual cycle engine with compression ratio and fixed quantity of heat and with increase in pressure ratio, will",
+        "choices": [
+            "increase",
+            "remain same",
+            "decrease",
+            "depends on other factors"
+        ],
+        "answer": "increase"
+    },
+    {
+        "question": "Scavenging efficiency of a four stroke diesel engine is:",
+        "choices": [
+            "in the range 80 - 95 percent",
+            "in the range 60 - 80 percent",
+            "below 60 percent",
+            "between 95% and 100%"
+        ],
+        "answer": "between 95% and 100%"
+    },
+    {
+        "question": "Volumetric efficiency of a well designed engine may be in the range of :",
+        "choices": [
+            "75 to 90 percent",
+            "60 to 75 percent",
+            "30 to 50 percent",
+            "below 30 percent"
+        ],
+        "answer": "75 to 90 percent"
+    },
+    {
+        "question": "During idling in a compression ignition engine the air fuel ratio may be of the order of:",
+        "choices": [
+            "30",
+            "200",
+            "150",
+            "D.100"
+        ],
+        "answer": "D.100"
+    },
+    {
+        "question": "Vapor lock is",
+        "choices": [
+            "lock of vaporization of fuel to atmospheric pressure",
+            "excess fuel supply to engine because of faster evaporation",
+            "complete or partial stoppage of fuel supply because of vaporization of fuel in supply steam.",
+            "locking carburetor jets because of vapor pressure"
+        ],
+        "answer": "complete or partial stoppage of fuel supply because of vaporization of fuel in supply steam."
+    },
+    {
+        "question": "Flash point of liquids is the temperature at which:",
+        "choices": [
+            "the fuel emits vapors at a rate which produces an inflammable mixture with air",
+            "the fuel spontaneously ignites",
+            "the fuel ignites with clearly visible flash",
+            "the fuel ignites without a spark"
+        ],
+        "answer": "the fuel emits vapors at a rate which produces an inflammable mixture with air"
+    },
+    {
+        "question": "The mean effective pressure of a diesel cycle having fixed compression ratio will increase if cut off ratio is:",
+        "choices": [
+            "increased",
+            "decreased",
+            "independent of compression ratio",
+            "depends on other factor"
+        ],
+        "answer": "increased"
+    },
+    {
+        "question": "Hot spots",
+        "choices": [
+            "do not exist in engines",
+            "are the hottest spots in engines",
+            "are the spots where heavier functions of fuel are vaporized",
+            "are the defects in S.l. in engines"
+        ],
+        "answer": "are the spots where heavier functions of fuel are vaporized"
+    },
+    {
+        "question": "Flash point for diesel fuel oil should be:",
+        "choices": [
+            "maximum 49 °C",
+            "maximum 490 °C",
+            "maximum 200 °C",
+            "maximum 300 °C"
+        ],
+        "answer": "maximum 49 °C"
+    },
+    {
+        "question": "Morse test is conducted on",
+        "choices": [
+            "single - cylinder engines",
+            "multi - cylinder engines",
+            "horizontal engines",
+            "vertical engines"
+        ],
+        "answer": "multi - cylinder engines"
+    },
+    {
+        "question": "Prony brake is used for testing of:",
+        "choices": [
+            "small engines",
+            "large engines",
+            "engines having small flywheel",
+            "high speed engines"
+        ],
+        "answer": "small engines"
+    },
+    {
+        "question": "Clog point of an oil refer to:",
+        "choices": [
+            "the point of maximum contamination of oil",
+            "the level of impurities beyond which oil ceases to flow",
+            "the temperature at which oil solidifies",
+            "the temperature at which paraffin and waxes in oil start precipitating"
+        ],
+        "answer": "the temperature at which paraffin and waxes in oil start precipitating"
+    },
+    {
+        "question": "Otto cycle consists of:",
+        "choices": [
+            "two isentropic and two constant volumes processes",
+            "two isentropic and two constant pressure processes",
+            "two adiabatic and two isothermal processes",
+            "two isothermal and two constant volume processes"
+        ],
+        "answer": "two isentropic and two constant volumes processes"
+    },
+    {
+        "question": "Diesel cycle consists of:",
+        "choices": [
+            "isentropic, isothermal, constant volume, constant pressure process",
+            "two constant volume, one constant pressure, and one isothermal process",
+            "two isentropic, one constant volume and one constant pressure processes",
+            "two constant pressure, one constant volume, and one isentropic processes"
+        ],
+        "answer": "two isentropic, one constant volume and one constant pressure processes"
+    },
+    {
+        "question": "Which is not correct for calculating air standard efficiency?",
+        "choices": [
+            "All processes are reversible",
+            "Specific heat remains temperatures unchanged at all temperature",
+            "No account of the mechanism of heat transfers is considered",
+            "Gases dissociate at higher temperatures"
+        ],
+        "answer": "Gases dissociate at higher temperatures"
+    },
+    {
+        "question": "The king pin inclination is generally:",
+        "choices": [
+            "less than 0.5°",
+            "between 1° and 2°",
+            "between 2° and 5°",
+            "more than 9°"
+        ],
+        "answer": "between 2° and 5°"
+    },
+    {
+        "question": "For balancing single cylinder engine a counter weight is added to:",
+        "choices": [
+            "piston",
+            "piston pin",
+            "cam",
+            "crank"
+        ],
+        "answer": "crank"
+    },
+    {
+        "question": "To measure the clearance between the valve and tappet of an automobile engine we use a ________",
+        "choices": [
+            "vernier scale",
+            "feeler gauge",
+            "pneumatic gauge",
+            "slip gauge"
+        ],
+        "answer": "feeler gauge"
+    },
+    {
+        "question": "By supercharging:",
+        "choices": [
+            "power stroke becomes stronger",
+            "loss in exhaust gets reduced",
+            "engine can be made to run smoother",
+            "thermal efficiency of the engine can be improved"
+        ],
+        "answer": "thermal efficiency of the engine can be improved"
+    },
+    {
+        "question": "Speedometer drive is generally taken from:",
+        "choices": [
+            "dynamo",
+            "flywheel",
+            "fan belt",
+            "front wheel"
+        ],
+        "answer": "front wheel"
+    },
+    {
+        "question": "Odometer is:",
+        "choices": [
+            "an instrument that indicates the condition of battery",
+            "an instrument used for measurement of fuel consumption",
+            "an instrument used for BHP measurement",
+            "an instrument used for distance measurement"
+        ],
+        "answer": "an instrument used for distance measurement"
+    },
+    {
+        "question": "Automobile radiator is filled with:",
+        "choices": [
+            "acidic water",
+            "alkaline water",
+            "hard water",
+            "soft water"
+        ],
+        "answer": "soft water"
+    },
+    {
+        "question": "The ignition coil acts as:",
+        "choices": [
+            "a capacitor",
+            "an inductor",
+            "an RC circuit",
+            "a step up transformer"
+        ],
+        "answer": "a step up transformer"
+    },
+    {
+        "question": "The self starting motor for automobiles is a:",
+        "choices": [
+            "universal motor",
+            "DC shunt motor",
+            "DC series motor",
+            "synchronous motor"
+        ],
+        "answer": "DC series motor"
+    },
+    {
+        "question": "Starting motor current may be about",
+        "choices": [
+            "0.15 A",
+            "0.5 A",
+            "5.1 A",
+            "25 A"
+        ],
+        "answer": "25 A"
+    },
+    {
+        "question": "As a rule before the piston are removed, it is essential to remove the :",
+        "choices": [
+            "gudgeon pin",
+            "circlip",
+            "piston rings",
+            "crankshaft"
+        ],
+        "answer": "piston rings"
+    },
+    {
+        "question": "Common causes for excessive oil consumption include:",
+        "choices": [
+            "heavy oil and light bearings",
+            "high speed and worn engine",
+            "short trips and cold weather",
+            "frequent oil changes"
+        ],
+        "answer": "high speed and worn engine"
+    },
+    {
+        "question": "The device that is used for reducing the exhaust noise is called _____________",
+        "choices": [
+            "exhaust manifold",
+            "exhaust pipe",
+            "muffler",
+            "none of the above"
+        ],
+        "answer": "muffler"
+    },
+    {
+        "question": "The device that is used to measure the clearance between the valve and tappet of an internal combustion engine is measured by using:",
+        "choices": [
+            "snap gauge",
+            "slip gauge",
+            "feeler gauge",
+            "micrometer"
+        ],
+        "answer": "feeler gauge"
+    },
+    {
+        "question": "Which of the following instrument is used in measuring specific gravity?",
+        "choices": [
+            "Thermometer",
+            "Hygrometer",
+            "Anemometer",
+            "Hydrometer"
+        ],
+        "answer": "Hydrometer"
+    },
+    {
+        "question": "Exhaust gas leakage into the cooling system is most likely to occur because of defective:",
+        "choices": [
+            "cylinder head gasket",
+            "manifold gasket",
+            "water pump",
+            "any of the above"
+        ],
+        "answer": "cylinder head gasket"
+    },
+    {
+        "question": "Clutch slippage while clutch is engaged is specially noticeable",
+        "choices": [
+            "during idling",
+            "at low speed",
+            "during acceleration",
+            "during braking"
+        ],
+        "answer": "during acceleration"
+    },
+    {
+        "question": "To engage securely and prevent dragging the clearance between release bearing and release collar in a clutch is generally:",
+        "choices": [
+            "2-3 mm",
+            "10-12 mm",
+            "20-22 mm",
+            "30-32 mm"
+        ],
+        "answer": "2-3 mm"
+    },
+    {
+        "question": "Gudgeon pins are made of:",
+        "choices": [
+            "same material as that of piston",
+            "cast iron",
+            "hardened and ground steel",
+            "none of these"
+        ],
+        "answer": "none of these"
+    },
+    {
+        "question": "Latex is:",
+        "choices": [
+            "a plastic",
+            "a cover on writes carrying current to spark plugs",
+            "a variety of lubricant",
+            "a milky juice of rubber"
+        ],
+        "answer": "a milky juice of rubber"
+    },
+    {
+        "question": "Cross wire grooves on tires",
+        "choices": [
+            "decrease the danger of skidding",
+            "absorb shocks because of road unevenness",
+            "provide good traction.",
+            "provide better load carrying capacity"
+        ],
+        "answer": "absorb shocks because of road unevenness"
+    },
+    {
+        "question": "The Diesel fuel pump is designed to supply fuel",
+        "choices": [
+            "just sufficient against the demand of the injection pump",
+            "in excess quantity than needed by the injection pump",
+            "a constant quantity at all engine speed",
+            "insufficient quantity in accordance with the engine speed"
+        ],
+        "answer": "insufficient quantity in accordance with the engine speed"
+    },
+    {
+        "question": "The fuel is injected into the cylinder in Diesel engine when the piston is:",
+        "choices": [
+            "exactly at B.D.C. after compression stroke",
+            "exactly at T.D.C. before compression stroke",
+            "approaching T.D.C. during compressions stroke",
+            "approaching B.D.C. during exhaust stroke"
+        ],
+        "answer": "approaching T.D.C. during compressions stroke"
+    },
+    {
+        "question": "In the cam, the distance between the base circle and the nose is known as ________",
+        "choices": [
+            "flank",
+            "nose",
+            "lobe",
+            "lift"
+        ],
+        "answer": "lift"
+    },
+    {
+        "question": "Dirt or gum in fuel nozzle or jets can produce:",
+        "choices": [
+            "excessive fuel consumption",
+            "lack of engine power",
+            "smoky black exhaust",
+            "white exhaust"
+        ],
+        "answer": "smoky black exhaust"
+    },
+    {
+        "question": "Oil pan is attached:",
+        "choices": [
+            "to the bottom of the cylinder block",
+            "in a separate unit away from the crankcase",
+            "at the top of the cylinder block",
+            "at the outside wall of the crank case"
+        ],
+        "answer": "to the bottom of the cylinder block"
+    },
+    {
+        "question": "Excess oil consumption in engine may be because of:",
+        "choices": [
+            "leakage of oil through oil pan gasket",
+            "poor quality or improper viscosity of engine oil",
+            "excessive oil pressure",
+            "any of the above"
+        ],
+        "answer": "any of the above"
+    },
+    {
+        "question": "Wheel base of a vehicle is the :",
+        "choices": [
+            "distance between front and rear axles",
+            "distance between the front tires",
+            "extreme length of the vehicle",
+            "width of tires"
+        ],
+        "answer": "distance between front and rear axles"
+    },
+    {
+        "question": "The percentage of heat released from the fuel-air mixture, in an internal combustion engine which is converted into useful work is roughly.:",
+        "choices": [
+            "10 per cent",
+            "10 - 20 per cent",
+            "20- 25 per cent",
+            "40-45 per cent"
+        ],
+        "answer": "20- 25 per cent"
+    },
+    {
+        "question": "The efficiency of hydraulic braking system is:",
+        "choices": [
+            "about 90 per cent",
+            "B.60-80 per cent",
+            "50-60 per cent",
+            "40-50 per cent"
+        ],
+        "answer": "about 90 per cent"
+    },
+    {
+        "question": "The instrument that is used to check the state of charge of a battery is called a ________",
+        "choices": [
+            "hydrometer",
+            "battery charger",
+            "battery eliminator",
+            "anemometer"
+        ],
+        "answer": "hydrometer"
+    },
+    {
+        "question": "When not in use, the self discharge of an automobile battery in dry weather is generally:",
+        "choices": [
+            "0.5 to 1%",
+            "3 to 5%",
+            "5 to 7.5%",
+            "not more than 10%"
+        ],
+        "answer": "0.5 to 1%"
+    },
+    {
+        "question": "A laminated glass on cracking :",
+        "choices": [
+            "bursts into sharp edged fragments",
+            "bursts into granular pieces",
+            "sandwitched layer taps the fragments",
+            "breaks into the farm of crystals"
+        ],
+        "answer": "sandwitched layer taps the fragments"
+    },
+    {
+        "question": "Wax is applied on car body as :",
+        "choices": [
+            "it is water repellent",
+            "it seals off the pores",
+            "the surface shines",
+            "any of the above"
+        ],
+        "answer": "any of the above"
+    },
+    {
+        "question": "A spark voltage requires a voltage of:",
+        "choices": [
+            "112V",
+            "124 V",
+            "220V",
+            "440 V"
+        ],
+        "answer": "220V"
+    },
+    {
+        "question": "The minimum cranking speed in petrol engine is:",
+        "choices": [
+            "same as the normal operating speed",
+            "half of operating speed",
+            "one fourth of operating speed",
+            "60-80 rpm"
+        ],
+        "answer": "60-80 rpm"
+    },
+    {
+        "question": "Which oil is more viscous?",
+        "choices": [
+            "SAE 30",
+            "SAE 50",
+            "SAE 80",
+            "SAE 40"
+        ],
+        "answer": "SAE 80"
+    },
+    {
+        "question": "Engine oil is generally changed after:",
+        "choices": [
+            "100 km",
+            "1500 km",
+            "1100 km",
+            "2500-6000 km"
+        ],
+        "answer": "2500-6000 km"
+    },
+    {
+        "question": "The most probable cause for uneven wear of tires for a truck is:",
+        "choices": [
+            "low tire pressure",
+            "excessive camber",
+            "tires over loaded",
+            "any of the above"
+        ],
+        "answer": "any of the above"
+    },
+    {
+        "question": "In a vehicle the most probable cause for hard steering may be:",
+        "choices": [
+            "low tire pressure",
+            "bent wheel spindle",
+            "tie rod ends tight",
+            "any of the above"
+        ],
+        "answer": "any of the above"
+    },
+    {
+        "question": "Poor compression in a two stroke engine cannot be because of.",
+        "choices": [
+            "leaky valves",
+            "broken piston rings",
+            "leaking cylinder head gasket",
+            "poor fits between pistons, rings and cylinder"
+        ],
+        "answer": "leaky valves"
+    },
+    {
+        "question": "The number of exhaust manifolds in a V - 8 engine Is:",
+        "choices": [
+            "one",
+            "four",
+            "there is no exhaust manifold",
+            "two"
+        ],
+        "answer": "two"
+    },
+    {
+        "question": "The device for smoothing out the power impulses from the engine is known as:",
+        "choices": [
+            "clutch",
+            "fly wheel",
+            "gear box",
+            "differential"
+        ],
+        "answer": "fly wheel"
+    },
+    {
+        "question": "The firing order in case of four cylinder in-line engines is generally __________",
+        "choices": [
+            "1-2-4-3",
+            "1-3-4-2",
+            "1-4-3-2",
+            "either B or C"
+        ],
+        "answer": "either B or C"
+    },
+    {
+        "question": "In case of four cylinder opposed cylinder engines, the firing order is:",
+        "choices": [
+            "1-4-3-2",
+            "1-3-4-2",
+            "1-2-3-4",
+            "1-2-4-3"
+        ],
+        "answer": "1-4-3-2"
+    },
+    {
+        "question": "In a four stroke engine, for the combustion of one liter of fuel, the volume of air needed would be approximately",
+        "choices": [
+            "1.cu.m",
+            "2 cu.m",
+            "5-7 cu.m",
+            "9-10 cu.m"
+        ],
+        "answer": "9-10 cu.m"
+    },
+    {
+        "question": "Theoretically air needed for the combustion of one kg of fuel is:",
+        "choices": [
+            "100 kg",
+            "B.14.5 kg",
+            "16.7 kg",
+            "27.4 kg"
+        ],
+        "answer": "B.14.5 kg"
+    },
+    {
+        "question": "Which of the following is the cause of loss power?",
+        "choices": [
+            "Poor compression",
+            "Restricted exhaust",
+            "Clogging of air cleaner",
+            "Low injection pressure"
+        ],
+        "answer": "Low injection pressure"
+    },
+    {
+        "question": "A valve in the carburetor of an internal combustion engines which regulates the proportion of air gasoline vapors entering the cylinder.",
+        "choices": [
+            "Gate valve",
+            "Choke valve",
+            "Check valve",
+            "Globe valve"
+        ],
+        "answer": "Choke valve"
+    },
+    {
+        "question": "What device combines air and fuel for burning in cylinder?",
+        "choices": [
+            "Intercooler",
+            "Regenerator",
+            "Fuel injection",
+            "Carburetor"
+        ],
+        "answer": "Carburetor"
+    },
+    {
+        "question": "A passive restraint device consisting of bags in front of the driver and passenger.",
+        "choices": [
+            "Air buoy",
+            "Air bag",
+            "Air balloon",
+            "Air duct"
+        ],
+        "answer": "Air bag"
+    },
+    {
+        "question": "The heat exchanger used in an Ericsson cycle is:",
+        "choices": [
+            "regenerator",
+            "combustion chamber",
+            "intercooler",
+            "recuperator"
+        ],
+        "answer": "recuperator"
+    },
+    {
+        "question": "In Stirling engine, the heat is added during",
+        "choices": [
+            "isothermal process",
+            "isometric process",
+            "isobaric process",
+            "isentropic process"
+        ],
+        "answer": "isothermal process"
+    },
+    {
+        "question": "In an Otto engine, the heat is added during",
+        "choices": [
+            "isothermal process",
+            "isometric process",
+            "isobaric process",
+            "isentropic process"
+        ],
+        "answer": "isometric process"
+    },
+    {
+        "question": "Exhaust stroke of gasoline engine is also known as",
+        "choices": [
+            "supercharging",
+            "choking",
+            "scavenging",
+            "knocking"
+        ],
+        "answer": "scavenging"
+    },
+    {
+        "question": "The mechanical efficiency of a device is the ratio of the",
+        "choices": [
+            "mechanical energy input to the mechanical energy output of the device",
+            "ideal energy input to the actual energy input",
+            "actual energy extracted to the ideal energy extracted",
+            "actual to the ideal energy input"
+        ],
+        "answer": "ideal energy input to the actual energy input"
+    },
+    {
+        "question": "The smallest subdivision of an element that can take place in a chemical reaction is a/an",
+        "choices": [
+            "atom",
+            "molecule",
+            "electron",
+            "proton"
+        ],
+        "answer": "atom"
+    },
+    {
+        "question": "The smallest subdivision of a compound that can exist in a natural state is a/an",
+        "choices": [
+            "atom",
+            "molecule",
+            "electron",
+            "proton"
+        ],
+        "answer": "molecule"
+    },
+    {
+        "question": "Elements with different atomic weights but the same atomic number are:",
+        "choices": [
+            "isomers",
+            "isotopes",
+            "isotopes",
+            "isobars"
+        ],
+        "answer": "isotopes"
+    },
+    {
+        "question": "All of the following are characteristics of metals except:",
+        "choices": [
+            "high electrical conductivities",
+            "tendency to form positive ions",
+            "tendency to form brittle solids",
+            "high melting points"
+        ],
+        "answer": "tendency to form brittle solids"
+    },
+    {
+        "question": "The following are all characteristics of nonmetals except",
+        "choices": [
+            "having little or no luster",
+            "appearing on the right end of the periods table",
+            "having low ductility",
+            "being reducing agents"
+        ],
+        "answer": "being reducing agents"
+    },
+    {
+        "question": "Graduations in the properties of elements from one elements to the next are less pronounced in:",
+        "choices": [
+            "the lanthanide series",
+            "periods",
+            "groups",
+            "active metals"
+        ],
+        "answer": "the lanthanide series"
+    },
+    {
+        "question": "All of the following are components of a chemical elements except :",
+        "choices": [
+            "protons",
+            "neutrons",
+            "electrons",
+            "ions"
+        ],
+        "answer": "ions"
+    },
+    {
+        "question": "Which of the following is not a prefix used in naming isomers?",
+        "choices": [
+            "Para",
+            "Meta",
+            "Cis",
+            "Bi"
+        ],
+        "answer": "Bi"
+    },
+    {
+        "question": "All of the following are types of chemical bonds except:",
+        "choices": [
+            "ionic bonds",
+            "covalent bonds",
+            "metallic bonds",
+            "nuclear bonds"
+        ],
+        "answer": "nuclear bonds"
+    },
+    {
+        "question": "The equilibrium distance between elements in an ionic bond is function of all the following etc.",
+        "choices": [
+            "ionic charge",
+            "coordination number",
+            "atomic weight",
+            "temperature"
+        ],
+        "answer": "atomic weight"
+    },
+    {
+        "question": "Which of the following statements is not a characteristic of ionic compounds?",
+        "choices": [
+            "They are usually hard, brittle, crystalline solids",
+            "They have high melting points",
+            "They are nonvolatile and have low vapor pressures",
+            "They are good electrical conductors in the solid phase"
+        ],
+        "answer": "They are good electrical conductors in the solid phase"
+    },
+    {
+        "question": "What kind of bonding do common gases that exist in a free state as diatomic molecules experience?",
+        "choices": [
+            "lonic bonds",
+            "Covalent bonds",
+            "Metallic bonds",
+            "Nuclear bonds"
+        ],
+        "answer": "Covalent bonds"
+    },
+    {
+        "question": "Measure the diffuser's ability to increase the pressure of the fluid is:",
+        "choices": [
+            "speed recovery factor",
+            "pressure recovery factor",
+            "volume recovery factor",
+            "diffuser recovery factor"
+        ],
+        "answer": "pressure recovery factor"
+    },
+    {
+        "question": "A decrease in stagnation pressure will decrease the mass flux through the:",
+        "choices": [
+            "diverging nozzle",
+            "converging nozzle",
+            "converging - diverging nozzle",
+            "none of these"
+        ],
+        "answer": "diverging nozzle"
+    },
+    {
+        "question": "What is the main power generating plant that produces the most electricity per unit thermal energy in the fuel input and has the greatest surplus of electricity for most cogeneration system?",
+        "choices": [
+            "Steam engine",
+            "Steam turbine",
+            "Gas turbine",
+            "Diesel engine"
+        ],
+        "answer": "Diesel engine"
+    },
+    {
+        "question": "Air standard efficiency of a diesel engine depend on",
+        "choices": [
+            "speed",
+            "compression ratio",
+            "fuel",
+            "torque"
+        ],
+        "answer": "compression ratio"
+    },
+    {
+        "question": "What is meant by brake horsepower?",
+        "choices": [
+            "Power developed in the engine cylinder",
+            "Final horsepower delivered to the equipment",
+            "Actual horsepower delivered to the engine drive shaft",
+            "Work required to raise a weight of 33,000 lbs at a height of one foot in one minute of time."
+        ],
+        "answer": "Actual horsepower delivered to the engine drive shaft"
+    },
+    {
+        "question": "Average pressure on a surface when a changing pressure condition exist",
+        "choices": [
+            "back pressure",
+            "partial pressure",
+            "pressure drop",
+            "mean effective pressure"
+        ],
+        "answer": "mean effective pressure"
+    },
+    {
+        "question": "What air pressure is needed for air starting a diesel engine?",
+        "choices": [
+            "350 psi",
+            "250 psi",
+            "450 psi",
+            "150 psi"
+        ],
+        "answer": "250 psi"
+    },
+    {
+        "question": "Mechanical energy of pressure transformed into energy of heat:",
+        "choices": [
+            "Kinetic energy",
+            "Enthalpy",
+            "Heat exchanger",
+            "Heat of compression"
+        ],
+        "answer": "Enthalpy"
+    },
+    {
+        "question": "Ignition of the air – fuel mixture in the intake of the exhaust manifold",
+        "choices": [
+            "Backlash",
+            "Backfire",
+            "Exhaust pressure",
+            "Back pressure"
+        ],
+        "answer": "Backfire"
+    },
+    {
+        "question": "The total sulfur content in a diesel fuel must not exceed _______.",
+        "choices": [
+            "0.3 %",
+            "0.5 %",
+            "0.8 %",
+            "0.11 %"
+        ],
+        "answer": "0.5 %"
+    },
+    {
+        "question": "Total sulfur content in a diesel fuel oil must not exceed",
+        "choices": [
+            "A.0.2%",
+            "0.5%",
+            "0.15%",
+            "0.1%"
+        ],
+        "answer": "0.5%"
+    },
+    {
+        "question": "The color of lubricating oil:",
+        "choices": [
+            "does not indicate contamination",
+            "does not indicate qualities",
+            "indicates qualities",
+            "indicates viscosity"
+        ],
+        "answer": "does not indicate qualities"
+    },
+    {
+        "question": "There are two broad types in the classification of lubricating oils, these are straight and",
+        "choices": [
+            "active",
+            "inactive",
+            "crooked",
+            "additives"
+        ],
+        "answer": "additives"
+    },
+    {
+        "question": "Most commercially available petroleum lubricating oil deteriorates starting from operating temperature of:",
+        "choices": [
+            "150 °F",
+            "200 °F",
+            "300 °F",
+            "250 °F"
+        ],
+        "answer": "200 °F"
+    },
+    {
+        "question": "An Orsat apparatus is used for:",
+        "choices": [
+            "volumetric analysis of the flue gases",
+            "gravimetric analysis of the flue gases",
+            "smoke density analysis of the gases",
+            "all of the above"
+        ],
+        "answer": "volumetric analysis of the flue gases"
+    },
+    {
+        "question": "The indicator used to determine the anti-knock characteristics of gasoline.",
+        "choices": [
+            "Aniline point",
+            "Cetane number",
+            "Octane number",
+            "Diesel index"
+        ],
+        "answer": "Octane number"
+    },
+    {
+        "question": "Amount of heat liberated by the complete combustion of a unit weight or volume of fuel is:",
+        "choices": [
+            "heating value",
+            "latent heat",
+            "sensible heat",
+            "work of compression"
+        ],
+        "answer": "heating value"
+    },
+    {
+        "question": "Air that controls the rate of combustion in the combustion chamber is known as:",
+        "choices": [
+            "secondary air",
+            "excess air",
+            "control air",
+            "primary air"
+        ],
+        "answer": "secondary air"
+    },
+    {
+        "question": "Percentage of excess air is the difference between the air actually supplied and the theoretically required divided by:",
+        "choices": [
+            "actual air supplied",
+            "theoretical air supplied",
+            "theoretical less actual supplied",
+            "deficient air supplied"
+        ],
+        "answer": "theoretical air supplied"
+    },
+    {
+        "question": "When fuel oil has a high viscosity then the fuel oil",
+        "choices": [
+            "will evaporate easily",
+            "will have a low specific gravity",
+            "will burn without smoke",
+            "will flow slowly through pipes"
+        ],
+        "answer": "will flow slowly through pipes"
+    },
+    {
+        "question": "Engines using heavy fuels require heating of the fuel so that the viscosity at the injector is:",
+        "choices": [
+            "around 200 SSU",
+            "100 SSU or less",
+            "200 SSU + 50",
+            "150 SSU or slightly higher"
+        ],
+        "answer": "150 SSU or slightly higher"
+    },
+    {
+        "question": "A gas produced by the combustion of fuel oil and cannot be found in the flue gases is:",
+        "choices": [
+            "carbon dioxide",
+            "hydrogen",
+            "oxygen",
+            "nitrogen"
+        ],
+        "answer": "hydrogen"
+    },
+    {
+        "question": "Amount of heat liberated by the complete combustion of a unit weight or volume of fuel is:",
+        "choices": [
+            "heating value",
+            "latent heat",
+            "sensible heat",
+            "work of compression"
+        ],
+        "answer": "heating value"
+    },
+    {
+        "question": "The products of complete combustion of gaseous hydrocarbons.",
+        "choices": [
+            "Carbon dioxide and water",
+            "Carbon monoxide",
+            "Carbon monoxide, water and ammonia",
+            "Water, carbon monoxide and carbon dioxide"
+        ],
+        "answer": "Carbon dioxide and water"
+    },
+    {
+        "question": "When the water in the products of combustion is in the vapor state, the heating value is:",
+        "choices": [
+            "lower heating value",
+            "higher heating value",
+            "gross calorific value",
+            "average heating value"
+        ],
+        "answer": "lower heating value"
+    },
+    {
+        "question": "At what temperature wherein an oil of any grade becomes cloudy and it freezes, thus its application is limited.",
+        "choices": [
+            "Cold point",
+            "Flash point",
+            "Pour point",
+            "Freezing point"
+        ],
+        "answer": "Cold point"
+    },
+    {
+        "question": "Dry air can be approximated as ___% oxygen and ___% nitrogen by mole numbers.",
+        "choices": [
+            "30 % and 70 %",
+            "70 % and 30%",
+            "21 % and 79 %",
+            "79 % and 21 %"
+        ],
+        "answer": "21 % and 79 %"
+    },
+    {
+        "question": "When H2O in the products of combustion is in liquid form, the heating value is known as",
+        "choices": [
+            "higher heating value",
+            "lower heating value",
+            "low and medium heating value",
+            "average heating value"
+        ],
+        "answer": "higher heating value"
+    },
+    {
+        "question": "Flow of fluids wherein its particles do not have definite paths and the paths of the individual and distinct particles cross one another is:",
+        "choices": [
+            "non-uniform flow",
+            "unsteady flow",
+            "laminar flow",
+            "turbulent flow"
+        ],
+        "answer": "turbulent flow"
+    },
+    {
+        "question": "If the composition-of hydrocarbon fuel is known, the ratio between the nitrogen and oxygen that is supplied in air is:",
+        "choices": [
+            "equal",
+            "constant",
+            "intensity",
+            "fixed"
+        ],
+        "answer": "constant"
+    },
+    {
+        "question": "The property of liquid in which they extend resistance to angular or shear deformation is:",
+        "choices": [
+            "specific gravity",
+            "specific weight",
+            "viscosity",
+            "density"
+        ],
+        "answer": "viscosity"
+    },
+    {
+        "question": "A property of lubricating oil that measures the thickness of the oil and will help determine how long oil will low at a given temperature is known as:",
+        "choices": [
+            "viscosity",
+            "flash point",
+            "cloud point",
+            "cloud point"
+        ],
+        "answer": "viscosity"
+    },
+    {
+        "question": "The minimum amount of air required for a complete combustion of fuel is called _______",
+        "choices": [
+            "dry air",
+            "excess air",
+            "theoretical air",
+            "flue gas"
+        ],
+        "answer": "theoretical air"
+    },
+    {
+        "question": "The temperature at which lubricating will form a cloud.",
+        "choices": [
+            "Cloud point",
+            "Pour point",
+            "Critical point",
+            "Boiling point"
+        ],
+        "answer": "Cloud point"
+    },
+    {
+        "question": "The ideal cycle based on the concept that the combustion process is both diesel and gasoline in the combination of heat transfer processes that is constant pressure and constant volume.",
+        "choices": [
+            "Ericsson cycle",
+            "Dual cycle",
+            "Brayton cycle",
+            "Rankine cycle"
+        ],
+        "answer": "Dual cycle"
+    },
+    {
+        "question": "The unit used for expressing API gravity is:",
+        "choices": [
+            "gm/cc",
+            "dimensionless numbers",
+            "degrees",
+            "none of the above"
+        ],
+        "answer": "degrees"
+    },
+    {
+        "question": "ASTM coal classification is based on:",
+        "choices": [
+            "proximate analysis",
+            "orsat analysis",
+            "ultimate analysis",
+            "none of the above"
+        ],
+        "answer": "proximate analysis"
+    },
+    {
+        "question": "API gravity of water is:",
+        "choices": [
+            "zero",
+            "10",
+            "1.0",
+            "100"
+        ],
+        "answer": "10"
+    },
+    {
+        "question": "Which of the following variety of coal has higher ash content?",
+        "choices": [
+            "Lignite",
+            "Bituminous coal",
+            "Grade / steam coal",
+            "Coking coal"
+        ],
+        "answer": "Lignite"
+    },
+    {
+        "question": "Which of the following is a petroleum fuel ?",
+        "choices": [
+            "Benzol",
+            "Ethyl alcohol",
+            "Methyl alcohol",
+            "Naphta"
+        ],
+        "answer": "Naphta"
+    },
+    {
+        "question": "Diesel engine fuels are rated by:",
+        "choices": [
+            "specific gravity",
+            "calorific value",
+            "cetane number",
+            "octane number"
+        ],
+        "answer": "cetane number"
+    },
+    {
+        "question": "Which of the following needs to be filtered in a diesel engine?",
+        "choices": [
+            "Air only",
+            "Lubricating oil only",
+            "Air and diesel oil only",
+            "Air, diesel oil and lubricating oil"
+        ],
+        "answer": "Air, diesel oil and lubricating oil"
+    }
+]
