@@ -1,0 +1,252 @@
+[
+    {
+        "question": "Algebraic expression consisting of any number of terms is called a:",
+        "choices": ["multinomial", "summation", "binomial", "monomial"],
+        "answer": "multinomial"
+    },
+    {
+        "question": "An equation which is satisfied by all values of the variable for which the members of the equation defined is known as:",
+        "choices": ["linear equation", "rational equation", "literal equation", "defective equation"],
+        "answer": "literal equation"
+    },
+    {
+        "question": "This consists of products and quotients of ordinary numbers and letters which represent numbers.",
+        "choices": ["Expression", "Term", "Equation", "Coefficient"],
+        "answer": "Term"
+    },
+    {
+        "question": "An expression of two terms is called:",
+        "choices": ["Polynomial", "duomial", "Binomial", "all of the above"],
+        "answer": "Binomial"
+    },
+    {
+        "question": "Any fraction that contains one or more fractions in either numerator or denominator or both is called:",
+        "choices": ["compound fraction", "composite fraction", "complex fraction", "all of the above"],
+        "answer": "complex fraction"
+    },
+    {
+        "question": "The angle which the line of sight to the object makes with the horizontal which is above the eye of the observer is called:",
+        "choices": ["angle of depression", "angle of elevation", "acute angle", "bearing"],
+        "answer": "angle of elevation"
+    },
+    {
+        "question": "The median of triangle is the line connecting the vertex and the midpoint of the opposite side. For a given triangle, these medians intersects at a point which is called the:",
+        "choices": ["orthocenter", "circumcenter", "centroid", "incenter"],
+        "answer": "centroid"
+    },
+    {
+        "question": "The point of concurrency of the altitude of the triangle",
+        "choices": ["orthocenter", "centroid", "metacenter", "incenter"],
+        "answer": "orthocenter"
+    },
+    {
+        "question": "The point of concurrency of the perpendicular bisector of the sides of the triangle.",
+        "choices": ["orthocenter", "incenter", "circumcenter", "metacenter"],
+        "answer": "circumcenter"
+    },
+    {
+        "question": "The inverse function of a logarithm is known as:",
+        "choices": ["antilogarithm", "cologarithm", "antiderivative", "antecedent"],
+        "answer": "antilogarithm"
+    },
+    {
+        "question": "In general quadratic equation, if the discriminant is zero, the curve is a figure that represent a/an:",
+        "choices": ["parabola", "circle", "ellipse", "hyperbola"],
+        "answer": "circle"
+    },
+    {
+        "question": "If the eccentricity is less than one, then the curve is",
+        "choices": ["parabola", "ellipse", "hyperbola", "circle"],
+        "answer": "ellipse"
+    },
+    {
+        "question": "A line passing through the focus and perpendicular to the directrix of a parabola is called:",
+        "choices": ["axis of parabola", "tangent line", "cycloid", "hypocloid"],
+        "answer": "axis of parabola"
+    },
+    {
+        "question": "What is the graph of the equation ax^2 + Bx + Cy^2 + Dy + Ex + F = 0?",
+        "choices": ["circle", "ellipse", "parabola", "helix"],
+        "answer": "helix"
+    },
+    {
+        "question": "If the product of the slopes of any two straight lines is negative 1, one of these is said to be ________ to the other.",
+        "choices": ["parallel", "skew", "non-intersecting", "perpendicular"],
+        "answer": "perpendicular"
+    },
+    {
+        "question": "7+ Oi is",
+        "choices": ["irrational number", "real number", "imaginary number", "a variable"],
+        "answer": "real number"
+    },
+    {
+        "question": "The number 0.123123123123..... is",
+        "choices": ["irrational", "surd", "rational", "transcendental"],
+        "answer": "rational"
+    },
+    {
+        "question": "10 to the 12th power is the value of the prefix",
+        "choices": ["micro", "femto", "teta", "atto"],
+        "answer": "teta"
+    },
+    {
+        "question": "The micro or ì means",
+        "choices": ["10^-2", "10^-6", "10^3", "10^-12"],
+        "answer": "10^-6"
+    },
+    {
+        "question": "The prefix pico means",
+        "choices": ["10^-12 of a unit", "10% of a unit", "10^-15 of a unit", "10° of a unit"],
+        "answer": "10^-12 of a unit"
+    },
+    {
+        "question": "The prefix nano is opposite to",
+        "choices": ["mega", "giga", "tera", "hexa"],
+        "answer": "giga"
+    },
+    {
+        "question": "1 foot is to 12 inches as 1 yard is to _______ spans.",
+        "choices": ["4", "6", "9", "24"],
+        "answer": "4"
+    },
+    {
+        "question": "A one-inch diameter conduit is equivalent to",
+        "choices": ["254 mm", "25.4 mm", "100 mm", "2.54 mm"],
+        "answer": "25.4 mm"
+    },
+    {
+        "question": "The standard acceleration due to gravity is",
+        "choices": ["32.2 ft/s²", "980 ft/s²", "58.3 ft/s²", "35.3 ft/s²"],
+        "answer": "32.2 ft/s²"
+    },
+    {
+        "question": "One horsepower is equivalent to",
+        "choices": ["746 watts", "7460 watts", "74.6 watts", "7.46 watts"],
+        "answer": "746 watts"
+    },
+    {
+        "question": "The equation y = a1 + a2x is an algebraic expression for which of the following choices?",
+        "choices": ["A cosine expansion series", "A circle in polar form", "Projectile motion", "A straight line"],
+        "answer": "A straight line"
+    },
+    {
+        "question": "If the roots of an equation are zero, then, how do you classify the solutions?",
+        "choices": ["Extranous solutions", "Trivial solutions", "Conditional solutions", "Ambiguous solutions"],
+        "answer": "Trivial solutions"
+    },
+    {
+        "question": "How do you call the axis of the hyperbola that passes through the center, the foci and vertices?",
+        "choices": ["Transverse axis", "Conjugate Axis", "Asymptotic axis", "Major Axis"],
+        "answer": "Transverse axis"
+    },
+    {
+        "question": "What is a number, which could not be expressed as a quotient of two integers?",
+        "choices": ["Natural", "Rational", "Irrational", "Surd"],
+        "answer": "Irrational"
+    },
+    {
+        "question": "What do you call a triangle having three unequal sides?",
+        "choices": ["Obtuse", "Oblique", "Scalene", "Isosceles"],
+        "answer": "Scalene"
+    },
+    {
+        "question": "How do you call the distance of a point from the y-axis?",
+        "choices": ["Polar distance", "Coordinate", "Abscissa", "Ordinate"],
+        "answer": "Abscissa"
+    },
+    {
+        "question": "What is the measure of central tendency defined as the most frequent score. How do you call this measure of central tendency?",
+        "choices": ["Median", "Mode", "Mean", "Deviation"],
+        "answer": "Mode"
+    },
+    {
+        "question": "Which of the following is the equivalent of 1 mil?",
+        "choices": ["One-tenth of an inch", "One-thousandth of an inch", "One millionth of an inch", "One-half of an inch"],
+        "answer": "One-thousandth of an inch"
+    },
+    {
+        "question": "A polygon with ten sides is said to be:",
+        "choices": ["Dodecagon", "Decagon", "Decahedron", "Dodecahedron"],
+        "answer": "Decagon"
+    },
+    {
+        "question": "Any number expressed in place-value notation with base 12 is known as:",
+        "choices": ["Duodecimal", "Deontic", "Decile", "Dedekind"],
+        "answer": "Duodecimal"
+    },
+    {
+        "question": "Another term for rhombus is said to be:",
+        "choices": ["Dichotomy", "Diamond", "Cyclic quadrilateral", "Bi-rectangular"],
+        "answer": "Diamond"
+    },
+    {
+        "question": "A prefix denoting a multiple of ten times any of the physical units of the system international.",
+        "choices": ["Deka", "Nano", "Hecto", "Exa"],
+        "answer": "Deka"
+    },
+    {
+        "question": "The father of plane geometry.",
+        "choices": ["Euclid", "Pythagoras", "Aristotle", "Galileo"],
+        "answer": "Euclid"
+    },
+    {
+        "question": "This is the case of a solution of a plane triangle where the given data leads to two solutions. How do you call this case?",
+        "choices": ["Ambiguous case", "Quadratic case", "Extraneous case", "Conditional case"],
+        "answer": "Ambiguous case"
+    },
+    {
+        "question": "It is a type of polygon in which each interior angle must be less than or equal to 180°, and all vertices 'point outwards' away from the interior. How do you call this polygon?",
+        "choices": ["Concave Polygon", "Convex polygon", "Regular polygon", "Irregular polygon"],
+        "answer": "Convex polygon"
+    },
+    {
+        "question": "When two planes intersect with each other, the amount of divergence between the two planes is expressed by measuring the:",
+        "choices": ["Reflex angle", "Dihedral angle", "Polyhedral angle", "Plane angle"],
+        "answer": "Dihedral angle"
+    },
+    {
+        "question": "If the eccentricity is less than one, then curve is known as:",
+        "choices": ["Ellipse", "Hyperbola", "Parabola", "Circle"],
+        "answer": "Ellipse"
+    },
+    {
+        "question": "What can you say to the following statement: “the volume of a circular cylinder is equal to the product of its base and altitude.”?",
+        "choices": ["Postulate", "Corollary", "Axiom", "Theorem"],
+        "answer": "Theorem"
+    },
+    {
+        "question": "What is the study of the properties of figures of three dimensions?",
+        "choices": ["Physics", "Solid geometry", "Plane geometry", "Trigonometry"],
+        "answer": "Solid geometry"
+    },
+    {
+        "question": "If the eccentricity is less than one, then curve is known as:",
+        "choices": ["Ellipse", "Hyperbola", "Parabola", "Circle"],
+        "answer": "Ellipse"
+    },
+    {
+        "question": "Points that lie in the same plane:",
+        "choices": ["Coplanar", "Collinear", "Oblique", "Parallel"],
+        "answer": "Coplanar"
+    },
+    {
+        "question": "What do you call the one-fourth of a great circle?",
+        "choices": ["Cone", "Pyramid", "Chord", "Quadrant"],
+        "answer": "Quadrant"
+    },
+    {
+        "question": "A plane closed curve, all points of which are the same distance from a point within, called the center.",
+        "choices": ["Arc", "Radius", "Circle", "Chord"],
+        "answer": "Circle"
+    },
+    {
+        "question": "This is the process of expressing a polynomial as the product of another polynomial or monomial of lower degree. What is this mathematical process?",
+        "choices": ["Decomposition", "Rationalization", "Factoring", "Polynomial damping"],
+        "answer": "Factoring"
+    },
+    {
+        "question": "This is a point where the concavity of a curve changes or when the slope of the curve is neither increasing nor decreasing. What is this point commonly called?",
+        "choices": ["Maximum point", "Minimum point", "Point of tangency", "Point of inflection"],
+        "answer": "Point of inflection"
+    }
+]

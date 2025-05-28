@@ -1,0 +1,367 @@
+[
+    {
+        "question": "To triple the principal one must use",
+        "choices": ["Integration", "Logarithms", "Derivatives", "Implicit Functions"],
+        "answer": "Logarithms"
+    },
+    {
+        "question": "The currency traded in a foreign exchange market to which the demand is consistently high in relation to its supply",
+        "choices": ["Money market", "Treasury Bill", "Hard Currency", "Certificate of Deposit"],
+        "answer": "Hard Currency"
+    },
+    {
+        "question": "Everything a company owns to which has money value is classified as an asset. Which of the following is classified as asset?",
+        "choices": ["Intangible asset", "Trade Investments", "Fixed Asset", "All of these"],
+        "answer": "All of these"
+    },
+    {
+        "question": "Which is an example of intangible asset?",
+        "choices": ["Cash", "Furniture", "Investment in subsidiary companies", "Patents"],
+        "answer": "Patents"
+    },
+    {
+        "question": "Land buildings, plants, and machinery are examples of",
+        "choices": ["Current Assets", "Fixed Assets", "Trade Investments", "Intangible assets"],
+        "answer": "Fixed Assets"
+    },
+    {
+        "question": "The reduction in the money value of a capital asset is called",
+        "choices": ["Capital expenditure", "Loss", "Capital loss", "Deficit"],
+        "answer": "Capital loss"
+    },
+    {
+        "question": "It is negotiable claim issued by bank in lieu of a team deposit",
+        "choices": ["Time Deposit", "Capital Gain", "Bond", "Certificate of deposit"],
+        "answer": "Certificate of deposit"
+    },
+    {
+        "question": "Any particular raw materials or primary product (eg. Cloth, wool, flour, coffee) is called",
+        "choices": ["Utility", "Commodity", "Necessity", "Stock"],
+        "answer": "Commodity"
+    },
+    {
+        "question": "It denotes the fall in the exchange rate of one currency in terms of others. The term usually applies to floating exchange rates",
+        "choices": ["Currency appreciation", "Currency float", "Currency devaluation", "Currency depreciation"],
+        "answer": "Currency depreciation"
+    },
+    {
+        "question": "The deliberate lowering of the price of a nation's currency in terms of the accepted standard (gold, American dollar or the British pound)",
+        "choices": ["Currency Appreciation", "Currency float", "Currency devaluation", "Currency depreciation"],
+        "answer": "Currency devaluation"
+    },
+    {
+        "question": "The residual value of a company's assets after all outside liabilities (shareholders included) have been allowed for",
+        "choices": ["Dividend", "Return", "Equity", "Par Value"],
+        "answer": "Equity"
+    },
+    {
+        "question": "A saving which takes place because goods are not available for consumption rather consumer really want to save",
+        "choices": ["Compulsory saving", "Forced saving", "Consumer saving", "All of these"],
+        "answer": "Consumer saving"
+    },
+    {
+        "question": "A document that shows proof of legal ownership of a financial security",
+        "choices": ["Bond", "Coupon", "Bank note", "Check"],
+        "answer": "Coupon"
+    },
+    {
+        "question": "Defined as the capacity of commodity to satisfy human want",
+        "choices": ["Discount", "Luxuries", "Necessity", "Utility"],
+        "answer": "Utility"
+    },
+    {
+        "question": "Is the profit obtained by selling stocks at higher price than its original purchase price",
+        "choices": ["Debenture", "Capital Gain", "Goodwill", "Internal rate of return"],
+        "answer": "Capital Gain"
+    },
+    {
+        "question": "The quantity of a certain commodity that is offered for sale at a certain price at a given time and place",
+        "choices": ["Demand", "Utility", "Supply", "Market"],
+        "answer": "Supply"
+    },
+    {
+        "question": "Which of the following is NOT a variable cost?",
+        "choices": ["Cost of miscellaneous supplies", "Income taxes", "Payroll benefit costs", "Insurance costs"],
+        "answer": "Insurance costs"
+    },
+    {
+        "question": "Which of the following is NOT a fixed cost?",
+        "choices": ["Rent", "Supervision costs", "Janitorial service expenses", "Depreciation expenses"],
+        "answer": "Supervision costs"
+    },
+    {
+        "question": "The annual costs that are incurred due to the functioning of a piece of equipment is known as",
+        "choices": ["General, selling and administrative expenses", "Prime cost", "Operating and maintenance costs", "Total cost"],
+        "answer": "Operating and maintenance costs"
+    },
+    {
+        "question": "The sum of the direct labor and the direct material cost is known as",
+        "choices": ["Prime cost", "Total Cost", "Indirect manufacturing expenses"],
+        "answer": "Prime cost"
+    },
+    {
+        "question": "Research and development costs and administrative expenses are added in the factory cost to give the ________ of the product",
+        "choices": ["Total Cost", "Manufacturing cost", "Marketing cost", "Prime cost"],
+        "answer": "Manufacturing cost"
+    },
+    {
+        "question": "The sum of the prime cost and the indirect manufacturing cost is known as",
+        "choices": ["Factory Cost", "Manufacturing cost", "Research and development cost", "Total Cost"],
+        "answer": "Factory Cost"
+    },
+    {
+        "question": "The manufacturing cost plus selling expenses equals",
+        "choices": ["Total cost", "Administrative cost", "Indirect production cost", "Miscellaneous cost"],
+        "answer": "Total cost"
+    },
+    {
+        "question": "Which of the following is NOT a direct labor expense?",
+        "choices": ["Inspection", "Supervision", "Testing", "Assembly"],
+        "answer": "Testing"
+    },
+    {
+        "question": "The book value per share of common stock is the rate of the common shareholders' equity is",
+        "choices": ["Average shared", "Number of outstanding shares", "Total subscribed shared", "Authorized capital stock"],
+        "answer": "Number of outstanding shares"
+    },
+    {
+        "question": "What refers to the price at which the quantity demanded of a good is exactly equal to the quantity supplied?",
+        "choices": ["Equilibrium market price", "Real Market price", "Fair market price", "Exact market price"],
+        "answer": "Equilibrium market price"
+    },
+    {
+        "question": "A principle that states that consumers will tend to spend an increasing proportion of any additional income upon luxury goods and smaller proportion to staple goods so that a rise in income will lower the overall share of consumer expenditures spent on staple goods (such as basic food stuffs) and increase the share of consumer expenditures on luxury goods (such as motor cars)",
+        "choices": ["Placebo effect", "Engel's Law", "Luxury effect", "Staple Law"],
+        "answer": "Engel's Law"
+    },
+    {
+        "question": "What is the discipline within economics that attempts to measure and estimate statistically the relationship between two or more economic variables",
+        "choices": ["Theory of values", "Economatics", "Econometrics", "Econoscience"],
+        "answer": "Econometrics"
+    },
+    {
+        "question": "What refers to the fall in the general price level frequently accompanied by a reduction in level of national income?",
+        "choices": ["Inflationary gap", "Disinflation", "Dissavings", "Inflation"],
+        "answer": "Disinflation"
+    },
+    {
+        "question": "A price for a product just covers its production and distribution cost with no profit margin",
+        "choices": ["Cost price", "Real price", "Actual price", "Original price"],
+        "answer": "Cost price"
+    },
+    {
+        "question": "The cumulative effect of elapsed time on the money value of an event, based on the earing power of equivalent investment funds capital should or will earn",
+        "choices": ["Present worth factor", "Time value of money", "Interest rate", "Yield"],
+        "answer": "Time value of money"
+    },
+    {
+        "question": "Defined as the future value minus the present value",
+        "choices": ["Interest", "Discount", "Rate of return", "Capital"],
+        "answer": "Discount"
+    },
+    {
+        "question": "The flow back of profit plus depreciations from a given project is called",
+        "choices": ["Capital recovery", "Economic flow", "Cash flow", "Earning value"],
+        "answer": "Cash flow"
+    },
+    {
+        "question": "The profit derived from project or business enterprise without consideration of obligations to financial contribution or claims of other based on profit",
+        "choices": ["Economic life", "Economic Value", "Yield", "Expected yield"],
+        "answer": "Economic life"
+    },
+    {
+        "question": "The payment for the use of borrowed money",
+        "choices": ["Loan", "Interest", "Maturity", "Principal"],
+        "answer": "Interest"
+    },
+    {
+        "question": "The interest rate at which the present worth of the cash flow on a project is zero if the interest earned by an investment",
+        "choices": ["Effective rate", "Rate of Return", "Nominal rate", "Yield"],
+        "answer": "Rate of Return"
+    },
+    {
+        "question": "The ratio of the interest payment to the principal for a given unit of time and usually expressed as a percentage of principal",
+        "choices": ["Interest", "Investment", "Interest rate", "All of the above"],
+        "answer": "Interest rate"
+    },
+    {
+        "question": "The true value of interest rate computed by equations for compound interest for a 1 year period is known as",
+        "choices": ["Expected returns", "Nominal interest", "Interest", "Effective interest"],
+        "answer": "Effective interest"
+    },
+    {
+        "question": "The intangible item of value from the exclusive right of company to provide a specific product or service in a stated region of the country",
+        "choices": ["Market value", "Goodwill value", "Book value", "Franchise value"],
+        "answer": "Franchise value"
+    },
+    {
+        "question": "The recorded current value of an asset is known as",
+        "choices": ["Scrap value", "Book value", "Salvage value", "Present worth"],
+        "answer": "Book value"
+    },
+    {
+        "question": "Scrap value of an asset is sometimes known as",
+        "choices": ["Book value", "Replacement value", "Salvage value", "Future value"],
+        "answer": "Salvage value"
+    },
+    {
+        "question": "What is sometimes called second hand value?",
+        "choices": ["Scrap value", "Book value", "Salvage value", "Going value"],
+        "answer": "Salvage value"
+    },
+    {
+        "question": "An intangible value which is actually operating concern has due to its operation",
+        "choices": ["Book value", "Goodwill value", "Fair value", "Going value"],
+        "answer": "Going value"
+    },
+    {
+        "question": "The value which a disinterested third party, different form the buyer and seller will determine in order to establish price acceptance to both parties",
+        "choices": ["Market value", "Fair value", "Good value", "Franchise value"],
+        "answer": "Fair value"
+    },
+    {
+        "question": "The final cost of any property includes",
+        "choices": ["The original purchase price and freight and transportation charges", "Installation expenses", "Initial taxes and permit fee", "All of the above"],
+        "answer": "The original purchase price and freight and transportation charges"
+    },
+    {
+        "question": "In the SYD method, the sum of years digit is calculated using which formula with n - number of useful years of the equipment",
+        "choices": ["n(n-1)/2", "n(n+1)", "n(n+1)/2", "n(n-1)"],
+        "answer": "n(n+1)/2"
+    },
+    {
+        "question": "Capitalized cost of any property is equal in the",
+        "choices": ["annual cost", "first cost + cost of perpetual", "first cost + cost of perpetual maintenance", "first cost + salvage value"],
+        "answer": "first cost + cost of perpetual maintenance"
+    },
+    {
+        "question": "The lessening of the value of an asset due to the decrease in the quantity available (referring to natural resources, coal, oil, etc)",
+        "choices": ["Depreciation", "Inflation", "Depletion", "Incremental cost"],
+        "answer": "Depletion"
+    },
+    {
+        "question": "An association of two or more persons for a purpose of engaging in a productive business",
+        "choices": ["Sole partnership", "Partnership", "Enterprise", "Corporation"],
+        "answer": "Partnership"
+    },
+    {
+        "question": "A distinct legal entity which can practically transact any business transaction which a real person could do.",
+        "choices": ["Sole proprietorship", "Partnership", "Enterprise", "Corporation"],
+        "answer": "Corporation"
+    },
+    {
+        "question": "Double taxation is disadvantage of which business organization",
+        "choices": ["Sole proprietorship", "Corporation", "Partnership", "Enterprise"],
+        "answer": "Corporation"
+    },
+    {
+        "question": "Which is NOT a type of business organization?",
+        "choices": ["Sole proprietorship", "Enterprise", "Corporation", "Partnership"],
+        "answer": "Enterprise"
+    },
+    {
+        "question": "What is the minimum number of incorporators in order that a corporation be organized?",
+        "choices": ["3", "10", "5", "7"],
+        "answer": "5"
+    },
+    {
+        "question": "In case of bankruptcy of a partnership",
+        "choices": ["The partners are not liable for the liabilities of the partnership", "The partnership assets (excluding the partners personal assets) only will be used to pay the liabilities", "The partners personal assets are attached to the debt of the partnership", "The partners may sell stock to generate additional capital"],
+        "answer": "The partners personal assets are attached to the debt of the partnership"
+    },
+    {
+        "question": "Which is TRUE about partnership?",
+        "choices": ["It has perpetual life", "It will be dissolved if one of the partners ceases to be connected with the partnership", "It can be handed down from one generation of partner to another", "Its capitalization must be equal for each partner"],
+        "answer": "It will be dissolved if one of the partners ceases to be connected with the partnership"
+    },
+    {
+        "question": "Which is TRUE about corporation?",
+        "choices": ["It is not the best form of business organization", "The minimum number of incorporators to start a corporation is three", "Its life is dependent on the number of the incorporators", "The stockholders of the corporation are only liable to the extent of their investments"],
+        "answer": "The stockholders of the corporation are only liable to the extent of their investments"
+    },
+    {
+        "question": "A condition where only few individuals produce certain product and that any action of one will lead to almost the same action of the others",
+        "choices": ["Oligopoly", "Monopoly", "Semi-monopoly", "Perfect competition"],
+        "answer": "Oligopoly"
+    },
+    {
+        "question": "Money paid for the use of borrowed capital",
+        "choices": ["Discount", "Interest", "Credit", "Profit"],
+        "answer": "Interest"
+    },
+    {
+        "question": "Grand total of the assets and operational capability of a corporation",
+        "choices": ["Authorized capital", "Subscribed capital", "Investment", "Money market"],
+        "answer": "Authorized capital"
+    },
+    {
+        "question": "What do you think is the negotiation of wage rates, conditions of employment by representatives of the labor force and management?",
+        "choices": ["Union trade", "Union rally", "Collective bargaining", "Cooperative"],
+        "answer": "Collective bargaining"
+    },
+    {
+        "question": "The property of wave whereby waves of different frequency spread apart from another",
+        "choices": ["Reflection", "Refraction", "Dispersion", "Diffraction"],
+        "answer": "Dispersion"
+    },
+    {
+        "question": "Which one of the following contains only items which are considered fixed charges",
+        "choices": ["Interest, taxes, amortization, insurance, rent", "Amortization, insurance, steam cost, painting, cleaning", "Interest, taxes, replacements, labor for repairs", "Interest, taxes, rent, power cost, oil cost"],
+        "answer": "Interest, taxes, amortization, insurance, rent"
+    },
+    {
+        "question": "Reduction in the level of national income and output usually accompanied by the fall in the general price level.",
+        "choices": ["Devaluation", "Deflation", "Inflation", "Depreciation"],
+        "answer": "Deflation"
+    },
+    {
+        "question": "It is a series of equal payments occurring at equal interval of time",
+        "choices": ["Annuity", "Depth", "Amortization", "Deposit"],
+        "answer": "Annuity"
+    },
+    {
+        "question": "The place where buyers and sellers come together",
+        "choices": ["Market", "Business", "Recreation Center", "Buy and sell section"],
+        "answer": "Market"
+    },
+    {
+        "question": "A market whereby there is only one buyer for an item for which there are no good substitute",
+        "choices": ["Monopsony", "Oligopoly", "Monopoly", "Oligopsony"],
+        "answer": "Monopsony"
+    },
+    {
+        "question": "It is a series of equal payments occurring at equal interval of time where the first payment is made after several periods, after the beginning of the payment",
+        "choices": ["Perpetuity", "Ordinary annuity", "Annuity due", "Deferred annuity"],
+        "answer": "Deferred annuity"
+    },
+    {
+        "question": "The total income equals the total operating cost.",
+        "choices": ["Balanced sheet", "In-place value", "Check and balance", "Break even-no gain no loss"],
+        "answer": "Break even-no gain no loss"
+    },
+    {
+        "question": "Kind of obligation which has no condition attached",
+        "choices": ["Analytic", "Pure", "Gratuitous", "Private"],
+        "answer": "Gratuitous"
+    },
+    {
+        "question": "An index of short term paying ability is called",
+        "choices": ["Receivable turn-over", "Profit margin ratio", "Current ratio", "Acid-test ratio"],
+        "answer": "Acid-test ratio"
+    },
+    {
+        "question": "An artificial expenses that spreads the purchase price of an asset or another property over a number of years.",
+        "choices": ["Depreciation", "Sinking Fund", "Amnesty", "Bond"],
+        "answer": "Depreciation"
+    },
+    {
+        "question": "Estimated value at the end of the useful life.",
+        "choices": ["Market value", "Fair value", "Salvage value", "Book value"],
+        "answer": "Salvage value"
+    },
+    {
+        "question": "Consists of the actual counting or determination of the actual quantity of the materials on hand as of a given date",
+        "choices": ["Physical Inventory", "Material update", "Technological Assessment", "Material Count"],
+        "answer": "Physical Inventory"
+    }
+]
