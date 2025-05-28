@@ -1,0 +1,962 @@
+[
+    {
+        "question": "The volumetric efficiency of a compressor having clearance factor c is given by:",
+        "choices": [
+            "1 + c – c (P2/P1)1/n",
+            "1 + c – c (P2/P1)n-1",
+            "1 + c – c (P2/P1)n",
+            "1 + c – c (P2/P1)n + 1"
+        ],
+        "answer": "1 + c – c (P2/P1)1/n"
+    },
+    {
+        "question": "In case of axial flow compressors for minimum fluid friction and blade tip clearance losses, the blades of an axial flow compressor are designed for ______",
+        "choices": [
+            "80% reaction",
+            "85% reaction",
+            "60% reaction",
+            "53% reaction"
+        ],
+        "answer": "53% reaction"
+    },
+    {
+        "question": "Centrifugal blowers can supply",
+        "choices": [
+            "large volumes of air at low pressures",
+            "small volumes of air at high pressures",
+            "large volumes of air at high pressures",
+            "small volumes of air at low pressures"
+        ],
+        "answer": "large volumes of air at low pressures"
+    },
+    {
+        "question": "Which of the following is a safety device on a compressor?",
+        "choices": [
+            "Relief valve",
+            "Strainer",
+            "Over speed shut down",
+            "Over pressure shut down"
+        ],
+        "answer": "Relief valve"
+    },
+    {
+        "question": "In a four stage compressor system, the, first and third stage pressures are 1 and 9 kg/cm respectively. What is the fourth stage delivery pressure?",
+        "choices": [
+            "9 kg/cm²",
+            "81 kg/cm²",
+            "27 kg/cm²",
+            "243 kg/cm²"
+        ],
+        "answer": "27 kg/cm²"
+    },
+    {
+        "question": "For a six compression of air set, the minimum work conditions are:",
+        "choices": [
+            "pressure rise per stage will be equal",
+            "work done in successive stages will be in geometrical progression",
+            "cylinder volumes will be same",
+            "temperature rise in the cylinders will be the same"
+        ],
+        "answer": "temperature rise in the cylinders will be the same"
+    },
+    {
+        "question": "Which of the following give the optimum intermediate pressure in case of two stage compression?",
+        "choices": [
+            "P2 = (P1+P3)/2",
+            "P2 = P1 * (P1+P3)/2",
+            "P2 = √(P1 P3)",
+            "P2 = P1 + √(P1^2 P3^2)"
+        ],
+        "answer": "P2 = √(P1 P3)"
+    },
+    {
+        "question": "In air compressor performance curve a surge line represents what?",
+        "choices": [
+            "limit of compressor efficiency",
+            "limit of compressor discharge",
+            "limit of stable operation",
+            "lower critical speed of shaft"
+        ],
+        "answer": "limit of stable operation"
+    },
+    {
+        "question": "Which of the following is a displacement compressor?",
+        "choices": [
+            "Reciprocating air compressor",
+            "Vane blower",
+            "Centrifugal blower",
+            "Axial flow compressors"
+        ],
+        "answer": "Vane blower"
+    },
+    {
+        "question": "Stalling of the blades of axial flow compressor is:",
+        "choices": [
+            "an unsteady periodic and reversal of flow",
+            "the fixed mass flow rate irrespective of pressure ratio",
+            "the reduction in lift force at higher angle of incidence",
+            "all of the above"
+        ],
+        "answer": "the reduction in lift force at higher angle of incidence"
+    },
+    {
+        "question": "Surging is",
+        "choices": [
+            "an unsteady, periodic and reversal of flow in the compressor",
+            "the fixed mass flow rate irrespective of pressure ratio",
+            "the reduction in lift force at higher angle of incidence",
+            "none of the above"
+        ],
+        "answer": "an unsteady, periodic and reversal of flow in the compressor"
+    },
+    {
+        "question": "In an axial flow compressor, the pressure rise take, place in:",
+        "choices": [
+            "fixed blades only",
+            "moving blades only",
+            "both fixed and moving blades",
+            "none of the above"
+        ],
+        "answer": "both fixed and moving blades"
+    },
+    {
+        "question": "An axial flow compressor is suitable for:",
+        "choices": [
+            "high volume flow rates with small pressure rise",
+            "low volume flow rates with low pressure rise",
+            "high volume flow rates with high pressure rise",
+            "low volume flow rates with high pressure rise"
+        ],
+        "answer": "high volume flow rates with small pressure rise"
+    },
+    {
+        "question": "Which of the following is a positive displacement rotary compressor?",
+        "choices": [
+            "Roots blower",
+            "Centrifugal compressor",
+            "Axial flow compressor",
+            "None of the above"
+        ],
+        "answer": "Roots blower"
+    },
+    {
+        "question": "Choking is",
+        "choices": [
+            "change of mass flow rate in proportion to pressure ratio",
+            "change of mass flow rate in inverse proportion to pressure ratio",
+            "fixed mass flow rate irrespective of pressure ratio",
+            "all of the above"
+        ],
+        "answer": "fixed mass flow rate irrespective of pressure ratio"
+    },
+    {
+        "question": "Crankshaft of a reciprocating compressor is basically made of what?",
+        "choices": [
+            "semi - steel",
+            "aluminum alloy",
+            "steel forging",
+            "cast iron"
+        ],
+        "answer": "cast iron"
+    },
+    {
+        "question": "Most plant air systems to operate the tools and machines which require 70 to 90 psig are maintained at ________",
+        "choices": [
+            "90 to 110 psig",
+            "110 to 130 psig",
+            "130 to 150 psig",
+            "70 to 90 psig"
+        ],
+        "answer": "110 to 130 psig"
+    },
+    {
+        "question": "The capacity of portable air compressors used for construction, mining, road building, and painting ranges from _______",
+        "choices": [
+            "1 ft³/min to 2000 ft³/min",
+            "30 ft³/min to 2500 ft³/min",
+            "1 ft³/min to 2500 ft³/min",
+            "30 ft³/min to 2000 ft³/min"
+        ],
+        "answer": "30 ft³/min to 2500 ft³/min"
+    },
+    {
+        "question": "The power of portable air compressors used for construction, mining, road building, and painting ranges from:",
+        "choices": [
+            "1 hp to 500 hp",
+            "½ hp to 500 hp",
+            "1 hp to 1000 hp",
+            "½ hp to 1000 hp"
+        ],
+        "answer": "½ hp to 500 hp"
+    },
+    {
+        "question": "Most permanent installations use piston compressors available as stock items in size ranging from",
+        "choices": [
+            "1 ft³/min to 2000 ft³/min",
+            "30 ft³/min to 2500 ft³/min",
+            "1 ft³/min to 2500 ft³/min",
+            "30 ft³/min to 2000 ft³/min"
+        ],
+        "answer": "30 ft³/min to 2500 ft³/min"
+    },
+    {
+        "question": "Most permanent installations use piston compressors available as stock items of what pressure?",
+        "choices": [
+            "150 psi",
+            "200 psi",
+            "250 psi",
+            "300 psi"
+        ],
+        "answer": "150 psi"
+    },
+    {
+        "question": "When the piston is top center of the cylinder in a double - acting reciprocating compressor:",
+        "choices": [
+            "all suction valves are open and all discharge valves are closed",
+            "all suction valves are closed and all discharge valves are closed",
+            "all suction valves are closed and all discharge valves are open",
+            "all suction valves are open and all discharge valves are open"
+        ],
+        "answer": "all suction valves are closed and all discharge valves are closed"
+    },
+    {
+        "question": "Pump used to increase air pressure above normal, air is then used as a motive power.",
+        "choices": [
+            "Air cooled engine",
+            "Air compressor",
+            "Air condenser",
+            "Air injection"
+        ],
+        "answer": "Air compressor"
+    },
+    {
+        "question": "A device used for raising fluids from a lower to higher level.",
+        "choices": [
+            "Compressor",
+            "Pump",
+            "Turbine",
+            "Blowers"
+        ],
+        "answer": "Pump"
+    },
+    {
+        "question": "When a pump is operating at a vacuum of 4 in Hg, which of the following is not correct?",
+        "choices": [
+            "The pressure is 25.92 in Hg",
+            "The pressure is 10.721 psia",
+            "The pressure is 158.4 torr",
+            "The pressure is 0.8663 atm"
+        ],
+        "answer": "The pressure is 158.4 torr"
+    },
+    {
+        "question": "The amount of energy actually entering the fluid from a pump is the",
+        "choices": [
+            "brake horsepower",
+            "hydraulic horsepower",
+            "theoretical horsepower",
+            "hydraulic, theoretical, or water horsepower"
+        ],
+        "answer": "hydraulic, theoretical, or water horsepower"
+    },
+    {
+        "question": "Primary purpose of a pump in a fluid loop is to",
+        "choices": [
+            "add energy to the flow",
+            "add mass to the flow",
+            "extract energy from the flow",
+            "none of the above"
+        ],
+        "answer": "add energy to the flow"
+    },
+    {
+        "question": "The isentropic efficiency of a pump is given by the",
+        "choices": [
+            "ratio of actual to ideal energy extracted",
+            "ratio of ideal to actual energy supplied",
+            "ratio of mass to actual energy extracted",
+            "ratio of actual to ideal energy supplied"
+        ],
+        "answer": "ratio of ideal to actual energy supplied"
+    },
+    {
+        "question": "The electrical efficiency of a device is the ratio of the:",
+        "choices": [
+            "electrical energy output to the electrical energy input",
+            "mechanical energy input to the mechanical energy output of the device",
+            "actual energy extracted to the ideal energy extracted",
+            "actual to the ideal energy input"
+        ],
+        "answer": "electrical energy output to the electrical energy input"
+    },
+    {
+        "question": "The adiabatic pump efficiency is the ratio of the:",
+        "choices": [
+            "electrical energy output to the electrical energy input",
+            "mechanical energy input to the mechanical energy output of the device",
+            "actual energy extracted to the ideal energy extracted",
+            "actual to the energy input"
+        ],
+        "answer": "electrical energy output to the electrical energy input"
+    },
+    {
+        "question": "A condenser's water - circulating pump is belt-driven by an electric motor with an adjustable pitch motor sheave. This sheave",
+        "choices": [
+            "permits adjustment of pump speed",
+            "prevent overload and/or burnout of the pump and motor",
+            "prevents excessive wear on the belt and motor shaft bearings",
+            "facilitates belt replacement"
+        ],
+        "answer": "prevents excessive wear on the belt and motor shaft bearings"
+    },
+    {
+        "question": "The function of a pump or compressor is to",
+        "choices": [
+            "transfer heat from one fluid to another",
+            "increase the total energy content of the flow",
+            "extract energy from the flow",
+            "exchange heat to increase energy to the flow"
+        ],
+        "answer": "increase the total energy content of the flow"
+    },
+    {
+        "question": "An aftercooler on a reciprocating air compressor is used primarily to:",
+        "choices": [
+            "cool the lubricating oil",
+            "condense the moisture in the compressed air",
+            "improve compressor efficiency",
+            "increase compressor capacity"
+        ],
+        "answer": "condense the moisture in the compressed air"
+    },
+    {
+        "question": "A receiver in an air compression system is used to",
+        "choices": [
+            "avoid cooling air before using",
+            "increase the air discharge pressure",
+            "collect water and grease suspended in the ail",
+            "reduce the work needed during compression"
+        ],
+        "answer": "collect water and grease suspended in the ail"
+    },
+    {
+        "question": "Crankshaft of reciprocating compressor is basically made of:",
+        "choices": [
+            "semi-steel",
+            "aluminum alloy",
+            "cast iron",
+            "steel forging"
+        ],
+        "answer": "cast iron"
+    },
+    {
+        "question": "Cooling water system consists of equipment to dissipate heat absorbed by the engine jacket water, lube oil and the heat to be removed from air intercooler is measurable to keep the engine outlet water temperature constant and the differential of the cooling water at a minimum preferably not to exceed:",
+        "choices": [
+            "10 to 30 °F",
+            "10 to 50 °F",
+            "10 to 20 °F",
+            "10 to 40 F"
+        ],
+        "answer": "10 to 20 °F"
+    },
+    {
+        "question": "Which of the following is one of the most popular types of compressor utilized for supercharging engine?",
+        "choices": [
+            "Roots type blower",
+            "Pulse turbo charger",
+            "Constant pressure turbo charger",
+            "Turbo compressor"
+        ],
+        "answer": "Roots type blower"
+    },
+    {
+        "question": "The power required to deliver a given quantity of fluid against a given head with no losses in the pump is called:",
+        "choices": [
+            "wheel power",
+            "brake power",
+            "hydraulic power",
+            "indicated power"
+        ],
+        "answer": "hydraulic power"
+    },
+    {
+        "question": "Fluids that are pumped in processing work are frequently more viscous than water. Which of the following statement is correct?",
+        "choices": [
+            "Reynolds number varies directly as the viscosity",
+            "Efficiency of a pump increases as the viscosil increases",
+            "Increased fluid friction between the pump parts and the passing fluid increases useful work",
+            "Working head increases as the viscosity"
+        ],
+        "answer": "Increased fluid friction between the pump parts and the passing fluid increases useful work"
+    },
+    {
+        "question": "A reciprocating pump is considered positive displacement pump because",
+        "choices": [
+            "displacement of the liquid is affected by the displacement of the piston",
+            "positive pressure is given to the liquid",
+            "liquid is discharge with positive pressure",
+            "liquid is lifted due to the vacuum created inside the cylinder"
+        ],
+        "answer": "displacement of the liquid is affected by the displacement of the piston"
+    },
+    {
+        "question": "To protect adequately the engine bearings, what type and better arrangement of lubricating oil filter is most practical?",
+        "choices": [
+            "Full-flow type filter installed between the lubricating oil pump and the bearings",
+            "Duplex filter installed before the lubricating pump",
+            "Bypass filter with cleanable and replaceable elements",
+            "Splash lubricating system in the crank case"
+        ],
+        "answer": "Full-flow type filter installed between the lubricating oil pump and the bearings"
+    },
+    {
+        "question": "Medium pressure when applied to valves and fittings are suitable for a working pressure of:",
+        "choices": [
+            "862 to 1200 kPa",
+            "758 to 1000 kPa",
+            "500 to 1000 kPa",
+            "658 to 1050 kPa"
+        ],
+        "answer": "862 to 1200 kPa"
+    },
+    {
+        "question": "The function of an unloader on an electric motor driven compressor is to",
+        "choices": [
+            "reduce the speed of the motor when the maximum pressure is reached",
+            "drain the condensate from the cylinder",
+            "release the pressure in the cylinder in order to reduce the starting load",
+            "prevent excess pressure in the receiver"
+        ],
+        "answer": "release the pressure in the cylinder in order to reduce the starting load"
+    },
+    {
+        "question": "An unloader is used on air compressor to:",
+        "choices": [
+            "relieve air pressure",
+            "start easier",
+            "stop easier",
+            "run faster"
+        ],
+        "answer": "start easier"
+    },
+    {
+        "question": "The performance of a reciprocating compressor expressed as:",
+        "choices": [
+            "adiabatic work divided by adiabatic input",
+            "adiabatic work divided by indicated work",
+            "isothermal work divided by indicated work",
+            "isothermal work divided by adiabatic work"
+        ],
+        "answer": "adiabatic work divided by indicated work"
+    },
+    {
+        "question": "For reciprocating compressor slip at positive or negative displacement.",
+        "choices": [
+            "Cd = 1",
+            "Cd > 1",
+            "Cd < 1",
+            "Cd = 0"
+        ],
+        "answer": "Cd < 1"
+    },
+    {
+        "question": "In order that cavitation will not take place in the suction line of a pump, what should be the sum of the velocity head and pressure head at suction compared to the vapor pressure of the liquid?",
+        "choices": [
+            "Sufficiently lower",
+            "Constant",
+            "Adequately greater",
+            "Equal"
+        ],
+        "answer": "Adequately greater"
+    },
+    {
+        "question": "Which of the following components of a pump converts mechanical energy to pressure energy?",
+        "choices": [
+            "Impeller",
+            "Valve",
+            "Shaft",
+            "Delivery pipe"
+        ],
+        "answer": "Impeller"
+    },
+    {
+        "question": "Mr. De La Cruz wanted to buy a pump for his farm. What is suitable for deepwell?",
+        "choices": [
+            "Reciprocating",
+            "Airlift",
+            "Hand lift",
+            "Centrifugal"
+        ],
+        "answer": "Centrifugal"
+    },
+    {
+        "question": "A tank contains H20. What is the intensity of pressure at a depth of 6 meters?",
+        "choices": [
+            "68 kPa",
+            "58.8 kPa",
+            "78.0 kPa",
+            "48.7 kPa"
+        ],
+        "answer": "58.8 kPa"
+    },
+    {
+        "question": "In order to avoid cavitation the NPSH of an installation should be:",
+        "choices": [
+            "at least equal or greater than the NPSH of the pump",
+            "at least equal or less than the NPSH of the pump",
+            "equal to the NPSH of the pump only",
+            "greater than the NPSH of the pump only"
+        ],
+        "answer": "at least equal or greater than the NPSH of the pump"
+    },
+    {
+        "question": "The actual head, neglecting the kinetic energy in which the pump work against.",
+        "choices": [
+            "delivery head",
+            "pressure head",
+            "velocity head",
+            "suction head"
+        ],
+        "answer": "pressure head"
+    },
+    {
+        "question": "Flow of water in a pipe have a velocity at 10 meters per second. Determine the velocity head of the water",
+        "choices": [
+            "50.1 meters",
+            "5.1 meters",
+            "8.2 meters",
+            "100 meters"
+        ],
+        "answer": "5.1 meters"
+    },
+    {
+        "question": "Find the velocity head for a velocity of 18 m/s.",
+        "choices": [
+            "33.0 m",
+            "0.92 m",
+            "1.8 m",
+            "16.5 m"
+        ],
+        "answer": "16.5 m"
+    },
+    {
+        "question": "The size of a steam reciprocating pumps is generally designated by a three-digit number size as 646. The first digit designates",
+        "choices": [
+            "stroke of the pump in inches",
+            "inside diameter of the steam cylinder measured in inches",
+            "percent clearance",
+            "number of cylinders"
+        ],
+        "answer": "inside diameter of the steam cylinder measured in inches"
+    },
+    {
+        "question": "If Qa is the actual discharge flow and Qb is the theoretical discharge flow, what will the coefficient of discharge be equal to during positive displacement slip?",
+        "choices": [
+            "Qa x Qb",
+            "Qb / Qa",
+            "Qa / Qb",
+            "1 - Qa/Qb"
+        ],
+        "answer": "Qa / Qb"
+    },
+    {
+        "question": "Two pumps are connected in series. If Q1 is the discharge of Pump 1 and Q2 is the discharge of Pump 2 where Q1 < Q2, what is the discharge?",
+        "choices": [
+            "Q2",
+            "Q1",
+            "Q1 + Q2",
+            "Q1/ Q2"
+        ],
+        "answer": "Q1"
+    },
+    {
+        "question": "A pump in which the pressure is developed principally by the action of centrifugal force.",
+        "choices": [
+            "Centrifugal pump",
+            "End suction pump",
+            "In line pump",
+            "Horizontal pump"
+        ],
+        "answer": "Centrifugal pump"
+    },
+    {
+        "question": "A single suction pump having its suction nozzle on the opposite side of the casing from the stuffing box and having the face of the suction nozzle perpendicular to the longitudinal axis of the shaft.",
+        "choices": [
+            "Centrifugal pump",
+            "End suction pump",
+            "In line pump",
+            "Horizontal pump"
+        ],
+        "answer": "End suction pump"
+    },
+    {
+        "question": "A pump with the shaft normally in a horizontal position.",
+        "choices": [
+            "Centrifugal pump",
+            "End suction pump",
+            "In line pump",
+            "Horizontal pump"
+        ],
+        "answer": "Horizontal pump"
+    },
+    {
+        "question": "A centrifugal pump whose drive unit is supported by the pump having its suction and discharge flanges on approximately the same center.",
+        "choices": [
+            "Horizontal split case pump",
+            "End suction pump",
+            "In line pump",
+            "Vertical shaft turbine pump"
+        ],
+        "answer": "In line pump"
+    },
+    {
+        "question": "A centrifugal pump characterized by a housing which is split parallel to the shaft.",
+        "choices": [
+            "Horizontal split case pump",
+            "End suction pump",
+            "In line pump",
+            "Vertical shaft turbine pump"
+        ],
+        "answer": "Horizontal split case pump"
+    },
+    {
+        "question": "A centrifugal pump with one or more impellers discharging into one or more bowls and a vertical eductor or column pipe used to connect the bowls to the discharge head on which the pump driver is mounted.",
+        "choices": [
+            "Horizontal split case pump",
+            "End suction pump",
+            "In line pump",
+            "Vertical shaft turbine pump"
+        ],
+        "answer": "Vertical shaft turbine pump"
+    },
+    {
+        "question": "A pump that takes suction from a public service main or private use water system for the purpose of increasing the effective water pressure.",
+        "choices": [
+            "Horizontal split case pump",
+            "Submersible pump",
+            "Booster pump",
+            "Vertical shaft turbine pump"
+        ],
+        "answer": "Booster pump"
+    },
+    {
+        "question": "A vertical turbine pump with the pump and motor closed coupled and design to be installed underground, as in the case of a deepwell pump.",
+        "choices": [
+            "Horizontal split case pump",
+            "Submersible pump",
+            "Booster pump",
+            "Vertical shaft turbine pump"
+        ],
+        "answer": "Horizontal split case pump"
+    },
+    {
+        "question": "An underground formation that contains sufficient saturated permeable material to yield significant quantities of water.",
+        "choices": [
+            "Aquifer",
+            "Wet pit",
+            "Ground water",
+            "Well water"
+        ],
+        "answer": "Aquifer"
+    },
+    {
+        "question": "A timber, concrete or masonry enclosure having a screened inlet kept partially filled with water by an open body of water such as pond, lake, or steams.",
+        "choices": [
+            "Aquifer",
+            "Wet pit",
+            "Ground water",
+            "Well water"
+        ],
+        "answer": "Wet pit"
+    },
+    {
+        "question": "Water which is available from a well, driven into Water bearing subsurface strata (aquifer)",
+        "choices": [
+            "Aquifer",
+            "Wet pit",
+            "Ground water",
+            "Well water"
+        ],
+        "answer": "Ground water"
+    },
+    {
+        "question": "The level with respect to the pump, of the body of water from which it takes suction when the pump is not in operation.",
+        "choices": [
+            "static water level",
+            "pumping water level",
+            "suction head",
+            "discharge head"
+        ],
+        "answer": "static water level"
+    },
+    {
+        "question": "The level with respect to the pump, of the body of water from which it takes suction when the pump is in operation.",
+        "choices": [
+            "static water level",
+            "pumping water level",
+            "suction head",
+            "drawdown"
+        ],
+        "answer": "pumping water level"
+    },
+    {
+        "question": "The vertical difference between the pumping water level and the static water level.",
+        "choices": [
+            "static water level",
+            "pumping water level",
+            "suction head",
+            "drawdown"
+        ],
+        "answer": "drawdown"
+    },
+    {
+        "question": "Imparts velocity to the liquid, resulting from centrifugal force as the impeller is rotated.",
+        "choices": [
+            "impeller",
+            "casing",
+            "stuffing box",
+            "shaft sleeve"
+        ],
+        "answer": "impeller"
+    },
+    {
+        "question": "Gives direction to the flow from the impeller and converts this velocity energy into pressure energy.",
+        "choices": [
+            "impeller",
+            "casing",
+            "stuffing box",
+            "shaft sleeve"
+        ],
+        "answer": "casing"
+    },
+    {
+        "question": "A means of throttling the leakage which would otherwise occur at the point of entry of the shaft into the casing.",
+        "choices": [
+            "impeller",
+            "casing",
+            "stuffing box",
+            "shaft sleeve"
+        ],
+        "answer": "stuffing box"
+    },
+    {
+        "question": "Protects the shaft where it passes through the stuffing box.",
+        "choices": [
+            "impeller",
+            "casing",
+            "stuffing box",
+            "shaft sleeve"
+        ],
+        "answer": "shaft sleeve"
+    },
+    {
+        "question": "Keeps internal recirculation down to a minimum.",
+        "choices": [
+            "wearing rings",
+            "bearings",
+            "frame",
+            "coupling"
+        ],
+        "answer": "wearing rings"
+    },
+    {
+        "question": "Accurately locate shaft and carry radial and thrust loads.",
+        "choices": [
+            "wearing rings",
+            "bearings",
+            "frame",
+            "coupling"
+        ],
+        "answer": "bearings"
+    },
+    {
+        "question": "Which of the following is used to mount unit rigidly and support bearings.",
+        "choices": [
+            "wearing rings",
+            "stuffing box",
+            "frame",
+            "coupling"
+        ],
+        "answer": "frame"
+    },
+    {
+        "question": "Connects the pump to the driver.",
+        "choices": [
+            "wearing rings",
+            "bearings",
+            "frame",
+            "coupling"
+        ],
+        "answer": "coupling"
+    },
+    {
+        "question": "The most common means of throttling the leakage between the inside and outside of the casing",
+        "choices": [
+            "packing",
+            "gland",
+            "seal gage",
+            "mechanical seal"
+        ],
+        "answer": "packing"
+    },
+    {
+        "question": "To position and adjust the packing pressure.",
+        "choices": [
+            "packing",
+            "gland",
+            "seal gage",
+            "mechanical seal"
+        ],
+        "answer": "gland"
+    },
+    {
+        "question": "Provides passage to distribute the sealing medium uniformly around the portion of the shaft that passes through the stuffing box. Also known as water seal of lantern ring.",
+        "choices": [
+            "packing",
+            "gland",
+            "seal gage",
+            "mechanical seal"
+        ],
+        "answer": "seal gage"
+    },
+    {
+        "question": "Provides a mechanical sealing arrangement that takes the place of the packing.",
+        "choices": [
+            "packing",
+            "gland",
+            "seal gage",
+            "mechanical seal"
+        ],
+        "answer": "mechanical seal"
+    },
+    {
+        "question": "A positive displacement pump consisting of a fixed casing containing gears, cams, screws, vanes, plungers or similar elements actuated by rotation of the drive shaft.",
+        "choices": [
+            "Rotary pumps",
+            "Reciprocating pumps",
+            "Deep well pumps",
+            "Centrifugal pumps"
+        ],
+        "answer": "Rotary pumps"
+    },
+    {
+        "question": "A positive displacement unit wherein the pumping action is accomplished by the forward and backward movement of a piston or plunger inside a cylinder usually provided with valves.",
+        "choices": [
+            "Rotary pumps",
+            "Reciprocating pumps",
+            "Deep well pumps",
+            "Centrifugal pumps"
+        ],
+        "answer": "Reciprocating pumps"
+    },
+    {
+        "question": "A type of rotary pump, consist of an eccentrically bored cam rotated by a shaft concentric in a cylindrically bored casing, with an aburment or follower so arranged that with each rotation of the drive shaft a positive quantity of liquid is displaced from the space between the cam and the pump casing.",
+        "choices": [
+            "Cam and piston pump",
+            "Gear pump",
+            "Screw pump",
+            "Vane pump"
+        ],
+        "answer": "Cam and piston pump"
+    },
+    {
+        "question": "A type of rotary pump, consists of two or more gears, operating in closely fitted casing so arranged that when the gear teeth unmesh on one side liquid fills the space between the gear teeth and is carried around in the tooth space to the opposite side and displaced as the teeth mesh again.",
+        "choices": [
+            "Cam and piston pump",
+            "Gear pump",
+            "Screw pump",
+            "Vane pump"
+        ],
+        "answer": "Gear pump"
+    },
+    {
+        "question": "A type of rotary pump, consists of two or three screw rotors so arranged that as the rotors turn liquid fills the shape between the screw threads and is displaced axially as the rotor threads mesh.",
+        "choices": [
+            "Cam and piston pump",
+            "Gear pump",
+            "Screw pump",
+            "Vane pump"
+        ],
+        "answer": "Screw pump"
+    },
+    {
+        "question": "A type of rotary pump, consists of one rotor in a casing machined eccentrically to the drive shaft. The rotor is fitted with a series of vanes, blades or buckets which follow the bore of the casing thereby displacing the liquid with each revolution of the drive shaft.",
+        "choices": [
+            "Cam and piston pump",
+            "Gear pump",
+            "Screw pump",
+            "Vane pump"
+        ],
+        "answer": "Vane pump"
+    },
+    {
+        "question": "A type reciprocating pump having a steam cylinder with no lap on valves, a water cylinder and a common piston rod.",
+        "choices": [
+            "Direct acting steam pump",
+            "Crank and flywheel reciprocating pump",
+            "Power driven pump",
+            "Piston pump"
+        ],
+        "answer": "Direct acting steam pump"
+    },
+    {
+        "question": "A type of reciprocating pump driven by compound cross compound, or triple expansion steam engines",
+        "choices": [
+            "Direct acting steam pump",
+            "Crank and flywheel reciprocating pump",
+            "Power driven pump",
+            "Piston pump"
+        ],
+        "answer": "Crank and flywheel reciprocating pump"
+    },
+    {
+        "question": "A type of reciprocating pump that receives its forward and backward motion of the piston and plunger from the rotary motion of a revolving crankshaft by means of a crank and connecting rod.",
+        "choices": [
+            "Direct acting steam pump",
+            "Crank and flywheel reciprocating pump",
+            "Power driven pump",
+            "Piston pump"
+        ],
+        "answer": "Power driven pump"
+    },
+    {
+        "question": "A type of deep well pump which are refinement of the old hand pump that have played such an important role in country home and small town water supply from wells.",
+        "choices": [
+            "Plunger pump",
+            "Turbine pump",
+            "Ejector centrifugal pump",
+            "Air lift"
+        ],
+        "answer": "Plunger pump"
+    },
+    {
+        "question": "A type of deep well pump that represent the application of vertical centrifugal pump to deep well service and are built for heads up to 305 meters and for capacities Up to 26,495 liters per minute.",
+        "choices": [
+            "Plunger pump",
+            "Turbine pump",
+            "Ejector centrifugal pump",
+            "Air lift"
+        ],
+        "answer": "Turbine pump"
+    },
+    {
+        "question": "A type of deep well pump that has come into wide use for small capacities combines a single stage centrifugal pump at the top of the well and an ejector or jet located down in the water.",
+        "choices": [
+            "Plunger pump",
+            "Turbine pump",
+            "Ejector centrifugal pump",
+            "Air lift"
+        ],
+        "answer": "Ejector centrifugal pump"
+    },
+    {
+        "question": "A type of deep well pump wherein compressed air is admitted to the well to lift water to the surface, for successful operation of the system, the discharge pipe must have its lower end submerged in the well water.",
+        "choices": [
+            "Plunger pump",
+            "Turbine pump",
+            "Ejector centrifugal pump",
+            "Air lift"
+        ],
+        "answer": "Air lift"
+    }
+]

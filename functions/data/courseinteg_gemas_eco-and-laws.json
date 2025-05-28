@@ -1,0 +1,972 @@
+[
+    {
+        "question": "For a given function, it is found that f(t) = f(-t). What type of symmetry does f(t) have?",
+        "choices": [
+            "Odd symmetry",
+            "Even symmetry",
+            "Rotational symmetry",
+            "Quarter-wave symmetry"
+        ],
+        "answer": "Even symmetry"
+    },
+    {
+        "question": "Which number has four significant figures?",
+        "choices": [
+            "0.0014",
+            "0.01414",
+            "0.141",
+            "1.4140"
+        ],
+        "answer": "0.01414"
+    },
+    {
+        "question": "Naperian logarithm have a base closest to which number?",
+        "choices": [
+            "2.17",
+            "2.72",
+            "3.14",
+            "10"
+        ],
+        "answer": "2.72"
+    },
+    {
+        "question": "If the second derivative of the equation of a curve is equal to the negative of the equation of that same curve, the curve is",
+        "choices": [
+            "An exponenential",
+            "A sinusoid",
+            "A tangent",
+            "A parabola"
+        ],
+        "answer": "A sinusoid"
+    },
+    {
+        "question": "To find the angle of a triangle, given only the lengths of the sides, on would use",
+        "choices": [
+            "The law of cosines",
+            "The law of sines",
+            "The law of tangents",
+            "The inverse-square law"
+        ],
+        "answer": "The law of cosines"
+    },
+    {
+        "question": "Which is true regarding the signs of the natural functions for angles between 90° and 180°?",
+        "choices": [
+            "The tangent is positive",
+            "The cotangent is positive",
+            "The cosine is negative",
+            "The sine is negative"
+        ],
+        "answer": "The cosine is negative"
+    },
+    {
+        "question": "What is the inverse natural function of the cosecant?",
+        "choices": [
+            "Secant",
+            "Sine",
+            "Cosine",
+            "Cotangent"
+        ],
+        "answer": "Sine"
+    },
+    {
+        "question": "The graphical presentation of a cumulative frequency distribution in a set of statistical data is called ________.",
+        "choices": [
+            "Histogram",
+            "Kurtosis",
+            "Lepticurtic",
+            "Ogive"
+        ],
+        "answer": "Ogive"
+    },
+    {
+        "question": "A statement of truth of which follows with little or no proof from a theorem.",
+        "choices": [
+            "Axiom",
+            "Hypothesis",
+            "Corollary",
+            "Conclusion"
+        ],
+        "answer": "Corollary"
+    },
+    {
+        "question": "It is a sequence of numbers such that the successive terms differ by a constant.",
+        "choices": [
+            "Arithmetic progression",
+            "Infinite progression",
+            "Geometric progression",
+            "Harmonic progression"
+        ],
+        "answer": "Arithmetic progression"
+    },
+    {
+        "question": "A frequency curve which is composed of series of rectangles constructed with the steps as the base and the frequency as the height.",
+        "choices": [
+            "Histogram",
+            "Ogive",
+            "Frequency distribution",
+            "Bar graph"
+        ],
+        "answer": "Histogram"
+    },
+    {
+        "question": "If the roots of an equation are zero, then they are classified as",
+        "choices": [
+            "Hyperbolic solution",
+            "Zeros of function",
+            "Extraneous roots",
+            "Trivial solution"
+        ],
+        "answer": "Trivial solution"
+    },
+    {
+        "question": "Convergent series is a sequence of decreasing number or when the succeeding term is _______ the preceding term.",
+        "choices": [
+            "Greater than",
+            "Equal to",
+            "Lesser than",
+            "None of the above"
+        ],
+        "answer": "Lesser than"
+    },
+    {
+        "question": "If a = b then b = a. This illustrates what axiom in algebra?",
+        "choices": [
+            "Symmetric axiom",
+            "Reflexive axiom",
+            "Transitive axiom",
+            "Replacement axiom"
+        ],
+        "answer": "Symmetric axiom"
+    },
+    {
+        "question": "A and B are independent events. The probability that event A will occur is Pa and the probability that A and B will occur is Pab. From these two statements, what is the probability that event B will occur?",
+        "choices": [
+            "Pa – Pab",
+            "Pb – Pab",
+            "Pa x Pb",
+            "Pab / Pa"
+        ],
+        "answer": "Pab / Pa"
+    },
+    {
+        "question": "Two or more equations are equal if and only if they have the same",
+        "choices": [
+            "Solution set",
+            "Degree",
+            "Order",
+            "Variable set"
+        ],
+        "answer": "Solution set"
+    },
+    {
+        "question": "In any square matrix, when the elements of any two rows are exactly the same, the determinant is",
+        "choices": [
+            "Zero",
+            "Positive integer",
+            "Negative integer",
+            "Unity"
+        ],
+        "answer": "Zero"
+    },
+    {
+        "question": "The ratio or product of two expressions in direct or inverse relation with each other is called",
+        "choices": [
+            "Ratio and proportion",
+            "Means",
+            "Extremes",
+            "Constant of variation"
+        ],
+        "answer": "Constant of variation"
+    },
+    {
+        "question": "Is a sequence of terms whose reciprocals from an arithmetic progression?",
+        "choices": [
+            "Geometric progression",
+            "Harmonic progression",
+            "Algebraic progression",
+            "Ratio and proportion"
+        ],
+        "answer": "Harmonic progression"
+    },
+    {
+        "question": "An array of m x n quantities which represent a single number system composed of elements in rows and columns is known as",
+        "choices": [
+            "Transposed matrix",
+            "Cofactor of a matrix",
+            "Matrix",
+            "Determinant"
+        ],
+        "answer": "Matrix"
+    },
+    {
+        "question": "Binary number system is a system of notation for real number that uses the place value method with 2 as a base. What us another name of the binary number system?",
+        "choices": [
+            "Binary digits",
+            "Binumber system",
+            "Dyadic number system",
+            "Bits"
+        ],
+        "answer": "Dyadic number system"
+    },
+    {
+        "question": "The number 0.123123123… is a/an",
+        "choices": [
+            "Irrational number",
+            "Surd",
+            "Rational number",
+            "Transcendental"
+        ],
+        "answer": "Rational number"
+    },
+    {
+        "question": "MCMXCIV is the Roman numeral equivalent to",
+        "choices": [
+            "1974",
+            "1964",
+            "1994",
+            "2994"
+        ],
+        "answer": "1994"
+    },
+    {
+        "question": "A sequence of numbers where the succeeding term is greater than the preceding term is called",
+        "choices": [
+            "Dissonant series",
+            "Convergent series",
+            "Divergent series",
+            "Isometric series"
+        ],
+        "answer": "Divergent series"
+    },
+    {
+        "question": "Terms that differs only in numeric coefficients are known as",
+        "choices": [
+            "Unlike terms",
+            "Unequal terms",
+            "Like terms",
+            "Similar equations"
+        ],
+        "answer": "Like terms"
+    },
+    {
+        "question": "In complex algebra, we use diagram to represent complex plane commonly called",
+        "choices": [
+            "Argand diagram",
+            "Venn diagram",
+            "Maxwell diagram",
+            "Cartesian diagram"
+        ],
+        "answer": "Argand diagram"
+    },
+    {
+        "question": "7 + 0i is",
+        "choices": [
+            "An irrational number",
+            "Real number",
+            "Imaginary number",
+            "A variable"
+        ],
+        "answer": "Real number"
+    },
+    {
+        "question": "The number of successful outcomes divided by the number of possible outcomes is",
+        "choices": [
+            "Odd",
+            "Combination",
+            "Permutation",
+            "Probability"
+        ],
+        "answer": "Probability"
+    },
+    {
+        "question": "If a two digit number has x for its unit digit and y for its tens digit, the number is represented as",
+        "choices": [
+            "x + y",
+            "y – x",
+            "10y + x",
+            "10x - y"
+        ],
+        "answer": "10y + x"
+    },
+    {
+        "question": "A statement of truth which is admitted without proof",
+        "choices": [
+            "Axiom",
+            "Theorem",
+            "Postulate",
+            "Corollary"
+        ],
+        "answer": "Axiom"
+    },
+    {
+        "question": "The part of theorem which is assumed to be true.",
+        "choices": [
+            "Corollary",
+            "Hypothesis",
+            "Postulate",
+            "Conclusion"
+        ],
+        "answer": "Hypothesis"
+    },
+    {
+        "question": "A statement of truth which follows with little or no proof from the theorem.",
+        "choices": [
+            "Corollary",
+            "Axiom",
+            "Postulate",
+            "Conclusion"
+        ],
+        "answer": "Corollary"
+    },
+    {
+        "question": "Refers to the construction of drawing of lines and figures the possibility of which is admitted without proof.",
+        "choices": [
+            "Corollary",
+            "Theorem",
+            "Postulate",
+            "Hypothesis"
+        ],
+        "answer": "Postulate"
+    },
+    {
+        "question": "A mathematical statement which has neither been proved nor denied by counterexamples",
+        "choices": [
+            "Fallacy",
+            "Conjecture",
+            "Theorem",
+            "Paradox"
+        ],
+        "answer": "Conjecture"
+    },
+    {
+        "question": "A proved proposition which is useful mainly as a preliminary to the proof of a theorem.",
+        "choices": [
+            "Lemma",
+            "Hypothesis",
+            "Postulate",
+            "Corollary"
+        ],
+        "answer": "Lemma"
+    },
+    {
+        "question": "Axioms are propositions of a general logical nature (about equal or unequal) while _______ are propositions concerning objects and constructions.",
+        "choices": [
+            "Theorems",
+            "Corollaries",
+            "Conclusions",
+            "Postulates"
+        ],
+        "answer": "Postulates"
+    },
+    {
+        "question": "A ______ is an ancillary theorem whose result is not target for the proof.",
+        "choices": [
+            "Postulate",
+            "Lemma",
+            "Hypothesis",
+            "Conclusion"
+        ],
+        "answer": "Lemma"
+    },
+    {
+        "question": "Statements that are accepted without discussion or proof are called axioms. The word “axiom” comes from the Greek “axioma” which means",
+        "choices": [
+            "Worth",
+            "Correct",
+            "True",
+            "Perfect"
+        ],
+        "answer": "Worth"
+    },
+    {
+        "question": "In mathematical and other fields of logical reasoning, axioms are used as a basis for the formulation of statements called",
+        "choices": [
+            "Lemma",
+            "Hypothesis",
+            "Postulate",
+            "Theorem"
+        ],
+        "answer": "Hypothesis"
+    },
+    {
+        "question": "“The product of two or more number is the same in whatever order they are multiplied.” This refers to",
+        "choices": [
+            "Associative law of addition",
+            "Associative law of multiplication",
+            "Commutative law of multiplication",
+            "Distributive law of multiplication"
+        ],
+        "answer": "Commutative law of multiplication"
+    },
+    {
+        "question": "If a = b, then b can replace a in any equation. This illustrates what law of identity?",
+        "choices": [
+            "Reflexive law",
+            "Law of symmetry",
+            "Transitive law",
+            "Substitution law"
+        ],
+        "answer": "Substitution law"
+    },
+    {
+        "question": "If a = a, then it illustrates what law of identity?",
+        "choices": [
+            "Reflexive law",
+            "Law of symmetry",
+            "Transitive law",
+            "Substitution law"
+        ],
+        "answer": "Reflexive law"
+    },
+    {
+        "question": "If a = b, and b = c, then a = c. This illustrates",
+        "choices": [
+            "Reflexive law",
+            "Law of symmetry",
+            "Transitive law",
+            "Substitution law"
+        ],
+        "answer": "Transitive law"
+    },
+    {
+        "question": "The axiom which relates addition and multiplication is the _______ law.",
+        "choices": [
+            "Commutative",
+            "Associative",
+            "Distributive",
+            "None of the above"
+        ],
+        "answer": "Distributive"
+    },
+    {
+        "question": "Any combination of symbols and numbers related by the fundamental operation of algebra is called a/n",
+        "choices": [
+            "Equation",
+            "Algebraic expression",
+            "Term",
+            "Algebraic sum"
+        ],
+        "answer": "Algebraic expression"
+    },
+    {
+        "question": "The algebraic expression consisting a sum of any number of terms is called a",
+        "choices": [
+            "Multinomial",
+            "Summation",
+            "Binomial",
+            "Monomial"
+        ],
+        "answer": "Multinomial"
+    },
+    {
+        "question": "An equation which is satisfied by all values of the variable for which the members of the equation defined is known as",
+        "choices": [
+            "Linear equation",
+            "Rational equation",
+            "Conditional equation",
+            "Irrational equation"
+        ],
+        "answer": "Rational equation"
+    },
+    {
+        "question": "An equation in which some or all of the known quantities are represented by letters is called",
+        "choices": [
+            "Redundant equation",
+            "Literal equation",
+            "Linear equation",
+            "Defective equation"
+        ],
+        "answer": "Literal equation"
+    },
+    {
+        "question": "An equation in which the variable appear under the radical symbol",
+        "choices": [
+            "Irradical equation",
+            "Irrational equation",
+            "Quadratic equation",
+            "Linear equation"
+        ],
+        "answer": "Irrational equation"
+    },
+    {
+        "question": "An equation which, because of some mathematical process, has required an extra root is sometimes called as",
+        "choices": [
+            "Redundant equation",
+            "Literal equation",
+            "Linear equation",
+            "Defective equation"
+        ],
+        "answer": "Redundant equation"
+    },
+    {
+        "question": "Any equation which, because of some mathematical process, has fewer roots than its original is sometimes called as",
+        "choices": [
+            "Redundant equation",
+            "Literal equation",
+            "Linear equation",
+            "Defective equation"
+        ],
+        "answer": "Defective equation"
+    },
+    {
+        "question": "An algebraic expression which can be represented as a quotient of two polynomials.",
+        "choices": [
+            "Irrational algebraic expression",
+            "Reduced algebraic expression",
+            "Rational algebraic expression",
+            "Complex algebraic expression"
+        ],
+        "answer": "Rational algebraic expression"
+    },
+    {
+        "question": "A statement containing one or more variables and having the property that it becomes either true or false when the variables are given specific values from their domains.",
+        "choices": [
+            "Solution",
+            "Problem",
+            "Open sentence",
+            "Worded problem"
+        ],
+        "answer": "Open sentence"
+    },
+    {
+        "question": "Any algebraic term is a/an ______ term in certain representing numbers if it consists of the product possible integral powers of these numbers and a factor not containing them.",
+        "choices": [
+            "Integral",
+            "Rational",
+            "Irrational",
+            "Integral rational"
+        ],
+        "answer": "Integral rational"
+    },
+    {
+        "question": "An equation in x and y which is not easily solved for y in terms of x is called",
+        "choices": [
+            "Explicit",
+            "Implicit function",
+            "Discontinuity",
+            "Quadratic"
+        ],
+        "answer": "Implicit function"
+    },
+    {
+        "question": "The numbers which are represented with letters.",
+        "choices": [
+            "Variables",
+            "Unkowns",
+            "Literal numbers",
+            "Terms"
+        ],
+        "answer": "Literal numbers"
+    },
+    {
+        "question": "Equations whose members are equal only for certain or possibly no value of the unknown.",
+        "choices": [
+            "Conditional equations",
+            "Inequalities",
+            "Unconditional equations",
+            "Temporary equations"
+        ],
+        "answer": "Conditional equations"
+    },
+    {
+        "question": "An algebraic expression consisting of one term.",
+        "choices": [
+            "Monomial",
+            "Binomial",
+            "Linear",
+            "Monomode"
+        ],
+        "answer": "Monomial"
+    },
+    {
+        "question": "In algebra, this consists of products and quotients of ordinary numbers and letters which represent numbers.",
+        "choices": [
+            "Expression",
+            "Term",
+            "Equation",
+            "Coefficient"
+        ],
+        "answer": "Term"
+    },
+    {
+        "question": "An expression of two terms is called",
+        "choices": [
+            "Polynomial",
+            "Duomial",
+            "Binomial",
+            "All of the above"
+        ],
+        "answer": "Binomial"
+    },
+    {
+        "question": "The degree of a polynomial or equation is the",
+        "choices": [
+            "Maximum exponent",
+            "Maximum sum of exponents",
+            "Exponent of the first variable",
+            "Maximum exponent of x"
+        ],
+        "answer": "Maximum sum of exponents"
+    },
+    {
+        "question": "What is the degree of the polynomial 3 x^4 y + 2 x^3 z^3 – 4 y z^2 ?",
+        "choices": [
+            "6th",
+            "5th",
+            "4th",
+            "3rd"
+        ],
+        "answer": "5th"
+    },
+    {
+        "question": "Any fraction which contains one or more fractions in either numerator or denominator, or both is called",
+        "choices": [
+            "Compound fraction",
+            "Composite fraction",
+            "Complex fraction",
+            "All of the above"
+        ],
+        "answer": "Complex fraction"
+    },
+    {
+        "question": "A common fraction with unity for numerator and a positive integer as denominator (i.e. 1/n).",
+        "choices": [
+            "Ordinary fraction",
+            "Unit fraction",
+            "Common fraction",
+            "Improper fraction"
+        ],
+        "answer": "Unit fraction"
+    },
+    {
+        "question": "If the absolute value of the numerator of a fraction is smaller than the denominator, it is called",
+        "choices": [
+            "Proper fraction",
+            "Improper fraction",
+            "Decimal fraction",
+            "Mixed number"
+        ],
+        "answer": "Proper fraction"
+    },
+    {
+        "question": "A number that consists of an integer part (which may be zero) and a decimal part less than unity that follows the decimal marker, which may be a point or a comma.",
+        "choices": [
+            "Proper fraction",
+            "Improper fraction",
+            "Decimal fraction",
+            "Mixed number"
+        ],
+        "answer": "Decimal fraction"
+    },
+    {
+        "question": "Considered as the “counting numbers”",
+        "choices": [
+            "Integers",
+            "Rational numbers",
+            "Irrational numbers",
+            "Natural numbers"
+        ],
+        "answer": "Natural numbers"
+    },
+    {
+        "question": "A number represented by a non-terminating, non-repeating decimal.",
+        "choices": [
+            "Irrational number",
+            "Rational number",
+            "Natural number",
+            "Integer"
+        ],
+        "answer": "Irrational number"
+    },
+    {
+        "question": "The completeness axiom proved that the real number system has numbers other than",
+        "choices": [
+            "Integers",
+            "Rational numbers",
+            "Natural numbers",
+            "Irrational numbers"
+        ],
+        "answer": "Rational numbers"
+    },
+    {
+        "question": "The concept of spread of a random variable or a set of observations.",
+        "choices": [
+            "Variance",
+            "Standard deviation",
+            "Dispersion",
+            "Range"
+        ],
+        "answer": "Dispersion"
+    },
+    {
+        "question": "A number containing a non-terminating but repeating decimal is a/an",
+        "choices": [
+            "Integer",
+            "Rational number",
+            "Natural number",
+            "Irrational number"
+        ],
+        "answer": "Rational number"
+    },
+    {
+        "question": "A positive integer which has no perfect-square factor greater than 1.",
+        "choices": [
+            "Radical expression",
+            "Square integer",
+            "Square integer",
+            "Square-free integer"
+        ],
+        "answer": "Square-free integer"
+    },
+    {
+        "question": "Numbers are used to describe a",
+        "choices": [
+            "Magnitude",
+            "Postion",
+            "Magnitude and position",
+            "None of the above"
+        ],
+        "answer": "Magnitude and position"
+    },
+    {
+        "question": "Are symbols or combinations of symbols which describe a number.",
+        "choices": [
+            "Numerals",
+            "Digits",
+            "Terms",
+            "Notations"
+        ],
+        "answer": "Numerals"
+    },
+    {
+        "question": "Which of the following is not classified as an integer?",
+        "choices": [
+            "Negative number",
+            "Positive number",
+            "Zero",
+            "Imaginary numbers"
+        ],
+        "answer": "Imaginary numbers"
+    },
+    {
+        "question": "When an imaginary number is raised to an even exponent, it",
+        "choices": [
+            "Becomes infinite",
+            "Becomes negative imaginary number",
+            "Becomes relatively small number",
+            "Becomes real number"
+        ],
+        "answer": "Becomes real number"
+    },
+    {
+        "question": "The complex number is in the form of a + bi, if a = 0, what do you call the resulting number?",
+        "choices": [
+            "Absolute value of the complex number",
+            "Pure imaginary number",
+            "Argument",
+            "Irrational number"
+        ],
+        "answer": "Pure imaginary number"
+    },
+    {
+        "question": "For a complex number a + bi, the real number sqrt(a^2+b^2) is _______ of the complex number.",
+        "choices": [
+            "Absolute value",
+            "Magnitude",
+            "Modulus",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "question": "The _______ of two complex number is found by multiplying each term of the one by every term of the other.",
+        "choices": [
+            "Sum",
+            "Difference",
+            "Product",
+            "Quotient"
+        ],
+        "answer": "Product"
+    },
+    {
+        "question": "A number which can be expressed as a quotient of two integers (division of zero excluded) is called",
+        "choices": [
+            "Irrational number",
+            "Rational number",
+            "Imaginary number",
+            "Real number"
+        ],
+        "answer": "Rational number"
+    },
+    {
+        "question": "A prime number has exactly how many divisors?",
+        "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "A prime number is an integer greater than 1 which has",
+        "choices": [
+            "1 as its only positive divisor",
+            "Itself as its only positive divisor",
+            "1 and itself as its only positive divisors",
+            "1 and its additive inverse as its only positive divisor"
+        ],
+        "answer": "1 and itself as its only positive divisors"
+    },
+    {
+        "question": "An integer which is the product of two integers, both different from 1 and -1 is called",
+        "choices": [
+            "Prime number",
+            "Composite number",
+            "Rational number",
+            "Compound number"
+        ],
+        "answer": "Composite number"
+    },
+    {
+        "question": "A composite number has a least ______ divisors.",
+        "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Two natural numbers a and b are _______. If their greatest common divisor is 1.",
+        "choices": [
+            "Relatively prime",
+            "Relatively composite",
+            "Equal",
+            "Reciprocal"
+        ],
+        "answer": "Relatively prime"
+    },
+    {
+        "question": "Numbers used to count the objects or ideas in a given collection",
+        "choices": [
+            "Cardinal numbers",
+            "Irrational numbers",
+            "Ordinal numbers",
+            "Numerals"
+        ],
+        "answer": "Cardinal numbers"
+    },
+    {
+        "question": "Numbers which is used to state the position of individual objects in a sequence",
+        "choices": [
+            "Cardinal numbers",
+            "Irrational numbers",
+            "Ordinal numbers",
+            "Numerals"
+        ],
+        "answer": "Ordinal numbers"
+    },
+    {
+        "question": "An integer that is equal to the sum of al its possible divisors except the number itself is called",
+        "choices": [
+            "Amicable number",
+            "Perfect number",
+            "Defective number",
+            "Redundant number"
+        ],
+        "answer": "Perfect number"
+    },
+    {
+        "question": "An integer the sum of all its possible divisors except the number itself is greater than the integer is called",
+        "choices": [
+            "Abundant number",
+            "Amicable number",
+            "Friendly number",
+            "Defective number"
+        ],
+        "answer": "Abundant number"
+    },
+    {
+        "question": "An integer the sum of all its possible divisors except the number itself is less than the integer is called",
+        "choices": [
+            "Abundant number",
+            "Amicable number",
+            "Friendly number",
+            "Defective number"
+        ],
+        "answer": "Defective number"
+    },
+    {
+        "question": "What is the smallest perfect number possible?",
+        "choices": [
+            "1",
+            "6",
+            "12",
+            "8"
+        ],
+        "answer": "6"
+    },
+    {
+        "question": "All perfect numbers are",
+        "choices": [
+            "Even numbers",
+            "Odd numbers",
+            "Prime numbers",
+            "Composite numbers"
+        ],
+        "answer": "Even numbers"
+    },
+    {
+        "question": "Two integer numbers are said to be ______ if each is the sum of all possible divisors of the other.",
+        "choices": [
+            "Perfect numbers",
+            "Defective numbers",
+            "Amicable numbers",
+            "Fermat’s numbers"
+        ],
+        "answer": "Amicable numbers"
+    },
+    {
+        "question": "What is another name for amicable numbers?",
+        "choices": [
+            "Compatible numbers",
+            "Friendly numbers",
+            "Fermats numbers",
+            "Inconsistent numbers"
+        ],
+        "answer": "Friendly numbers"
+    },
+    {
+        "question": "What is the smallest pair of friendly number?",
+        "choices": [
+            "180 and 190",
+            "200 and 120",
+            "220 and 284",
+            "220 and 264"
+        ],
+        "answer": "220 and 284"
+    },
+    {
+        "question": "Prime numbers that appear in pair and differ by 2 (e.g. 3 and 5, 11 and 13 etc.) are called",
+        "choices": [
+            "Mersenne primes",
+            "Prime number theorem",
+            "Twin primes",
+            "Pseudo primes"
+        ],
+        "answer": "Twin primes"
+    },
+    {
+        "question": "“Every even integer greater than 2 can be written as the sum of two primes.” This is known as",
+        "choices": [
+            "Fermat’s last theorem",
+            "Goldbach conjecture",
+            "Prime number theorem",
+            "Mersenne primes"
+        ],
+        "answer": "Goldbach conjecture"
+    }
+]
