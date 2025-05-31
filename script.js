@@ -508,6 +508,7 @@ function checkAnswer(button, choice, correctAnswer) {
   const currentQuestion = queue[currentQuestionIndex];
   if (choice === correctAnswer) {
     button.classList.add("correct");
+    correctSound.load(); // Add this line
     playSound(correctSound);
     feedback.textContent = "Correct! 🥳🎉";
     incrementStreak(); // Increment streak on correct answer
