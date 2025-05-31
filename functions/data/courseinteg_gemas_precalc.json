@@ -52,7 +52,7 @@
     {
         "question": "In general quadratic equation, if the discriminant is zero, the curve is a figure that represent a/an:",
         "choices": ["parabola", "circle", "ellipse", "hyperbola"],
-        "answer": "circle"
+        "answer": "parabola"
     },
     {
         "question": "If the eccentricity is less than one, then the curve is",
