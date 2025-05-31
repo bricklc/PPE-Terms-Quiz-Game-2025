@@ -86,11 +86,11 @@
     },
     {
         "question": "10 to the 12th power is the value of the prefix",
-        "choices": ["micro", "femto", "teta", "atto"],
-        "answer": "teta"
+        "choices": ["micro", "femto", "tera", "atto"],
+        "answer": "tera"
     },
     {
-        "question": "The micro or ì means",
+        "question": "The micro or μ means",
         "choices": ["10^-2", "10^-6", "10^3", "10^-12"],
         "answer": "10^-6"
     },

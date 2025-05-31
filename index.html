@@ -16,10 +16,20 @@
   <link rel="manifest" href="favicon/site.webmanifest">
   <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#2b5797">
-  <meta name="msapplication-config" content="favicon/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-config" content="favicon/browserconfig.xml">  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
+  <div id="loading-screen">
+    <div class="title-container">
+      <h1>Mechanical Engineering Terms Reviewer</h1>
+    </div>
+    <div class="loading-circle"></div>
+    <div id="loading-assets-text">Loading assets...</div>
+    <div id="progress-bar-container">
+      <div id="progress-bar-fill"></div>
+    </div>
+  </div>
   <div class="quiz-container">
     <div id="start-screen">
       <h1 id="game-title">Mechanical Engineering Terms Reviewer</h1>
@@ -46,9 +56,22 @@
       <div>
         <label><input type="radio" name="order" value="ordered" checked> Ordered</label>
         <label><input type="radio" name="order" value="random"> Random</label>
-      </div>
-      <div id="settings">
+      </div>      <div id="settings">
+        <div class="settings-row">
+          <button class="theme-toggle" aria-label="Toggle theme">
+            <span class="material-icons">dark_mode</span>
+          </button>
+        </div>
         <label><input type="checkbox" id="repeatsEnabled" name="repeatsEnabled"> Enable Repeats</label>
+        <label><input type="checkbox" id="typingAnimationEnabled" name="typingAnimationEnabled"> Enable Typing Animation (beta) </label>
+        <!-- Auto Play options for Learn Mode -->
+        <div id="autoPlayContainer" style="display: none;">
+          <label><input type="checkbox" id="autoPlayEnabled" name="autoPlayEnabled"> Auto Play</label>
+          <div id="autoPlaySliderContainer" style="display: none;">
+            <label for="autoPlayDelay">Delay: <span id="autoPlayDelayValue">5</span>s</label>
+            <input type="range" id="autoPlayDelay" name="autoPlayDelay" min="2" max="8" value="5">
+          </div>
+        </div>
         <label>Max Repeats: <input type="number" id="maxRepeatsInput" name="maxRepeats" min="0" max="5" value="1"></label>
         <!-- Speed Run options, only shown in Quiz Mode -->
         <div id="speedRunContainer" style="display: none;">
@@ -71,9 +94,11 @@
       <div id="answer" class="answer"></div>
       <div id="navigation">
         <button id="prevButton">← Previous</button>
+        <button id="autoPlayToggle" style="display: none;">Play</button> <!-- Play/Pause button for Learn Mode Auto Play -->
         <button id="nextButton">Next →</button>
-      </div>
-      <div id="choices" class="choices"></div>
+      </div>      <div id="choices" class="choices"></div>
+      <div id="current-streak" class="current-streak">Current Streak: 0</div>
+      <div id="max-streak" class="max-streak">Max Streak: 0</div>
       <button id="skipButton">Skip</button>
       <!-- End Quiz Early button (only visible in Quiz Mode) -->
       <button id="endEarlyButton">End Quiz Early</button>
@@ -91,10 +116,21 @@
         <a href="favicon/favicon-attribution.html" target="_blank">Favicon Attribution</a>
       </div>
     </div>
-    <!-- New chart screen to display the graph -->
+    <!-- Screen to display recent quiz data -->
     <div id="chart-screen" class="hidden">
-      <h2>Quiz Accuracy Over Time</h2>
-      <canvas id="accuracyChart"></canvas>
+      <h2>Recent Quiz Results (This Session)</h2>
+      <table id="quizResultsTable">
+        <thead>
+          <tr>
+            <th>Quiz Name</th>
+            <th>Score (Accuracy)</th>
+            <th>Time Spent</th>
+          </tr>
+        </thead>
+        <tbody id="quizResultsTableBody">
+          <!-- Rows will be inserted here by script.js -->
+        </tbody>
+      </table>
       <button id="closeChart">Close</button>
     </div>
   </div>
@@ -103,17 +139,41 @@
   <script>const __BUILD_DATE__ = "Tuesday, March 4, 2025 at 05:31:07 PM GMT+8";</script>
   <script src="script.js"></script>
   <script>
-    document.querySelectorAll('input[name="mode"]').forEach((input) => {
-      input.addEventListener("change", (e) => {
+    document.querySelectorAll('input[name="mode"]').forEach((input) => {      input.addEventListener("change", (e) => {
         const settings = document.getElementById("settings");
         const speedRunContainer = document.getElementById("speedRunContainer");
         const revealAnswerContainer = document.getElementById("revealAnswerContainer");
+        const typingAnimationLabel = document.getElementById("typingAnimationEnabled").closest("label");
+        const autoPlayContainer = document.getElementById("autoPlayContainer"); // Added
+        const autoPlayEnabledCheckbox = document.getElementById("autoPlayEnabled"); // Added
+        const autoPlaySliderContainer = document.getElementById("autoPlaySliderContainer"); // Added
+
         if (e.target.value === "learn") {
-          settings.style.display = "none";
+          settings.style.display = "block";
+          autoPlayContainer.style.display = "block"; // Show auto play options
+          if (autoPlayEnabledCheckbox.checked) { // Show slider if auto play is already checked
+            autoPlaySliderContainer.style.display = "block";
+          } else {
+            autoPlaySliderContainer.style.display = "none";
+          }
+          // Hide other mode-specific settings
+          Array.from(settings.children).forEach(child => {
+            if (child !== typingAnimationLabel && !child.contains(typingAnimationLabel) && child !== autoPlayContainer) {
+              child.style.display = "none";
+            }
+          });
           speedRunContainer.style.display = "none";
           revealAnswerContainer.style.display = "none";
         } else {
           settings.style.display = "block";
+          autoPlayContainer.style.display = "none"; // Hide auto play options
+          autoPlaySliderContainer.style.display = "none"; // Hide slider too
+          // Show all settings elements relevant to other modes
+          Array.from(settings.children).forEach(child => {
+            if (child !== autoPlayContainer) { // Keep autoPlayContainer hidden
+              child.style.display = "";
+            }
+          });
           // Only display Speed Run and Reveal Answer options in Quiz Mode
           if (e.target.value === "quiz") {
             speedRunContainer.style.display = "block";
