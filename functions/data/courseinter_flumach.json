@@ -2,12 +2,12 @@
     {
         "question": "The volumetric efficiency of a compressor having clearance factor c is given by:",
         "choices": [
-            "1 + c – c (P2/P1)1/n",
-            "1 + c – c (P2/P1)n-1",
-            "1 + c – c (P2/P1)n",
-            "1 + c – c (P2/P1)n + 1"
+            "1 + c – c (P2/P1)^(1/n)",
+            "1 + c – c (P2/P1)^(n-1)",
+            "1 + c – c (P2/P1)^(n)",
+            "1 + c – c (P2/P1)^(n + 1)"
         ],
-        "answer": "1 + c – c (P2/P1)1/n"
+        "answer": "1 + c – c (P2/P1)^(1/n)"
     },
     {
         "question": "In case of axial flow compressors for minimum fluid friction and blade tip clearance losses, the blades of an axial flow compressor are designed for ______",
