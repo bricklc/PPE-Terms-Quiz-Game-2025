@@ -18,12 +18,15 @@ let typingAnimationEnabled = false;
 let currentStreak = 0;
 let maxStreak = 0;
 
-// New variables for quiz statistics and speed run
+// Quiz and learning statistics variables
 let quizStartTime = null;
 let quizEndTime = null;
 let correctCount = 0;
 let speedRunTimer = null;
 let speedRunEnabled = false;
+let learningStartTime = null;
+let learningEndTime = null;
+let isInLearnMode = false;
 
 const correctSound = document.getElementById("correctSound");
 const incorrectSound = document.getElementById("incorrectSound");
@@ -135,40 +138,53 @@ async function typeText(element, text) {
 
 // Loading screen animation sequence
 document.addEventListener('DOMContentLoaded', async () => {
-    const loadingScreen = document.querySelector('#loading-screen');
-    const progressBarFill = document.querySelector('#progress-bar-fill');
+  const loadingScreen = document.querySelector('#loading-screen');
+  const progressBarFill = document.querySelector('#progress-bar-fill');
 
-    // Simulate progress bar loading
-    let progress = 0;
-    const progressBarPromise = new Promise(async (resolve) => {
-        // Initial fast fill
-        let initialFillTarget = Math.random() * 20 + 20; // 20% to 40%
-        progress = initialFillTarget;
-        progressBarFill.style.width = `${progress}%`;
-        
-        // Random pause
-        const pauseDuration = Math.random() * 900 + 300; // 300ms to 1200ms
-        await new Promise(res => setTimeout(res, pauseDuration));
-        
-        // Fill to 100%
-        progress = 100;
-        progressBarFill.style.width = `${progress}%`;
-        // Wait for the width transition to complete (0.3s as defined in CSS)
-        await new Promise(res => setTimeout(res, 300)); 
-        resolve();
-    });
+  if (!loadingScreen || !progressBarFill) {
+    console.error('Loading screen elements not found');
+    return;
+  }
 
-    // Wait for progress bar to complete
-    await progressBarPromise;
+  try {
+    // Ensure initial state
+    loadingScreen.style.display = 'flex';
+    loadingScreen.style.opacity = '1';
+    progressBarFill.style.width = '0%';
 
-    // The fade-out should start after the progress bar is complete, plus a small buffer.
-    setTimeout(() => {
-        loadingScreen.style.transition = 'opacity 0.5s ease-out';
-        loadingScreen.style.opacity = '0';
-        setTimeout(() => {
-            loadingScreen.style.display = 'none';
-        }, 500); // Corresponds to opacity transition duration
-    }, 250); // Additional small delay after progress bar finishes
+    // Initial fast fill animation
+    const initialFillTarget = Math.random() * 20 + 20; // 20% to 40%
+    progressBarFill.style.width = `${initialFillTarget}%`;
+    await new Promise(res => setTimeout(res, 300)); // Wait for transition
+
+    // Random pause before completion
+    const pauseDuration = Math.random() * 500 + 300; // 300ms to 800ms
+    await new Promise(res => setTimeout(res, pauseDuration));
+
+    // Complete the progress bar
+    progressBarFill.style.width = '100%';
+    await new Promise(res => setTimeout(res, 300)); // Wait for final width transition
+
+    // Ensure minimum loading time
+    const minimumLoadTime = 1000;
+    const elapsedTime = performance.now() - loadingScreenStartTime;
+    if (elapsedTime < minimumLoadTime) {
+      await new Promise(res => setTimeout(res, minimumLoadTime - elapsedTime));
+    }
+
+    // Fade out loading screen
+    loadingScreen.style.transition = 'opacity 0.5s ease-out';
+    loadingScreen.style.opacity = '0';
+    
+    // Remove from DOM after fade out
+    await new Promise(res => setTimeout(res, 500));
+    loadingScreen.style.display = 'none';
+    
+  } catch (error) {
+    console.error('Loading screen transition error:', error);
+    // Fallback: force hide loading screen
+    loadingScreen.style.display = 'none';
+  }
 });
 
 const loadingScreenStartTime = performance.now(); // For timing calculations
@@ -286,18 +302,23 @@ document.addEventListener("DOMContentLoaded", () => {
   // Event listener for See Quiz Data button
   document.getElementById("seeQuizDataButton").addEventListener("click", showQuizData);
 
-  // Event listener for Close Chart button
-  document.getElementById("closeChart").addEventListener("click", () => {
+  // Event listener for Close Chart button  
+   document.getElementById("closeChart").addEventListener("click", () => {
+    
     document.getElementById("chart-screen").classList.add("hidden");
     document.getElementById("start-screen").classList.remove("hidden");
+    document.getElementById("game-screen").classList.add("hidden");
   });
+  });
+
+  // Add time format toggle listener
+  document.getElementById("timeFormatToggle").addEventListener("click", toggleTimeFormat);
 
   // Set last updated date on page load
   const lastUpdated = document.getElementById("last-updated");
   if (lastUpdated) {
     lastUpdated.textContent = `Last Updated: ${__BUILD_DATE__ || 'Unknown Date'}`;
   }
-});
 
 async function loadQuizFiles() {
   try {
@@ -351,6 +372,10 @@ async function startGame() {
     repeatsEnabled = false;
     activeRecallEnabled = false;
     maxRepeats = 0;
+    learningStartTime = new Date();
+    isInLearnMode = true;
+  } else if (mode === "quiz") {
+    quizStartTime = new Date();
   }
 
   // Load max streak from localStorage
@@ -439,7 +464,11 @@ function loadQuestion() {
       }
       
       await typeText(answerElement, q.answer); // Animate the answer text
-      answerElement.classList.remove("hidden");
+      
+      // Fix: Ensure answer is visible in Learn Mode by setting display style
+      answerElement.style.display = "flex"; // Set display to flex as defined in CSS for .answer
+      answerElement.classList.remove("hidden"); // Remove class-based hiding
+
       document.getElementById("navigation").classList.remove("hidden"); // Show arrows
       document.getElementById("skipButton").classList.add("hidden");
       document.getElementById("feedback").classList.add("hidden"); // Hide feedback
@@ -612,6 +641,7 @@ function endGame() {
     clearTimeout(speedRunTimer);
     speedRunTimer = null;
   }
+
   if (mode === "quiz") {
     quizEndTime = new Date();
     let timeTakenSec = Math.round((quizEndTime - quizStartTime) / 1000);
@@ -621,13 +651,13 @@ function endGame() {
     // Generate encouraging message based on accuracy
     let encouragingMessage = "";
     if (accuracy === "100.00") {
-      encouragingMessage = "🌟 Perfect Score! You\'re absolutely crushing it! Keep that amazing energy going! 🏆";
+      encouragingMessage = "🌟 Perfect Score! You're absolutely crushing it! Keep that amazing energy going! 🏆";
     } else if (accuracy >= 85) {
-      encouragingMessage = "🎉 Excellent work! You\'re really mastering this material! Just a bit more practice and you\'ll be perfect! 💪";
+      encouragingMessage = "🎉 Excellent work! You're really mastering this material! Just a bit more practice and you'll be perfect! 💪";
     } else if (accuracy >= 75) {
-      encouragingMessage = "👍 Good job! You\'re on the right track! Keep pushing forward and you\'ll see even better results! 📈";
+      encouragingMessage = "👍 Good job! You're on the right track! Keep pushing forward and you'll see even better results! 📈";
     } else {
-      encouragingMessage = "💡 Keep going! Every attempt makes you stronger! Focus on the areas you missed and you\'ll improve in no time! 🌱";
+      encouragingMessage = "💡 Keep going! Every attempt makes you stronger! Focus on the areas you missed and you'll improve in no time! 🌱";
     }
 
     let statsHTML = `<div style="font-size: 24px; margin-bottom: 20px;">${encouragingMessage}</div>
@@ -638,20 +668,33 @@ function endGame() {
                      <strong>Time Taken:</strong> ${timeTakenSec} seconds`;
     document.getElementById("question").innerHTML = statsHTML;
 
-    // Store detailed quiz result in sessionStorage
+    // Store quiz result in sessionStorage
     let sessionQuizResults = JSON.parse(sessionStorage.getItem("sessionQuizResults")) || [];
     sessionQuizResults.push({
       name: selectedQuiz.replace(".json", ""),
-      score: parseFloat(accuracy), // Use accuracy for sorting, or derive a sortable score
+      score: parseFloat(accuracy),
       scoreDisplay: score,
       timeTaken: timeTakenSec
     });
     sessionStorage.setItem("sessionQuizResults", JSON.stringify(sessionQuizResults));
-
+  } else if (mode === "learn") {
+    learningEndTime = new Date();
+    let learningTimeSec = Math.round((learningEndTime - learningStartTime) / 1000);
+    
+    // Store learning time in sessionStorage
+    let sessionLearningTimes = JSON.parse(sessionStorage.getItem("sessionLearningTimes")) || [];
+    sessionLearningTimes.push({
+      name: selectedQuiz.replace(".json", ""),
+      timeTaken: learningTimeSec
+    });
+    sessionStorage.setItem("sessionLearningTimes", JSON.stringify(sessionLearningTimes));
+    
+    document.getElementById("question").innerHTML = "Great job learning! Keep it up! 🌟";
   } else {
     // For practice mode, show a general encouraging message
     document.getElementById("question").innerHTML = "🌟 Great practice session! Remember: consistent practice leads to mastery! 💪";
   }
+
   document.getElementById("choices").innerHTML = "";
   document.getElementById("answer").classList.add("hidden");
   document.getElementById("navigation").classList.add("hidden");
@@ -704,6 +747,28 @@ function resetGame() {
     clearTimeout(speedRunTimer);
     speedRunTimer = null;
   }
+  
+  // Save learning time if user was in learn mode
+  if (isInLearnMode && learningStartTime) {
+    learningEndTime = new Date();
+    const learningTimeSec = Math.round((learningEndTime - learningStartTime) / 1000);
+    let sessionLearningTimes = JSON.parse(sessionStorage.getItem("sessionLearningTimes")) || [];
+    const existingIndex = sessionLearningTimes.findIndex(item => item.name === selectedQuiz);
+    
+    if (existingIndex >= 0) {
+      // Add to existing time
+      sessionLearningTimes[existingIndex].timeTaken += learningTimeSec;
+    } else {
+      // Create new entry
+      sessionLearningTimes.push({
+        name: selectedQuiz.replace(".json", ""),
+        timeTaken: learningTimeSec
+      });
+    }
+    sessionStorage.setItem("sessionLearningTimes", JSON.stringify(sessionLearningTimes));
+    isInLearnMode = false;
+  }
+  
   document.getElementById("game-screen").classList.add("hidden");
   document.getElementById("start-screen").classList.remove("hidden");
   document.getElementById("chart-screen").classList.add("hidden");
@@ -751,35 +816,84 @@ function toggleCredits() {
   creditsMessage.style.display = creditsMessage.style.display === "none" || !creditsMessage.style.display ? "block" : "none";
 }
 
-// New function to display quiz accuracy graph
+// Time format tracking
+let currentTimeFormat = 'seconds'; // 'seconds', 'minutes', 'hours'
+
+function displayLearningTimes() {
+  const learningTimesBody = document.getElementById("learningTimeTableBody");
+  learningTimesBody.innerHTML = "";
+
+  let sessionLearningTimes = JSON.parse(sessionStorage.getItem("sessionLearningTimes")) || [];
+  const learningTableHeaders = document.getElementById("learningTimeTable").querySelector("thead");
+
+  if (sessionLearningTimes.length === 0) {
+    learningTimesBody.innerHTML = "<tr><td colspan='2'>No learning time data available for this session yet.</td></tr>";
+    learningTableHeaders.style.display = 'none';
+  } else {
+    learningTableHeaders.style.display = '';
+    sessionLearningTimes.sort((a, b) => b.timeTaken - a.timeTaken);
+    sessionLearningTimes.forEach(result => {
+      const row = learningTimesBody.insertRow();
+      row.insertCell().textContent = result.name;
+      row.insertCell().textContent = formatLearningTime(result.timeTaken);
+    });
+  }
+}
+
+function formatLearningTime(seconds) {
+  if (currentTimeFormat === 'minutes') {
+    const minutes = Math.floor(seconds / 60);
+    return `${minutes} min`;
+  } else if (currentTimeFormat === 'hours') {
+    const hours = (seconds / 3600).toFixed(1);
+    return `${hours} hr`;
+  }
+  return `${seconds} s`;
+}
+
+function toggleTimeFormat() {
+  const button = document.getElementById('timeFormatToggle');
+  if (currentTimeFormat === 'seconds') {
+    currentTimeFormat = 'minutes';
+    button.textContent = 'Show in hours';
+  } else if (currentTimeFormat === 'minutes') {
+    currentTimeFormat = 'hours';
+    button.textContent = 'Show in seconds';
+  } else {
+    currentTimeFormat = 'seconds';
+    button.textContent = 'Show in minutes';
+  }
+  displayLearningTimes();
+}
+
+// Update showQuizData function
 function showQuizData() {
   document.getElementById("start-screen").classList.add("hidden");
   document.getElementById("chart-screen").classList.remove("hidden");
 
+  // Handle Quiz Results Table
   const resultsTableBody = document.getElementById("quizResultsTableBody");
-  resultsTableBody.innerHTML = ""; // Clear previous results
+  resultsTableBody.innerHTML = "";
 
   let sessionQuizResults = JSON.parse(sessionStorage.getItem("sessionQuizResults")) || [];
+  const quizTableHeaders = document.getElementById("quizResultsTable").querySelector("thead");
 
   if (sessionQuizResults.length === 0) {
     resultsTableBody.innerHTML = "<tr><td colspan='3'>No quiz data available for this session yet.</td></tr>";
-    // Hide the table headers if no data
-    document.getElementById("quizResultsTable").querySelector("thead").style.display = 'none';
-    return;
+    quizTableHeaders.style.display = 'none';
+  } else {
+    quizTableHeaders.style.display = '';
+    sessionQuizResults.sort((a, b) => b.score - a.score);
+    sessionQuizResults.forEach(result => {
+      const row = resultsTableBody.insertRow();
+      row.insertCell().textContent = result.name;
+      row.insertCell().textContent = result.scoreDisplay + ` (${result.score.toFixed(2)}%)`;
+      row.insertCell().textContent = result.timeTaken + "s";
+    });
   }
-   // Show the table headers if there is data
-  document.getElementById("quizResultsTable").querySelector("thead").style.display = '';
 
-
-  // Sort results by score (descending)
-  sessionQuizResults.sort((a, b) => b.score - a.score);
-
-  sessionQuizResults.forEach(result => {
-    const row = resultsTableBody.insertRow();
-    row.insertCell().textContent = result.name;
-    row.insertCell().textContent = result.scoreDisplay + ` (${result.score.toFixed(2)}%)`;
-    row.insertCell().textContent = result.timeTaken + "s";
-  });
+  // Handle Learning Time Table
+  displayLearningTimes();
 }
 
 window.onload = loadQuizFiles;

@@ -646,3 +646,47 @@ body {
     opacity: 0.7;
   }
 }
+
+#chart-screen h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+#quizResultsTable, #learningTimeTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+#quizResultsTable th, #quizResultsTable td,
+#learningTimeTable th, #learningTimeTable td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+#quizResultsTable th, #learningTimeTable th {
+  background-color: var(--button-bg);
+  font-weight: bold;
+}
+
+#quizResultsTable tr:hover, #learningTimeTable tr:hover {
+  background-color: var(--hover-bg);
+}
+
+#timeFormatToggle {
+  font-size: 0.8em;
+  padding: 4px 8px;
+  margin-left: 10px;
+  background: var(--button-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#timeFormatToggle:hover {
+  background: var(--button-hover);
+}
