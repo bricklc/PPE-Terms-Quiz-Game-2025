@@ -108,6 +108,46 @@ function computeSpeedTag(RT, mu, sigma) {
   return "Nominal";
 }
 
+/* Best-time reinforcement store (persisted per qId) */
+function getBestTimes() {
+  try {
+    return JSON.parse(localStorage.getItem("bestTimes") || "{}");
+  } catch (_) {
+    return {};
+  }
+}
+function saveBestTimes(map) {
+  try { localStorage.setItem("bestTimes", JSON.stringify(map)); } catch (_) {}
+}
+function getBestTime(qId) {
+  const map = getBestTimes();
+  const v = map[qId];
+  return Number.isFinite(v) ? v : null;
+}
+function updateBestTime(qId, rt) {
+  const map = getBestTimes();
+  const cur = map[qId];
+  if (!Number.isFinite(cur) || rt < cur) {
+    map[qId] = rt;
+    saveBestTimes(map);
+  }
+}
+function scheduleRepeatOffset(queueRef, currentIndex, offset) {
+  if (!Array.isArray(queueRef) || currentIndex == null) return;
+  const item = queueRef.splice(currentIndex, 1)[0];
+  const targetIndex = Math.min(currentIndex + offset, queueRef.length);
+  if (item !== undefined) {
+    queueRef.splice(targetIndex, 0, item);
+  }
+}
+function showAdaptiveIndicator(text) {
+  const feedbackEl = document.getElementById("feedback");
+  if (!feedbackEl) return;
+  const base = feedbackEl.textContent || "";
+  const clean = base.replace(/\s*\|\s*Speed:\s*(Fast|Nominal|Slow)\s*$/i, "");
+  feedbackEl.textContent = `${clean} • ${text}`;
+}
+
 function reinsertTwoAhead(queueRef, qId, currentIndex) {
   if (!Array.isArray(queueRef) || currentIndex == null) return;
   // Find current occurrence by object identity if stored as object with .question, else by id string
@@ -125,16 +165,41 @@ function scheduleAfterEvaluation(qId, ACC, RT, mu, sigma, now, queueContext) {
   const entry = ensureAdaptEntry(qId);
   const Tslow = mu + (sessionRt.n < 2 ? 0 : sigma);
 
+  // Tune: make early repeats less aggressive by optionally nudging further
+  const penalizeOffset = 3;
+
+  // Best-time layer thresholds
+  const best = getBestTime(qId);
+  const hardThreshold = best ? best * 1.5 : null;      // RT > 1.5x best => hard
+  const targetImprove = best ? best * 0.8 : null;      // desired next RT <= 0.8 * best
+  const reinforceOffset = 4;                           // repeat after 4 questions
+
   if (ACC === 0 || RT > Tslow) {
     entry.err = Math.min(7, entry.err + 1);
     entry.due = now + 60000;
     if (queueContext && queueContext.queue && Number.isInteger(queueContext.currentIndex)) {
+      // Keep spec reinsertion two ahead
       reinsertTwoAhead(queueContext.queue, qId, queueContext.currentIndex);
+      // Additional nudge to reduce immediate reselects
+      scheduleRepeatOffset(queueContext.queue, queueContext.currentIndex, penalizeOffset);
     }
+    showAdaptiveIndicator("Adaptive: penalize (retry soon)");
   } else {
+    // Correct; update err and schedule by base algorithm
     entry.err = Math.max(0, entry.err - 1);
     const gapMin = Math.pow(2, Math.max(0, 3 - entry.err)); // minutes
     entry.due = now + gapMin * 60000;
+
+    // Best-time update
+    updateBestTime(qId, RT);
+
+    // Hard-question detection: if current RT >> best, reinforce after a few questions
+    if (best && RT > hardThreshold && queueContext && queueContext.queue && Number.isInteger(queueContext.currentIndex)) {
+      scheduleRepeatOffset(queueContext.queue, queueContext.currentIndex, reinforceOffset);
+      showAdaptiveIndicator("Adaptive: reinforcing (hard item)");
+    } else if (best && RT <= (targetImprove || Infinity)) {
+      showAdaptiveIndicator("Adaptive: improved speed");
+    }
   }
   // EMA in ms
   entry.rt = 0.2 * RT + 0.8 * (Number.isFinite(entry.rt) ? entry.rt : 0);
