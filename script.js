@@ -141,19 +141,26 @@ function scheduleAfterEvaluation(qId, ACC, RT, mu, sigma, now, queueContext) {
   saveAdaptEntry(qId, entry);
 }
 
+/* Stable qId derivation to avoid collisions when dataset lacks explicit IDs */
+function stableQId(q) {
+  if (q && typeof q === "object" && q.id) return String(q.id);
+  const base = `${q?.question || ""}|||${q?.answer || ""}`;
+  // FNV-1a 32-bit hash for stability/localStorage keying
+  let h = 0x811c9dc5;
+  for (let i = 0; i < base.length; i++) {
+    h ^= base.charCodeAt(i);
+    h = (h + ((h << 1) + (h << 4) + (h << 7) + (h << 8) + (h << 24))) >>> 0;
+  }
+  return `q_${h.toString(16)}`;
+}
+
 function selectNextQuestion(candidates) {
   if (!Array.isArray(candidates) || candidates.length === 0) return null;
   const now = nowMs();
 
-  // In this app candidates are full question objects; use a stable key for qId
-  const getId = (q) => {
-    // Prefer an explicit id if exists, else derive from content
-    return q.id ?? (q.question || JSON.stringify(q));
-  };
-
-  // Ensure entries exist
+  // Ensure entries exist with stable ids
   for (const q of candidates) {
-    ensureAdaptEntry(getId(q));
+    ensureAdaptEntry(stableQId(q));
   }
 
   const eligible = [];
@@ -161,7 +168,7 @@ function selectNextQuestion(candidates) {
   let minDueCand = candidates[0];
 
   for (const q of candidates) {
-    const id = getId(q);
+    const id = stableQId(q);
     const entry = ensureAdaptEntry(id);
     const due = Number.isFinite(entry.due) ? entry.due : 0;
     if (due <= now) {
@@ -742,8 +749,8 @@ function checkAnswer(button, choice, correctAnswer) {
 
   // In learn mode: compute stats but do not schedule
   const isAdaptiveActive = (mode === "practice" || mode === "quiz");
-  // Build qId from question object; prefer explicit id if present
-  const qId = currentQuestion.id ?? (currentQuestion.question || JSON.stringify(currentQuestion));
+  // Build stable qId from question+answer to prevent collisions
+  const qId = stableQId(currentQuestion);
   const now = nowMs();
 
   if (isAdaptiveActive) {
