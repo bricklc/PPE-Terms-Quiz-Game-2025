@@ -1,0 +1,120 @@
+TITLE
+Adaptive Practice Integration – Patch Steps Ground Truth
+
+SCOPE
+Patch-only integration. Add functions and minimal calls. Do not refactor existing APIs, HTML, CSS, or unrelated storage. Apply in Practice and Quiz modes. Learn mode may compute stats but must not affect scheduling unless explicitly enabled.
+
+DATA MODEL
+localStorage key: "adapt"
+Entry: adapt[qId] = { rt:<float>, err:<int>, due:<int> }
+• rt: EMA of response time (ms)
+• err: bounded [0..7]
+• due: unix ms when item becomes eligible
+Fail-safe: if entry missing, initialize { rt:0, err:0, due:0 }
+
+SESSION STATE (in-memory)
+Keep per-session reaction time stats using Welford:
+sessionRt = { n:0, mean:0, m2:0 }
+Derived:
+• μRT = sessionRt.mean
+• σRT = sqrt(sessionRt.m2 / (sessionRt.n - 1)) when n >= 2 else 0
+
+HOOK POINTS
+1) On question render: set currentQuestionStartTs = performance.now() (fallback Date.now()).
+2) On answer evaluation (right after ACC is known and before advancing to next question):
+   - Compute RT = nowTs - currentQuestionStartTs
+   - Compute ACC = 1 for correct, 0 for incorrect
+   - Update Welford with RT
+   - Run scheduling update (see HANDLER)
+   - Tag UI speed (Fast/Nominal/Slow) in existing feedback area (non-structural)
+3) Before selecting/shown next question: apply SELECTION ALGORITHM
+4) Queue tweak: when penalizing, reinsert current qId two slots ahead in the in-memory queue for this run only
+
+HANDLER (answer evaluation)
+Inputs: qId, ACC (0/1), RT (ms), now (ms), μRT, σRT
+1) Ensure adapt entry for qId exists
+2) Tslow = μRT + σRT
+3) If ACC==0 OR RT > Tslow:
+      err = min(7, err + 1)
+      due = now + 60_000
+      reinsertTwoAhead(queue, qId, currentIndex)
+   Else:
+      err = max(0, err - 1)
+      gapMin = 2 ** max(0, 3 - err)   // minutes
+      due = now + gapMin * 60_000
+4) rt = 0.2 * RT + 0.8 * rt   // EMA in ms
+5) Save adapt[qId] back to localStorage
+
+SELECTION ALGORITHM (before showing next question)
+Given candidate question IDs for current run:
+1) Ensure adapt entry exists for each candidate (lazy-init)
+2) now = Date.now()
+3) eligible = candidates with adapt[qId].due <= now
+4) If eligible.length == 0:
+      pick = candidate with smallest adapt[qId].due
+   Else:
+      priority = (err * 1.5) + (rt in ms scaled to seconds i.e., rt/1000)
+      Sort eligible by priority descending; pick first
+5) Serve pick
+
+UI SPEED TAGGING
+After evaluation (without altering layout):
+- Fast if RT < μRT − σRT
+- Nominal if |RT − μRT| ≤ σRT
+- Slow if RT > μRT + σRT
+Display minimal text or class in existing feedback element. Guard σRT==0: treat first sample as Nominal.
+
+MODE RULES
+- Practice, Quiz: full adaptive logic enabled
+- Learn: compute Welford, but skip penalize/schedule unless a future setting enables it
+
+PERSISTENCE AND RESET
+- localStorage.adapt persists across app sessions
+- On existing “Reset Progress”: if present, also clear adapt or add a new “Reset Adaptive Data” option
+- Do not clear adapt unless user action demands
+
+GUARDS
+- Clamp RT to [200, 60000] ms to avoid idle skew
+- If sessionRt.n < 2, use σRT = 0 in thresholds and tagging
+- If due missing/invalid, treat as 0
+- Never throw on malformed adapt; auto-repair with defaults
+
+HELPER FUNCTIONS (to add)
+- getAdapt(): returns parsed object from localStorage or {}
+- saveAdaptEntry(qId, entry): persists back
+- ensureAdaptEntry(qId): returns entry, initializing if absent
+- nowMs(): Date.now()
+- startTimerForCurrentQuestion(): records start ts
+- computeRT(): returns clamped RT based on current start ts
+- welfordUpdate(state, sampleRtMs): mutates/returns sessionRt
+- computeSpeedTag(RT, mu, sigma): returns "Fast" | "Nominal" | "Slow"
+- scheduleAfterEvaluation(qId, ACC, RT, mu, sigma, now): applies HANDLER rules and saves
+- selectNextQuestion(candidates): applies SELECTION ALGORITHM
+- reinsertTwoAhead(queue, qId, currentIndex): splice at index+2 if possible, else push
+
+INTEGRATION STEPS (implementation order)
+1) Add sessionRt state and timer vars near existing session state
+2) On question render, call startTimerForCurrentQuestion()
+3) In answer evaluation handler:
+   a) RT = computeRT()
+   b) ACC from existing correctness logic
+   c) welfordUpdate(sessionRt, RT)
+   d) scheduleAfterEvaluation(qId, ACC, RT, μRT=sessionRt.mean, σRT=derived, now=nowMs())
+   e) speedTag = computeSpeedTag(RT, μRT, σRT); append to feedback
+4) Before determining/setting next question:
+   a) next = selectNextQuestion(currentRunCandidates)
+   b) proceed with existing flow using next
+5) Ensure queue structure is accessible to reinsertTwoAhead; only call it on penalize branch
+
+TEST PLAN (manual)
+- Correct and fast answers reduce err, increase due gap
+- Incorrect or slow answers increase err, due set to +60s, question returns two ahead
+- With no eligible items, soonest-due is picked
+- Priority ordering favors higher err and larger rt
+- Speed tag shows Fast/Nominal/Slow appropriately as session progresses
+- Data persists across reloads; reset clears if invoked
+
+NON-GOALS
+- No refactor of existing modules/components
+- No new UI elements beyond minimal text/class tagging
+-

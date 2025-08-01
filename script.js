@@ -14,6 +14,191 @@ let maxRepeats = 1;
 let completedCount = 0; // Track completed questions
 let typingAnimationEnabled = false;
 
+// ===== Adaptive Practice - Session State =====
+let sessionRt = { n: 0, mean: 0, m2: 0 };
+let currentQuestionStartTs = null;
+
+// ===== Adaptive Practice - Helpers =====
+function getAdapt() {
+  try {
+    const raw = localStorage.getItem("adapt");
+    if (!raw) return {};
+    const obj = JSON.parse(raw);
+    if (obj && typeof obj === "object") return obj;
+  } catch (_) {}
+  return {};
+}
+
+function saveAdaptEntry(qId, entry) {
+  const map = getAdapt();
+  map[qId] = {
+    rt: typeof entry.rt === "number" ? entry.rt : 0,
+    err: Math.max(0, Math.min(7, Number.isFinite(entry.err) ? Math.trunc(entry.err) : 0)),
+    due: Number.isFinite(entry.due) ? entry.due : 0,
+  };
+  try {
+    localStorage.setItem("adapt", JSON.stringify(map));
+  } catch (_) {}
+}
+
+function ensureAdaptEntry(qId) {
+  const map = getAdapt();
+  let entry = map[qId];
+  if (!entry || typeof entry !== "object") {
+    entry = { rt: 0, err: 0, due: 0 };
+    map[qId] = entry;
+    try { localStorage.setItem("adapt", JSON.stringify(map)); } catch (_) {}
+  } else {
+    // auto-repair
+    if (!Number.isFinite(entry.rt)) entry.rt = 0;
+    if (!Number.isFinite(entry.err)) entry.err = 0;
+    entry.err = Math.max(0, Math.min(7, Math.trunc(entry.err)));
+    if (!Number.isFinite(entry.due)) entry.due = 0;
+  }
+  return entry;
+}
+
+function nowMs() {
+  return Date.now();
+}
+
+function startTimerForCurrentQuestion() {
+  if (typeof performance !== "undefined" && performance.now) {
+    currentQuestionStartTs = performance.now();
+  } else {
+    currentQuestionStartTs = Date.now();
+  }
+}
+
+function computeRT() {
+  const now = (typeof performance !== "undefined" && performance.now) ? performance.now() : Date.now();
+  let rt = 1000; // default if missing
+  if (currentQuestionStartTs != null) {
+    rt = now - currentQuestionStartTs;
+  }
+  // Clamp to [200, 60000] ms
+  if (!Number.isFinite(rt)) rt = 1000;
+  rt = Math.max(200, Math.min(60000, rt));
+  return rt;
+}
+
+function welfordUpdate(state, sampleRtMs) {
+  const n1 = state.n;
+  state.n = n1 + 1;
+  const delta = sampleRtMs - state.mean;
+  state.mean += delta / state.n;
+  const delta2 = sampleRtMs - state.mean;
+  state.m2 += delta * delta2;
+  return state;
+}
+
+function deriveSigma(state) {
+  if (state.n >= 2) {
+    return Math.sqrt(state.m2 / (state.n - 1));
+  }
+  return 0;
+}
+
+function computeSpeedTag(RT, mu, sigma) {
+  if (!Number.isFinite(mu)) mu = 0;
+  if (!Number.isFinite(sigma) || sessionRt.n < 2) sigma = 0;
+  if (sigma === 0) return "Nominal";
+  if (RT < mu - sigma) return "Fast";
+  if (RT > mu + sigma) return "Slow";
+  return "Nominal";
+}
+
+function reinsertTwoAhead(queueRef, qId, currentIndex) {
+  if (!Array.isArray(queueRef) || currentIndex == null) return;
+  // Find current occurrence by object identity if stored as object with .question, else by id string
+  // In this app, queue holds full question objects; use index-based operations.
+  // Remove the current item (already at currentIndex in caller flow usually)
+  const item = queueRef.splice(currentIndex, 1)[0];
+  // Reinsert two ahead
+  const targetIndex = Math.min(currentIndex + 2, queueRef.length);
+  if (item !== undefined) {
+    queueRef.splice(targetIndex, 0, item);
+  }
+}
+
+function scheduleAfterEvaluation(qId, ACC, RT, mu, sigma, now, queueContext) {
+  const entry = ensureAdaptEntry(qId);
+  const Tslow = mu + (sessionRt.n < 2 ? 0 : sigma);
+
+  if (ACC === 0 || RT > Tslow) {
+    entry.err = Math.min(7, entry.err + 1);
+    entry.due = now + 60000;
+    if (queueContext && queueContext.queue && Number.isInteger(queueContext.currentIndex)) {
+      reinsertTwoAhead(queueContext.queue, qId, queueContext.currentIndex);
+    }
+  } else {
+    entry.err = Math.max(0, entry.err - 1);
+    const gapMin = Math.pow(2, Math.max(0, 3 - entry.err)); // minutes
+    entry.due = now + gapMin * 60000;
+  }
+  // EMA in ms
+  entry.rt = 0.2 * RT + 0.8 * (Number.isFinite(entry.rt) ? entry.rt : 0);
+  saveAdaptEntry(qId, entry);
+}
+
+function selectNextQuestion(candidates) {
+  if (!Array.isArray(candidates) || candidates.length === 0) return null;
+  const now = nowMs();
+
+  // In this app candidates are full question objects; use a stable key for qId
+  const getId = (q) => {
+    // Prefer an explicit id if exists, else derive from content
+    return q.id ?? (q.question || JSON.stringify(q));
+  };
+
+  // Ensure entries exist
+  for (const q of candidates) {
+    ensureAdaptEntry(getId(q));
+  }
+
+  const eligible = [];
+  let minDue = Number.POSITIVE_INFINITY;
+  let minDueCand = candidates[0];
+
+  for (const q of candidates) {
+    const id = getId(q);
+    const entry = ensureAdaptEntry(id);
+    const due = Number.isFinite(entry.due) ? entry.due : 0;
+    if (due <= now) {
+      eligible.push({ q, entry, id });
+    }
+    if (due < minDue) {
+      minDue = due;
+      minDueCand = q;
+    }
+  }
+
+  if (eligible.length === 0) {
+    return minDueCand;
+  }
+
+  eligible.sort((a, b) => {
+    const pa = (a.entry.err * 1.5) + ((Number.isFinite(a.entry.rt) ? a.entry.rt : 0) / 1000);
+    const pb = (b.entry.err * 1.5) + ((Number.isFinite(b.entry.rt) ? b.entry.rt : 0) / 1000);
+    return pb - pa; // descending
+  });
+
+  return eligible[0].q;
+}
+
+// Utility to access feedback element for speed tag
+function appendSpeedTagToFeedback(tag) {
+  const feedbackEl = document.getElementById("feedback");
+  if (!feedbackEl) return;
+  // Minimal non-structural tag. Append or set suffix.
+  const base = feedbackEl.textContent || "";
+  const clean = base.replace(/\s*\|\s*Speed:\s*(Fast|Nominal|Slow)\s*$/i, "");
+  feedbackEl.textContent = `${clean} | Speed: ${tag}`;
+  feedbackEl.classList.remove("speed-fast", "speed-nominal", "speed-slow");
+  const cls = tag === "Fast" ? "speed-fast" : tag === "Slow" ? "speed-slow" : "speed-nominal";
+  feedbackEl.classList.add(cls);
+}
+
 // Streak tracking variables
 let currentStreak = 0;
 let maxStreak = 0;
@@ -435,6 +620,8 @@ async function startGame() {
 }
 
 function loadQuestion() {
+  // Start RT timer on render
+  startTimerForCurrentQuestion();
   if (queue.length === 0) {
     if (recallQueue.length > 0 && activeRecallEnabled) {
       queue = [...recallQueue];
@@ -535,6 +722,30 @@ function playSound(sound) {
 function checkAnswer(button, choice, correctAnswer) {
   const feedback = document.getElementById("feedback");
   const currentQuestion = queue[currentQuestionIndex];
+
+  // Adaptive: measure RT and compute ACC before branching
+  const rt = computeRT();
+  const acc = (choice === correctAnswer) ? 1 : 0;
+  // Update Welford session stats
+  welfordUpdate(sessionRt, rt);
+  const mu = sessionRt.mean;
+  const sigma = deriveSigma(sessionRt);
+
+  // In learn mode: compute stats but do not schedule
+  const isAdaptiveActive = (mode === "practice" || mode === "quiz");
+  // Build qId from question object; prefer explicit id if present
+  const qId = currentQuestion.id ?? (currentQuestion.question || JSON.stringify(currentQuestion));
+  const now = nowMs();
+
+  if (isAdaptiveActive) {
+    // Provide queue context only for penalize reinsertion; scheduleAfterEvaluation handles branch
+    scheduleAfterEvaluation(qId, acc, rt, mu, sigma, now, { queue, currentIndex: currentQuestionIndex });
+  }
+
+  // Speed tag in feedback (minimal, non-structural)
+  const speedTag = computeSpeedTag(rt, mu, sigma);
+  appendSpeedTagToFeedback(speedTag);
+
   if (choice === correctAnswer) {
     button.classList.add("correct");
     correctSound.load(); // Add this line
@@ -605,6 +816,18 @@ function prevQuestion() {
 }
 
 function nextQuestion() {
+  // Before choosing next, apply selection algorithm among candidates currently in queue
+  if (queue && queue.length > 0) {
+    const nextQ = selectNextQuestion(queue);
+    if (nextQ) {
+      const idx = queue.indexOf(nextQ);
+      if (idx >= 0) {
+        currentQuestionIndex = idx;
+      } else {
+        currentQuestionIndex = 0;
+      }
+    }
+  }
   // If auto-playing, the timer in loadQuestion will handle the next step.
   // If manually clicking next while auto-play is on but paused, it should proceed.
   // If auto-play is on and active, this manual click effectively resets the timer for the *next* question.
@@ -770,6 +993,10 @@ function resetGame() {
   }
   
   document.getElementById("game-screen").classList.add("hidden");
+
+  // Optional: also clear adaptive data when resetting overall progress if desired by UX.
+  // Current rule: Do not clear adapt unless user action demands. If there is a specific "Reset Progress" button for overall state,
+  // wire a separate handler to call: localStorage.removeItem("adapt");
   document.getElementById("start-screen").classList.remove("hidden");
   document.getElementById("chart-screen").classList.add("hidden");
   questions = [];
