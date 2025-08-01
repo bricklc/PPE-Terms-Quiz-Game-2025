@@ -632,6 +632,96 @@ body {
 
 /* Ensure settings rows have consistent bottom margin/padding */
 
+/* --- Adaptive Dev Settings (temporary minimal styles) --- */
+#adaptiveSettingsToggle {
+  margin-left: 8px;
+  padding: 4px 6px;
+  font-size: 14px;
+  background: var(--button-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  cursor: pointer;
+}
+#adaptiveSettingsToggle:hover {
+  background: var(--button-hover);
+}
+
+#adaptiveSettingsPanel {
+  margin-top: 8px;
+  background: var(--quick-start-bg);
+  color: var(--quick-start-text);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 8px;
+  text-align: left;
+  max-width: 100%;
+}
+#adaptiveSettingsPanel .adaptive-settings-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+#adaptiveSettingsPanel .adaptive-settings-header button {
+  background: transparent;
+  color: var(--quick-start-text);
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+#adaptiveSettingsPanel .adaptive-settings-body label {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0;
+}
+#adaptiveSettingsPanel .adaptive-settings-body label.small {
+  font-size: 12px;
+}
+#adaptiveSettingsPanel .adaptive-settings-body input[type="number"] {
+  width: 90px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  background: var(--container-bg);
+  color: var(--text-secondary);
+}
+#adaptiveSettingsPanel .adaptive-settings-body small {
+  grid-column: 1 / -1;
+  opacity: 0.85;
+  font-size: 12px;
+}
+#adaptiveSettingsPanel .adaptive-settings-body label.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#adaptiveSettingsPanel .adaptive-settings-actions {
+  margin-top: 8px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+#adaptiveSettingsPanel .adaptive-settings-actions button {
+  background: var(--button-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+#adaptiveSettingsPanel .adaptive-settings-actions button:hover {
+  background: var(--button-hover);
+}
+
+/* Optional classes used by speed tagging (already added to feedback element) */
+.speed-fast { color: #6ad36a !important; }
+.speed-nominal { color: #d7d7d7 !important; }
+.speed-slow { color: #ff6b6b !important; }
+
 @keyframes pulse {
   0% {
     transform: scale(1);
