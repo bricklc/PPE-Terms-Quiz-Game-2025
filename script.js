@@ -996,9 +996,9 @@ function checkAnswer(button, choice, correctAnswer) {
     scheduleAfterEvaluation(qId, acc, rt, mu, sigma, now, { queue, currentIndex: currentQuestionIndex });
   }
 
-  // Speed tag in feedback (minimal, non-structural)
-  const speedTag = computeSpeedTag(rt, mu, sigma);
-  appendSpeedTagToFeedback(speedTag);
+  // Speed tag disabled in correctness-only mode (no RT influence)
+  // const speedTag = computeSpeedTag(rt, mu, sigma);
+  // appendSpeedTagToFeedback(speedTag);
 
   if (choice === correctAnswer) {
     button.classList.add("correct");
