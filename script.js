@@ -374,6 +374,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 const loadingScreenStartTime = performance.now(); // For timing calculations
 
+/* Move Auto Play vars above any usage to avoid TDZ errors */
+let autoPlayEnabled = false;
+let autoPlayDelay = 5000; // Default 5 seconds
+let autoPlayTimer = null;
+let isAutoPlaying = false;
+
 // Wait for DOM to load before adding event listeners
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll('input[name="mode"]').forEach((input) =>
@@ -496,8 +502,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   });
 
-  // Add time format toggle listener
-  document.getElementById("timeFormatToggle").addEventListener("click", toggleTimeFormat);
+  // Add time format toggle listener (guard if element missing)
+  const tft = document.getElementById("timeFormatToggle");
+  if (tft) {
+    tft.addEventListener("click", toggleTimeFormat);
+  }
 
   // Set last updated date on page load
   const lastUpdated = document.getElementById("last-updated");
@@ -1126,10 +1135,7 @@ function showQuizData() {
 window.onload = loadQuizFiles;
 
 // New variables for Learn Mode auto-play feature
-let autoPlayEnabled = false;
-let autoPlayDelay = 5000; // Default 5 seconds
-let autoPlayTimer = null;
-let isAutoPlaying = false;
+// (Moved to top, kept comment here for context)
 
 // Toggle Auto Play feature
 function toggleAutoPlay() {
