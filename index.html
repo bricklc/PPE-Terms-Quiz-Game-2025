@@ -88,7 +88,7 @@
       <button id="seeQuizDataButton">See Quiz Data</button>
     </div>
     <div id="game-screen" class="hidden">
-      <!-- Adaptive Dev Settings: Toggle button and panel (hidden by default) -->
+      <!-- Adaptive Dev Settings: Toggle button and single panel (hidden by default) -->
       <div style="display:flex; justify-content:flex-end; gap:8px; align-items:center; margin-bottom:6px;">
         <button id="adaptiveSettingsToggle" title="Adaptive Settings (Dev)" aria-label="Adaptive Settings">⚙️</button>
       </div>
@@ -173,73 +173,6 @@
       <button id="endEarlyButton">End Quiz Early</button>
       <div id="progress"></div>
       <div id="feedback" class="feedback"></div>
-      <!-- Adaptive Dev Settings - temporary, minimal -->
-      <button id="adaptiveSettingsToggle" title="Adaptive Dev Settings" style="margin-left:8px;">⚙️</button>
-      <div id="adaptiveSettingsPanel" class="hidden">
-        <div class="adaptive-settings-header">
-          <span>Adaptive Dev Settings</span>
-          <button id="adaptiveSettingsClose" title="Close">✖</button>
-        </div>
-        <div class="adaptive-settings-body">
-          <label>
-            Penalize reinsert offset
-            <input type="number" id="as_penalizeOffset" min="0" max="10" step="1" />
-            <small>Higher = repeat later after more questions</small>
-          </label>
-          <label>
-            Penalize due seconds
-            <input type="number" id="as_penalizeDueSec" min="5" max="600" step="5" />
-            <small>Higher = item waits longer before eligible again</small>
-          </label>
-          <label>
-            Reinforce offset
-            <input type="number" id="as_reinforceOffset" min="0" max="10" step="1" />
-            <small>Higher = reinforcement repeats later</small>
-          </label>
-          <label>
-            Hard threshold factor
-            <input type="number" id="as_hardFactor" min="1" max="3" step="0.1" />
-            <small>Higher = fewer items flagged “hard”</small>
-          </label>
-          <label>
-            Improve target factor
-            <input type="number" id="as_improveFactor" min="0.5" max="1.0" step="0.05" />
-            <small>Lower = stricter improvement target</small>
-          </label>
-          <label>
-            Priority weight (err)
-            <input type="number" id="as_priorityErrWeight" min="0" max="3" step="0.1" />
-            <small>Higher = prioritizes items with more errors</small>
-          </label>
-          <label>
-            Priority RT scale (ms per second)
-            <input type="number" id="as_priorityRtScale" min="200" max="5000" step="100" />
-            <small>Higher = response time has less effect</small>
-          </label>
-          <label>
-            EMA alpha (rt)
-            <input type="number" id="as_emaAlpha" min="0.05" max="0.8" step="0.05" />
-            <small>Higher = recent RT influences more</small>
-          </label>
-          <label>
-            Min RT clamp (ms)
-            <input type="number" id="as_minRt" min="0" max="2000" step="50" />
-            <small>Lower = allows shorter times to count</small>
-          </label>
-          <label>
-            Max RT clamp (ms)
-            <input type="number" id="as_maxRt" min="5000" max="120000" step="1000" />
-            <small>Higher = allows longer times before clamp</small>
-          </label>
-          <label class="row">
-            <input type="checkbox" id="as_enableReinforcement" />
-            <span>Enable reinforcement layer</span>
-          </label>
-          <div class="adaptive-settings-actions">
-            <button id="adaptiveSettingsReset">Reset to Defaults</button>
-          </div>
-        </div>
-      </div>
       <div id="quoteDisplay" class="quote-display hidden">
         <p id="quoteText"></p>
         <button id="closeQuote">Close</button>
