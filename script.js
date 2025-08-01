@@ -223,6 +223,17 @@ function selectNextQuestion(candidates) {
   if (!Array.isArray(candidates) || candidates.length === 0) return null;
   const now = nowMs();
 
+  // Load weighting config
+  let cfg = {
+    weightErr: 1.5,
+    weightRtDiv: 1000,
+    correctDownFactor: 0.1
+  };
+  try {
+    const raw = localStorage.getItem("adaptiveConfig");
+    if (raw) cfg = { ...cfg, ...JSON.parse(raw) };
+  } catch (_) {}
+
   // Ensure entries exist with stable ids
   for (const q of candidates) {
     ensureAdaptEntry(stableQId(q));
@@ -249,13 +260,43 @@ function selectNextQuestion(candidates) {
     return minDueCand;
   }
 
-  eligible.sort((a, b) => {
-    const pa = (a.entry.err * 1.5) + ((Number.isFinite(a.entry.rt) ? a.entry.rt : 0) / 1000);
-    const pb = (b.entry.err * 1.5) + ((Number.isFinite(b.entry.rt) ? b.entry.rt : 0) / 1000);
-    return pb - pa; // descending
-  });
+  // Compute weights and sample
+  const weights = [];
+  let total = 0;
+  const errW = Number.isFinite(cfg.weightErr) ? cfg.weightErr : 1.5;
+  const rtDiv = Number.isFinite(cfg.weightRtDiv) && cfg.weightRtDiv > 0 ? cfg.weightRtDiv : 1000;
+  const downF = Number.isFinite(cfg.correctDownFactor) ? Math.max(0.01, Math.min(1, cfg.correctDownFactor)) : 0.1;
 
-  return eligible[0].q;
+  for (const item of eligible) {
+    const e = item.entry;
+    const base = (errW * (Number.isFinite(e.err) ? e.err : 0)) + ((Number.isFinite(e.rt) ? e.rt : 0) / rtDiv);
+    let w = base;
+    if (e.cool && e.cool > 0) {
+      w = base * downF;
+    }
+    if (!Number.isFinite(w) || w <= 0) w = 0.001;
+    weights.push(w);
+    total += w;
+  }
+
+  // Weighted random pick
+  let r = Math.random() * total;
+  let pickIndex = 0;
+  for (let i = 0; i < eligible.length; i++) {
+    if (r < weights[i]) { pickIndex = i; break; }
+    r -= weights[i];
+  }
+  const picked = eligible[pickIndex].q;
+
+  // Decrement cooldown counters globally per selection
+  for (const item of eligible) {
+    if (item.entry.cool && item.entry.cool > 0) {
+      item.entry.cool = Math.max(0, item.entry.cool - 1);
+      saveAdaptEntry(item.id, item.entry);
+    }
+  }
+
+  return picked;
 }
 
 // Utility to access feedback element for speed tag
