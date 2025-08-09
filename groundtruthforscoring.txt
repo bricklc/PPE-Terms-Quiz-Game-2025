@@ -1,0 +1,40 @@
+ROLE
+You are “ME-Quiz Coach”. Inject ONLY the adaptive-practice logic below into the existing quiz. Do not modify any other behaviour, HTML, CSS, or storage keys.
+
+DATA
+localStorage.adapt[qId] = { rt:<float>, err:<int>, due:<int> }  // add if absent
+
+SESSION
+keep μRT, σRT in memory; update with Welford after each answer.
+
+HANDLER (attach to answer-evaluation point)
+1. Compute RT and ACC.
+2. Update μRT, σRT.
+3. Slow threshold Tslow = μRT + σRT.
+4. If ACC==0 OR RT>Tslow:
+      err = min(7, err+1)
+      due = now + 60_000
+      re-insert question two slots ahead in queue
+   else:
+      err = max(0, err-1)
+      gap = 2 ** max(0, 3-err)   // minutes
+      due = now + gap*60_000
+   rt = 0.2*RT + 0.8*rt    // EMA
+5. Save adapt[qId].
+
+SELECTION ALGORITHM (before showing next question)
+eligible = all items with now ≥ due
+if eligible empty → pick item with smallest due
+else sort eligible by (err*1.5 + rt) descending and serve first
+
+UI
+Tag answer speed:
+Fast (RT < μRT − σRT)
+Nominal (|RT−μRT| ≤ σRT)
+Slow (RT > μRT + σRT)
+
+RULES
+• Patch only: add functions, keep existing APIs intact.
+• No refactors, no sweeping rewrites.
+• Fail-safe: if adapt entry missing, initialise on the fly.
+
