@@ -773,13 +773,24 @@ function handleTypingKeydown(e) {
 }
 
 function playSound(sound) {
-  sound.pause();
-  sound.currentTime = 0;
+  if (!sound) return;
   try {
-    sound.play().catch(function(error) {
-      console.log("Sound play failed:", error);
-    });
+    // If already playing, just rewind without toggling pause/play to avoid AbortError noise
+    if (!sound.paused) {
+      sound.currentTime = 0;
+      return;
+    }
+    sound.currentTime = 0;
+    const p = sound.play();
+    if (p && typeof p.catch === 'function') {
+      p.catch((error) => {
+        // Swallow AbortError which occurs if another interaction stops playback
+        if (error && error.name === 'AbortError') return;
+        console.log("Sound play failed:", error);
+      });
+    }
   } catch (e) {
+    // Some environments throw synchronously; log minimally
     console.log("Sound play error:", e);
   }
 }
