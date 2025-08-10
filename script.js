@@ -24,6 +24,24 @@ let typingPhase = 'questionKaraoke'; // 'questionKaraoke' | 'answerTyping'
 let karaokeIntervalId = null;
 let answerTypingTimeoutId = null;
 let karaokeCharsPerSec = 20; // default sweep speed
+let fractionBuffer = '';
+
+function hideTypingLearnUI() {
+  const typingContainer = document.getElementById('typingLearnContainer');
+  if (typingContainer) typingContainer.classList.add('hidden');
+  // Clear timers/state specific to typing learn
+  if (karaokeIntervalId) { clearInterval(karaokeIntervalId); karaokeIntervalId = null; }
+  if (answerTypingTimeoutId) { clearTimeout(answerTypingTimeoutId); answerTypingTimeoutId = null; }
+  typingPhase = 'questionKaraoke';
+  fractionBuffer = '';
+  // Clear target spans to avoid ghost text
+  const a = document.getElementById('typedCorrect');
+  const b = document.getElementById('nextChar');
+  const c = document.getElementById('remaining');
+  if (a) a.textContent = '';
+  if (b) b.textContent = '';
+  if (c) c.textContent = '';
+}
 
 // Learn Mode auto-play state (declared early to avoid TDZ in listeners)
 var autoPlayEnabled = false;
@@ -225,6 +243,8 @@ document.addEventListener("DOMContentLoaded", () => {
         autoPlayContainer.style.display = 'none';
         learnSubmodeContainer.style.display = 'none';
         karaokeSpeedContainer.style.display = 'none';
+        // Always hide Typing Learn UI when leaving Learn mode
+        hideTypingLearnUI();
         // Ensure autoPlay is off if not in learn mode
         if (isAutoPlaying) {
           toggleAutoPlay(); 
@@ -461,9 +481,10 @@ async function startGame() {
       if (navEl) navEl.classList.add('hidden');
       if (skipBtn) skipBtn.classList.add('hidden');
     } else {
-      if (typingContainer) typingContainer.classList.add('hidden');
+      hideTypingLearnUI();
     }
   } else if (mode === "quiz") {
+    hideTypingLearnUI();
     quizStartTime = new Date();
   }
 
@@ -747,6 +768,43 @@ function handleTypingKeydown(e) {
   else {
     e.preventDefault();
     return;
+  }
+
+  // Fraction tolerant entry: allow 1/2, .5, or "1 2" to match ½
+  const targetRemaining = typingTargetText.slice(typingIndex);
+  // Normalize unicode 1/2 symbol for comparing
+  const startsWithHalf = targetRemaining.startsWith('½');
+  if (startsWithHalf) {
+    // Accumulate a short buffer to recognize patterns
+    if (/^[0-9.\s/]$/.test(inputChar)) {
+      fractionBuffer += inputChar;
+      // Accept when buffer forms any of: "1/2", ".5", "0.5", "1 2"
+      const buf = fractionBuffer.replace(/\s+/g, ' ');
+      const accept = buf.endsWith('1/2') || /(^|\s)(?:0?\.5)$/.test(buf) || buf.endsWith('1 2');
+      const reject = buf.length > 4; // too long for our patterns
+      if (accept) {
+        typingIndex += 1; // consume the single '½' character
+        renderTypingTarget();
+        fractionBuffer = '';
+        e.preventDefault();
+        return;
+      }
+      if (reject) {
+        // Count a mistake and reset buffer
+        typingMistakes++;
+        const misEl = document.getElementById('typingMistakes');
+        if (misEl) misEl.textContent = `Mistakes: ${typingMistakes}`;
+        fractionBuffer = '';
+      }
+      e.preventDefault();
+      return;
+    } else {
+      // If typing something else, clear buffer and proceed to regular handling
+      fractionBuffer = '';
+    }
+  } else {
+    // Reset buffer when not on a half symbol
+    fractionBuffer = '';
   }
 
   // Allow typing ASCII digits for Unicode superscript digits in answers
@@ -1036,6 +1094,8 @@ function resetGame() {
     clearTimeout(speedRunTimer);
     speedRunTimer = null;
   }
+  // Ensure typing learn UI is hidden when resetting
+  hideTypingLearnUI();
   
   // Save learning time if user was in learn mode
   if (isInLearnMode && learningStartTime) {
