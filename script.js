@@ -59,6 +59,8 @@ let quizEndTime = null;
 let correctCount = 0;
 let speedRunTimer = null;
 let speedRunEnabled = false;
+let speedRunMode = 'time'; // 'time' | 'questions'
+let speedRunQuestionsTarget = 10;
 let learningStartTime = null;
 let learningEndTime = null;
 let isInLearnMode = false;
@@ -290,6 +292,33 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // Speed run mode/time/questions wiring (Quiz Mode only displays these)
+  const speedRunModeRadios = document.querySelectorAll('input[name="speedRunMode"]');
+  const speedRunTimeRow = document.getElementById('speedRunTimeRow');
+  const speedRunQuestionsRow = document.getElementById('speedRunQuestionsRow');
+  if (speedRunModeRadios && speedRunModeRadios.length) {
+    speedRunModeRadios.forEach(r => r.addEventListener('change', (e) => {
+      speedRunMode = e.target.value;
+      if (speedRunMode === 'time') {
+        if (speedRunTimeRow) speedRunTimeRow.style.display = '';
+        if (speedRunQuestionsRow) speedRunQuestionsRow.style.display = 'none';
+      } else {
+        if (speedRunTimeRow) speedRunTimeRow.style.display = 'none';
+        if (speedRunQuestionsRow) speedRunQuestionsRow.style.display = '';
+      }
+    }));
+  }
+  const speedRunQuestionsSlider = document.getElementById('speedRunQuestions');
+  const speedRunQuestionsValue = document.getElementById('speedRunQuestionsValue');
+  if (speedRunQuestionsSlider && speedRunQuestionsValue) {
+    // Max will be set when questions load; initialize label now
+    speedRunQuestionsSlider.addEventListener('input', (e) => {
+      const v = parseInt(e.target.value) || 1;
+      speedRunQuestionsTarget = v;
+      speedRunQuestionsValue.textContent = String(v);
+    });
+  }
+
   const typingAnimationInput = document.getElementById("typingAnimationEnabled");
   if (typingAnimationInput) {
     typingAnimationInput.addEventListener("change", (e) => {
@@ -512,19 +541,29 @@ async function startGame() {
       // Ensure answer is hidden in quiz mode
       document.getElementById("answer").classList.add("hidden");
       document.getElementById("answer").style.display = "none";
-      // Start Speed Run timer if enabled
+      // Prepare Speed Run if enabled
       if (document.getElementById("speedRunEnabled").checked) {
-        let timeStr = document.getElementById("speedRunTimeInput").value.toLowerCase().trim();
-        let timeLimitMs = 0;
-        if (timeStr.includes("min")) {
-          let num = parseInt(timeStr);
-          timeLimitMs = num * 60000;
-        } else if (timeStr.includes("s")) {
-          let num = parseInt(timeStr);
-          timeLimitMs = num * 1000;
-        }
-        if (timeLimitMs > 0) {
-          speedRunTimer = setTimeout(() => { endQuizEarly(); }, timeLimitMs);
+        if (speedRunMode === 'time') {
+          let timeStr = document.getElementById("speedRunTimeInput").value.toLowerCase().trim();
+          let timeLimitMs = 0;
+          if (timeStr.includes("min")) {
+            let num = parseInt(timeStr);
+            timeLimitMs = num * 60000;
+          } else if (timeStr.includes("s")) {
+            let num = parseInt(timeStr);
+            timeLimitMs = num * 1000;
+          }
+          if (timeLimitMs > 0) {
+            speedRunTimer = setTimeout(() => { endQuizEarly(); }, timeLimitMs);
+          }
+        } else if (speedRunMode === 'questions') {
+          // Cap slider to total available questions
+          const slider = document.getElementById('speedRunQuestions');
+          const label = document.getElementById('speedRunQuestionsValue');
+          const maxQ = Math.max(1, queue.length);
+          if (slider) slider.max = String(maxQ);
+          if (label) label.textContent = String(Math.min(speedRunQuestionsTarget, maxQ));
+          speedRunQuestionsTarget = Math.min(speedRunQuestionsTarget, maxQ);
         }
       }
     }
@@ -903,6 +942,13 @@ function checkAnswer(button, choice, correctAnswer) {
         feedback.textContent += " New max streak: " + maxStreak + "!";
       }
       setTimeout(nextQuestion, 1000);
+      // Speed Run (questions) progression: end early once target answered
+      if (document.getElementById("speedRunEnabled").checked && speedRunMode === 'questions') {
+        if (answeredCount >= speedRunQuestionsTarget) {
+          endQuizEarly();
+          return;
+        }
+      }
     } else if (mode === "practice") {
       if (!repeatsEnabled) {
         answeredCount++;

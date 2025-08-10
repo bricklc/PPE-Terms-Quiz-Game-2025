@@ -751,3 +751,8 @@ body {
 #timeFormatToggle:hover {
   background: var(--button-hover);
 }
+
+/* Speed run questions slider */
+#speedRunQuestions {
+  width: 200px;
+}

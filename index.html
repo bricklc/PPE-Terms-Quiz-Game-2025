@@ -87,7 +87,17 @@
         <!-- Speed Run options, only shown in Quiz Mode -->
         <div id="speedRunContainer" style="display: none;">
           <label><input type="checkbox" id="speedRunEnabled" name="speedRunEnabled"> Enable Speed Run</label>
-          <label>Time Limit: <input type="text" id="speedRunTimeInput" name="speedRunTime" value="30s"></label>
+          <div id="speedRunModeRow" style="margin-top:6px;">
+            <label style="margin-right:10px;"><input type="radio" name="speedRunMode" value="time" checked> Time limit</label>
+            <label><input type="radio" name="speedRunMode" value="questions"> Number of questions</label>
+          </div>
+          <div id="speedRunTimeRow" style="margin-top:6px;">
+            <label>Time Limit: <input type="text" id="speedRunTimeInput" name="speedRunTime" value="30s"></label>
+          </div>
+          <div id="speedRunQuestionsRow" style="display:none; margin-top:6px;">
+            <label for="speedRunQuestions">Questions: <span id="speedRunQuestionsValue">10</span></label>
+            <input type="range" id="speedRunQuestions" min="1" max="10" value="10">
+          </div>
         </div>
         <!-- Reveal Correct Answer option, only shown in Quiz Mode -->
         <div id="revealAnswerContainer" style="display: none;">
