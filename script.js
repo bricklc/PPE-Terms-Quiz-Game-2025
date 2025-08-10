@@ -813,6 +813,8 @@ function handleTypingKeydown(e) {
     '⁺': '+','⁻': '-','⁽': '(','⁾': ')',
     // Accept ASCII 'd'/'D' for delta characters when comparing
     'Δ': 'd','δ': 'd',
+    // Treat degree symbols as '*'
+    '°': '*','º': '*','˚': '*',
     // Normalize various dash/minus glyphs to ASCII hyphen-minus
     '−': '-', // U+2212 minus
     '–': '-', // U+2013 en dash
@@ -832,6 +834,12 @@ function handleTypingKeydown(e) {
   // Also normalize user input if it's one of the dash variants or NBSP
   if (superscriptMap[inputForCompare]) {
     inputForCompare = superscriptMap[inputForCompare];
+  }
+  // Allow '*' to match degree symbols by normalizing typed '*'
+  if (inputChar === '*') {
+    if (expected === '°' || expected === 'º' || expected === '˚') {
+      inputForCompare = '*';
+    }
   }
 
   if (inputForCompare === expectedForCompare) {
