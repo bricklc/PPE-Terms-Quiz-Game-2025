@@ -657,6 +657,15 @@ body {
   background: var(--button-hover);
 }
 
+/* Karaoke speed slider */
+#karaokeSpeedContainer label {
+  display: block;
+  margin: 8px 0 4px;
+}
+#karaokeSpeed {
+  width: 200px;
+}
+
 /* Ensure settings rows have consistent bottom margin/padding */
 
 @keyframes pulse {

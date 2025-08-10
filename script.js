@@ -23,6 +23,7 @@ let typingStartTs = 0;
 let typingPhase = 'questionKaraoke'; // 'questionKaraoke' | 'answerTyping'
 let karaokeIntervalId = null;
 let answerTypingTimeoutId = null;
+let karaokeCharsPerSec = 20; // default sweep speed
 
 // Learn Mode auto-play state (declared early to avoid TDZ in listeners)
 var autoPlayEnabled = false;
@@ -215,12 +216,15 @@ document.addEventListener("DOMContentLoaded", () => {
       // Show/hide Auto Play container based on Learn Mode selection
       const autoPlayContainer = document.getElementById('autoPlayContainer');
       const learnSubmodeContainer = document.getElementById('learnSubmodeContainer');
+      const karaokeSpeedContainer = document.getElementById('karaokeSpeedContainer');
       if (mode === 'learn') {
         autoPlayContainer.style.display = 'block';
         learnSubmodeContainer.style.display = 'block';
+        karaokeSpeedContainer.style.display = 'block';
       } else {
         autoPlayContainer.style.display = 'none';
         learnSubmodeContainer.style.display = 'none';
+        karaokeSpeedContainer.style.display = 'none';
         // Ensure autoPlay is off if not in learn mode
         if (isAutoPlaying) {
           toggleAutoPlay(); 
@@ -298,14 +302,17 @@ document.addEventListener("DOMContentLoaded", () => {
       const autoPlayContainer = document.getElementById('autoPlayContainer');
       const autoPlaySliderContainer = document.getElementById('autoPlaySliderContainer');
       const autoPlayEnabledCheckbox = document.getElementById('autoPlayEnabled');
+      const karaokeSpeedContainer = document.getElementById('karaokeSpeedContainer');
       if (learnSubmode === 'typing') {
         autoPlayContainer.style.display = 'none';
         autoPlaySliderContainer.style.display = 'none';
         if (autoPlayEnabledCheckbox) autoPlayEnabledCheckbox.checked = false;
         autoPlayEnabled = false;
         if (isAutoPlaying) toggleAutoPlay();
+        karaokeSpeedContainer.style.display = 'block';
       } else if (mode === 'learn') {
         autoPlayContainer.style.display = 'block';
+        karaokeSpeedContainer.style.display = 'block';
       }
     })
   );
@@ -369,6 +376,21 @@ document.addEventListener("DOMContentLoaded", () => {
   // Add time format toggle listener (guard for start screen usage)
   const tft = document.getElementById("timeFormatToggle");
   if (tft) tft.addEventListener("click", toggleTimeFormat);
+
+  // Karaoke speed slider
+  const karaokeSpeedSlider = document.getElementById('karaokeSpeed');
+  const karaokeSpeedValue = document.getElementById('karaokeSpeedValue');
+  if (karaokeSpeedSlider && karaokeSpeedValue) {
+    karaokeSpeedSlider.addEventListener('input', (e) => {
+      const val = parseInt(e.target.value) || 20;
+      karaokeCharsPerSec = Math.max(1, Math.min(120, val));
+      karaokeSpeedValue.textContent = String(karaokeCharsPerSec);
+    });
+    // Initialize from slider
+    const initVal = parseInt(karaokeSpeedSlider.value) || 20;
+    karaokeCharsPerSec = Math.max(1, Math.min(120, initVal));
+    karaokeSpeedValue.textContent = String(karaokeCharsPerSec);
+  }
 
   // Set last updated date on page load
   const lastUpdated = document.getElementById("last-updated");
@@ -633,8 +655,8 @@ function initTypingLearn(q) {
   typingContainer.classList.remove('hidden');
   renderTypingTarget();
 
-  // Karaoke animation over 3 seconds
-  const durationMs = 3000;
+  // Karaoke animation over duration based on characters per second
+  const durationMs = Math.max(300, Math.ceil((typingTargetText.length / karaokeCharsPerSec) * 1000));
   const startTs = performance.now();
   karaokeIntervalId = setInterval(() => {
     const elapsed = performance.now() - startTs;
@@ -736,6 +758,7 @@ function handleTypingKeydown(e) {
     renderTypingTarget();
     if (typingIndex >= typingTargetText.length) {
       // Completed answer: advance when done typing
+      playSound(correctSound);
       const typingContainer = document.getElementById('typingLearnContainer');
       if (typingContainer) typingContainer.classList.add('hidden');
       nextQuestion();

@@ -70,6 +70,11 @@
         </div>
         <label><input type="checkbox" id="repeatsEnabled" name="repeatsEnabled"> Enable Repeats</label>
         <label><input type="checkbox" id="typingAnimationEnabled" name="typingAnimationEnabled"> Enable Typing Animation (beta) </label>
+        <!-- Karaoke Speed for Typing Learn Mode -->
+        <div id="karaokeSpeedContainer" style="display: none; margin-top: 6px;">
+          <label for="karaokeSpeed">Karaoke Speed: <span id="karaokeSpeedValue">20</span> chars/s</label>
+          <input type="range" id="karaokeSpeed" name="karaokeSpeed" min="5" max="60" value="20">
+        </div>
         <!-- Auto Play options for Learn Mode -->
         <div id="autoPlayContainer" style="display: none;">
           <label><input type="checkbox" id="autoPlayEnabled" name="autoPlayEnabled"> Auto Play</label>
