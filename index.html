@@ -56,7 +56,13 @@
       <div>
         <label><input type="radio" name="order" value="ordered" checked> Ordered</label>
         <label><input type="radio" name="order" value="random"> Random</label>
-      </div>      <div id="settings">
+      </div>
+      <!-- Learn submode selector (shown only when Learn Mode is active) -->
+      <div id="learnSubmodeContainer" style="display: none; margin-top: 6px;">
+        <label style="margin-right:10px;"><input type="radio" name="learnSubmode" value="classic" checked> Classic Learn</label>
+        <label><input type="radio" name="learnSubmode" value="typing"> Typing Learn (Keybr)</label>
+      </div>
+      <div id="settings">
         <div class="settings-row">
           <button class="theme-toggle" aria-label="Toggle theme">
             <span class="material-icons">dark_mode</span>
@@ -92,6 +98,18 @@
       <button id="infoButton">💪</button>
       <div id="question" class="question"></div>
       <div id="answer" class="answer"></div>
+      <!-- Typing Learn Mode container (hidden by default) -->
+      <div id="typingLearnContainer" class="hidden">
+        <div id="typingTarget" aria-live="polite" style="margin-top:8px;">
+          <span id="typedCorrect"></span><span id="nextChar"></span><span id="remaining"></span>
+        </div>
+        <input id="typingHiddenInput" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Typing input" />
+        <div id="typingStats" style="margin-top:6px; font-size:14px; color: var(--text-secondary);">
+          <span id="typingMistakes">Mistakes: 0</span>
+          <span id="typingWpm" style="margin-left:12px; display:none;">WPM: 0</span>
+        </div>
+        <button id="typingResetBtn" class="secondary" style="margin-top:8px;">Reset</button>
+      </div>
       <div id="navigation">
         <button id="prevButton">← Previous</button>
         <button id="autoPlayToggle" style="display: none;">Play</button> <!-- Play/Pause button for Learn Mode Auto Play -->

@@ -13,6 +13,13 @@ let activeRecallEnabled = false;
 let maxRepeats = 1;
 let completedCount = 0; // Track completed questions
 let typingAnimationEnabled = false;
+let learnSubmode = 'classic'; // 'classic' | 'typing'
+
+// Typing Learn submode state
+let typingTargetText = '';
+let typingIndex = 0;
+let typingMistakes = 0;
+let typingStartTs = 0;
 
 // Streak tracking variables
 let currentStreak = 0;
@@ -198,10 +205,13 @@ document.addEventListener("DOMContentLoaded", () => {
       
       // Show/hide Auto Play container based on Learn Mode selection
       const autoPlayContainer = document.getElementById('autoPlayContainer');
+      const learnSubmodeContainer = document.getElementById('learnSubmodeContainer');
       if (mode === 'learn') {
         autoPlayContainer.style.display = 'block';
+        learnSubmodeContainer.style.display = 'block';
       } else {
         autoPlayContainer.style.display = 'none';
+        learnSubmodeContainer.style.display = 'none';
         // Ensure autoPlay is off if not in learn mode
         if (isAutoPlaying) {
           toggleAutoPlay(); 
@@ -271,6 +281,26 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // Learn submode selector
+  document.querySelectorAll('input[name="learnSubmode"]').forEach((input) =>
+    input.addEventListener('change', (e) => {
+      learnSubmode = e.target.value;
+      // If typing submode, ensure auto-play UI is hidden and disabled to avoid conflicts
+      const autoPlayContainer = document.getElementById('autoPlayContainer');
+      const autoPlaySliderContainer = document.getElementById('autoPlaySliderContainer');
+      const autoPlayEnabledCheckbox = document.getElementById('autoPlayEnabled');
+      if (learnSubmode === 'typing') {
+        autoPlayContainer.style.display = 'none';
+        autoPlaySliderContainer.style.display = 'none';
+        if (autoPlayEnabledCheckbox) autoPlayEnabledCheckbox.checked = false;
+        autoPlayEnabled = false;
+        if (isAutoPlaying) toggleAutoPlay();
+      } else if (mode === 'learn') {
+        autoPlayContainer.style.display = 'block';
+      }
+    })
+  );
+
   // Auto Play delay slider listener
   const autoPlayDelaySlider = document.getElementById('autoPlayDelay');
   const autoPlayDelayValueDisplay = document.getElementById('autoPlayDelayValue');
@@ -293,6 +323,157 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("nextButton").addEventListener("click", nextQuestion);
   document.getElementById("closeQuote").addEventListener("click", hideQuote);
 
+<<<<<<< Updated upstream
+=======
+  // Typing Learn controls
+  const typingHiddenInput = document.getElementById('typingHiddenInput');
+  const typingResetBtn = document.getElementById('typingResetBtn');
+  if (typingHiddenInput) {
+    typingHiddenInput.addEventListener('keydown', handleTypingKeydown);
+  }
+  if (typingResetBtn) {
+    typingResetBtn.addEventListener('click', () => {
+      // Re-init current question in typing mode without changing index
+      const q = queue[currentQuestionIndex];
+      if (mode === 'learn' && learnSubmode === 'typing' && q) {
+        initTypingLearn(q);
+      }
+    });
+  }
+
+  // Adaptive Dev Settings wiring
+  const asToggle = document.getElementById("adaptiveSettingsToggle");
+  const asPanel = document.getElementById("adaptiveSettingsPanel");
+  const asClose = document.getElementById("adaptiveSettingsClose");
+  const asReset = document.getElementById("adaptiveSettingsReset");
+
+  // Inputs map
+  const asInputs = {
+    penalizeOffset: document.getElementById("as_penalizeOffset"),
+    penalizeDueSec: document.getElementById("as_penalizeDueSec"),
+    reinforceOffset: document.getElementById("as_reinforceOffset"),
+    hardFactor: document.getElementById("as_hardFactor"),
+    improveFactor: document.getElementById("as_improveFactor"),
+    priorityErrWeight: document.getElementById("as_priorityErrWeight"),
+    priorityRtScale: document.getElementById("as_priorityRtScale"),
+    emaAlpha: document.getElementById("as_emaAlpha"),
+    minRt: document.getElementById("as_minRt"),
+    maxRt: document.getElementById("as_maxRt"),
+    enableReinforcement: document.getElementById("as_enableReinforcement"),
+  };
+
+  function bindAdaptiveInputsFromConfig() {
+    if (!asPanel) return;
+    // Use defaults if not present
+    if (typeof adaptiveConfig === "undefined") {
+      window.adaptiveConfig = {
+        penalizeOffset: 3,
+        penalizeDueSec: 60,
+        reinforceOffset: 4,
+        hardFactor: 1.5,
+        improveFactor: 0.8,
+        priorityErrWeight: 1.5,
+        priorityRtScale: 1000,
+        emaAlpha: 0.2,
+        minRt: 200,
+        maxRt: 60000,
+        enableReinforcement: true
+      };
+    }
+    if (asInputs.penalizeOffset) asInputs.penalizeOffset.value = adaptiveConfig.penalizeOffset;
+    if (asInputs.penalizeDueSec) asInputs.penalizeDueSec.value = adaptiveConfig.penalizeDueSec;
+    if (asInputs.reinforceOffset) asInputs.reinforceOffset.value = adaptiveConfig.reinforceOffset;
+    if (asInputs.hardFactor) asInputs.hardFactor.value = adaptiveConfig.hardFactor;
+    if (asInputs.improveFactor) asInputs.improveFactor.value = adaptiveConfig.improveFactor;
+    if (asInputs.priorityErrWeight) asInputs.priorityErrWeight.value = adaptiveConfig.priorityErrWeight;
+    if (asInputs.priorityRtScale) asInputs.priorityRtScale.value = adaptiveConfig.priorityRtScale;
+    if (asInputs.emaAlpha) asInputs.emaAlpha.value = adaptiveConfig.emaAlpha;
+    if (asInputs.minRt) asInputs.minRt.value = adaptiveConfig.minRt;
+    if (asInputs.maxRt) asInputs.maxRt.value = adaptiveConfig.maxRt;
+    if (asInputs.enableReinforcement) asInputs.enableReinforcement.checked = !!adaptiveConfig.enableReinforcement;
+  }
+
+  function attachAdaptiveInputListeners() {
+    if (!asPanel) return;
+    const num = (el, key, clampFn) => {
+      if (!el) return;
+      el.addEventListener("input", () => {
+        const v = Number(el.value);
+        if (Number.isFinite(v)) {
+          adaptiveConfig[key] = clampFn ? clampFn(v) : v;
+          try { localStorage.setItem("adaptiveConfig", JSON.stringify(adaptiveConfig)); } catch (_) {}
+        }
+      });
+    };
+    const chk = (el, key) => {
+      if (!el) return;
+      el.addEventListener("change", () => {
+        adaptiveConfig[key] = !!el.checked;
+        try { localStorage.setItem("adaptiveConfig", JSON.stringify(adaptiveConfig)); } catch (_) {}
+      });
+    };
+
+    num(asInputs.penalizeOffset, "penalizeOffset", (v) => Math.max(0, Math.min(10, Math.trunc(v))));
+    num(asInputs.penalizeDueSec, "penalizeDueSec", (v) => Math.max(5, Math.min(600, Math.trunc(v))));
+    num(asInputs.reinforceOffset, "reinforceOffset", (v) => Math.max(0, Math.min(10, Math.trunc(v))));
+    num(asInputs.hardFactor, "hardFactor");
+    num(asInputs.improveFactor, "improveFactor");
+    num(asInputs.priorityErrWeight, "priorityErrWeight");
+    num(asInputs.priorityRtScale, "priorityRtScale", (v) => Math.max(200, Math.min(5000, Math.trunc(v))));
+    num(asInputs.emaAlpha, "emaAlpha");
+    num(asInputs.minRt, "minRt", (v) => Math.max(0, Math.min(2000, Math.trunc(v))));
+    num(asInputs.maxRt, "maxRt", (v) => Math.max(5000, Math.min(120000, Math.trunc(v))));
+    chk(asInputs.enableReinforcement, "enableReinforcement");
+  }
+
+  // Toggle handlers
+  if (asToggle && asPanel) {
+    asToggle.addEventListener("click", () => {
+      asPanel.classList.toggle("hidden");
+      if (!asPanel.classList.contains("hidden")) {
+        // Open: populate form
+        // Load config from localStorage if available
+        try {
+          const raw = localStorage.getItem("adaptiveConfig");
+          if (raw) {
+            const parsed = JSON.parse(raw);
+            window.adaptiveConfig = { 
+              penalizeOffset: 3, penalizeDueSec: 60, reinforceOffset: 4,
+              hardFactor: 1.5, improveFactor: 0.8, priorityErrWeight: 1.5, priorityRtScale: 1000,
+              emaAlpha: 0.2, minRt: 200, maxRt: 60000, enableReinforcement: true,
+              ...parsed
+            };
+          }
+        } catch (_) {}
+        bindAdaptiveInputsFromConfig();
+      }
+    });
+  }
+  if (asClose && asPanel) {
+    asClose.addEventListener("click", () => asPanel.classList.add("hidden"));
+  }
+  if (asReset) {
+    asReset.addEventListener("click", () => {
+      window.adaptiveConfig = {
+        penalizeOffset: 3,
+        penalizeDueSec: 60,
+        reinforceOffset: 4,
+        hardFactor: 1.5,
+        improveFactor: 0.8,
+        priorityErrWeight: 1.5,
+        priorityRtScale: 1000,
+        emaAlpha: 0.2,
+        minRt: 200,
+        maxRt: 60000,
+        enableReinforcement: true
+      };
+      try { localStorage.setItem("adaptiveConfig", JSON.stringify(adaptiveConfig)); } catch (_) {}
+      bindAdaptiveInputsFromConfig();
+    });
+  }
+  attachAdaptiveInputListeners();
+
+>>>>>>> Stashed changes
   // Event listener for ending the quiz early
   const endEarlyButton = document.getElementById("endEarlyButton");
   if (endEarlyButton) {
@@ -374,6 +555,17 @@ async function startGame() {
     maxRepeats = 0;
     learningStartTime = new Date();
     isInLearnMode = true;
+    // Ensure UI visibility for submodes
+    const typingContainer = document.getElementById('typingLearnContainer');
+    const navEl = document.getElementById('navigation');
+    const skipBtn = document.getElementById('skipButton');
+    if (learnSubmode === 'typing') {
+      if (typingContainer) typingContainer.classList.remove('hidden');
+      if (navEl) navEl.classList.add('hidden');
+      if (skipBtn) skipBtn.classList.add('hidden');
+    } else {
+      if (typingContainer) typingContainer.classList.add('hidden');
+    }
   } else if (mode === "quiz") {
     quizStartTime = new Date();
   }
@@ -451,6 +643,21 @@ function loadQuestion() {
   const questionElement = document.getElementById("question");
 
   async function animateQuestion() {
+    // Typing Learn submode: render typing UI and early return
+    if (mode === 'learn' && learnSubmode === 'typing') {
+      questionElement.textContent = '';
+      const answerElement = document.getElementById('answer');
+      answerElement.textContent = '';
+      answerElement.classList.add('hidden');
+      document.getElementById('choices').innerHTML = '';
+      document.getElementById('navigation').classList.add('hidden');
+      document.getElementById('skipButton').classList.add('hidden');
+      document.getElementById('feedback').classList.add('hidden');
+
+      initTypingLearn(q);
+      return; // do not proceed with classic learn animation
+    }
+
     await typeText(questionElement, q.question);
 
     if (mode === "learn") {
@@ -507,7 +714,7 @@ function loadQuestion() {
   
   animateQuestion();
   clearTimeout(autoPlayTimer); // Clear any existing auto-play timer
-  if (mode === "learn" && isAutoPlaying && queue.length > 0) {
+  if (mode === "learn" && learnSubmode === 'classic' && isAutoPlaying && queue.length > 0) {
     autoPlayTimer = setTimeout(() => {
       if (currentQuestionIndex < queue.length - 1) {
         nextQuestion();
@@ -518,6 +725,101 @@ function loadQuestion() {
       }
     }, autoPlayDelay);
   }
+}
+
+// ---- Typing Learn submode helpers ----
+function initTypingLearn(q) {
+  const typingContainer = document.getElementById('typingLearnContainer');
+  const questionEl = document.getElementById('question');
+  const answerEl = document.getElementById('answer');
+  const choicesEl = document.getElementById('choices');
+  if (!typingContainer || !questionEl || !answerEl || !choicesEl) return;
+
+  // Build target string
+  typingTargetText = `${q.question} answer: ${q.answer}`;
+  typingIndex = 0;
+  typingMistakes = 0;
+  typingStartTs = performance.now();
+
+  // Ensure classic UI is hidden
+  questionEl.textContent = '';
+  answerEl.classList.add('hidden');
+  answerEl.textContent = '';
+  choicesEl.innerHTML = '';
+
+  // Show typing UI
+  typingContainer.classList.remove('hidden');
+  renderTypingTarget();
+
+  // Focus hidden input to capture keystrokes
+  const input = document.getElementById('typingHiddenInput');
+  if (input) {
+    input.value = '';
+    input.focus({ preventScroll: true });
+  }
+  // Reset stats
+  const misEl = document.getElementById('typingMistakes');
+  if (misEl) misEl.textContent = `Mistakes: 0`;
+}
+
+function renderTypingTarget() {
+  const typedCorrect = document.getElementById('typedCorrect');
+  const nextChar = document.getElementById('nextChar');
+  const remaining = document.getElementById('remaining');
+  if (!typedCorrect || !nextChar || !remaining) return;
+
+  const next = typingTargetText[typingIndex] ?? '';
+  typedCorrect.textContent = typingTargetText.slice(0, typingIndex);
+  nextChar.textContent = next;
+  remaining.textContent = typingTargetText.slice(typingIndex + 1);
+}
+
+function handleTypingKeydown(e) {
+  if (mode !== 'learn' || learnSubmode !== 'typing') return;
+  // Allow navigation keys to be ignored
+  if (e.key === 'Tab') return;
+
+  // Optional: allow backspace to move back
+  if (e.key === 'Backspace') {
+    if (typingIndex > 0) {
+      typingIndex--;
+      renderTypingTarget();
+    }
+    e.preventDefault();
+    return;
+  }
+
+  const expected = typingTargetText[typingIndex];
+  if (expected == null) {
+    e.preventDefault();
+    return;
+  }
+
+  // Only handle printable single characters and space/enter mapping
+  let inputChar = '';
+  if (e.key === 'Enter') inputChar = '\n';
+  else if (e.key.length === 1) inputChar = e.key;
+  else {
+    e.preventDefault();
+    return;
+  }
+
+  if (inputChar === expected) {
+    typingIndex++;
+    renderTypingTarget();
+    if (typingIndex >= typingTargetText.length) {
+      // Completed this item: hide typing UI and advance
+      const typingContainer = document.getElementById('typingLearnContainer');
+      if (typingContainer) typingContainer.classList.add('hidden');
+      nextQuestion();
+    }
+  } else {
+    typingMistakes++;
+    const misEl = document.getElementById('typingMistakes');
+    if (misEl) misEl.textContent = `Mistakes: ${typingMistakes}`;
+    playSound(incorrectSound);
+  }
+  e.preventDefault();
 }
 
 function playSound(sound) {
@@ -608,7 +910,7 @@ function nextQuestion() {
   // If auto-playing, the timer in loadQuestion will handle the next step.
   // If manually clicking next while auto-play is on but paused, it should proceed.
   // If auto-play is on and active, this manual click effectively resets the timer for the *next* question.
-  if (isAutoPlaying && mode === 'learn') {
+  if (isAutoPlaying && mode === 'learn' && learnSubmode === 'classic') {
     // Timer will be reset in loadQuestion
   } else if (mode === "learn" && currentQuestionIndex < queue.length - 1) {
     currentQuestionIndex++;

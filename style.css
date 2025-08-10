@@ -602,6 +602,33 @@ body {
   }
 }
 
+/* Typing Learn submode styles */
+#typingLearnContainer {
+  margin-top: 6px;
+}
+#typingTarget {
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: left;
+  padding: 10px 12px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  min-height: 72px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+#typedCorrect { color: #b2df8a; }
+#nextChar { color: #ffee58; text-decoration: underline; }
+#remaining { color: var(--text-secondary); }
+#typingHiddenInput {
+  position: absolute;
+  opacity: 0.001;
+  height: 0;
+  width: 0;
+  pointer-events: none;
+}
+
 /* Auto Play Styles */
 #autoPlayContainer label,
 #autoPlaySliderContainer label {
