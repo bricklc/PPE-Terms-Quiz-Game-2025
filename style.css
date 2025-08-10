@@ -666,6 +666,31 @@ body {
   width: 200px;
 }
 
+/* Results card styling */
+.results-card {
+  margin: 12px auto;
+  padding: 16px;
+  max-width: 640px;
+  background: rgba(29, 29, 29, 0.95);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  color: var(--text-secondary);
+  text-align: left;
+}
+.results-card .title {
+  font-size: 22px;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+.results-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  row-gap: 8px;
+  column-gap: 12px;
+}
+.results-label { opacity: 0.9; }
+.results-value { color: #fff; }
+
 /* Ensure settings rows have consistent bottom margin/padding */
 
 @keyframes pulse {

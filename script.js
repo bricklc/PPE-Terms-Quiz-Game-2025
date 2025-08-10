@@ -867,8 +867,8 @@ function playSound(sound) {
       p.catch((error) => {
         // Swallow AbortError which occurs if another interaction stops playback
         if (error && error.name === 'AbortError') return;
-        console.log("Sound play failed:", error);
-      });
+      console.log("Sound play failed:", error);
+    });
     }
   } catch (e) {
     // Some environments throw synchronously; log minimally
@@ -1007,12 +1007,19 @@ function endGame() {
       encouragingMessage = "💡 Keep going! Every attempt makes you stronger! Focus on the areas you missed and you'll improve in no time! 🌱";
     }
 
-    let statsHTML = `<div style="font-size: 24px; margin-bottom: 20px;">${encouragingMessage}</div>
-                     <br><strong>Time Started:</strong> ${quizStartTime.toLocaleTimeString()}<br>
-                     <strong>Time Ended:</strong> ${quizEndTime.toLocaleTimeString()}<br>
-                     <strong>Score:</strong> ${score}<br>
-                     <strong>Accuracy:</strong> ${accuracy}%<br>
-                     <strong>Time Taken:</strong> ${timeTakenSec} seconds`;
+    const statsHTML = `
+      <div class="results-card">
+        <div class="title">Quiz Summary</div>
+        <div class="results-grid">
+          <div class="results-label">Started</div><div class="results-value">${quizStartTime.toLocaleTimeString()}</div>
+          <div class="results-label">Ended</div><div class="results-value">${quizEndTime.toLocaleTimeString()}</div>
+          <div class="results-label">Score</div><div class="results-value">${score}</div>
+          <div class="results-label">Accuracy</div><div class="results-value">${accuracy}%</div>
+          <div class="results-label">Time Taken</div><div class="results-value">${timeTakenSec} seconds</div>
+        </div>
+      </div>
+      <div style="margin-top:8px;">${encouragingMessage}</div>
+    `;
     document.getElementById("question").innerHTML = statsHTML;
 
     // Store quiz result in sessionStorage
@@ -1061,12 +1068,19 @@ function endQuizEarly() {
     let timeTakenSec = Math.round((quizEndTime - quizStartTime) / 1000);
     let accuracy = answeredCount > 0 ? ((correctCount / answeredCount) * 100).toFixed(2) : 0;
     let score = `${correctCount}/${answeredCount}`;
-    let statsHTML = `<br><br><strong>Time Started:</strong> ${quizStartTime.toLocaleTimeString()}<br>
-                     <strong>Time Ended:</strong> ${quizEndTime.toLocaleTimeString()}<br>
-                     <strong>Score:</strong> ${score}<br>
-                     <strong>Accuracy:</strong> ${accuracy}%<br>
-                     <strong>Time Taken:</strong> ${timeTakenSec} seconds`;
-    document.getElementById("question").innerHTML = "Quiz Ended Early!" + statsHTML;
+    const statsHTML = `
+      <div class="results-card">
+        <div class="title">Quiz Ended Early</div>
+        <div class="results-grid">
+          <div class="results-label">Started</div><div class="results-value">${quizStartTime.toLocaleTimeString()}</div>
+          <div class="results-label">Ended</div><div class="results-value">${quizEndTime.toLocaleTimeString()}</div>
+          <div class="results-label">Score</div><div class="results-value">${score}</div>
+          <div class="results-label">Accuracy</div><div class="results-value">${accuracy}%</div>
+          <div class="results-label">Time Taken</div><div class="results-value">${timeTakenSec} seconds</div>
+        </div>
+      </div>
+    `;
+    document.getElementById("question").innerHTML = statsHTML;
 
     // Store detailed quiz result in sessionStorage
     let sessionQuizResults = JSON.parse(sessionStorage.getItem("sessionQuizResults")) || [];
