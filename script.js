@@ -20,6 +20,9 @@ let typingTargetText = '';
 let typingIndex = 0;
 let typingMistakes = 0;
 let typingStartTs = 0;
+let typingPhase = 'questionKaraoke'; // 'questionKaraoke' | 'answerTyping'
+let karaokeIntervalId = null;
+let answerTypingTimeoutId = null;
 
 // Learn Mode auto-play state (declared early to avoid TDZ in listeners)
 var autoPlayEnabled = false;
@@ -609,14 +612,19 @@ function initTypingLearn(q) {
   const choicesEl = document.getElementById('choices');
   if (!typingContainer || !questionEl || !answerEl || !choicesEl) return;
 
-  // Build target string
-  typingTargetText = `${q.question} answer: ${q.answer}`;
+  // Clear any previous timers
+  if (karaokeIntervalId) { clearInterval(karaokeIntervalId); karaokeIntervalId = null; }
+  if (answerTypingTimeoutId) { clearTimeout(answerTypingTimeoutId); answerTypingTimeoutId = null; }
+
+  // Phase 1: karaoke sweep through the question (no typing allowed)
+  typingPhase = 'questionKaraoke';
+  typingTargetText = q.question;
   typingIndex = 0;
   typingMistakes = 0;
   typingStartTs = performance.now();
 
   // Ensure classic UI is hidden
-  questionEl.textContent = '';
+  questionEl.textContent = 'Question:';
   answerEl.classList.add('hidden');
   answerEl.textContent = '';
   choicesEl.innerHTML = '';
@@ -625,15 +633,41 @@ function initTypingLearn(q) {
   typingContainer.classList.remove('hidden');
   renderTypingTarget();
 
-  // Focus hidden input to capture keystrokes
-  const input = document.getElementById('typingHiddenInput');
-  if (input) {
-    input.value = '';
-    input.focus({ preventScroll: true });
-  }
-  // Reset stats
-  const misEl = document.getElementById('typingMistakes');
-  if (misEl) misEl.textContent = `Mistakes: 0`;
+  // Karaoke animation over 3 seconds
+  const durationMs = 3000;
+  const startTs = performance.now();
+  karaokeIntervalId = setInterval(() => {
+    const elapsed = performance.now() - startTs;
+    const fraction = Math.max(0, Math.min(1, elapsed / durationMs));
+    typingIndex = Math.floor(fraction * typingTargetText.length);
+    renderTypingTarget();
+    if (elapsed >= durationMs) {
+      clearInterval(karaokeIntervalId);
+      karaokeIntervalId = null;
+      // Move to answer typing phase
+      typingPhase = 'answerTyping';
+      questionEl.textContent = 'Answer:';
+      typingTargetText = q.answer;
+      typingIndex = 0;
+      renderTypingTarget();
+      // Focus hidden input to capture keystrokes
+      const input = document.getElementById('typingHiddenInput');
+      if (input) {
+        input.value = '';
+        input.focus({ preventScroll: true });
+      }
+      // Reset stats
+      const misEl = document.getElementById('typingMistakes');
+      if (misEl) misEl.textContent = `Mistakes: 0`;
+      // Allow only 3 seconds to type the answer
+      answerTypingTimeoutId = setTimeout(() => {
+        // Hide typing UI and proceed regardless of completion
+        const typingContainer2 = document.getElementById('typingLearnContainer');
+        if (typingContainer2) typingContainer2.classList.add('hidden');
+        nextQuestion();
+      }, 3000);
+    }
+  }, 33); // ~30fps
 }
 
 function renderTypingTarget() {
@@ -650,6 +684,11 @@ function renderTypingTarget() {
 
 function handleTypingKeydown(e) {
   if (mode !== 'learn' || learnSubmode !== 'typing') return;
+  // Ignore key input during karaoke phase
+  if (typingPhase === 'questionKaraoke') {
+    e.preventDefault();
+    return;
+  }
   // Allow navigation keys to be ignored
   if (e.key === 'Tab') return;
 
@@ -690,7 +729,8 @@ function handleTypingKeydown(e) {
     typingIndex++;
     renderTypingTarget();
     if (typingIndex >= typingTargetText.length) {
-      // Completed this item: hide typing UI and advance
+      // Completed answer before timeout: clear timer and advance
+      if (answerTypingTimeoutId) { clearTimeout(answerTypingTimeoutId); answerTypingTimeoutId = null; }
       const typingContainer = document.getElementById('typingLearnContainer');
       if (typingContainer) typingContainer.classList.add('hidden');
       nextQuestion();
