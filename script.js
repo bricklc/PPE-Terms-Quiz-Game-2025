@@ -664,6 +664,14 @@ function handleTypingKeydown(e) {
   }
 
   const expected = typingTargetText[typingIndex];
+  // Subtle UX: if at the boundary before " answer: " and user presses space, jump to start of answer
+  const answerLabel = ' answer: ';
+  if (e.key === ' ' && typingTargetText.slice(typingIndex, typingIndex + answerLabel.length) === answerLabel) {
+    typingIndex += answerLabel.length;
+    renderTypingTarget();
+    e.preventDefault();
+    return;
+  }
   if (expected == null) {
     e.preventDefault();
     return;
