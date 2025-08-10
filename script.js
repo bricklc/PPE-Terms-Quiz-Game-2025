@@ -646,7 +646,11 @@ function initTypingLearn(q) {
       karaokeIntervalId = null;
       // Move to answer typing phase
       typingPhase = 'answerTyping';
-      questionEl.textContent = 'Answer:';
+      // Keep the question visible while typing the answer
+      questionEl.textContent = `question: ${q.question}`;
+      // Show an 'answer:' label above the typing target
+      answerEl.classList.remove('hidden');
+      answerEl.textContent = 'answer:';
       typingTargetText = q.answer;
       typingIndex = 0;
       renderTypingTarget();
@@ -659,13 +663,7 @@ function initTypingLearn(q) {
       // Reset stats
       const misEl = document.getElementById('typingMistakes');
       if (misEl) misEl.textContent = `Mistakes: 0`;
-      // Allow only 3 seconds to type the answer
-      answerTypingTimeoutId = setTimeout(() => {
-        // Hide typing UI and proceed regardless of completion
-        const typingContainer2 = document.getElementById('typingLearnContainer');
-        if (typingContainer2) typingContainer2.classList.add('hidden');
-        nextQuestion();
-      }, 3000);
+      // No auto-advance: wait for user to complete typing the answer
     }
   }, 33); // ~30fps
 }
@@ -729,8 +727,7 @@ function handleTypingKeydown(e) {
     typingIndex++;
     renderTypingTarget();
     if (typingIndex >= typingTargetText.length) {
-      // Completed answer before timeout: clear timer and advance
-      if (answerTypingTimeoutId) { clearTimeout(answerTypingTimeoutId); answerTypingTimeoutId = null; }
+      // Completed answer: advance when done typing
       const typingContainer = document.getElementById('typingLearnContainer');
       if (typingContainer) typingContainer.classList.add('hidden');
       nextQuestion();
