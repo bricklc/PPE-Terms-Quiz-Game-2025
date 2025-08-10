@@ -21,6 +21,12 @@ let typingIndex = 0;
 let typingMistakes = 0;
 let typingStartTs = 0;
 
+// Learn Mode auto-play state (declared early to avoid TDZ in listeners)
+var autoPlayEnabled = false;
+var autoPlayDelay = 5000; // Default 5 seconds
+var autoPlayTimer = null;
+var isAutoPlaying = false;
+
 // Streak tracking variables
 let currentStreak = 0;
 let maxStreak = 0;
@@ -323,8 +329,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("nextButton").addEventListener("click", nextQuestion);
   document.getElementById("closeQuote").addEventListener("click", hideQuote);
 
-<<<<<<< Updated upstream
-=======
   // Typing Learn controls
   const typingHiddenInput = document.getElementById('typingHiddenInput');
   const typingResetBtn = document.getElementById('typingResetBtn');
@@ -340,140 +344,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
-
-  // Adaptive Dev Settings wiring
-  const asToggle = document.getElementById("adaptiveSettingsToggle");
-  const asPanel = document.getElementById("adaptiveSettingsPanel");
-  const asClose = document.getElementById("adaptiveSettingsClose");
-  const asReset = document.getElementById("adaptiveSettingsReset");
-
-  // Inputs map
-  const asInputs = {
-    penalizeOffset: document.getElementById("as_penalizeOffset"),
-    penalizeDueSec: document.getElementById("as_penalizeDueSec"),
-    reinforceOffset: document.getElementById("as_reinforceOffset"),
-    hardFactor: document.getElementById("as_hardFactor"),
-    improveFactor: document.getElementById("as_improveFactor"),
-    priorityErrWeight: document.getElementById("as_priorityErrWeight"),
-    priorityRtScale: document.getElementById("as_priorityRtScale"),
-    emaAlpha: document.getElementById("as_emaAlpha"),
-    minRt: document.getElementById("as_minRt"),
-    maxRt: document.getElementById("as_maxRt"),
-    enableReinforcement: document.getElementById("as_enableReinforcement"),
-  };
-
-  function bindAdaptiveInputsFromConfig() {
-    if (!asPanel) return;
-    // Use defaults if not present
-    if (typeof adaptiveConfig === "undefined") {
-      window.adaptiveConfig = {
-        penalizeOffset: 3,
-        penalizeDueSec: 60,
-        reinforceOffset: 4,
-        hardFactor: 1.5,
-        improveFactor: 0.8,
-        priorityErrWeight: 1.5,
-        priorityRtScale: 1000,
-        emaAlpha: 0.2,
-        minRt: 200,
-        maxRt: 60000,
-        enableReinforcement: true
-      };
-    }
-    if (asInputs.penalizeOffset) asInputs.penalizeOffset.value = adaptiveConfig.penalizeOffset;
-    if (asInputs.penalizeDueSec) asInputs.penalizeDueSec.value = adaptiveConfig.penalizeDueSec;
-    if (asInputs.reinforceOffset) asInputs.reinforceOffset.value = adaptiveConfig.reinforceOffset;
-    if (asInputs.hardFactor) asInputs.hardFactor.value = adaptiveConfig.hardFactor;
-    if (asInputs.improveFactor) asInputs.improveFactor.value = adaptiveConfig.improveFactor;
-    if (asInputs.priorityErrWeight) asInputs.priorityErrWeight.value = adaptiveConfig.priorityErrWeight;
-    if (asInputs.priorityRtScale) asInputs.priorityRtScale.value = adaptiveConfig.priorityRtScale;
-    if (asInputs.emaAlpha) asInputs.emaAlpha.value = adaptiveConfig.emaAlpha;
-    if (asInputs.minRt) asInputs.minRt.value = adaptiveConfig.minRt;
-    if (asInputs.maxRt) asInputs.maxRt.value = adaptiveConfig.maxRt;
-    if (asInputs.enableReinforcement) asInputs.enableReinforcement.checked = !!adaptiveConfig.enableReinforcement;
-  }
-
-  function attachAdaptiveInputListeners() {
-    if (!asPanel) return;
-    const num = (el, key, clampFn) => {
-      if (!el) return;
-      el.addEventListener("input", () => {
-        const v = Number(el.value);
-        if (Number.isFinite(v)) {
-          adaptiveConfig[key] = clampFn ? clampFn(v) : v;
-          try { localStorage.setItem("adaptiveConfig", JSON.stringify(adaptiveConfig)); } catch (_) {}
-        }
-      });
-    };
-    const chk = (el, key) => {
-      if (!el) return;
-      el.addEventListener("change", () => {
-        adaptiveConfig[key] = !!el.checked;
-        try { localStorage.setItem("adaptiveConfig", JSON.stringify(adaptiveConfig)); } catch (_) {}
-      });
-    };
-
-    num(asInputs.penalizeOffset, "penalizeOffset", (v) => Math.max(0, Math.min(10, Math.trunc(v))));
-    num(asInputs.penalizeDueSec, "penalizeDueSec", (v) => Math.max(5, Math.min(600, Math.trunc(v))));
-    num(asInputs.reinforceOffset, "reinforceOffset", (v) => Math.max(0, Math.min(10, Math.trunc(v))));
-    num(asInputs.hardFactor, "hardFactor");
-    num(asInputs.improveFactor, "improveFactor");
-    num(asInputs.priorityErrWeight, "priorityErrWeight");
-    num(asInputs.priorityRtScale, "priorityRtScale", (v) => Math.max(200, Math.min(5000, Math.trunc(v))));
-    num(asInputs.emaAlpha, "emaAlpha");
-    num(asInputs.minRt, "minRt", (v) => Math.max(0, Math.min(2000, Math.trunc(v))));
-    num(asInputs.maxRt, "maxRt", (v) => Math.max(5000, Math.min(120000, Math.trunc(v))));
-    chk(asInputs.enableReinforcement, "enableReinforcement");
-  }
-
-  // Toggle handlers
-  if (asToggle && asPanel) {
-    asToggle.addEventListener("click", () => {
-      asPanel.classList.toggle("hidden");
-      if (!asPanel.classList.contains("hidden")) {
-        // Open: populate form
-        // Load config from localStorage if available
-        try {
-          const raw = localStorage.getItem("adaptiveConfig");
-          if (raw) {
-            const parsed = JSON.parse(raw);
-            window.adaptiveConfig = { 
-              penalizeOffset: 3, penalizeDueSec: 60, reinforceOffset: 4,
-              hardFactor: 1.5, improveFactor: 0.8, priorityErrWeight: 1.5, priorityRtScale: 1000,
-              emaAlpha: 0.2, minRt: 200, maxRt: 60000, enableReinforcement: true,
-              ...parsed
-            };
-          }
-        } catch (_) {}
-        bindAdaptiveInputsFromConfig();
-      }
-    });
-  }
-  if (asClose && asPanel) {
-    asClose.addEventListener("click", () => asPanel.classList.add("hidden"));
-  }
-  if (asReset) {
-    asReset.addEventListener("click", () => {
-      window.adaptiveConfig = {
-        penalizeOffset: 3,
-        penalizeDueSec: 60,
-        reinforceOffset: 4,
-        hardFactor: 1.5,
-        improveFactor: 0.8,
-        priorityErrWeight: 1.5,
-        priorityRtScale: 1000,
-        emaAlpha: 0.2,
-        minRt: 200,
-        maxRt: 60000,
-        enableReinforcement: true
-      };
-      try { localStorage.setItem("adaptiveConfig", JSON.stringify(adaptiveConfig)); } catch (_) {}
-      bindAdaptiveInputsFromConfig();
-    });
-  }
-  attachAdaptiveInputListeners();
-
->>>>>>> Stashed changes
+  // End Typing Learn controls
   // Event listener for ending the quiz early
   const endEarlyButton = document.getElementById("endEarlyButton");
   if (endEarlyButton) {
@@ -492,8 +363,9 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   });
 
-  // Add time format toggle listener
-  document.getElementById("timeFormatToggle").addEventListener("click", toggleTimeFormat);
+  // Add time format toggle listener (guard for start screen usage)
+  const tft = document.getElementById("timeFormatToggle");
+  if (tft) tft.addEventListener("click", toggleTimeFormat);
 
   // Set last updated date on page load
   const lastUpdated = document.getElementById("last-updated");
@@ -627,6 +499,8 @@ async function startGame() {
 }
 
 function loadQuestion() {
+  // Reset and start per-question timer if used elsewhere
+  // (Kept minimal to avoid reintroducing removed adaptive timing code)
   if (queue.length === 0) {
     if (recallQueue.length > 0 && activeRecallEnabled) {
       queue = [...recallQueue];
@@ -1200,11 +1074,7 @@ function showQuizData() {
 
 window.onload = loadQuizFiles;
 
-// New variables for Learn Mode auto-play feature
-let autoPlayEnabled = false;
-let autoPlayDelay = 5000; // Default 5 seconds
-let autoPlayTimer = null;
-let isAutoPlaying = false;
+// New variables for Learn Mode auto-play feature (already declared above)
 
 // Toggle Auto Play feature
 function toggleAutoPlay() {
