@@ -552,6 +552,9 @@ function loadQuestion() {
       document.getElementById('navigation').classList.add('hidden');
       document.getElementById('skipButton').classList.add('hidden');
       document.getElementById('feedback').classList.add('hidden');
+      // Ensure progress is shown in Typing Learn
+      const prog = document.getElementById('progress');
+      if (prog) prog.textContent = `${currentQuestionIndex + 1}/${questions.length}`;
 
       initTypingLearn(q);
       return; // do not proceed with classic learn animation
@@ -739,6 +742,7 @@ function handleTypingKeydown(e) {
   // Only handle printable single characters and space/enter mapping
   let inputChar = '';
   if (e.key === 'Enter') inputChar = '\n';
+  else if (e.key === 'Subtract') inputChar = '-'; // Numpad subtract normalization
   else if (e.key.length === 1) inputChar = e.key;
   else {
     e.preventDefault();
@@ -748,10 +752,29 @@ function handleTypingKeydown(e) {
   // Allow typing ASCII digits for Unicode superscript digits in answers
   const superscriptMap = {
     '⁰': '0','¹': '1','²': '2','³': '3','⁴': '4','⁵': '5','⁶': '6','⁷': '7','⁸': '8','⁹': '9',
-    '⁺': '+','⁻': '-','⁽': '(','⁾': ')'
+    '⁺': '+','⁻': '-','⁽': '(','⁾': ')',
+    // Accept ASCII 'd'/'D' for delta characters when comparing
+    'Δ': 'd','δ': 'd',
+    // Normalize various dash/minus glyphs to ASCII hyphen-minus
+    '−': '-', // U+2212 minus
+    '–': '-', // U+2013 en dash
+    '—': '-', // U+2014 em dash
+    '‐': '-', // U+2010 hyphen
+    '‑': '-', // U+2011 non-breaking hyphen
+    '﹣': '-', // U+FE63 small hyphen-minus
+    '－': '-', // U+FF0D fullwidth hyphen-minus
+    // Normalize NBSP to space
+    '\u00A0': ' '
   };
   const expectedForCompare = superscriptMap[expected] || expected;
-  const inputForCompare = inputChar;
+  let inputForCompare = inputChar;
+  if (expected === 'Δ' || expected === 'δ') {
+    inputForCompare = inputChar.toLowerCase();
+  }
+  // Also normalize user input if it's one of the dash variants or NBSP
+  if (superscriptMap[inputForCompare]) {
+    inputForCompare = superscriptMap[inputForCompare];
+  }
 
   if (inputForCompare === expectedForCompare) {
     typingIndex++;
@@ -883,6 +906,9 @@ function nextQuestion() {
   }
   wrongAttempt = false;
   repeatCount = 0;
+  // Update progress for Typing Learn immediately
+  const prog = document.getElementById('progress');
+  if (prog) prog.textContent = `${Math.min(currentQuestionIndex + 1, questions.length)}/${questions.length}`;
   loadQuestion();
 }
 
