@@ -1,0 +1,582 @@
+[
+  {
+    "question": "If the second derivative of the equation of a curve is equal to the negative of the equation of that same curve, the curve is",
+    "choices": [
+      "Paraboloid",
+      "Exponential",
+      "Tangent",
+      "Sinusoidal"
+    ],
+    "answer": "Sinusoidal"
+  },
+  {
+    "question": "The state of a thermodynamic system is defined by its",
+    "choices": [
+      "Temperature",
+      "Pressure and temperature",
+      "Process",
+      "Properties"
+    ],
+    "answer": "Properties"
+  },
+  {
+    "question": "The partial pressure of a gas is the pressure that the gas will exert if it alone occupies the volume occupied by the mixture at the same temperature of the mixture",
+    "choices": [
+      "Dalton's law",
+      "Avogadro's law",
+      "Amagat's law",
+      "Pascal's law"
+    ],
+    "answer": "Dalton's law"
+  },
+  {
+    "question": "The velocity of propagation of an infinitely small disturbance relative to the fluid ahead is",
+    "choices": [
+      "Acoustic velocity",
+      "Velocity of sound",
+      "Nozzle velocity",
+      "Interior velocity"
+    ],
+    "answer": "Acoustic velocity"
+  },
+  {
+    "question": "Defined as the mass that is accelerated at a rate of one foot per second per second when acted upon by one pound force",
+    "choices": [
+      "Kilogram",
+      "Dyne",
+      "Ergs",
+      "Slug"
+    ],
+    "answer": "Slug"
+  },
+  {
+    "question": "The act of charging two or more buyers or sellers different prices for the same product where the elasticity of supply or demand at each price level differs among market is known as",
+    "choices": [
+      "Price manipulation",
+      "Price optimization",
+      "Price discrimination",
+      "Price war"
+    ],
+    "answer": "Price discrimination"
+  },
+  {
+    "question": "Imports quotas are",
+    "choices": [
+      "Taxes on imported goods",
+      "Quantitative restrictions on the entry of imports into a country",
+      "The minimum quantity of imports that can be brought into a country",
+      "The quantity of imports that must be exchanged for a unit exports"
+    ],
+    "answer": "Quantitative restrictions on the entry of imports into a country"
+  },
+  {
+    "question": "A closed economy is one that",
+    "choices": [
+      "Does not engage in transactions with the rest of the world",
+      "Does not allow free markets",
+      "Does not have government",
+      "Is subject to substantial government control"
+    ],
+    "answer": "Does not engage in transactions with the rest of the world"
+  },
+  {
+    "question": "Velocity of sound in an ideal gas is only a function of",
+    "choices": [
+      "Pressure",
+      "Temperature",
+      "Volume",
+      "Entropy"
+    ],
+    "answer": "Temperature"
+  },
+  {
+    "question": "Which function of money represents its role as an instrument for buying and selling goods and services?",
+    "choices": [
+      "Medium of exchange",
+      "Store of value",
+      "Unit of account",
+      "Standard of deferred payment"
+    ],
+    "answer": "Medium of exchange"
+  },
+  {
+    "question": "The ratio of the actual velocity at a given location and the velocity of sound at the same location.",
+    "choices": [
+      "Prandit number",
+      "Mach number",
+      "Reynolds number",
+      "Moles number"
+    ],
+    "answer": "Mach number"
+  },
+  {
+    "question": "Which motive for holding money refers to the people's desire to hold money for unexpected events?",
+    "choices": [
+      "Transactions motive",
+      "Precautionary motive",
+      "Speculative motive",
+      "None of the above"
+    ],
+    "answer": "Precautionary motive"
+  },
+  {
+    "question": "A jet plane travels at 1100 km/hr. If the mach number at this speed is less than unity, it is called",
+    "choices": [
+      "Sonic",
+      "Supersonic",
+      "Trans-sonic",
+      "Subsonic"
+    ],
+    "answer": "Subsonic"
+  },
+  {
+    "question": "The value of flat money is established by",
+    "choices": [
+      "Its value in gold",
+      "Its value as commodity",
+      "Government decree",
+      "None of the above"
+    ],
+    "answer": "Government decree"
+  },
+  {
+    "question": "Defined as the force necessary to accelerate one kilogram mass at a rate of one meter second per second",
+    "choices": [
+      "Calorie",
+      "Joule",
+      "Newton",
+      "Slug"
+    ],
+    "answer": "Newton"
+  },
+  {
+    "question": "An integer number that is equal to the sum of al its possible divisors except the number itself is called",
+    "choices": [
+      "Amicable number",
+      "Perfect number",
+      "Defective number",
+      "Redundant number"
+    ],
+    "answer": "Perfect number"
+  },
+  {
+    "question": "Force required to accelerate a mass of one gram at a rate of one centimeter per second per second",
+    "choices": [
+      "Pound",
+      "Gram",
+      "Kilogram",
+      "Dyne"
+    ],
+    "answer": "Dyne"
+  },
+  {
+    "question": "An inequality is reversed if both sides are multiplied by",
+    "choices": [
+      "Zero",
+      "-1",
+      "A positive number",
+      "A negative number"
+    ],
+    "answer": "-1"
+  },
+  {
+    "question": "There exists a unique number 0 such that a + 0 = a for any number a.",
+    "choices": [
+      "Additive property",
+      "Existence of additive inverse",
+      "Zero property",
+      "Existence of an additive identity"
+    ],
+    "answer": "Existence of an additive identity"
+  },
+  {
+    "question": "If equals are divided by equals the quotient are equal. This is a/an",
+    "choices": [
+      "Theorem",
+      "Corollary",
+      "Axiom",
+      "Hypothesis"
+    ],
+    "answer": "Axiom"
+  },
+  {
+    "question": "Assets which can be easily converted into cash are called ______ assets.",
+    "choices": [
+      "Liquid",
+      "Solvent",
+      "Bonds",
+      "Real"
+    ],
+    "answer": "Liquid"
+  },
+  {
+    "question": "The only integer with infinite number of divisors.",
+    "choices": [
+      "Zero",
+      "One",
+      "Natural number",
+      "Negative number"
+    ],
+    "answer": "Zero"
+  },
+  {
+    "question": "The opportunity cost of holding money is the",
+    "choices": [
+      "Interest rate",
+      "Principal",
+      "Dividend",
+      "None of the above"
+    ],
+    "answer": "Interest rate"
+  },
+  {
+    "question": "Zero divided by zero is",
+    "choices": [
+      "1",
+      "Ο",
+      "Undefined",
+      "Indeterminate"
+    ],
+    "answer": "Indeterminate"
+  },
+  {
+    "question": "The M1 definition of money refers to",
+    "choices": [
+      "Currency and demand deposits",
+      "Currency and all forms of deposits",
+      "Currency only",
+      "Everything that is acceptable as money"
+    ],
+    "answer": "Currency and demand deposits"
+  },
+  {
+    "question": "In expanding (x+y), the sum of exponents each term is",
+    "choices": [
+      "n",
+      "n-1",
+      "n+1",
+      "n/2"
+    ],
+    "answer": "n"
+  },
+  {
+    "question": "The commercial banking system can create money through",
+    "choices": [
+      "Holding excess reserves",
+      "Lending",
+      "Acquiring deposits",
+      "None of the above"
+    ],
+    "answer": "Lending"
+  },
+  {
+    "question": "A statement of equality between two ratios.",
+    "choices": [
+      "Valuation",
+      "Theorem",
+      "Power factor",
+      "Proportion"
+    ],
+    "answer": "Proportion"
+  },
+  {
+    "question": "A situation in which rival firms drive prices down through attempts to undercut each others prices is called",
+    "choices": [
+      "Price war",
+      "Price discrimination",
+      "Price leadership",
+      "Price manipulation"
+    ],
+    "answer": "Price war"
+  },
+  {
+    "question": "A solution of an equation which does not by definition, satisfy its original equation, and must therefore not be listed as an actual solution.",
+    "choices": [
+      "Trivial solution",
+      "Null solution",
+      "Extraneous solution",
+      "Imaginary solution"
+    ],
+    "answer": "Extraneous solution"
+  },
+  {
+    "question": "An accounting book where the original record of all transaction is ordinarily recorded.",
+    "choices": [
+      "Journal",
+      "Balance sheet",
+      "Ledger",
+      "Balance sheet"
+    ],
+    "answer": "Journal"
+  },
+  {
+    "question": "The set of all real numbers such that x of the radical \"x has the principal nth root.",
+    "choices": [
+      "Domain",
+      "Order",
+      "Range",
+      "Function"
+    ],
+    "answer": "Domain"
+  },
+  {
+    "question": "Which of the following are numbers whose last digits are unchanged after the number has been squared?",
+    "choices": [
+      "Palindrome numbers",
+      "Abundant numbers",
+      "Automorphic numbers",
+      "Perfect numbers"
+    ],
+    "answer": "Automorphic numbers"
+  },
+  {
+    "question": "The expression (2 - √5)(2 + √5) are called:",
+    "choices": [
+      "Conjugates",
+      "Opposite",
+      "Perfect squares",
+      "Binomial"
+    ],
+    "answer": "Conjugates"
+  },
+  {
+    "question": "An equation whose solution is not the entire set of real numbers is called a/an",
+    "choices": [
+      "Equivalent equation",
+      "Conditional equation",
+      "Identical set",
+      "Linear equation"
+    ],
+    "answer": "Conditional equation"
+  },
+  {
+    "question": "A number of the form a + bi, where a and b are real numbers, is called:",
+    "choices": [
+      "Natural number",
+      "Rational number",
+      "Real number",
+      "Complex number"
+    ],
+    "answer": "Complex number"
+  },
+  {
+    "question": "A property that indicates that is the product of two factors is zero, then one (or both) of the factors must also be zero.",
+    "choices": [
+      "Additive identity property",
+      "Zero factor property",
+      "Multiplicative identity property",
+      "Commutative property"
+    ],
+    "answer": "Zero factor property"
+  },
+  {
+    "question": "An equation that can be written in the standard form ax2 + bx + c = 0, where; a, b and c are real numbers with a ≠ 0.",
+    "choices": [
+      "Linear equation",
+      "Quadratic equation",
+      "Complex equation",
+      "Squared equation"
+    ],
+    "answer": "Quadratic equation"
+  },
+  {
+    "question": "The logarithm of x with base a is denoted by",
+    "choices": [
+      "logxa",
+      "logax",
+      "y = ax",
+      "a = xy"
+    ],
+    "answer": "logax"
+  },
+  {
+    "question": "An equation whose solution set is not the entire set of real numbers is called a/an",
+    "choices": [
+      "Equivalent equation",
+      "Conditional equation",
+      "Identical set",
+      "Linear equation"
+    ],
+    "answer": "Conditional equation"
+  },
+  {
+    "question": "The set with no elements is",
+    "choices": [
+      "null set",
+      "subset",
+      "no set",
+      "void set"
+    ],
+    "answer": "null set"
+  },
+  {
+    "question": "Indicate the FALSE statement:",
+    "choices": [
+      "The multiplicative identity is 1.",
+      "The product of a positive number and a negative number is negative",
+      "ab = ba is the associative law for multiplication",
+      "x² - y² = (x + y)(x - y)"
+    ],
+    "answer": "ab = ba is the associative law for multiplication"
+  },
+  {
+    "question": "The sum and product of conjugate numbers are:",
+    "choices": [
+      "complex numbers",
+      "real numbers",
+      "rational numbers",
+      "pure imaginary number"
+    ],
+    "answer": "real numbers"
+  },
+  {
+    "question": "The angle formed by two chords connecting the ends of the diameter is:",
+    "choices": [
+      "45°",
+      "90°",
+      "120°",
+      "60°"
+    ],
+    "answer": "90°"
+  },
+  {
+    "question": "The equation f(x) = 0 of degree n has at most;",
+    "choices": [
+      "n roots",
+      "n + 1 roots",
+      "n - 1 roots",
+      "n/2 roots"
+    ],
+    "answer": "n roots"
+  },
+  {
+    "question": "A line that meets a plane but is not perpendicular to it, in relation to the plane.",
+    "choices": [
+      "Parallel",
+      "Coplanar",
+      "Collinear",
+      "Oblique"
+    ],
+    "answer": "Oblique"
+  },
+  {
+    "question": "A system of m linear equations in n unknowns where n > m, usually has",
+    "choices": [
+      "finite solutions",
+      "infinitely many solution",
+      "imaginary solutions",
+      "trivial solutions"
+    ],
+    "answer": "infinitely many solution"
+  },
+  {
+    "question": "The difference between what a negotiable paper is worth in the future and its present worth is known as",
+    "choices": [
+      "Profit",
+      "Discount",
+      "Sunk value",
+      "Depreciation"
+    ],
+    "answer": "Discount"
+  },
+  {
+    "question": "The square root of a whole number produces an irrational number.",
+    "choices": [
+      "Radical",
+      "Irrational",
+      "Surd",
+      "Parity"
+    ],
+    "answer": "Surd"
+  },
+  {
+    "question": "The process of determining the value of certain property for specific reasons",
+    "choices": [
+      "Valuation",
+      "Liquidation",
+      "Inventory",
+      "Validation"
+    ],
+    "answer": "Valuation"
+  },
+  {
+    "question": "A number whose square root is a whole number is a",
+    "choices": [
+      "Perfect square",
+      "Pure number",
+      "Quadratic number",
+      "Rational number"
+    ],
+    "answer": "Perfect square"
+  },
+  {
+    "question": "The New Mechanical Engineering Law which was signed last February 12, 1998 is known as",
+    "choices": [
+      "RA 8491",
+      "RA 8495",
+      "RA 8499",
+      "RA 8492"
+    ],
+    "answer": "RA 8492"
+  },
+  {
+    "question": "Prime numbers that can be made from the expression 2n - 1 are",
+    "choices": [
+      "Jordan primes",
+      "Fermat primes",
+      "Hamilton primes",
+      "Mersenne primes"
+    ],
+    "answer": "Mersenne primes"
+  },
+  {
+    "question": "An absolute name for zero",
+    "choices": [
+      "Cipher",
+      "Integer",
+      "Natural",
+      "Median"
+    ],
+    "answer": "Cipher"
+  },
+  {
+    "question": "A statement that two mathematical expressions are equal.",
+    "choices": [
+      "Equation",
+      "Algebraic expression",
+      "Proportion",
+      "Identity"
+    ],
+    "answer": "Equation"
+  },
+  {
+    "question": "Another word for zero",
+    "choices": [
+      "Nought",
+      "Empty",
+      "Void",
+      "Null"
+    ],
+    "answer": "Nought"
+  },
+  {
+    "question": "The set of all real numbers that are solutions of the equation is",
+    "choices": [
+      "Solution set",
+      "Equivalent set",
+      "Conditional set",
+      "Set of real numbers"
+    ],
+    "answer": "Solution set"
+  },
+  {
+    "question": "The logarithm of the reciprocal of N is called the ______ of N.",
+    "choices": [
+      "Antilogarithm",
+      "Cologarithm",
+      "Natural logarithm",
+      "Briggsian logarithm"
+    ],
+    "answer": "Cologarithm"
+  }
+]
