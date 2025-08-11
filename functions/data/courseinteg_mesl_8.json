@@ -1,0 +1,1293 @@
+
+[
+  {
+    "question": "If the second derivative of the equation of a curve is equal to the negative of the equation of that same curve, the curve is",
+    "choices": [
+      "Paraboloid",
+      "Exponential",
+      "Tangent",
+      "Sinusoidal"
+    ],
+    "answer": "Sinusoidal"
+  },
+  {
+    "question": "The state of a thermodynamic system is defined by its",
+    "choices": [
+      "Temperature",
+      "Pressure and temperature",
+      "Process",
+      "Properties"
+    ],
+    "answer": "Properties"
+  },
+  {
+    "question": "The partial pressure of a gas is the pressure that the gas will exert if it alone occupies the volume occupied by the mixture at the same temperature of the mixture",
+    "choices": [
+      "Dalton's law",
+      "Avogadro's law",
+      "Amagat's law",
+      "Pascal's law"
+    ],
+    "answer": "Dalton's law"
+  },
+  {
+    "question": "The velocity of propagation of an infinitely small disturbance relative to the fluid ahead is",
+    "choices": [
+      "Acoustic velocity",
+      "Velocity of sound",
+      "Nozzle velocity",
+      "Interior velocity"
+    ],
+    "answer": "Acoustic velocity"
+  },
+  {
+    "question": "Defined as the mass that is accelerated at a rate of one foot per second per second when acted upon by one pound force",
+    "choices": [
+      "Kilogram",
+      "Dyne",
+      "Ergs",
+      "Slug"
+    ],
+    "answer": "Slug"
+  },
+  {
+    "question": "The act of charging two or more buyers or sellers different prices for the same product where the elasticity of supply or demand at each price level differs among market is known as",
+    "choices": [
+      "Price manipulation",
+      "Price optimization",
+      "Price discrimination",
+      "Price war"
+    ],
+    "answer": "Price discrimination"
+  },
+  {
+    "question": "Imports quotas are",
+    "choices": [
+      "Taxes on imported goods",
+      "Quantitative restrictions on the entry of imports into a country",
+      "The minimum quantity of imports that can be brought into a country",
+      "The quantity of imports that must be exchanged for a unit exports"
+    ],
+    "answer": "Quantitative restrictions on the entry of imports into a country"
+  },
+  {
+    "question": "A closed economy is one that",
+    "choices": [
+      "Does not engage in transactions with the rest of the world",
+      "Does not allow free markets",
+      "Does not have government",
+      "Is subject to substantial government control"
+    ],
+    "answer": "Does not engage in transactions with the rest of the world"
+  },
+  {
+    "question": "Velocity of sound in an ideal gas is only a function of",
+    "choices": [
+      "Pressure",
+      "Temperature",
+      "Volume",
+      "Entropy"
+    ],
+    "answer": "Temperature"
+  },
+  {
+    "question": "Which function of money represents its role as an instrument for buying and selling goods and services?",
+    "choices": [
+      "Medium of exchange",
+      "Store of value",
+      "Unit of account",
+      "Standard of deferred payment"
+    ],
+    "answer": "Medium of exchange"
+  },
+  {
+    "question": "The ratio of the actual velocity at a given location and the velocity of sound at the same location.",
+    "choices": [
+      "Prandit number",
+      "Mach number",
+      "Reynolds number",
+      "Moles number"
+    ],
+    "answer": "Mach number"
+  },
+  {
+    "question": "Which motive for holding money refers to the people's desire to hold money for unexpected events?",
+    "choices": [
+      "Transactions motive",
+      "Precautionary motive",
+      "Speculative motive",
+      "None of the above"
+    ],
+    "answer": "Precautionary motive"
+  },
+  {
+    "question": "A jet plane travels at 1100 km/hr. If the mach number at this speed is less than unity, it is called",
+    "choices": [
+      "Sonic",
+      "Supersonic",
+      "Trans-sonic",
+      "Subsonic"
+    ],
+    "answer": "Subsonic"
+  },
+  {
+    "question": "The value of flat money is established by",
+    "choices": [
+      "Its value in gold",
+      "Its value as commodity",
+      "Government decree",
+      "None of the above"
+    ],
+    "answer": "Government decree"
+  },
+  {
+    "question": "Defined as the force necessary to accelerate one kilogram mass at a rate of one meter second per second",
+    "choices": [
+      "Calorie",
+      "Joule",
+      "Newton",
+      "Slug"
+    ],
+    "answer": "Newton"
+  },
+  {
+    "question": "An integer number that is equal to the sum of al its possible divisors except the number itself is called",
+    "choices": [
+      "Amicable number",
+      "Perfect number",
+      "Defective number",
+      "Redundant number"
+    ],
+    "answer": "Perfect number"
+  },
+  {
+    "question": "Force required to accelerate a mass of one gram at a rate of one centimeter per second per second",
+    "choices": [
+      "Pound",
+      "Gram",
+      "Kilogram",
+      "Dyne"
+    ],
+    "answer": "Dyne"
+  },
+  {
+    "question": "An inequality is reversed if both sides are multiplied by",
+    "choices": [
+      "Zero",
+      "-1",
+      "A positive number",
+      "A negative number"
+    ],
+    "answer": "-1"
+  },
+  {
+    "question": "There exists a unique number 0 such that a + 0 = a for any number a.",
+    "choices": [
+      "Additive property",
+      "Existence of additive inverse",
+      "Zero property",
+      "Existence of an additive identity"
+    ],
+    "answer": "Existence of an additive identity"
+  },
+  {
+    "question": "If equals are divided by equals the quotient are equal. This is a/an",
+    "choices": [
+      "Theorem",
+      "Corollary",
+      "Axiom",
+      "Hypothesis"
+    ],
+    "answer": "Axiom"
+  },
+  {
+    "question": "Assets which can be easily converted into cash are called ______ assets.",
+    "choices": [
+      "Liquid",
+      "Solvent",
+      "Bonds",
+      "Real"
+    ],
+    "answer": "Liquid"
+  },
+  {
+    "question": "The only integer with infinite number of divisors.",
+    "choices": [
+      "Zero",
+      "One",
+      "Natural number",
+      "Negative number"
+    ],
+    "answer": "Zero"
+  },
+  {
+    "question": "The opportunity cost of holding money is the",
+    "choices": [
+      "Interest rate",
+      "Principal",
+      "Dividend",
+      "None of the above"
+    ],
+    "answer": "Interest rate"
+  },
+  {
+    "question": "Zero divided by zero is",
+    "choices": [
+      "1",
+      "Ο",
+      "Undefined",
+      "Indeterminate"
+    ],
+    "answer": "Indeterminate"
+  },
+  {
+    "question": "The M1 definition of money refers to",
+    "choices": [
+      "Currency and demand deposits",
+      "Currency and all forms of deposits",
+      "Currency only",
+      "Everything that is acceptable as money"
+    ],
+    "answer": "Currency and demand deposits"
+  },
+  {
+    "question": "In expanding (x+y), the sum of exponents each term is",
+    "choices": [
+      "n",
+      "n-1",
+      "n+1",
+      "n/2"
+    ],
+    "answer": "n"
+  },
+  {
+    "question": "The commercial banking system can create money through",
+    "choices": [
+      "Holding excess reserves",
+      "Lending",
+      "Acquiring deposits",
+      "None of the above"
+    ],
+    "answer": "Lending"
+  },
+  {
+    "question": "A statement of equality between two ratios.",
+    "choices": [
+      "Valuation",
+      "Theorem",
+      "Power factor",
+      "Proportion"
+    ],
+    "answer": "Proportion"
+  },
+  {
+    "question": "A situation in which rival firms drive prices down through attempts to undercut each others prices is called",
+    "choices": [
+      "Price war",
+      "Price discrimination",
+      "Price leadership",
+      "Price manipulation"
+    ],
+    "answer": "Price war"
+  },
+  {
+    "question": "A solution of an equation which does not by definition, satisfy its original equation, and must therefore not be listed as an actual solution.",
+    "choices": [
+      "Trivial solution",
+      "Null solution",
+      "Extraneous solution",
+      "Imaginary solution"
+    ],
+    "answer": "Extraneous solution"
+  },
+  {
+    "question": "An accounting book where the original record of all transaction is ordinarily recorded.",
+    "choices": [
+      "Journal",
+      "Balance sheet",
+      "Ledger",
+      "Balance sheet"
+    ],
+    "answer": "Journal"
+  },
+  {
+    "question": "The set of all real numbers such that x of the radical \"x has the principal nth root.",
+    "choices": [
+      "Domain",
+      "Order",
+      "Range",
+      "Function"
+    ],
+    "answer": "Domain"
+  },
+  {
+    "question": "Which of the following are numbers whose last digits are unchanged after the number has been squared?",
+    "choices": [
+      "Palindrome numbers",
+      "Abundant numbers",
+      "Automorphic numbers",
+      "Perfect numbers"
+    ],
+    "answer": "Automorphic numbers"
+  },
+  {
+    "question": "The expression (2 - √5)(2 + √5) are called:",
+    "choices": [
+      "Conjugates",
+      "Opposite",
+      "Perfect squares",
+      "Binomial"
+    ],
+    "answer": "Conjugates"
+  },
+  {
+    "question": "An equation whose solution is not the entire set of real numbers is called a/an",
+    "choices": [
+      "Equivalent equation",
+      "Conditional equation",
+      "Identical set",
+      "Linear equation"
+    ],
+    "answer": "Conditional equation"
+  },
+  {
+    "question": "A number of the form a + bi, where a and b are real numbers, is called:",
+    "choices": [
+      "Natural number",
+      "Rational number",
+      "Real number",
+      "Complex number"
+    ],
+    "answer": "Complex number"
+  },
+  {
+    "question": "A property that indicates that is the product of two factors is zero, then one (or both) of the factors must also be zero.",
+    "choices": [
+      "Additive identity property",
+      "Zero factor property",
+      "Multiplicative identity property",
+      "Commutative property"
+    ],
+    "answer": "Zero factor property"
+  },
+  {
+    "question": "An equation that can be written in the standard form ax2 + bx + c = 0, where; a, b and c are real numbers with a ≠ 0.",
+    "choices": [
+      "Linear equation",
+      "Quadratic equation",
+      "Complex equation",
+      "Squared equation"
+    ],
+    "answer": "Quadratic equation"
+  },
+  {
+    "question": "The present worth of all depreciation over the economic life of the item is called",
+    "choices": [
+      "book value",
+      "capital recovery",
+      "depreciation recovery",
+      "sinking fund"
+    ],
+    "answer": "depreciation recovery"
+  },
+  {
+    "question": "The flow back of profit plus depreciation from a given project is called",
+    "choices": [
+      "capital recovery",
+      "cash flow",
+      "economic return",
+      "earning value"
+    ],
+    "answer": "cash flow"
+  },
+  {
+    "question": "Gross profit, sales less cost of good sold, as a percentage of a sales is called",
+    "choices": [
+      "profit margin",
+      "gross margin",
+      "net income",
+      "rate of return"
+    ],
+    "answer": "profit margin"
+  },
+  {
+    "question": "The profit derived from a project or business enterprise without consideration of obligations to financial contributions or claims of other based on profit",
+    "choices": [
+      "Economic return",
+      "Yield",
+      "Earning value",
+      "Expected yield"
+    ],
+    "answer": "Economic return"
+  },
+  {
+    "question": "Worth of property as shown in the accounting records of an enterprise",
+    "choices": [
+      "Fair value",
+      "Market value",
+      "Salvage value",
+      "Book value"
+    ],
+    "answer": "Book value"
+  },
+  {
+    "question": "The payment for the use of borrowed money is called",
+    "choices": [
+      "loan",
+      "maturity value",
+      "interest",
+      "principal"
+    ],
+    "answer": "interest"
+  },
+  {
+    "question": "Those funds that are required to make the enterprise or project a going concern",
+    "choices": [
+      "Initial investment",
+      "Current accounts",
+      "Working capital",
+      "Subscribed capital"
+    ],
+    "answer": "Working capital"
+  },
+  {
+    "question": "The interest rate at which the present work of the cash on a project is zero of the interest earned by an investment",
+    "choices": [
+      "Effective rate",
+      "Nominal rate",
+      "Rate of return",
+      "Yield"
+    ],
+    "answer": "Rate of return"
+  },
+  {
+    "question": "A market situation where there is only one seller with many buyer",
+    "choices": [
+      "Monopoly",
+      "Monopsony",
+      "Oligopolu",
+      "Oligopsony"
+    ],
+    "answer": "Monopoly"
+  },
+  {
+    "question": "The ratio of the interest payment to be principal for a given unit of time and usually expressed as a percentage of the principal",
+    "choices": [
+      "interest",
+      "interest rate",
+      "investment",
+      "all of the above"
+    ],
+    "answer": "interest rate"
+  },
+  {
+    "question": "A market situation where there are few sellers and few buyers",
+    "choices": [
+      "Oligopoly",
+      "Oligopsony",
+      "Bilateral oligopoly",
+      "Bilateral oligopsony"
+    ],
+    "answer": "Bilateral oligopoly"
+  },
+  {
+    "question": "The true value of interest rate computed by equations for compound interest for a 1 year period is known as",
+    "choices": [
+      "expected return",
+      "interest",
+      "nominal interest",
+      "effective interest"
+    ],
+    "answer": "effective interest"
+  },
+  {
+    "question": "A market situation where there is only one seller and one buyer",
+    "choices": [
+      "Monopoly",
+      "Monopsony",
+      "Bilateral monopoly",
+      "Bilateral monopsony"
+    ],
+    "answer": "Bilateral monopoly"
+  },
+  {
+    "question": "The intangible item of value from the exclusive right of a company in a stated region of the country",
+    "choices": [
+      "Market value",
+      "Book value",
+      "Goodwill value",
+      "Franchise value"
+    ],
+    "answer": "Franchise value"
+  },
+  {
+    "question": "A market situation where there are only two buyers with many sellers",
+    "choices": [
+      "duopoly",
+      "oligopoly",
+      "duopsony",
+      "oligopsony"
+    ],
+    "answer": "duopsony"
+  },
+  {
+    "question": "The recorded current value of an asset is known as",
+    "choices": [
+      "scrap value",
+      "salvage value",
+      "book value",
+      "present worth"
+    ],
+    "answer": "book value"
+  },
+  {
+    "question": "The cumulative effect of elapsed time on the money value of an event, based on the earning power of equivalent invested funds capital should or will earn",
+    "choices": [
+      "Present worth factor",
+      "Interest rate",
+      "Time value of money",
+      "Yield"
+    ],
+    "answer": "Time value of money"
+  },
+  {
+    "question": "Scrap value of an asset is sometimes known as",
+    "choices": [
+      "book value",
+      "salvage value",
+      "replacement value",
+      "future value"
+    ],
+    "answer": "salvage value"
+  },
+  {
+    "question": "Defined as the future value minus the present value",
+    "choices": [
+      "interest",
+      "discount",
+      "discount",
+      "capital"
+    ],
+    "answer": "discount"
+  },
+  {
+    "question": "Sometimes called second hand value",
+    "choices": [
+      "Scrap value",
+      "Salvage value",
+      "Book value",
+      "Going value"
+    ],
+    "answer": "Salvage value"
+  },
+  {
+    "question": "An intangible value which is actually operating concern has due to its operation",
+    "choices": [
+      "Book value",
+      "Fair value",
+      "Goodwill value",
+      "Going value"
+    ],
+    "answer": "Goodwill value"
+  },
+  {
+    "question": "The reduction of the value of an asset due to constant use and passage of time",
+    "choices": [
+      "Scrap value",
+      "Depletion",
+      "Depreciation",
+      "Book value"
+    ],
+    "answer": "Depreciation"
+  },
+  {
+    "question": "The value which has a disinterested third party, different from the buyer and seller, will determine in order to establish a price acceptable to both parties",
+    "choices": [
+      "Market value",
+      "Goodwill value",
+      "Fair value",
+      "Franchise value"
+    ],
+    "answer": "Fair value"
+  },
+  {
+    "question": "A method of computing depreciation in which the annual change is a fixed percentage of the depreciation book value at the beginning of the year to which the depreciation applies",
+    "choices": [
+      "Straight lime method",
+      "Sinking fund method",
+      "SYD method",
+      "Declining balance method"
+    ],
+    "answer": "Declining balance method"
+  },
+  {
+    "question": "A type of annuity where the payments are made at the end of each payment period starting from the first period",
+    "choices": [
+      "Ordinary annuity",
+      "Annuity due",
+      "Deferred annuity",
+      "Perpetuity"
+    ],
+    "answer": "Ordinary annuity"
+  },
+  {
+    "question": "A method of depreciation whereby the amount to recover is spread uniformly over the estimated life of the asset in terms of the periods or units of output",
+    "choices": [
+      "Straight line method",
+      "Sinking fund method",
+      "Declining balance method",
+      "SYD method"
+    ],
+    "answer": "Straight line method"
+  },
+  {
+    "question": "It is a series of equal payments occurring at equal intervals of time where the first payment is made after several periods, after the beginning of the payment",
+    "choices": [
+      "Deferred annuity",
+      "Delayed annuity",
+      "Progressive annuity",
+      "Simple annuity"
+    ],
+    "answer": "Deferred annuity"
+  },
+  {
+    "question": "Which of the following depreciation methods cannot have a salvage value of zero?",
+    "choices": [
+      "Straight line method",
+      "Sinking fund method",
+      "Declining balance method",
+      "SYD method"
+    ],
+    "answer": "Declining balance method"
+  },
+  {
+    "question": "A type of annuity where the payments are made at the start of each period, beginning from the first period",
+    "choices": [
+      "Ordinary annuity",
+      "Annuity due",
+      "Deferred annuity",
+      "Perpetuity"
+    ],
+    "answer": "Annuity due"
+  },
+  {
+    "question": "A method of depreciation where a fixed sum of money is regularly deposited at compound interest in a real or imaginary fund in order to accumulate an amount equal to the total depreciation of an asset at the end of the asset's estimated life",
+    "choices": [
+      "Straight line method",
+      "Sinking fund method",
+      "Declining balance method",
+      "SYD method"
+    ],
+    "answer": "Sinking fund method"
+  },
+  {
+    "question": "Which is NOT an essential element of an ordinary annuity?",
+    "choices": [
+      "The amounts of all payments are equal",
+      "The payments are made at equal interval of time",
+      "The first payment is made at the beginning of each period",
+      "Compound interest is paid on all amounts in the annuity"
+    ],
+    "answer": "The first payment is made at the beginning of each period"
+  },
+  {
+    "question": "The function of interest rate and time that determines the cumulative amount of a sinking fund resulting from specific periodic deposits",
+    "choices": [
+      "Sinking fund factor",
+      "Present worth factor",
+      "Capacity factor",
+      "Demand factor"
+    ],
+    "answer": "Sinking fund factor"
+  },
+  {
+    "question": "A is a periodic payment and I is the interest rate, then present worth of a perpetuity =",
+    "choices": [
+      "Al",
+      "Α Ι^η",
+      "A^n/1",
+      "A/I"
+    ],
+    "answer": "A/I"
+  },
+  {
+    "question": "The first cost of any property includes",
+    "choices": [
+      "the original purchase price and freight and transportation charges",
+      "installation expenses",
+      "initial taxes and permits fee",
+      "all of the above"
+    ],
+    "answer": "all of the above"
+  },
+  {
+    "question": "A mathematical expression is also known as the present value of a n annuity of one called",
+    "choices": [
+      "load factor",
+      "demand factor",
+      "sinking fund",
+      "present worth factor"
+    ],
+    "answer": "present worth factor"
+  },
+  {
+    "question": "In SYD method, the sum of years digit is calculated using the formula with n = number of useful years of the equipment",
+    "choices": [
+      "[n(n-1)] / 2",
+      "[n(n+1)]/2",
+      "n(n+1)",
+      "n(n-1)"
+    ],
+    "answer": "[n(n+1)]/2"
+  },
+  {
+    "question": "As applied to a capitalized asset, the distribution of the initial cost by a periodic changes to operation as in depreciation of the reduction of a debt by either periodic or irregular prearranged program is called",
+    "choices": [
+      "Annuity",
+      "capital recovery",
+      "annuity factor",
+      "amortization"
+    ],
+    "answer": "amortization"
+  },
+  {
+    "question": "Capitalized cost of any property is equal to the",
+    "choices": [
+      "annual cost",
+      "first cost + interest of the first cost",
+      "first cost + interest of perpetual maintenance",
+      "first cost + salvage value"
+    ],
+    "answer": "first cost + interest of perpetual maintenance"
+  },
+  {
+    "question": "The lessening of the value of an asset due to the decrease in the quantity available (referring to the natural resources, coal, oil, etc.)",
+    "choices": [
+      "Depreciation",
+      "depletion",
+      "inflation",
+      "incremental cost"
+    ],
+    "answer": "depletion"
+  },
+  {
+    "question": "Which is true about corporation?",
+    "choices": [
+      "It is the not best form of business organization",
+      "The minimum number of incorporators to start a corporation is three",
+      "Its life is dependent on the lives of the incorporators",
+      "The stockholders of the corporation are only liable to the extent of their investments"
+    ],
+    "answer": "The stockholders of the corporation are only liable to the extent of their investments"
+  },
+  {
+    "question": "Is the simplest form a business organization",
+    "choices": [
+      "Sole proprietorship",
+      "Partnership",
+      "Enterprise",
+      "Corporation"
+    ],
+    "answer": "Sole proprietorship"
+  },
+  {
+    "question": "Represent ownership, and enjoys certain preferences than ordinary stock",
+    "choices": [
+      "Authorized capital stock",
+      "Preferred stock",
+      "Common stock",
+      "Incorporator's stock"
+    ],
+    "answer": "Preferred stock"
+  },
+  {
+    "question": "An association of two or more persons for a purpose of engaging in a profitable business",
+    "choices": [
+      "Sole proprietorship",
+      "Enterprise",
+      "Partnership",
+      "Corporation"
+    ],
+    "answer": "Partnership"
+  },
+  {
+    "question": "Represent the ownership of stockholders who have a residual claim on the assets of the corporation after all other claims have been settled",
+    "choices": [
+      "Authorized capital stock",
+      "Preferred stock",
+      "Incorporators stock",
+      "Common stock"
+    ],
+    "answer": "Common stock"
+  },
+  {
+    "question": "A distinct legal entity which can practically transact any business transaction which a real person could do",
+    "choices": [
+      "Sole of proprietorship",
+      "Enterprise",
+      "Partnership",
+      "Corporation"
+    ],
+    "answer": "Corporation"
+  },
+  {
+    "question": "The amount of company's profit that the board of directors of the corporation decides to distribute to ordinary shareholders",
+    "choices": [
+      "Dividend",
+      "Return",
+      "Share stock",
+      "Par value"
+    ],
+    "answer": "Dividend"
+  },
+  {
+    "question": "Double taxation is a disadvantage of which business organization?",
+    "choices": [
+      "Sole partnership",
+      "Partner",
+      "Corporation",
+      "Enterprise"
+    ],
+    "answer": "Corporation"
+  },
+  {
+    "question": "A certificate of indebtness of a corporation usually for a period not less than 10 years and guaranteed by a mortgage on certain assets of the corporation",
+    "choices": [
+      "Bond",
+      "T-bill",
+      "Preferred stock",
+      "Common stock"
+    ],
+    "answer": "Bond"
+  },
+  {
+    "question": "Which is NOT a type of business organization?",
+    "choices": [
+      "Sole of proprietor",
+      "Corporation",
+      "Enterprise",
+      "Partnership"
+    ],
+    "answer": "Enterprise"
+  },
+  {
+    "question": "A form of fixed-interest security issued by central or local government, companies, banks or other institutions. They are usually a form of long-term security, buy may be irredeemable, secured or unsecured",
+    "choices": [
+      "Bond",
+      "T-bills",
+      "Certificate of deposit",
+      "All of these"
+    ],
+    "answer": "Bond"
+  },
+  {
+    "question": "What is the minimum number of incorporators in order that a corporation be organized?",
+    "choices": [
+      "3",
+      "5",
+      "10",
+      "7"
+    ],
+    "answer": "5"
+  },
+  {
+    "question": "A type of bind where the corporation pledges securities which it owns (l,e, stocks, bonds of its subsidiaries).",
+    "choices": [
+      "Mortgage",
+      "Registered bond",
+      "Coupon bond",
+      "Collateral trust bond"
+    ],
+    "answer": "Collateral trust bond"
+  },
+  {
+    "question": "In case of bankruptcy of a partnership",
+    "choices": [
+      "the partners are not liable for the liabilities of the partnership",
+      "The partnership assets excluding the partners personal assets) only will be used to pay the liabilities",
+      "The partners personal assets are attached to the debt of the partnership",
+      "The partners may sell stock to general additional capital"
+    ],
+    "answer": "The partners personal assets are attached to the debt of the partnership"
+  },
+  {
+    "question": "A type of bond which does not have security except a promise to pay by the issuing corporation",
+    "choices": [
+      "Mortgage bond",
+      "Registered bond",
+      "Collateral trust bond",
+      "Debenture bond"
+    ],
+    "answer": "Debenture bond"
+  },
+  {
+    "question": "Which is TRUE about partnership?",
+    "choices": [
+      "It has a perpetual life",
+      "It will be desolved if one of the partners ceases to be connected with the partnership",
+      "It can be handed down from one generation of partners to another",
+      "Its capitalization must be equal for each partner"
+    ],
+    "answer": "It will be desolved if one of the partners ceases to be connected with the partnership"
+  },
+  {
+    "question": "A type of bond issued jointly by two or more corporations",
+    "choices": [
+      "Joint bond",
+      "Debenture bond",
+      "Registered bond",
+      "Collateral trust bond"
+    ],
+    "answer": "Joint bond"
+  },
+  {
+    "question": "A type of bond whose guaranty is in lien on railroad equipment",
+    "choices": [
+      "Equipments' obligations bond",
+      "Debenture bond",
+      "Registered bond",
+      "Infrastructure bond"
+    ],
+    "answer": "Equipments' obligations bond"
+  },
+  {
+    "question": "Land, buildings, plant and machinery are examples of",
+    "choices": [
+      "current assets",
+      "trade investments",
+      "fixed assets",
+      "intangible assets"
+    ],
+    "answer": "fixed assets"
+  },
+  {
+    "question": "If the security of the bond is a mortgage on certain specified asset of a corporation, this bond is classified as",
+    "choices": [
+      "Registered bond",
+      "Mortgage bond",
+      "Coupon bond",
+      "Joint bond"
+    ],
+    "answer": "Mortgage bond"
+  },
+  {
+    "question": "An increase in the value of a capital asset is called",
+    "choices": [
+      "profit",
+      "capital gain",
+      "capital expenditure",
+      "capital stock"
+    ],
+    "answer": "capital gain"
+  },
+  {
+    "question": "A type of bond where the corporation's owners name are recorded and the interest is paid periodically to the owners with their asking for it",
+    "choices": [
+      "Registered bond",
+      "Preferred bond",
+      "Incorporators bond",
+      "All of these"
+    ],
+    "answer": "Registered bond"
+  },
+  {
+    "question": "The reduction in the money value of a capital asset is called",
+    "choices": [
+      "capital expenditure",
+      "capital loss",
+      "loss",
+      "deficit"
+    ],
+    "answer": "capital loss"
+  },
+  {
+    "question": "Bond to which are attached coupons indicating the interest due and the date when such interest is to be paid",
+    "choices": [
+      "Registered bond",
+      "Coupon bond",
+      "Mortgage bond",
+      "Collateral trust bond"
+    ],
+    "answer": "Coupon bond"
+  },
+  {
+    "question": "Is a negotiable claim issued by a bank in lieu of a term deposit",
+    "choices": [
+      "Time deposit",
+      "Bond",
+      "Capital gain",
+      "Certificate of deposit"
+    ],
+    "answer": "Certificate of deposit"
+  },
+  {
+    "question": "An amount of money invested at 12% interest per annum will double in approximately",
+    "choices": [
+      "4 years",
+      "5 years",
+      "6 years",
+      "7 years"
+    ],
+    "answer": "6 years"
+  },
+  {
+    "question": "Any particular raw material or primary product (e.g. cloth, wool, flour, coffee..) is called",
+    "choices": [
+      "utility",
+      "necessity",
+      "commodity",
+      "stock"
+    ],
+    "answer": "commodity"
+  },
+  {
+    "question": "The 72 rule of thumb is used to determine",
+    "choices": [
+      "how many years money will triple",
+      "how many years money will double",
+      "how many years to amass 1 million",
+      "how many years to quadruple the money"
+    ],
+    "answer": "how many years money will double"
+  },
+  {
+    "question": "It denotes the fall in the exchange rate of one currency in terms of others. The term usually applies to floating exchange rates",
+    "choices": [
+      "currency appreciation",
+      "currency devaluation",
+      "currency float",
+      "currency depreciation"
+    ],
+    "answer": "currency devaluation"
+  },
+  {
+    "question": "To triple the principal, one must use",
+    "choices": [
+      "integration",
+      "derivatives",
+      "logarithms",
+      "implicit functions"
+    ],
+    "answer": "logarithms"
+  },
+  {
+    "question": "The deliberate lowering of the price of a nation's currency in terms of the accepted standard (Gold, American dollar or the British pound)",
+    "choices": [
+      "currency appreciation",
+      "currency devaluation",
+      "currency float",
+      "currency depreciation"
+    ],
+    "answer": "currency devaluation"
+  },
+  {
+    "question": "A currency traded in a foreign exchange market for which the demand is consistently high in relation to its supply",
+    "choices": [
+      "Money market",
+      "Hard currency",
+      "Treasury bill",
+      "Certificate of deposit"
+    ],
+    "answer": "Hard currency"
+  },
+  {
+    "question": "The residual value of a company's assets after all outside liabilities (shareholders excluded) has been allowed for",
+    "choices": [
+      "Dividend",
+      "Equity",
+      "Return",
+      "Per value"
+    ],
+    "answer": "Equity"
+  },
+  {
+    "question": "Everything a company owns and which has a money value is classified as an asset. Which of the following is classified as an asset",
+    "choices": [
+      "Intangible assets",
+      "Fixed assets",
+      "Trade investments",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "question": "A saving which takes place because goods are not available for consumption rather than the consumer really want to save",
+    "choices": [
+      "compulsory saving",
+      "consumer saving",
+      "forced saving",
+      "all of these"
+    ],
+    "answer": "forced saving"
+  },
+  {
+    "question": "Which an example of an intangible asset?",
+    "choices": [
+      "Cash",
+      "Furniture",
+      "Investment in subsidiary companies",
+      "Patents"
+    ],
+    "answer": "Patents"
+  },
+  {
+    "question": "A document that shows proof of legal ownership of a financial security",
+    "choices": [
+      "bond",
+      "bank notes",
+      "coupon",
+      "check"
+    ],
+    "answer": "check"
+  },
+  {
+    "question": "Defined as the capacity of commodity to satisfy human want",
+    "choices": [
+      "Discount",
+      "Necessity",
+      "Luxuries",
+      "Utility"
+    ],
+    "answer": "Utility"
+  },
+  {
+    "question": "It is the profit obtained by selling stocks at a higher price than its original purchase price",
+    "choices": [
+      "Debenture",
+      "Goodwill",
+      "Capital gain",
+      "Internal rate of return"
+    ],
+    "answer": "Capital gain"
+  },
+  {
+    "question": "The quantity of a certain commodity that is offered for sale at a certain price at a given time and place",
+    "choices": [
+      "Demand",
+      "Supply",
+      "Utility",
+      "Market"
+    ],
+    "answer": "Supply"
+  },
+  {
+    "question": "The quantity of a certain commodity that is bought at a certain price at a given time and place",
+    "choices": [
+      "Demand",
+      "Supply",
+      "Market",
+      "Utility"
+    ],
+    "answer": "Demand"
+  },
+  {
+    "question": "\"When free competition exists, the price of a product will be that value where supply is equal to the demand\".",
+    "choices": [
+      "Law of diminishing return",
+      "Law of supply",
+      "Law of demand",
+      "Law of supply and demand"
+    ],
+    "answer": "Law of supply and demand"
+  },
+  {
+    "question": "\"When one of the factors or production is fixed in quantity or is difficult to increase, increasing the other factors of production will result in a less than proportionate increase in output\".",
+    "choices": [
+      "Law of diminishing return",
+      "Law f supply",
+      "Law of demand",
+      "Law of supply and demand"
+    ],
+    "answer": "Law of diminishing return"
+  },
+  {
+    "question": "The place where sellers and buyers come together",
+    "choices": [
+      "Department store",
+      "Market",
+      "Mall",
+      "Shopping center"
+    ],
+    "answer": "Market"
+  },
+  {
+    "question": "GATT stands for",
+    "choices": [
+      "General Agreement of Tariff and Trade",
+      "General Arrangement of Tariff and Trade",
+      "Global Agreement of Tariff and Trade",
+      "Global Arrangement of Tariff and Trade"
+    ],
+    "answer": "General Agreement of Tariff and Trade"
+  },
+  {
+    "question": "The letter D in the Roman numerals is",
+    "choices": [
+      "50",
+      "100",
+      "500",
+      "1000"
+    ],
+    "answer": "500"
+  },
+  {
+    "question": "The logarithm of x with base a is denoted by",
+    "choices": [
+      "logxa",
+      "logax",
+      "y = ax",
+      "a = xy"
+    ],
+    "answer": "logax"
+  },
+  {
+    "question": "An equation whose solution set is not the entire set of real numbers is called a/an",
+    "choices": [
+      "Equivalent equation",
+      "Conditional equation",
+      "Identical set",
+      "Linear equation"
+    ],
+    "answer": "Conditional equation"
+  },
+  {
+    "question": "The set with no elements is",
+    "choices": [
+      "null set",
+      "subset",
+      "no set",
+      "void set"
+    ],
+    "answer": "null set"
+  },
+  {
+    "question": "Indicate the FALSE statement:",
+    "choices": [
+      "The multiplicative identity is 1.",
+      "The product of a positive number and a negative number is negative",
+      "ab = ba is the associative law for multiplication",
+      "x² - y² = (x + y)(x - y)"
+    ],
+    "answer": "ab = ba is the associative law for multiplication"
+  },
+  {
+    "question": "The sum and product of conjugate numbers are:",
+    "choices": [
+      "complex numbers",
+      "real numbers",
+      "rational numbers",
+      "pure imaginary number"
+    ],
+    "answer": "real numbers"
+  },
+  {
+    "question": "The angle formed by two chords connecting the ends of the diameter is:",
+    "choices": [
+      "45°",
+      "90°",
+      "120°",
+      "60°"
+    ],
+    "answer": "90°"
+  }
+]
